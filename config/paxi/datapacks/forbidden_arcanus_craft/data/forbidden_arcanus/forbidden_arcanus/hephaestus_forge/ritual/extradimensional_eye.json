@@ -1,0 +1,41 @@
+{
+  "additional_requirements": {
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 700,
+    "blood": 2000,
+    "experience": 30,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "enigmaticlegacy:astral_dust"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:phantom_membrane"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "minecraft:ender_eye"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "enigmaticlegacy:extradimensional_eye"
+    }
+  }
+}

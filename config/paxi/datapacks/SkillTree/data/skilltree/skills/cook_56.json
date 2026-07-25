@@ -1,0 +1,57 @@
+{
+  "id": "skilltree:cook_56",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_avoidance",
+      "chance": 0.06,
+      "player_condition": {
+        "item_condition": {
+          "id": "immortalskills:mechanical_messenger_chestplate",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    },
+    {
+      "type": "skilltree:damage_taken",
+      "amount": 0.01,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:cook_53"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/cook_lesser_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway_1.png",
+  "title": "Отвод энергии II",
+  "titleColor": "FF5555",
+  "positionX": 0.0,
+  "positionY": 144.004,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+6% к шансу избежать урон в ближнем бою, если на вас надет нагрудник Механического вестника"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "+1% к получаемому урону снарядами"
+    }
+  ]
+}

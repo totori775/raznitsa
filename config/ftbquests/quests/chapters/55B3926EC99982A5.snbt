@@ -1,0 +1,3400 @@
+{
+	autofocus_id: "287F7B3F750D46A8"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "55B3926EC99982A5"
+	group: "6A47EDB7EAF302F4"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "55B3926EC99982A5"
+	images: [{
+		height: 7.2d
+		image: "ftbquests:textures/background_quest.png"
+		rotation: 0.0d
+		width: 7.2d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Вот уже несколько лет Новый мир тиранизирует какая-то неизвестная &6болезнь&r. Нежить является одной из главных угроз этого мира. Кто они такие и от куда взялись нам предстоит еще выяснить..."]
+			icon: "minecraft:rotten_flesh"
+			id: "287F7B3F750D46A8"
+			rewards: [
+				{
+					id: "76163F626493B0AB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "157A2251576128C6"
+					item: "minecraft:baked_potato"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Убить зомби"
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:rotten_flesh"
+				id: "494016249288E9BF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Неизвестная угроза"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["287F7B3F750D46A8"]
+			description: ["Похоже, что неизвестная &6болезнь&r была выведена искусственным путем. Но кто мог подобное совершить и болезнь ли это? Возможно, это чья-то &6темная магия&r. Столько вопросов и так мало ответов..."]
+			hide_text_until_complete: true
+			icon: "minecraft:bone"
+			id: "63A310018172B8F8"
+			rewards: [
+				{
+					id: "6BD3AEF6F6E5364C"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "06A4220BDD6C2042"
+					item: "minecraft:wheat"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "06A6DC16B555FEAA"
+					item: "undead_unleashed:grave_iron_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Убить 3 зомби и 2 скелетов"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:rotten_flesh"
+					id: "2F4EBA4C57334559"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:bone"
+					id: "75C533D99B2961E6"
+					type: "kill"
+					value: 2L
+				}
+			]
+			title: "Неудавшийся эксперемент"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63A310018172B8F8"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4318B1988BBCE89A"
+			rewards: [
+				{
+					id: "2BCC74AE82330F49"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "2A6F6CBF0DC03CA8"
+					item: "minecraft:emerald"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3A0BEC19F7E642E6"
+					item: "farmersdelight:smoked_ham"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1D02219DB07A476C"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			subtitle: "Убить трёх разбойников и одного поборника"
+			tasks: [
+				{
+					entity: "minecraft:pillager"
+					icon: {
+						Count: 1
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "290B833748C5EA73"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "minecraft:vindicator"
+					icon: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "02F4AE2FEE5DCC1E"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Головорезы"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63A310018172B8F8"]
+			description: [
+				"Меня пугает эта троица..."
+				""
+				"Неужели они уже создали свое &6королевство&r и готовятся к чему-то? Чтобы это выяснить нам придется их убить."
+			]
+			hide_until_deps_complete: true
+			icon: "royalvariations:spiritual_crown_shard"
+			id: "62B9CE4E96A9083A"
+			rewards: [
+				{
+					id: "5CA92E4A044596AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "5083723049F6F911"
+					item: "born_in_chaos_v1:smoked_flesh"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6C552607842B3B9D"
+					item: "royalvariations:spiritual_crown_shard"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "100E3C22F93A9DCF"
+					item: "mace_port:wind_charge"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Убить трёх зомби, скелетов и криперов"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "minecraft:rotten_flesh"
+					id: "61BB61028324A68C"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "minecraft:bone"
+					id: "06E3D6D8DD5401E8"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "minecraft:creeper"
+					icon: "minecraft:gunpowder"
+					id: "5488FFC0CD0BD4ED"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Подданые короля"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["62B9CE4E96A9083A"]
+			description: ["Мои опасения были ненапрасны. Эти существа провозгласили себя &6королями&r и теперь они держат в страхе ближайшие поселения мирных крестьян. Незаконных королей нужно свергнуть, чтобы узнать что-то новое."]
+			hide_until_deps_complete: true
+			id: "23476A7471207B23"
+			rewards: [
+				{
+					id: "77894A9F63F55304"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 3
+					id: "1129B911C9C53C52"
+					item: "mace_port:wind_charge"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1D20146329A5C248"
+					item: "undead_unleashed:grave_iron_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Получить духовную корону"
+			tasks: [{
+				id: "48A80BBC8927211E"
+				item: "royalvariations:spiritual_crown"
+				type: "item"
+			}]
+			title: "Королевское величество"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4318B1988BBCE89A"]
+			description: ["Как оказалось - разбойники промышляют не только разбоем и захватом новых земель. Заклинатели и ведьмы практикуют запретную магию, возможно, именно они стали причиной возникновения той загадочной &6болезни&r."]
+			hide_until_deps_complete: true
+			icon: "minecraft:totem_of_undying"
+			id: "44A38F1C29EE2BF9"
+			rewards: [
+				{
+					id: "6BFE2B1DBC770C47"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1E9ADBA3EDC67CCD"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "314D29D7EEB3B69B"
+					item: "born_in_chaos_v1:pileof_dark_metal"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Победить разбойников"
+			tasks: [
+				{
+					entity: "minecraft:pillager"
+					icon: {
+						Count: 1
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "1F57509E4484C874"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "minecraft:vindicator"
+					icon: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0B8A1E022CCC0C14"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:evoker"
+					icon: "minecraft:totem_of_undying"
+					id: "3023F6E09B8546C4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:ravager"
+					icon: {
+						Count: 1
+						id: "minecraft:goat_horn"
+						tag: {
+							instrument: "minecraft:ponder_goat_horn"
+						}
+					}
+					id: "39AC37C8590F2032"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:witch"
+					icon: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:water"
+						}
+					}
+					id: "121653D249131288"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Таинственные разбойники"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["62B9CE4E96A9083A"]
+			description: ["Эта болезнь распространяется очень быстро. &6Армия нежити&r уносит столько жизней невинных людей. Мы должны узнать об этом больше, возможно, в будущем нам это поможет."]
+			hide_until_deps_complete: true
+			icon: "born_in_chaos_v1:shattered_skull"
+			id: "5F87016B9F256060"
+			rewards: [
+				{
+					id: "1EB0E3C962B7B20B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3514A3D705B37B3B"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6EAD03779253E347"
+					item: "undead_unleashed:grave_iron_nugget"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5E4F75ACFE1032CC"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			subtitle: "Уничтожить армию нежити"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:zombie_lumberjack"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:wood_splitter_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5D0B7E7D087D8326"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "born_in_chaos_v1:barrel_zombie"
+					icon: "minecraft:barrel"
+					id: "38099953EA7CB0C6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:skullbreaker_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "55405B2C1F3BC57A"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Армия нежити"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5F87016B9F256060"]
+			description: ["&6Верховный призыватель костей&r очень опасный враг. Думаю, ему много чего известно об этой &6болезни&r. Возможно, он как-то связан с заклинателями..."]
+			hide_until_deps_complete: true
+			icon: "born_in_chaos_v1:lifestealer_skull"
+			id: "2BB189E5BAA0AD72"
+			rewards: [
+				{
+					id: "701814FA45C0143B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3CDE9B909372B72E"
+					item: "enigmaticlegacy:unholy_grail"
+					type: "item"
+				}
+				{
+					id: "2949EA6ACC4E8CB0"
+					item: "born_in_chaos_v1:death_totem"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "63F26C32D91713E6"
+					item: "undead_unleashed:grave_iron_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Убить верховного вызывателя костей"
+			tasks: [{
+				entity: "born_in_chaos_v1:supreme_bonescaller_stage_2"
+				icon: "born_in_chaos_v1:lifestealer_skull"
+				id: "0657E0A7698E6127"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Оскверненные"
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["44A38F1C29EE2BF9"]
+			description: [
+				"Кто бы мог подумать, что когда-то заклинатели занимались запретной магией, превращая обычных людей в &6нежить&r..."
+				"Скорее всего это неудавшийся эксперемент в сторону обретения бессмертия, а обычные мирные люди оказались подопытными крысами. Теперь все встало на свои места, &6вызыватели костей&r это и есть заклинатели которые не смогли себя уберечь от этой \"&7болезни&r\"."
+				"На сегодняшний день разбойники смогли создать только временный эффект бессмертия в виде тотема бессмертия, если так пойдет и дальше они станут серьезной угрозой для всего мира."
+			]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			id: "10A149B7BF138DD1"
+			rewards: [
+				{
+					id: "6EA0BC4E45D1AC4C"
+					team_reward: false
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "57190EE596967A38"
+					item: {
+						Count: 1
+						id: "enigmaticaddons:totem_of_malice"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Пожертвуйте оскверненный грааль, для этого нажмите на иконку."
+			tasks: [{
+				consume_items: true
+				id: "475968E22CCDE867"
+				item: "enigmaticlegacy:unholy_grail"
+				type: "item"
+			}]
+			title: "Тайна появления нежити"
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4318B1988BBCE89A"]
+			description: ["&6Око&r является неотъемлимой частью для поиска какой-либо структуры. Создав &6меха-глаз&r, вы можете раскрыть местоположение &7заброшенной фабрики&r. Кто и для чего ее создал остается загадкой."]
+			hide_until_deps_complete: true
+			id: "6A8C020F72A93DB0"
+			rewards: [
+				{
+					id: "1AE5793F9C636164"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 5
+					id: "7C5697717C06EE6F"
+					item: "minecraft:redstone"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "Получить меха-глаз"
+			tasks: [{
+				id: "6421CFD7E0047DE2"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			title: "Механическое око"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6A8C020F72A93DB0"]
+			description: [
+				"&6Заброшенная фабрика&r - территория удивительных научных эксперементов, где когда-то кипела работа. Теперь это пустой завод, с множеством роботизированной техники. Эти роботы создавались как оружие для завоевывания и оккупаций территорий менее развитых цивилизаций. Предположительно, эти роботы работают на энергии &6Звезды незера&r."
+				""
+				"Но кто мог создать столь сложные механизмы..."
+			]
+			hide_until_deps_complete: true
+			id: "4ED6F79509951612"
+			rewards: [
+				{
+					id: "48FDE47E09665FFC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "28BD9C89A16EBB07"
+					item: "minecraft:golden_carrot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Найти заброшенную фабрику"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "7BAB97757BA3C3ED"
+				structure: "cataclysm:ancient_factory"
+				title: "Найти заброшенную фабрику"
+				type: "structure"
+			}]
+			title: "Древняя фабрика"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4ED6F79509951612"]
+			description: ["Действительно, все эти роботы работают за счет энергии &6Звезды незера&r. Из-за своих небольших размеров, этой энергии им хватит надолго. Но все же один робот отключен, для его активации нужна энергия и только &6Звезда незера&r способна запустить его вновь."]
+			hide_until_deps_complete: true
+			icon: "cataclysm:emp"
+			id: "19A8357CBF4010E1"
+			rewards: [
+				{
+					id: "0E3F12CD521C919C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7BA9D98A7F3AC82E"
+					item: "minecraft:golden_apple"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0C7727ABADC5DBD5"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1BFF583F4B41FDC7"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Убить механического мародера и наблюдателя"
+			tasks: [
+				{
+					entity: "cataclysm:the_prowler"
+					id: "3FE28292ECE58832"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_watcher"
+					id: "2C967C6E21FE4AF2"
+					type: "kill"
+					value: 3L
+				}
+			]
+			title: "Механическая стража"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["19A8357CBF4010E1"]
+			description: [
+				"Собрав всю необходимую информацию об этом месте, можно смело предположить, что эти роботы принадлежали разбойникам для захвата новых земель. После неудачной попытки воссоздать подобие &6Визера&r, им пришлось покинуть эту фабрику и отключить &6Предвестника&r, так как он мог стать угрозой для самих разбойников."
+				""
+				"&o&7Разбойники преуспевают в разных сферах деятельности, это нельзя так оставлять. Наша задача помешать им в реализации своих планов.&r"
+			]
+			hide_until_deps_complete: true
+			icon: "cataclysm:witherite_ingot"
+			id: "3066C94B8F96D328"
+			rewards: [
+				{
+					id: "27AD882AB77F51E7"
+					team_reward: false
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2DA0016AE7B593D9"
+					item: "create_unbreakable:irromolding"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "1C1A56EB54B85046"
+					item: "enigmaticaddons:lost_engine"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "3B0C5530A3CB1165"
+					item: "cataclysm:music_disc_the_harbinger"
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Пробудить и победить предвестника"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: "cataclysm:witherite_ingot"
+				id: "10814D8CD2F56AC5"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Великий Предвестник"
+			x: -1.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5001CF92D602D6F4"]
+			description: [
+				"После того как загадочная болезнь начала порабощать Верхний мир, некоторые скелеты решили переселиться в ад. Раскаленные недра преисподней, превратили их в &6скелетов иссушителей&r. Еще долгое время никто ничего не знал об &6иссушителе&r, пока неизвестный не разместил три головы на песке душ..."
+				""
+				"&o&7Раздался леденящий душу звук, который разносился до самых отдаленных уголков Нижнего мира. Все вокруг потемнело и появился он - ужасающий трехголовый скелет.&r"
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:nether_star"
+			id: "1BE84C92F8ED3258"
+			invisible: true
+			rewards: [
+				{
+					id: "6AB24EC1F78EC0EC"
+					team_reward: false
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "22264FFDB9EEA3DB"
+					item: "minecraft:wither_skeleton_skull"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "1938D60A60A0623D"
+					item: "immortalsoul:ominous_fragment_key"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить иссушителя"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:nether_star"
+				id: "18CAB13171A56426"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Демон увядания"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5110229F1527B61F"]
+			description: ["&o&7Оказавшись на шаг ближе к бессмертию, невольно начинаешь понимать, что это только начало пути, впереди тебя будут ждать более сложные и опасные испытания.&r"]
+			hide_until_deps_complete: true
+			id: "2A49622EB376E026"
+			rewards: [
+				{
+					id: "74AE2B0175AE320B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "175A4D1A017B5446"
+					item: "minecraft:raw_iron"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "75B34FD5F11E3E2A"
+					item: "minecraft:phantom_membrane"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Получить око эндера"
+			tasks: [{
+				id: "7849785F272D8EFC"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "Еще на шаг ближе"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C6AA6D59A6C75B"]
+			description: [
+				"Преодолеть все тяжести путешествия по пустыни и отыскать &6проклятую пирамиду&r - это лишь малая часть трудностей, которая ожидает того, кто все же осмелится войти туда. Исследуя пирамиду и изучая настенные знаки, начинаешь понимать, почему пирамида стала &7проклятой&r. &6Ожерелье пустыни&r - это пропавший артефакт, который украли из этой пирамиды нарушив ее покои. Что бы избавиться от проклятья, требуется вернуть ожерелье законному владельцу, что дремлет в самом центре этой пирамиды."
+				""
+				"&o&7По словам местных жителей, ожерелье было утеряно в песках. Займитесь раскопками подозрительного песка или гравия, чтобы отыскать этот артефакт.&r"
+			]
+			hide_until_deps_complete: true
+			icon: "born_in_chaos_v1:spawn_structures_firewell"
+			id: "1467907AD8831E76"
+			rewards: [
+				{
+					id: "6C3F63F64575D05A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "754B013967E300FC"
+					item: {
+						Count: 1
+						id: "endermanoverhaul:badlands_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Найти проклятую пирамиду и ожерелье пустыни"
+			tasks: [
+				{
+					icon: "born_in_chaos_v1:spawn_structures_firewell"
+					id: "6BE5D98A1F2BE392"
+					structure: "cataclysm:cursed_pyramid"
+					title: "Найти проклятую пирамиду"
+					type: "structure"
+				}
+				{
+					id: "1E75E20F9239E918"
+					item: "cataclysm:necklace_of_the_desert"
+					type: "item"
+				}
+			]
+			title: "Потерянная во времени"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A49622EB376E026"]
+			description: ["Мифы о &6проклятой пирамиде&r подтвердились. На это указывает существование &6ока пустыни&r. Только благодаря ему можно отыскать &7пирамиду&r."]
+			hide_until_deps_complete: true
+			id: "15C6AA6D59A6C75B"
+			rewards: [
+				{
+					id: "667DE352C8D83B72"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "0836C6DD88DF9EC4"
+					item: "farmersdelight:egg_sandwich"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "335B45416846EA2F"
+					item: "cataclysm:ancient_metal_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Получить око пустыни"
+			tasks: [{
+				id: "0DB1A41FEB8D5B1B"
+				item: "cataclysm:desert_eye"
+				type: "item"
+			}]
+			title: "Взгляд пустыни"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1467907AD8831E76"]
+			description: ["Вернув &6ожерелье пустыни&r законному владельцу, можно навлечь на себя опасность и пробудить &6Древнюю рептилию&r. Чтобы избавить эту пирамиду от &7проклятья&r нужно победить костяное чудовище."]
+			hide_until_deps_complete: true
+			icon: "cataclysm:remnant_skull"
+			id: "125C1F0D17C838CE"
+			rewards: [
+				{
+					id: "1DEB39367167FE00"
+					team_reward: false
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "6F7A6240FC4809A6"
+					item: "enigmaticlegacy:unwitnessed_amulet"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5C246BB1C41E33E1"
+					item: "enigmaticaddons:earth_heart_fragment"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "3371199464B67C49"
+					item: "cataclysm:music_disc_ancient_remnant"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "0E20F88033AC57D4"
+					item: "cataclysm:ancient_metal_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить древнюю рептилию"
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: "cataclysm:remnant_skull"
+				id: "4E645BACD90C1835"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Проклятые останки"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["125C1F0D17C838CE"]
+			description: ["&o&7После многочасового исследования пирамиды нам стало понятно, кто построил эту пирамиду и кто украл артефакт. Древние жители, что стояли на пороге зарождения своей цивилизации, строили различные сооружения для почитания местных богов, так найдя древние останки неизвестной рептилии и построив для нее пирамиду, жители разместили рядом с ней ожерелье. Все было хорошо, пока разбойники не наведались в пирамиду и не украли столь значимый артефакт. При попытке к бегству, их быстро настигло проклятье и ожерелье пустыни было утеряно.&r"]
+			hide_until_deps_complete: true
+			icon: "cataclysm:sandstorm_in_a_bottle"
+			id: "44FF88099DF3FA90"
+			rewards: [
+				{
+					id: "586109420FA07273"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "37319ADA74DBDBDA"
+					item: "cataclysm:ancient_metal_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3D5B0BB4D7B54750"
+					item: "ancient_forgemastery:remnant_artifact"
+					type: "item"
+				}
+				{
+					id: "0ABE4814D46D12E3"
+					item: "forbidden_arcanus:elementarium"
+					type: "item"
+				}
+			]
+			subtitle: "Получить артефакты из проклятой пирамиды"
+			tasks: [
+				{
+					id: "4DA0779354C06DDC"
+					item: {
+						Count: 1
+						id: "cataclysm:khopesh"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07B71A73D51420FA"
+					item: "cataclysm:sandstorm_in_a_bottle"
+					type: "item"
+				}
+				{
+					id: "6C0899B5970FE2DC"
+					item: "cataclysm:koboleton_bone"
+					type: "item"
+				}
+			]
+			title: "Исследование пирамиды"
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2A49622EB376E026"]
+			description: ["Ходят легенды, что где-то в океане есть затонувший город, где &6Глубинники&r проводят свои обряды поклоняясь местному божеству - &6Левиафану&r."]
+			hide_until_deps_complete: true
+			id: "72B367E7AD53D651"
+			rewards: [
+				{
+					id: "501F30B876A2906C"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "1501F568A0E89234"
+					item: "farmersdelight:squid_ink_pasta"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Получить око бездны"
+			tasks: [{
+				id: "311D3FA76AC87BC6"
+				item: "cataclysm:abyss_eye"
+				type: "item"
+			}]
+			title: "Взгляд бездны"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72B367E7AD53D651"]
+			description: ["Прежде чем что-то узнать о &6Левиафане&r, нужно поближе познакомиться с древним народом, который поклоняется этому морскому чудовищу. &6Глубинники&r существуют уже много тысячелетий. О них даже совсем забыли на какое-то время, пока местные рыбаки не наткнулись на этих ужасающих и склизких существ."]
+			hide_until_deps_complete: true
+			id: "444B47431840F5DD"
+			rewards: [
+				{
+					id: "6F038EC65E5716F0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "15C5C538B9E88EC7"
+					item: "minecraft:prismarine_crystals"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0E780650A8E5B3DD"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Найти разрушенную цитадель"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "2B758CD10C8AD060"
+				structure: "cataclysm:sunken_city"
+				title: "Найти разрушенную цитадель"
+				type: "structure"
+			}]
+			title: "Храм бездны"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["444B47431840F5DD"]
+			description: ["Чтобы защитить тайны Бездны, &6Архитектору&r пришлось создать &6Левиафана&r. Самое могущественное морское чудовище быстро получило звание божества среди местных морских обитателей. Развивающаяся цивилизация &7Глубинников&r всячески старалась уберечь любые знания об этих местах, начиная с охоты на рыбаков в океане, заканчивая постройкой целого города, который служит для них оплотом."]
+			hide_until_deps_complete: true
+			id: "78178F89949749BC"
+			rewards: [
+				{
+					id: "6B28F5EB8F05A1DB"
+					team_reward: false
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "4B0398F8D4E9E3DC"
+					item: "minecraft:enchanted_golden_apple"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "4E995BCF8B6D3B15"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:ultimate_potion_splash"
+						tag: {
+							EnigmaticPotion: "ultimate_water_breathing"
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "2075B7B13759AD15"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:earth_heart"
+						tag: { }
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7C82F874976CC53A"
+					item: "minecraft:netherite_scrap"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "34E35BB69469B37D"
+					item: "cataclysm:music_disc_the_leviathan"
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить левиафана"
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: "cataclysm:abyssal_sacrifice"
+				id: "3471002B30A8B939"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Древнее божество"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["287F7B3F750D46A8"]
+			description: ["Порталы в измерения ада были построены &6Пиглинами&r. Их страх перед &7Верхним&r миром был оправдан, что и стало причиной возникновения большого количества порталов. Но откуда появилось измерение ада, кто его создал... это остается тайной для всех."]
+			id: "5001CF92D602D6F4"
+			rewards: [
+				{
+					id: "3AEA3ACC38246A22"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "1F5CBFBBAB878F11"
+					item: "minecraft:raw_gold"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Попасть в измерение ада"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "5FB6298B3B353C21"
+				title: "Попасть в измерение ада"
+				type: "dimension"
+			}]
+			title: "Преисподняя"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5001CF92D602D6F4"]
+			description: ["Задолго до прихода &6Пиглинов&r, адские недра были наполнены другими существами. После смерти, души умерших попадали в ад, тем самым формируя песок душ, что и привело к появлению разумных расс этого измерения. Спустя тысячилетия, благодаря духам и призракам населявших преисподнюю, стали появляться &6Святилища&r. Эти величественные постройки завораживали своей архитектурой и красотой. Многие вещи обладают уникальными свойствами, что и делает эти места по истине уникальными. Так например &7Скалковая дробилка&r позволяет получать бесценный опыт ценой &6Коварного пламени&r, а &7Стекло душ&r имеет эфимерную природу, благодаря чему скозь него можно проходить."]
+			hide_until_deps_complete: true
+			id: "4EF0DDCD8804D43C"
+			rewards: [
+				{
+					id: "6FA5EEDAA4268719"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "22BF799F553D499B"
+					item: "mynethersdelight:deviled_egg"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "03143362A8335363"
+					item: "netherexp:wraithing_flesh"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Найти святилище"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "7D113D5365B92052"
+				structure: "netherexp:sanctum"
+				title: "Найти святилище"
+				type: "structure"
+			}]
+			title: "Святилище души"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4EF0DDCD8804D43C"]
+			description: ["&6Коварное пламя&r - это бессценный предмет который можно получить, если защитить заженную &6Коварную свечу&r от натиска враждебных существ. Этот предмет позволяет открывать &6Сундук-жаровню&r, где можно найти уникальные и очень редкие предметы. Так же &6Коварное пламя&r используется при улучшении &7Дробовика&r или при взаимодействии со &7Скалковой дробилкой&r."]
+			hide_until_deps_complete: true
+			id: "1A1865A13909BE28"
+			rewards: [
+				{
+					id: "4B813CDA6099A05C"
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "276F69A36B4CE3B9"
+					item: "enigmaticaddons:ichor_droplet"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1FFF5EBADE8DACC8"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "4271BF8147A67C94"
+					item: "vanillabackport:music_disc_tears"
+					type: "item"
+				}
+			]
+			subtitle: "Получить коварное пламя"
+			tasks: [{
+				count: 3L
+				id: "1A1BF927E7287131"
+				item: "netherexp:treacherous_flame"
+				type: "item"
+			}]
+			title: "Башенная защита"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5001CF92D602D6F4"]
+			description: ["Создание &6Чудовищного ока&r позволяет быстро найти &6кузню души&r. Оказавшись внутри, можно встретить дремлющее чудовище, что стоит на страже своих владений."]
+			hide_until_deps_complete: true
+			id: "34E57231CBFBB02A"
+			rewards: [
+				{
+					id: "6A1FBF7935C48CC5"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "77E3C6E7AF45F3C7"
+					item: "minecraft:blaze_powder"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Получить чудовищное око"
+			tasks: [{
+				id: "419D49EDDC0EF04D"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
+			}]
+			title: "Око преисподней"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["34E57231CBFBB02A"]
+			description: ["Находясь в своей кузнице, &6Незеритовое чудовище&r наполняет котлы лавой и создает предметы непревзойденного качества. Вот уже несколько тысячилетий эта кузница стоит в самом центре ада, но еще никому не удавалось захватить это место."]
+			hide_until_deps_complete: true
+			id: "75D800BAD1AB62E2"
+			rewards: [
+				{
+					id: "143707BE95A777A1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "644E639A4D590CEE"
+					item: "irons_spellbooks:fire_rune"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Найти кузню души"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "38B5D53D71DF7F82"
+				structure: "cataclysm:soul_black_smith"
+				title: "Найти кузню души"
+				type: "structure"
+			}]
+			title: "Пламя адских глубин"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["75D800BAD1AB62E2"]
+			description: [
+				"&6Чудовище&r с незеритовым сердцем было создано, чтобы стоять на страже великой кузни, где создается величайшая броня и оружие. Победа над столь сильным монстром, дарует победителю &6Адский горн&r, что способен сотрясать даже горы."
+				""
+				"Пребывая в полном одиночестве, &6Незеритовое чудовище&r следит за своим домом, уничтожая непрошенных гостей."
+			]
+			hide_until_deps_complete: true
+			id: "0EF2E35A2C8F0C0F"
+			rewards: [
+				{
+					id: "76C98E19527F2B7F"
+					team_reward: false
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "38A8FC415B25C6D9"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "37DBE3473D481F6F"
+					item: "mynethersdelight:magma_cake"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "10A8A05895E2AB05"
+					item: "irons_spellbooks:fire_upgrade_orb"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "1DFAA1CB665A9813"
+					item: "cataclysm:music_disc_netherite_monstrosity"
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить незеритовое чудовище"
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "517A0E14603C9F73"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Чудовищное испытание"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0EF2E35A2C8F0C0F"]
+			description: ["После победы над столь опасным и грозным противником как &6Незеритовое чудовище&r, в его кузнице можно найти &6Незеритовое чучело&r. Активируйте его при помощи &6лавового элемента питания&r, чтобы он следовал за вами. Это маленькое &7чучело&r послужит вам отличным питомцем, который будет носить для вас ваши вещи."]
+			hide_until_deps_complete: true
+			id: "05CACEBCAE74123B"
+			rewards: [
+				{
+					id: "1F3B271AE830BD27"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "57C3382C2B218CF0"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "31A3612BE4C527BE"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
+			]
+			subtitle: "Получить ведро с Незеритовым чучелом"
+			tasks: [{
+				id: "3062673E5BA1F3F2"
+				item: "cataclysm:netherite_ministrosity_bucket"
+				type: "item"
+			}]
+			title: "Персональный помощник"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4318B1988BBCE89A"]
+			description: ["Душа мертвого короля была запечатана в тех самых катакомбах, от куда ему не выбраться. Создав древний &7компас душ&r, можно найти место захоронения &6Мертвого Короля&r."]
+			hide_until_deps_complete: true
+			id: "38D020A5AEED59BC"
+			rewards: [
+				{
+					id: "634D1CCB46935BD2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "52271D324308A145"
+					item: "born_in_chaos_v1:pieceofdarkmetal"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Получить капризный компас"
+			tasks: [{
+				id: "3EBE732313A96088"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:wayward_compass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Компас королевской души"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["38D020A5AEED59BC"]
+			description: ["Вот уже несколько столетий в этих катакомбах находится &6Мертвый король&r, чье имя нельзя говорить. Жестокий правитель прошлого погребен под толщей земли и ждет своего часа, чтобы однажды вырваться на свободу и продолжить свой век тирании."]
+			hide_until_deps_complete: true
+			id: "547DE9F57179935B"
+			rewards: [
+				{
+					id: "711DC98B52E1E10B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7017BA94503CFB45"
+					item: "irons_spellbooks:blank_rune"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Найти катакомбы"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "72B39719FD2A0242"
+				structure: "irons_spellbooks:catacombs"
+				title: "Найти катакомбы"
+				type: "structure"
+			}]
+			title: "Склеп"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["547DE9F57179935B"]
+			description: ["Давным давно, в эпоху минувших времен, жестокий и беспощадный правитель &7разбойников&r держал в страхе многие земли мирных народов. Ведомый своей темной верой, он истреблял каждое племя, разорял каждое поселение на своем пути и построил на &6крови&r целую империю. Когда его жизнь подходила к концу, он потребовал от заклинателей создать средство, которое сделает его бессмертным, так и появилась та самая &6болезнь&r, которая создала нежить. Даже после смерти погребенный под толщей земли он продолжает править армией нежити."]
+			hide_until_deps_complete: true
+			id: "1A0DA0907A48A713"
+			rewards: [
+				{
+					id: "2B66AB3D5410A192"
+					team_reward: false
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "7F5A770881189392"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "0F1E67760B096F03"
+					item: "irons_spellbooks:blood_upgrade_orb"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "4B53996ADC485C18"
+					item: "irons_spellbooks:blood_rune"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "66825939E4E88B49"
+					item: "irons_spellbooks:blood_vial"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить мертвого короля"
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: "irons_spellbooks:blood_staff"
+				id: "6A11F28611345854"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Падший король"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5F87016B9F256060"]
+			description: [
+				"Бывают ночи, когда черный туман густеет от потока голодных душ и простая вырезанная &7тыква&r превращается в &6проклятую&r. В такие моменты нужно быть предельно осторожным, чтобы ненароком не призвать &6Тыквоголового&r."
+				""
+				"&o&7Использование трансмутирующего элексира на проклятой тыкве скверны превратит ее в Лорда Тыквоголового.&r"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "033D8A619D791890"
+			rewards: [
+				{
+					id: "51E2BF56F0E486D8"
+					team_reward: false
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "1F352FAB0E38DFAC"
+					item: "born_in_chaos_v1:pumpkin_bullet"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "7D5E563BCC1A0398"
+					item: "born_in_chaos_v1:pieceofdarkmetal"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "72C3D90D17F9A07A"
+					item: "born_in_chaos_v1:lord_pumpkinheads_lamp"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить лорда тыквоголового"
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_pumpkinhead_head"
+				icon: {
+					Count: 1
+					id: "born_in_chaos_v1:lord_pumpkinheads_hat_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "54DFB36F6A95581C"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Проклятая тыква"
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["63A310018172B8F8"]
+			description: ["Согласно записям затонувшего &6пиратского корабля&r, экспедиция разбойников отправившаяся на север не смогла вернуться домой из-за сильных морозов. Что они искали в столь опасных и холодных местах никто не знает."]
+			hide_until_deps_complete: true
+			id: "29DD3AB380A7F315"
+			invisible: true
+			rewards: [
+				{
+					id: "4A1F1E02DAA3ED45"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5937FDAB7A144809"
+					item: "farmersdelight:fish_stew"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7A65AB8E921D4138"
+					item: "minecraft:diamond"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Найти затонувший корабль"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "3A0DC955794F59DF"
+				structure: "minecraft:shipwreck"
+				title: "Найти затонувший корабль"
+				type: "structure"
+			}]
+			title: "Кораблекрушение"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["29DD3AB380A7F315"]
+			description: ["Оказавшись на застрявшем во льду корабле, можно понять, что &6разбойники&r здесь уже очень давно. Питаясь рыбой и запасами с корабля, они смогли адаптироваться к окружающей среде. Подслушав разговоры &6пиратов&r, стало понятно, что их здесь держит. Долг перед своим &6капитаном&r не дает им покоя, из-за этого они не могут покинуть эти земли."]
+			hide_until_deps_complete: true
+			icon: "born_in_chaos_v1:spawn_structures_firewell"
+			id: "2BB963305D677AFC"
+			rewards: [
+				{
+					id: "4BB56B63DE015510"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "180D95E678515F35"
+					item: "born_in_chaos_v1:permafrost_shard"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Найти корабль во льдах"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "7A049015D7D60822"
+				structure: "aquamirae:ship"
+				title: "Найти корабль во льдах"
+				type: "structure"
+			}]
+			title: "Скованные льдом"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2BB963305D677AFC"]
+			description: [
+				"Слухи о &6Призраке капитана Корнелии&r были правдивы. Некоторые пираты уже встречали ее и нашли способ общаться с духом. Владелец &6горн-ракушки&r может позвать своего предводителя. Исследуя корабль, можно наткнуться на записи разбойников, в которых говорится о том, что стало с их капитаном."
+				""
+				"&o&7Застряв во льдах, Корнелия решилась на крайние меры, она отправится на морское дно для исследования глубин. По некоторым данным именно в этих местах находится древний и очень сильный морской артефакт, что способен спасти нас. Надев водолазный костюм, капитан погрузилась в морскую пучину. Экипаж корабля был очень взолнован, после того как Корнелия не появилась через 20 минут. Спустя еще час все потеряли надежду на ее спасение. Решив что никто не бросит своего капитана, было принято решение оставаться в этих местах. Однажды ночью, новый капитан корабля обнаружил у себя на столе Горн-ракушку благодаря которой он смог держать связь с погибшей Корнелией.&r"
+				""
+				"Победа над &6Призраком капитана Корнелии&r приоткроет завесу тайны нависшую над этим местом."
+			]
+			hide_until_deps_complete: true
+			id: "30AECC76A9D15064"
+			rewards: [
+				{
+					id: "14B5FCC548EE812A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 3
+					id: "3232CFC99A4F903E"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4F968546581EA2E5"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:ultimate_potion_splash"
+						tag: {
+							EnigmaticPotion: "ultimate_water_breathing"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20C57258EB2E6405"
+					item: "dungeonsdelight:candied_vex_sucker"
+					type: "item"
+				}
+			]
+			subtitle: "Получить горн-ракушку"
+			tasks: [{
+				id: "7391E538517621A2"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			title: "Зов капитана"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["30AECC76A9D15064"]
+			description: ["&6Корнелия&r - очень умная и сильная женщина с несгибаемой волей. Именно благодаря своему характеру, ей удалось стать капитаном и возглавить экспедицию на север для заполучения древнего артефакта - &6Воля океана&r. Вот уже много лет, разбойники ищут &76 легендарных артефактов&r, что способны приблизить к &6Бессмертию&r того, кто обуздает их силу."]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			id: "54E3531F6D6FFC5B"
+			rewards: [
+				{
+					id: "1B7AFAF36EC907AD"
+					team_reward: false
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "30A4AC7666631F6C"
+					item: "born_in_chaos_v1:elixirof_ice_barrier"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "45911FA50CDD5397"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:depth_strider"
+								lvl: 3s
+							}]
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "72B9F0AEF38591ED"
+					item: "aquamirae:music_disc_forsaken_drownage"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "723E883581C871D0"
+					item: "aquamirae:sea_casserole"
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить призрака капитана корнелии"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "502C92A22018DF36"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Пропавший капитан"
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2A49622EB376E026"]
+			description: ["Крепость была построена еще на заре появления разумных цивилизаций. Кто построил эту грандиозную постройку в столь далекие времена, никто не знает. Этот вопрос мучил любого кто приходил сюда и видел тот самый портал в &6Эндер&r измерение."]
+			hide_until_deps_complete: true
+			id: "2B6D0E3F90D68261"
+			rewards: [
+				{
+					id: "6630C85F63CCFF9D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A18F4A5BB396675"
+					item: "enigmaticlegacy:astral_dust"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Найти крепость"
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "3AF33816C9EFF587"
+				structure: "#betterstrongholds:better_strongholds"
+				title: "Найти крепость"
+				type: "structure"
+			}]
+			title: "Портал на край света"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B6D0E3F90D68261"]
+			description: ["Созданный самим &6Архитектором&r, &6Дракон края&r защищает это измерение и враждебен к любому кто осмелится ступить на эти земли. Мало кому известно, что именно защищает этот &7Дракон&r. Возможно, это как-то связано с &6Бессмертием&r, но это всего лишь предположение, ведь еще никто не возвращался от туда живым."]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			id: "6D451FC2C5B547B3"
+			rewards: [
+				{
+					id: "4824C8556C1DF29A"
+					team_reward: false
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "091608267007E8BD"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:cosmic_heart"
+						tag: { }
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "390540A7ED0BCCDF"
+					item: {
+						Count: 1
+						id: "ancient_forgemastery:elixir_of_vitality"
+						tag: { }
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5C334CFC605EA358"
+					item: "minecraft:dragon_breath"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить эндер-дракона"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "3A1EA6C1F60D58CE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Верховная сущность"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5001CF92D602D6F4"]
+			description: ["Создание &6Пылающего ока&r позволяет отыскать &6Пламенную арену&r, где собираются лучшие из лучших воинов преисподней. Попадая на &7арену&r они встречают любого как своего главного соперника, чтобы показать кто здесь хозяин."]
+			hide_until_deps_complete: true
+			id: "4F61E52FE27DF86E"
+			rewards: [
+				{
+					id: "0DB43D08394EF5C5"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "6EA801A8D08A2CD8"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Создать пламенеющее око"
+			tasks: [{
+				id: "1813D46538EA5AC4"
+				item: "cataclysm:flame_eye"
+				type: "item"
+			}]
+			title: "Пламенное око"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F61E52FE27DF86E"]
+			description: ["В аду воины, известные как &6Пламенные берсерки&r, сражаются друг с другом на аренах, чтобы испытать свои силы - но нет среди них более могущественного воина как &6Игнис&r. Постоянно практикуясь на аренах, эти воины представляют большую угрозу любому, кто посмеет туда войти."]
+			hide_until_deps_complete: true
+			id: "0F9B3546B2D77203"
+			rewards: [
+				{
+					id: "507E248790DD4915"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0804A382501242A5"
+					item: "mynethersdelight:spicy_skewer"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Найти пламенную арену"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "5B4177CF98BD44D1"
+				structure: "cataclysm:burning_arena"
+				title: "Найти пламенную арену"
+				type: "structure"
+			}]
+			title: "Вызов принят"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0F9B3546B2D77203"]
+			description: ["Превратившись в существо по имени &6Игнис&r, приближенный к &6Архитектору&r стал наглядным примером того, до чего доводит жажда великой силы. Овладев &6Пылающим ядром&r, &7Игнис&r предал своих друзей из-за чего был низвергнут в преисподню. Его душа сгорела, а тело стало вместилищем адского пламени. Теперь он живет на арене, одержимый жаждой битвы и мести, за все те страдания, которые ему пришлось пережить будучи заключенным в аду."]
+			hide_until_deps_complete: true
+			id: "1CCFA0E7A9E60D79"
+			rewards: [
+				{
+					id: "7A29537617438C10"
+					team_reward: false
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "7757DBA56F582596"
+					item: "cataclysm:ignitium_ingot"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "3D414DC97C8DDB92"
+					item: "irons_spellbooks:fire_rune"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "2C4CA70D4C4A80E7"
+					item: "cataclysm:music_disc_ignis"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "79FDD7B0AD060C3C"
+					item: "cataclysm:ancient_metal_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить игниса"
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1
+					id: "cataclysm:ignitium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "112C0181C4AC94F8"
+				title: "Убить игниса"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Низвергнутый"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2B6D0E3F90D68261"]
+			description: ["Пробираясь по самым отдаленным уголкам &6Края&r, неизвестный понимал, что его дни сочтены в этом мире. Когда-то он был странником и путешествинником, исследуя новые территории Верхнего мира, пока его взгляд не упал на таинственную крепость, что находилась в одной из пещер."]
+			hide_until_deps_complete: true
+			id: "4A0FDAB61B5C4B64"
+			rewards: [
+				{
+					id: "4088E1E120ECC31A"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "6FF8158814E3D750"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "58003C9A5D0FC1B4"
+					item: "enigmaticlegacy:astral_dust"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Получить око пустоты"
+			tasks: [{
+				id: "477B2584DD126946"
+				item: "cataclysm:void_eye"
+				type: "item"
+			}]
+			title: "Взор пустоты"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A0FDAB61B5C4B64"]
+			description: ["Оказавшись по ту сторону портала, ему удалось пробраться мимо &6Дракона&r незамеченным. Так и начался его путь длиною в вечность. Питаясь ростками хоруса и проходя мимо длинных существ, он смог прожить так несколько десятилетий. Отчаявшись, что ему никогда не вернуться домой, неизвестный нашел &6разрушенную цитадель&r. Кто и когда ее построил ему было неизвестно. Исследовав окресности этой грандиозной постройки, он нашел необычное зелье, выпив его, он оказался дома. Вся его семья была уже давно мертва, так как измерение &7Энда&r выходит за рамки привычного мироощущения. После столь долгого путешествия, наш авантюрист решил написать книгу, в конце которой он оставил подпись: \"&6Книга Фарландера&r\"."]
+			hide_until_deps_complete: true
+			id: "3B952F68E3306F86"
+			rewards: [{
+				id: "167738FE8C305463"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Найти разрушенную цитадель"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "0505ACE6334351EA"
+				structure: "cataclysm:ruined_citadel"
+				title: "Найти разрушенную цитадель"
+				type: "structure"
+			}]
+			title: "Бастион энда"
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B952F68E3306F86"]
+			description: [
+				"После долгого путешествия по землям &6Края&r, Фарландер оставил в книге секрет создания Ока пустоты. Когда он исследовал &6цитадель&r, то натыкался на странных големов, что стояли на страже неизвестного. Предположительно они охраняли &7нечто&r ценное, но проверять этого он не стал, так как боялся за свою жизнь. Сделав пометки в своей книге, Фарландер наткнулся на &7зелье возврата&r, что мгновенно вернуло его домой."
+				""
+				"&o&7Лишь тот, кто стоит на пути совершенства, способен узреть это нечто.&r"
+			]
+			hide_until_deps_complete: true
+			icon: "cataclysm:gauntlet_of_guard"
+			id: "06BA6DC6C2B44F75"
+			rewards: [
+				{
+					id: "1C37620DC066D242"
+					team_reward: false
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "3CB7F637197A2E53"
+					item: "skilltree:amnesia_scroll"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "77DFA0F61911300D"
+					item: "enigmaticlegacy:etherium_ore"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "3CCD1F1C4D974C17"
+					item: "cataclysm:music_disc_ender_guardian"
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить эндер-голема и стража края"
+			tasks: [
+				{
+					entity: "cataclysm:ender_golem"
+					icon: "cataclysm:gauntlet_of_guard"
+					id: "6724854E4A3EAEA8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "cataclysm:void_core"
+					id: "6C33B7EF1DAA2C95"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Хранители"
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["53183F6A93778B4F"]
+			description: ["Еще в древности, &6Умвути&r застал появление того самого, загодочного &7голема&r. Его главная особенность была в извлечении &6Сердца голема&r, что является одним из сильнейших артефактов Нового мира. По словам птиц, именно &6Архитектор&r создал &6Железного кованого&r."]
+			hide_until_deps_complete: true
+			id: "7A6DC09930F41E50"
+			rewards: [
+				{
+					id: "39932A9A8269865F"
+					team_reward: false
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2BF28ED94B1EA0E9"
+					item: "born_in_chaos_v1:dark_metal_ingot"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "0F61FAFE850F2B68"
+					item: "ancient_forgemastery:remnant_artifact"
+					type: "item"
+				}
+			]
+			subtitle: "Получить шлем железного кованого"
+			tasks: [{
+				id: "5704D01D5AAF9AB4"
+				item: "mowziesmobs:wrought_helmet"
+				type: "item"
+			}]
+			title: "Свидетель"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2A49622EB376E026"]
+			description: ["&6Ледочрев&r - это безжалостный хищник, самый большой и яростный среди всех монстров севера. Он проявит особую жестокость к тем, кто осмелится украсть у него &6Ледяной кристалл&r, тот самый кристалл, которым &6Архитектор&r создавал северные биомы."]
+			hide_until_deps_complete: true
+			id: "573ADFE03631A53B"
+			rewards: [
+				{
+					id: "3EF17325284511D9"
+					team_reward: false
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "254117404BFDCDDB"
+					item: "enigmaticaddons:forgotten_ice"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "1CFA897CE86B9200"
+					item: "born_in_chaos_v1:permafrost_shard"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить ледочрева"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "39F0345529356463"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Хозяин севера"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30982EA8575B1EBB"]
+			description: ["Возможно победив &6Умвути&r, нам удастся пролить свет на некоторые исторические тайны, что скрывает от всех эта птица. Держа в страхе своих подданых, при помощи магии солнца, &6Умвути&r пытается вернуть былую славу себе и своему народу."]
+			hide_until_deps_complete: true
+			id: "53183F6A93778B4F"
+			rewards: [
+				{
+					id: "4CD3371A9BA08E2C"
+					team_reward: false
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "60CD1DA34B012600"
+					item: "enigmaticaddons:pure_heart"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "410F216766D88BEE"
+					item: "enigmaticaddons:earth_heart_fragment"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить Умвути"
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				icon: "mowziesmobs:sol_visage"
+				id: "48BC97EC08C775FE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Освобождение угнетенных"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2A49622EB376E026"]
+			description: ["Когда-то давно &6Умвути&r был смертной птицей, стоявший на пороге бессмертия. Высокомерие и гордость, обрекла его на предательство и убийство в момент величайшего триумфа. Спустя тысячелетия, он переродился вновь, став еще на шаг ближе к бессмертию. Возродив свою древнюю цивилизацию птиц, &6Умвути&r стремится вернуть былую славу своего народа."]
+			hide_until_deps_complete: true
+			id: "30982EA8575B1EBB"
+			rewards: [
+				{
+					id: "6A0B265D06D00CB9"
+					team_reward: false
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4FF8B69D14A38D50"
+					item: "minecraft:raw_gold"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "611BB70B0B2B626C"
+					item: "enigmaticaddons:ichor_droplet"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "3A964B69CDAF4A00"
+					item: "undead_unleashed:soul_piece"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Получить силу Солнца от Умвути"
+			tasks: [{
+				advancement: "mowziesmobs:suns_blessing"
+				criterion: ""
+				id: "669983FDF04EA565"
+				title: "Получить силу Солнца"
+				type: "advancement"
+			}]
+			title: "Лик солнца"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5001CF92D602D6F4"]
+			description: ["Одна из древнейших цивилизаций &6Нижнего мира&r, существовала еще за долго до появления первых людей. Изначально расса &6Пиглинов&r жила в &7Верхнем мире&r, но после возникновения загадочной болезни, им пришлось бежать в Ад."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7BCDC47094EF1157"
+			rewards: [
+				{
+					id: "0E6F4352442B93B9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6F18FB1038FB60D3"
+					item: "minecraft:gold_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0CBD6442C5A2EC36"
+					item: "minecraft:golden_carrot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Убить пиглинов и брутального пиглина"
+			tasks: [
+				{
+					entity: "minecraft:piglin"
+					icon: {
+						Count: 1
+						id: "minecraft:golden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "25A9AAB6DAC28F78"
+					type: "kill"
+					value: 3L
+				}
+				{
+					entity: "minecraft:piglin_brute"
+					icon: {
+						Count: 1
+						id: "minecraft:golden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "29548D36F4C9E299"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Не люди, а свиньи"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7BCDC47094EF1157"]
+			description: ["&6Бастион&r - это лучшее защитное сооружение, которое можно встретить в Аду. Используя накопленный опыт в строительстве, &6пиглины&r смогли превзойти самих себя, создав хорошую защиту для себя и своего драгоценного золота."]
+			hide_until_deps_complete: true
+			id: "0CB99F2C2047B610"
+			rewards: [
+				{
+					id: "4D03A5CA1D6B4125"
+					type: "xp"
+					xp: 15
+				}
+				{
+					id: "19823A360E97E7B8"
+					item: "minecraft:golden_apple"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "14B261AA2A1C2D03"
+					item: "enigmaticaddons:ichor_droplet"
+					type: "item"
+				}
+				{
+					id: "1BFAE3F671C74952"
+					item: "enigmaticlegacy:darkest_scroll"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Найти Бастион"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "3121585598B26D6A"
+				structure: "minecraft:bastion_remnant"
+				title: "Найти Бастион"
+				type: "structure"
+			}]
+			title: "Оплот"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2A49622EB376E026"]
+			description: [
+				"Неизвестно, правда это или вымысел, что &6Железного кованого&r создал сам &6Архитектор&r, используя &7темный металл&r. Медленное течение времени, стерло из памяти народа предания об этом &7големе&r. Никто даже не знает где он находится и что охраняет."
+				""
+				"Спустя тысячилетия, о нем помнят немногие, лишь те кто стоял на заре формирования Нового мира."
+			]
+			hide_until_deps_complete: true
+			id: "5DBDF05C01C7581B"
+			rewards: [
+				{
+					id: "3D46A47B6C0D91BB"
+					team_reward: false
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "09AD36441D095D04"
+					item: "irons_spellbooks:protection_upgrade_orb"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "2C6E793CA0CDCB80"
+					item: "born_in_chaos_v1:armor_plate_from_dark_metal"
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить железного кованого"
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: "mowziesmobs:wrought_axe"
+				id: "0E218BA7E5E35C68"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Древний голем"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A49622EB376E026"]
+			description: ["Когда то в северном регионе Нового мира существовала отдельная расса разбойников и мародёров. Их &6крепость&r служила для них оплотом и надеждой на то, что когда нибудь их народ сможет объединить все земли и установить свой порядок для этого мира."]
+			hide_until_deps_complete: true
+			id: "2D7F6CE46E14A899"
+			rewards: [
+				{
+					id: "74F1E8AE1F2B3D91"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "707C321E78D8A0FB"
+					item: "born_in_chaos_v1:pieceofdarkmetal"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "28F69234EDB0E54B"
+					item: "cataclysm:black_steel_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Получить проклятое око"
+			tasks: [{
+				id: "4D55B2614DF9EAA8"
+				item: "cataclysm:cursed_eye"
+				type: "item"
+			}]
+			title: "Оплот и надежда"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2D7F6CE46E14A899"]
+			description: ["Более тысячи лет назад, одна ошибка &6Заклинателей&r привела к катастрофе невиданных масштабов. Этот катаклизм разрушил преграду между миром живых и миром мёртвых. В мгновение ока проклятье распространилось на весь Верхний мир и все живое оказалось обречено. &7Северная крепость&r разбойников не была исключением. Теперь, когда то величественный замок превратился в &7ледяную тюрьму&r для всех её обитателей."]
+			hide_until_deps_complete: true
+			id: "4E82B94AC99AD3B9"
+			rewards: [
+				{
+					id: "122C5D940B16F2CF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "7FFFE264091B5C1A"
+					item: "cataclysm:black_steel_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "20E84FA4A503C97C"
+					item: "immortalsoul:ominous_fragment_key"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Найти ледяную тюрьму"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "3CA017E39787E8B2"
+				structure: "cataclysm:frosted_prison"
+				title: "Найти ледяную тюрьму"
+				type: "structure"
+			}]
+			title: "Катаклизм мирового масштаба"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E82B94AC99AD3B9"]
+			description: [
+				"&6Маледиктус&r был генералом &6Тёмного ордена&r - братства бесстрашных воинов, что защищали древнего короля. Полагаясь на свою могучую силу и неоспоримое лидерство, &7Маледиктус&r выигрывал одну битву за другой, принося все большую славу &6Разбойникам&r. "
+				"Когда генерал и его подданные стояли на страже северного замка, случилось нечто непоправимое. Верхний мир охватило &7проклятье&r. Оно уничтожало все на своем пути, превращая живых существ в безжизненных тварей. &7Маледиктус&r попытался уберечь себя и своих воинов в замке, но они были беззащитны перед этой загадочной силой."
+				""
+				"Навеки заточенный в &7Ледяной тюрьме&r, &6Маледиктус&r жаждет освобождения, чтобы даже после смерти продолжать захватывать новые земли, прославляя гордую рассу &6Разбойников&r."
+			]
+			hide_until_deps_complete: true
+			id: "484E6553FE67D986"
+			rewards: [
+				{
+					id: "34D6102B51076E99"
+					team_reward: false
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "5FDC1720754A8AD2"
+					item: "cataclysm:cursium_ingot"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "04EB04E0DA67F64C"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticlegacy:wrath"
+								lvl: 5s
+							}]
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "091EA47EBF3188A4"
+					item: "cataclysm:music_disc_maledictus"
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить маледиктуса"
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					Count: 1
+					id: "cataclysm:cursium_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "39BA0BF3CE81802D"
+				title: "Убить маледиктуса"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Призрак войны"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["287F7B3F750D46A8"]
+			description: [
+				"Не так давно, северные исследователи наткнулись на странных существ, что бездыханно наблюдали за ними. Только при детальном рассмотрении они поняли, что это были просто снеговики. Кто их мог слепить? Или же это чья то шутка?"
+				"Те кто приблизились к ним на достаточное расстояние были убиты, другие, кто оказался быстрее смог сбежать от столь опасных врагов и предупредить нас о новой опасности..."
+			]
+			id: "3FB954FEFADE9E0C"
+			rewards: [
+				{
+					id: "53A9CC86BBFA2369"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "1551C342C3592BF5"
+					item: "born_in_chaos_v1:mint_ice_cream"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "22A7CCE3E028E9E3"
+					item: "born_in_chaos_v1:holiday_candy"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Убить трёх испорченных снеговиков"
+			tasks: [{
+				entity: "immortalgingerbread:spoiled_snowman"
+				icon: "immortalgingerbread:snowman_hat"
+				id: "6DF536F42DF5EADD"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Испорченный праздник"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FB954FEFADE9E0C"]
+			description: [
+				"После последней встречи с &6испорченными снеговиками&r, исследователям стало казаться, что за ними продолжают наблюдать."
+				"В одну из ночей полнолуния, когда лагерь был разбит и все сидели у костра, где то неподалеку появился патруль из снеговиков, который пришел явно не с благими намерениями."
+			]
+			hide_until_deps_complete: true
+			id: "2C16C65BE8A1D6DA"
+			rewards: [
+				{
+					id: "2E3C322D019F1EB1"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "69048E6A766CE5B6"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+			]
+			subtitle: "Получить карамельную трость"
+			tasks: [{
+				id: "63C95AF70B3E6B75"
+				item: "immortalgingerbread:candy_cane"
+				type: "item"
+			}]
+			title: "Сахарная лихорадка"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C16C65BE8A1D6DA"]
+			description: [
+				"Поедание большого количества сахара никогда не приводило ни к чему хорошему. Поэтому съев &6Карамельную трость&r и оказавшись в деревне, невольно можно навлечь беду на несчастных крестьян. Отразите нападение испорченных пряничных человечков и големов, чтобы получить за это ценные награды."
+				""
+				"&o&7Побеждая испорченных пряничных големов, из них с небольшим шансом будут выпадать пряничные гранатометы. Это сильное оружие дальнего боя, которое требует фейерверки в качестве снарядов.&r"
+				""
+				"&o&7Создайте при помощи пряничного блока и вырезанной тыквы пряничного голема, а затем приручите его при помощи пряничного человечка. Этот питомец станет вашим отличным компаньоном, что готов защищать вас ценой собственной жизни."
+				""
+				"&o&7При помощи блока снега и шляпы снеговика, можно создать снеговика джентльмена. Он будет отлично защищать вашу базу.&r"
+			]
+			hide_until_deps_complete: true
+			icon: "immortalgingerbread:gingerbread"
+			id: "2FDD834FB19B27D8"
+			rewards: [
+				{
+					id: "0B14C629DBE30F05"
+					team_reward: false
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "2A2C6A1672F41A56"
+					item: "born_in_chaos_v1:bagof_candy"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1CDDC3BA6598273C"
+					item: "born_in_chaos_v1:spiritual_gingerbread"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "1C35CF45F34BEB93"
+					item: "battlepets:santa_gift"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Защитить деревню от пряничных человечков"
+			tasks: [{
+				advancement: "minecraft:adventure/spoiled_raid_win"
+				criterion: ""
+				icon: "immortalgingerbread:gingerbread"
+				id: "06781CA6C8BA1BEE"
+				title: "Защитить деревню от пряничных человечков"
+				type: "advancement"
+			}]
+			title: "Спасение праздника"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["287F7B3F750D46A8"]
+			id: "5110229F1527B61F"
+			rewards: [
+				{
+					id: "59FF18FF9EBFF39F"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "20DE6E55C2A21249"
+					item: "enigmaticlegacy:enchantment_transposer"
+					type: "item"
+				}
+				{
+					id: "7D54380D709D0BE9"
+					item: "skilltree:amnesia_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Получить эндер-жемчуг"
+			tasks: [{
+				id: "59F8EBBF6C05CC38"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Отголоски прошлого"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A49622EB376E026"]
+			description: [
+				"&6Тонгби-Скульптор&r — великий монах, постигший силу стихии земли. Он готов даровать тебе уникальный артефакт, если ты сумеешь пройти его &6испытание&r."
+				"Монастырь Скульптора находится &6высоко в горах&r."
+				""
+				"Чтобы начать испытание, ты должен принести Скульптору &6стержень геоманта&r, трофей, выпадающий с земляных элементалей &6Блефов&r, что обитают в этом же монастыре. "
+				"{image:mowziesmobs:item/bluff_rod width:20 height:20 align:center}"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "mowziesmobs:earthrend_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B60AE07B6D954BF"
+			rewards: [
+				{
+					id: "2C097A6BD6772343"
+					team_reward: false
+					type: "xp"
+					xp: 75
+				}
+				{
+					id: "244B2C67EB9553E7"
+					item: "enigmaticaddons:revival_leaf"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "74D45E3C0EA31AA7"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:earth_heart"
+						tag: { }
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Выполнить испытание Тонгби-Скульптора"
+			tasks: [{
+				id: "4F7BB2BD1C0578AF"
+				item: {
+					Count: 1
+					id: "mowziesmobs:earthrend_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["10A149B7BF138DD1"]
+			description: ["В прошлом, &cРыцари ужаса&r были лучшим подразделением в армии разбойников. Элитными воинами, что без страха рвались в бой. Но все изменилось, когда кто то создал смертоносное оружие в виде &2зомби-вируса&r. Оно неумолимо поглащает все живое, оставляя после себя лишь смерть и разруху."]
+			icon: {
+				Count: 1
+				id: "undead_unleashed:grave_iron_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1BE33CB80D54B803"
+			invisible: true
+			rewards: [
+				{
+					id: "036D577B9EDA96AC"
+					team_reward: false
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "3F2F7F98A97CC4B0"
+					item: {
+						Count: 1
+						id: "undead_unleashed:moonlight_greatsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "447FC061BA286C6C"
+					item: "undead_unleashed:grave_iron_nugget"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "1FBC15487B5A131B"
+					item: "ancient_forgemastery:remnant_artifact"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Убить трёх рыцарей ужаса"
+			tasks: [{
+				entity: "undead_unleashed:dreadknight"
+				icon: {
+					Count: 1
+					id: "undead_unleashed:grave_iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "68A395B9FD4805B2"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Рыцари боли"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			description: [
+				"Доступ к &cбагровому осколку&r открыт лишь тому, кто смог выполнить &6секретное испытание&r. Получив этот артефакт, избранный получает в свое распоряжение сильный и ни с чем не сравнимый &cКресцент&r. Древняя магия крови тесно переплетается с сущностью этого арбалета."
+				""
+				"&7&oТочные попадания по врагам будут заряжать ваш Кресцент, что в конечном итоге раскроет его истинную силу...&r&r"
+			]
+			id: "1912B8DB5909374F"
+			invisible: true
+			rewards: [
+				{
+					id: "1A55F30AA6E50D40"
+					type: "xp"
+					xp: 50
+				}
+				{
+					count: 3
+					id: "3E66BFD91C0B5955"
+					item: "legendaryitems:netherite_arrow"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "555BDA208A2904EE"
+					table_id: 4039331598535265938L
+					team_reward: false
+					type: "random"
+				}
+			]
+			subtitle: "Убить 9 монстров за 1.5 секунды"
+			tasks: [{
+				advancement: "legendaryitems:rapid_kill"
+				criterion: ""
+				icon: "legendaryitems:crimson_shard"
+				id: "20EA2EB4C987614C"
+				type: "advancement"
+			}]
+			title: "Настоящий охотник на монстров"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A49622EB376E026"]
+			description: ["Кто бы мог подумать, что некогда великая цивилизация будет на грани исчезновения. Никто не знает по какой причине ей пришлось покинуть воды глубокого океана, но одно известно точно, под водой скрывалось что то &cнеобузданное&r и &cзловещее&r..."]
+			hide_until_deps_complete: true
+			id: "19B0F2BB578F841F"
+			rewards: [
+				{
+					id: "312C9D3629FEE68A"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "224871E54652F8BA"
+					item: "aquamirae:sea_stew"
+					type: "item"
+				}
+			]
+			subtitle: "Получить око шторма"
+			tasks: [{
+				id: "38EB361FB0F694D7"
+				item: "cataclysm:storm_eye"
+				type: "item"
+			}]
+			title: "Цивилизация из глубин"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19B0F2BB578F841F"]
+			hide_until_deps_complete: true
+			id: "1EF18DC3496C0536"
+			rewards: [
+				{
+					id: "08E9192161FD2CCA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2EFE4B7CB8126C2F"
+					item: "cataclysm:lacrima"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Найти акрополис"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "547DEA07D0562537"
+				structure: "cataclysm:acropolis"
+				title: "Найти акрополис"
+				type: "structure"
+			}]
+			title: "Последняя надежда"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1EF18DC3496C0536"]
+			description: [
+				"Её непоколебимая воля, закалённая временем и войной даёт возможность защищать свой народ даже после смерти. Дух &6Сциллы&r заключён в якоре, что находится в сердце акрополиса и готов в любой момент ринутся в бой лишь бы защитить всё то, что ей так дорого."
+				""
+				"Не многие, кто понимают язык этого загадочного народа могут понять в чем была причина их переселения и постройки столь грандиозного сооружения над поверхностью воды. Как говорят местные рыбаки, много лет тому назад пробудилось нечто ужасное в глубинах океана и виной тому главные враги цивилизации &6гиппокамптов&r это &6глубинники&r."
+			]
+			hide_until_deps_complete: true
+			id: "73C7B486A3946CDC"
+			rewards: [
+				{
+					id: "43AB5705B8695473"
+					type: "xp"
+					xp: 150
+				}
+				{
+					id: "30DC4C90437D3D6E"
+					item: "enigmaticaddons:primeval_cube"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "1863A87F684224E5"
+					item: "cataclysm:music_disc_scylla"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "574884A95A148933"
+					item: "cataclysm:ancient_metal_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Победить Сциллу"
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: "cataclysm:ceraunus"
+				id: "3E07B6AB3BEB8B51"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Защитница своего народа"
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"Победив одних из самых сильных боссов, остается только один - &6Тесерект&r..."
+				""
+				"&o&7Поможет ли эта броня в сражении с ним?&r"
+			]
+			hide_text_until_complete: true
+			icon: {
+				Count: 1
+				id: "fantasy_armor:malenia_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24199A40D7C059BF"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [
+				{
+					id: "7F29E8711640AFC9"
+					item: {
+						Count: 1
+						id: "fantasy_armor:malenia_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "3D93637202C807BA"
+					item: {
+						Count: 1
+						id: "fantasy_armor:malenia_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "28B7CC7314B18F16"
+					item: {
+						Count: 1
+						id: "fantasy_armor:malenia_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "0E68B58F54158473"
+					item: {
+						Count: 1
+						id: "fantasy_armor:malenia_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "59B4399CEE3051BD"
+					item: {
+						Count: 1
+						id: "fantasy_weapons:weapon_hand_of_malenia"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить всех боссов из мода Cataclysm"
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					icon: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0565C2FBB0C15FE7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:scylla"
+					icon: "cataclysm:ceraunus"
+					id: "4519D4E6AFEA3464"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_leviathan"
+					icon: "cataclysm:abyssal_sacrifice"
+					id: "162CC96E30858828"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ancient_remnant"
+					icon: "cataclysm:remnant_skull"
+					id: "723B4ECE65BABF2A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:maledictus"
+					icon: {
+						Count: 1
+						id: "cataclysm:cursium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "60691BDEC2370567"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:netherite_monstrosity"
+					icon: {
+						Count: 1
+						id: "cataclysm:monstrous_helm"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "574CB3E1EEC905F1"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:the_harbinger"
+					icon: "cataclysm:witherite_ingot"
+					id: "46039A78F1FB01D7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "cataclysm:ender_guardian"
+					icon: "cataclysm:void_core"
+					id: "119E1658B448F30C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Неубиваемый демон"
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			description: ["Возникновение &6нежити&r до сих пор остается в тайне, никто не знает от куда она появилась и что стало первопричиной ее возникновения, но похоже что разбойники не имеют к этому никакого отношения. Их задача управлять армией нежити ради получения еще большего влияния на &6Новый мир&r."]
+			icon: {
+				Count: 1
+				id: "born_in_chaos_v1:missionary_hat_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1AB94F91E3688D5F"
+			invisible: true
+			rewards: [
+				{
+					id: "3EB8A9AF1E4D4763"
+					item: {
+						Count: 1
+						id: "fantasy_armor:crucible_knight_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "108CC532CEEBB92A"
+					item: {
+						Count: 1
+						id: "fantasy_armor:crucible_knight_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "69BA16A201795353"
+					item: {
+						Count: 1
+						id: "fantasy_armor:crucible_knight_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "67F4BF3474DA6465"
+					item: {
+						Count: 1
+						id: "fantasy_armor:crucible_knight_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "7943E2364C8C3164"
+					item: {
+						Count: 1
+						id: "fantasy_weapons:weapon_crucible_greatsword"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Убить миссионера и королевскую гвардию"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:missioner"
+					icon: {
+						Count: 1
+						id: "born_in_chaos_v1:missionary_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "449272EF71D11E8D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "royalvariations:royal_zombie"
+					icon: "royalvariations:royal_zombie_spawn_egg"
+					id: "2D94DA727D8C7B2D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "royalvariations:royal_skeleton"
+					icon: "royalvariations:royal_skeleton_spawn_egg"
+					id: "5DF3739671B41644"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "royalvariations:royal_creeper"
+					icon: "royalvariations:royal_creeper_spawn_egg"
+					id: "537AE6E5E807A0DF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "royalvariations:royal_enderman"
+					icon: "royalvariations:royal_enderman_spawn_egg"
+					id: "1FDEFE117F94C838"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Некромант"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "0B6CC916A11263D7"
+			invisible: true
+			rewards: [
+				{
+					id: "76FFE578F717B14F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4977C84446712004"
+					item: "immortalplush:koshmar_plush"
+					type: "item"
+				}
+			]
+			subtitle: "Убить Кошмарного сталкера"
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				icon: "born_in_chaos_v1:nightmare_stalker_skull"
+				id: "2F5C8CD8E91AFB5D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Ночной кошмар"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["491470CB26AB7F55"]
+			description: ["Обитатели Края считают, что именно здесь начала зарождаться жизнь, именно здесь появилось первое существо в виде &6Уничтожителя&r, который был чьей то ошибкой. Но чьей именно...?"]
+			id: "05144B57BEFF07CF"
+			rewards: [{
+				id: "39805A2CEF4EEA9A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Найти Космическую станцию"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "1A2B5D1FBB856CAE"
+				structure: "legendary_monsters:space_station"
+				type: "structure"
+			}]
+			title: "Где всё начиналось..."
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D451FC2C5B547B3"]
+			id: "491470CB26AB7F55"
+			rewards: [
+				{
+					id: "0EAE9C12A25C9826"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "55821C100D1F3AA7"
+					item: "legendary_monsters:enderitium_gem"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Получить око уничтожителя"
+			tasks: [{
+				id: "31F48750C01C508B"
+				item: "legendary_monsters:eye_of_annihilation"
+				type: "item"
+			}]
+			title: "Око Создателя"
+			x: -10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05144B57BEFF07CF"]
+			description: [
+				"Я стал Смертью - разрушителем миров..."
+				""
+				"Почему его прозвали Уничтожителем, остаётся только догадываться, но видимо его не случайно поместили в небытие. &6Уничтожитель&r - это первая сущность которую создал Архитектор, но допустив одну ошибку в коде у существа появилась одна цель... уничтожать всё то, над чем работает создатель Нового мира."
+				""
+				"&7&oУбейте Аннигилятора-преследователя, чтобы получить кристалл ока, который необходим для призыва Уничтожителя&r"
+			]
+			id: "14EE174676F9CA98"
+			rewards: [
+				{
+					id: "37D12E989AA745D6"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "68A369C5A754A471"
+					item: "legendary_monsters:portal_shard"
+					type: "item"
+				}
+				{
+					id: "20086FF4F66DB3C2"
+					item: "legendary_monsters:music_disc_obliterator"
+					type: "item"
+				}
+				{
+					id: "362AA107A286EEF4"
+					item: "legendary_monsters:eye_crystal"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Победить босса Уничтожителя"
+			tasks: [{
+				entity: "legendary_monsters:the_obliterator"
+				icon: {
+					Count: 1
+					id: "legendary_monsters:annihilator_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4BFC5527080CDF33"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Первородная сущность"
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A49622EB376E026"]
+			id: "756229A8D2202A9E"
+			rewards: [
+				{
+					id: "0418EFEC7C0C06A1"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "0DACCD102CA435C7"
+					item: "mace_port:wind_charge"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Получить око воздуха"
+			tasks: [{
+				id: "26B9A14A721B3C83"
+				item: "legendary_monsters:eye_of_air"
+				type: "item"
+			}]
+			title: "Взгляд с воздуха"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["756229A8D2202A9E"]
+			id: "057CD228DD6B2377"
+			rewards: [{
+				id: "504AD6E4403E3E49"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Найти облачный храм"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "5F8CAB7F9F1CB31F"
+				structure: "legendary_monsters:cloudy_temple"
+				type: "structure"
+			}]
+			title: "Где то за облаками"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["057CD228DD6B2377"]
+			id: "71AF6F89568957F7"
+			rewards: [
+				{
+					id: "314FDC233866AE41"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "55D63EED81C67698"
+					item: "irons_spellbooks:lightning_rune"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "13582F8239C13D20"
+					item: "irons_spellbooks:lightning_bottle"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1D70E805156778AA"
+					item: "legendary_monsters:music_disc_advance"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить облачного голема"
+			tasks: [{
+				entity: "legendary_monsters:cloud_golem"
+				icon: "legendary_monsters:air_rune"
+				id: "143A661EA67DFD30"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Повелитель молнии"
+			x: -6.0d
+			y: -4.5d
+		}
+	]
+	title: "Сражения"
+}

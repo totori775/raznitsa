@@ -1,0 +1,51 @@
+{
+  "id": "skilltree:inquisitor_15",
+  "bonuses": [
+    {
+      "type": "skilltree:item_use_movement_speed",
+      "multiplier": -0.05,
+      "item_condition": {
+        "equipment_type": "shield",
+        "type": "skilltree:equipment_type"
+      }
+    },
+    {
+      "type": "skilltree:item_use_movement_speed",
+      "multiplier": -0.15,
+      "item_condition": {
+        "equipment_type": "crossbow",
+        "type": "skilltree:equipment_type"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:inquisitor_12"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_life_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Ловкость II",
+  "titleColor": "FFAA00",
+  "positionX": -93.527,
+  "positionY": -18.003,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Используя щиты вы замедляетесь на 5% меньше"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Используя арбалеты вы замедляетесь на 15% меньше"
+    }
+  ]
+}

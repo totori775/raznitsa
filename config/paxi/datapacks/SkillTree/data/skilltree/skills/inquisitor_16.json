@@ -1,0 +1,48 @@
+{
+  "id": "skilltree:inquisitor_16",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.1,
+      "max_stacks": 1,
+      "effect": "warriorsofpastepoch:bleeding_wound",
+      "duration": 260,
+      "amplifier": 0,
+      "event_listener": {
+        "player_condition": {
+          "item_condition": {
+            "equipment_type": "melee_weapon",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "target": "enemy",
+        "type": "skilltree:critical_hit"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:inquisitor_13"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Глубокие раны II",
+  "titleColor": "FFAA00",
+  "positionX": 62.355,
+  "positionY": -72.002,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к шансу наложить эффект Кровотечения на 13 секунд при критическом ударе"
+    }
+  ]
+}

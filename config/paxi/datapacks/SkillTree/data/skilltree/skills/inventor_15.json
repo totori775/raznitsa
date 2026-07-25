@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:inventor_15",
+  "bonuses": [
+    {
+      "type": "skilltree:block_break_speed",
+      "multiplier": 0.1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "pickaxe",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:inventor_12"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_life_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Усовершенствование кирки II",
+  "titleColor": "FFAA00",
+  "positionX": -93.527,
+  "positionY": -18.003,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к скорости добычи блоков, если у вас в руке кирка"
+    }
+  ]
+}

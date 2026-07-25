@@ -1,0 +1,15 @@
+{
+  "kubejs.ponder.tag.hephaestus_forge_setup": "Hephaestus Forge",
+  "kubejs.ponder.tag.hephaestus_forge_setup.description": "Setup Guide For Hephaestus Forge",
+  "kubejs.ponder.hephaestus.header": "Созданием Кузницы Гефеста",
+  "kubejs.ponder.hephaestus.text_1": "Чтобы создать кузницу Гефеста, вам нужно сначала расчистить местность.",
+  "kubejs.ponder.hephaestus.text_2": "Расположите Мистический резной полированный тёмный камень следующим образом.",
+  "kubejs.ponder.hephaestus.text_3": "Обложите центр Резным мистическим полированным тёмным камнем.",
+  "kubejs.ponder.hephaestus.text_4": "Окружите все размещенные блоки Полированным тёмным камнем.",
+  "kubejs.ponder.hephaestus.text_5": "Поставьте в центре стол кузнеца и зачаруйте его с помощью Порошка очищения.",
+  "kubejs.ponder.hephaestus.text_6": "Чтобы завершить создания Кузницы Гефеста, установите в этих местах Пьедесталы из тёмного камня",
+  "kubejs.ponder.hephaestus.text_7": "Для того чтобы начать ритуал, просто положите необходимый материал на пьедесталы и стукните кузнечным молотком по Кузнице Гефеста.",
+  "kubejs.ponder.obelisk_construction.header": "Созданием Мистического кристального обелиска",
+  "kubejs.ponder.obelisk_construction.text_1": "Постройте сооружение из Мистического кристального блока и Мистического полированного тёмного камня",
+  "kubejs.ponder.obelisk_construction.text_2": "Поместите обелиск туда, где обычно стоит пьедестал — и он начнёт пассивно генерировать Аурелионовую эссенцию для вас!"
+}

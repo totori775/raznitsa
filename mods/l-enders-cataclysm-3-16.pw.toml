@@ -1,0 +1,8 @@
+name = "L_Enders_Cataclysm-3.16"
+filename = "L_Enders_Cataclysm-3.16.jar"
+side = "both"
+
+[download]
+url = "https://github.com/totori775/raznitsa/releases/download/v1.0-mods/L_Enders_Cataclysm-3.16.jar"
+hash-format = "sha256"
+hash = "ac1028f4bfaa2629d80ce3c1f26e28ceec2e6f2aaaac3bb03dd8957856d2e7ca"

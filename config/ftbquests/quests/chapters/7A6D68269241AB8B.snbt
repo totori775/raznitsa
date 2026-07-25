@@ -1,0 +1,1956 @@
+{
+	autofocus_id: "5530EB287353F74E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7A6D68269241AB8B"
+	group: "23E3C0A11EA92B50"
+	icon: {
+		Count: 1
+		id: "irons_spellbooks:copper_spell_book"
+		tag: {
+			ISB_Spells: {
+				data: [ ]
+				maxSpells: 5
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+	}
+	id: "7A6D68269241AB8B"
+	images: [
+		{
+			height: 2.85d
+			image: "ftbquests:textures/logo_orig.png"
+			rotation: 0.0d
+			width: 5.65d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			height: 7.2d
+			image: "ftbquests:textures/background_quest.png"
+			rotation: 0.0d
+			width: 7.2d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Оказавшись в Новом мире, для каждого открываются безграничные возможности магии. На протяжении тысячилетий она развивалась и совершенствовалась. Еще с древних времен, разные цивилизации изучали разные &6стихии&r получая новые заклинания и свитки. Одни использовали силу магии для получения безграничной власти, другие для достижения бессмертия."
+				""
+				"&o&7Чтобы начать пользоваться заклинаниями вам необходимо изучать манускрипты. Создайте манускрипт нужной для вас стихии и нажмите ПКМ, тогда перед вами откроется окно где вы и сможете изучить заклинание.&r"
+			]
+			id: "5530EB287353F74E"
+			rewards: [
+				{
+					id: "4A073AF84D50BD7A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "41E0F735FE042DDA"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "3B98C80812E7718E"
+					item: "irons_spellbooks:arcane_essence"
+					type: "item"
+				}
+				{
+					id: "761AA17D1D33B242"
+					item: "irons_restrictions:fragment"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Создать хлипкий журнал"
+			tasks: [{
+				id: "046AE14BF265F22F"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:copper_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 5
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				title: "Создать хлипкий журнал"
+				type: "item"
+			}]
+			title: "Основа магии"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5530EB287353F74E"]
+			description: [
+				"&6Начертательный стол&r - это основа любой &7магии стихий&r. Благодаря ему можно добавлять &7заклинания&r в книги, делая их более практичными чем свитки. Каждый, кто когда-либо изучал магию, знает на сколько важно вписывать &7заклинания&r из свитков в &7книгу&r."
+				""
+				"&o&7Чтобы пользваться более редкими заклинаниями, вам необходимо последовательно создавать улучшения начиная с необычного уровня. Создайте улучшение и нажмите ПКМ, чтобы его изучить.&r"
+			]
+			id: "282E5C2CA3032EB0"
+			rewards: [
+				{
+					id: "3192B1363C1DC48F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3D8E2D59A9153666"
+					item: "irons_spellbooks:rare_ink"
+					type: "item"
+				}
+				{
+					id: "51B6A7AF058C6ECB"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Создать начертательный стол"
+			tasks: [{
+				id: "1E17A4FEF3825FEB"
+				item: "irons_spellbooks:inscription_table"
+				title: "Создать начертательный стол"
+				type: "item"
+			}]
+			title: "Чудной писарь"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["282E5C2CA3032EB0"]
+			description: ["Окончание Великой битвы привело к упадку многих цивилизаций. В тоже время магия стала развиваться еще быстрее. Многие маги научились получать новые заклинания благодаря созданию &6кузницы свитков&r. Она стала одной из важных составляющих любого мага. Проводя большое количество эксперементов над созданием новых заклинаний и зелий, разбойники получили &7нечто&r очень ужасное, с чем не могли совладать даже они..."]
+			hide_until_deps_complete: true
+			id: "20358FE909F3DE22"
+			rewards: [
+				{
+					id: "52F9ACF8DE8E7538"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "411CFD8EE5DFD127"
+					item: "immortalsoul:ominous_fragment_key"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать кузницу свитков"
+			tasks: [{
+				id: "0EEF39A470D080E1"
+				item: "irons_spellbooks:scroll_forge"
+				title: "Создать кузницу свитков"
+				type: "item"
+			}]
+			title: "Волшебная кузня"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["282E5C2CA3032EB0"]
+			description: [
+				"Каждый создает или разрушает себя сам. Одни предпочитают идти по пути развития и процветания, другие выбирают путь саморазрушения. С магией происходит тоже самое - одно направление магии помогает становиться лучше, другое создает монстра."
+				""
+				"Улучшайте &7оружие&r или &7свитки&r на &6Волшебной наковальне&r и следуйте верным путем."
+			]
+			hide_until_deps_complete: true
+			id: "61E5AE7C1F7A5ABD"
+			rewards: [
+				{
+					id: "217A3B27B2F3DC0D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "196A330E19AFF023"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7032F76884C6D960"
+					item: "irons_spellbooks:blank_rune"
+					type: "item"
+				}
+			]
+			subtitle: "Создать волшебную наковальню"
+			tasks: [{
+				id: "4587071459C9AC8B"
+				item: "irons_spellbooks:arcane_anvil"
+				title: "Создать волшебную наковальню"
+				type: "item"
+			}]
+			title: "Кованое волшебство"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["20358FE909F3DE22"]
+			description: ["Разные народы, разных эпох изучали разные виды магии. Так, например, крестьяне смогли овладеть магией &7Святости&r, что дало им надежду на выживание в столь жестоком и опасном мире."]
+			hide_until_deps_complete: true
+			icon: "irons_spellbooks:blood_vial"
+			id: "4B6B9751990DAA8E"
+			rewards: [
+				{
+					id: "5666596CEC03FFE7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "694DD2A88FB874F1"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6C2C8DD2547256F8"
+					item: "irons_spellbooks:blank_rune"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Получить все существующие предметы для создания заклинаний разных стихий"
+			tasks: [
+				{
+					id: "7C11E47C62402BB0"
+					item: "irons_spellbooks:blood_vial"
+					type: "item"
+				}
+				{
+					id: "211C778EBB7B7321"
+					item: "irons_spellbooks:divine_pearl"
+					type: "item"
+				}
+				{
+					id: "6C6039DE4B93BDFB"
+					item: "irons_spellbooks:lightning_bottle"
+					type: "item"
+				}
+				{
+					id: "1B8E300F2731FAF7"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+				{
+					id: "76CE94069F06E327"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6AFC15FFEB8D745F"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "4050849F34856370"
+					item: "irons_spellbooks:frozen_bone"
+					type: "item"
+				}
+				{
+					id: "7F22514121DD0496"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+			]
+			title: "Элементаль"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B6B9751990DAA8E"]
+			description: ["Осознание того, что магия обладает разрушительной силой, приводит в ужас любого, кто когда-либо видел на что способна &6Тайная магия&r. Она берет свое начало из &7древнего города&r, что скрыт глубоко под землей. Не многие возвращались от туда живыми, а кому все же удавалось вернуться, впадали в безумие от пережитого ужаса."]
+			hide_until_deps_complete: true
+			id: "4D34356D6E81AF41"
+			rewards: [
+				{
+					id: "70F2129839839C03"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3B3175F990D99EE1"
+					item: "irons_spellbooks:mana_upgrade_orb"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "43A8291A5BCB9F57"
+					item: "irons_spellbooks:ancient_knowledge_fragment"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Получить осколок эха"
+			tasks: [{
+				id: "6F3E128D0DC2774A"
+				item: "minecraft:echo_shard"
+				title: "Получить осколок эха"
+				type: "item"
+			}]
+			title: "Тайная магия"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61E5AE7C1F7A5ABD"]
+			description: [
+				"Когда-то давно, древние маги создали &6сферы улучшения&r. Благодаря им, маг может совершенствовать свою &7броню&r, наделяя себя все большей и большей силой."
+				""
+				"&o&7Объедините броню со сферой улучшения на волшебной наковальне и получите усовершенствованную броню. Максимально можно накладывать до трех сфер улучшения.&r"
+			]
+			hide_until_deps_complete: true
+			icon: "irons_spellbooks:blood_upgrade_orb"
+			id: "36063371CD7B2609"
+			rewards: [
+				{
+					id: "3213835BFDFC461B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "6694F632588103A6"
+					item: "irons_spellbooks:cinder_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0A02229F2783CAF5"
+					item: "irons_spellbooks:mithril_scrap"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Создать все существующие сферы улучшения"
+			tasks: [
+				{
+					id: "02C26F17BAE62BF4"
+					item: "irons_spellbooks:fire_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "7750BE87AFE1DB3E"
+					item: "irons_spellbooks:ice_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "01C91D2ABACCCC37"
+					item: "irons_spellbooks:lightning_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "160F771708B9AE3D"
+					item: "irons_spellbooks:holy_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "33F4CD114C3F5014"
+					item: "irons_spellbooks:ender_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "7C3BD139DB719808"
+					item: "irons_spellbooks:blood_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "55741EE35CBFD9AC"
+					item: "irons_spellbooks:evocation_upgrade_orb"
+					type: "item"
+				}
+				{
+					id: "58CAD0239FC0006C"
+					item: "irons_spellbooks:nature_upgrade_orb"
+					type: "item"
+				}
+			]
+			title: "Магические сферы"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4D34356D6E81AF41"]
+			description: [
+				"&6Древний город&r скрывает в себе множество тайн. Никто не знает кем был построен и что случилось с цивилизацией построившей этот город. Но одно известно точно, этот город порабощен &7скалком&r, что эволюцианирует и создает новые способы по уничтожению всего живого."
+				"&6Мистический манускрипт&r содержит тайные заклинания, которые доступны лишь тем кто выбрал путь Проклятого мага. Только выбрав этот путь и собрав все &7отрывки древних познаний&r можно создать &7манускрипт&r."
+			]
+			hide_until_deps_complete: true
+			id: "50AB50067B62F5CF"
+			rewards: [
+				{
+					id: "011176222CCCEA09"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "03AEA27C246BB137"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "enigmaticlegacy:slayer"
+								lvl: 5s
+							}]
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "08AAFDC45A13B8BC"
+					item: "irons_spellbooks:blank_rune"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать мистический манускрипт"
+			tasks: [{
+				id: "4B27895EA34C4942"
+				item: "irons_spellbooks:eldritch_manuscript"
+				title: "Создать мистический манускрипт"
+				type: "item"
+			}]
+			title: "Загадочный свиток"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5530EB287353F74E"]
+			description: [
+				"О значимости &66 камней стихий&r ходят легенды. Почти никто не имеет ни малейшего представления об их скрытой силе, однако все рассматривают их как оружие для борьбы с врагами. Тысячу лет назад, когда конфликта уже было не избежать &7Разбойники&r и &7Пиглины&r встретились в ожесточенном бою за право владеть всеми камнями стихий. Так началась Великая битва."
+				"Наблюдая издалека, &6Архитектору&r стало ясно, к чему приводят эти камни. Прийдя в ужас от увиденного, он решил скрыть их от глаз простых смертных."
+			]
+			hide_text_until_complete: true
+			icon: "enigmaticlegacy:blazing_core"
+			id: "0DAA552D2F27DAC1"
+			rewards: [
+				{
+					id: "4D4F6463B7A1E116"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "49816713DD4AF6C5"
+					item: "enigmaticlegacy:escape_scroll"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "35ED845D164467D2"
+					item: "enigmaticlegacy:etherium_ore"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Получить 6 камней стихий"
+			tasks: [
+				{
+					id: "51169860776782CF"
+					item: "enigmaticlegacy:blazing_core"
+					type: "item"
+				}
+				{
+					id: "26FB19F789E039CE"
+					item: "enigmaticlegacy:golem_heart"
+					type: "item"
+				}
+				{
+					id: "35DA2DF38A243CA4"
+					item: "enigmaticlegacy:eye_of_nebula"
+					type: "item"
+				}
+				{
+					id: "19FF9C8031B12D2B"
+					item: "enigmaticlegacy:angel_blessing"
+					type: "item"
+				}
+				{
+					id: "6E078ED9EF603580"
+					item: "enigmaticlegacy:ocean_stone"
+					type: "item"
+				}
+				{
+					id: "254063D8D0FB2EDD"
+					item: "enigmaticlegacy:void_pearl"
+					type: "item"
+				}
+			]
+			title: "Великая битва"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DAA552D2F27DAC1"]
+			description: ["Считается, что создание &6Сердца космоса&r предвещает потрясения и смуту. Когда этот предмет появляется в мире, где-то рождаются новые империи, гибнут древние цивилизации...и даже &7нечто&r обращает свой взгляд на создателя. На что способен этот артефакт...стоит только догадываться."]
+			hide_until_deps_complete: true
+			id: "7225E98132481B29"
+			rewards: [
+				{
+					id: "20CECB2B3579B40A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 5
+					id: "7DEB261003A58238"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 4
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "6ED151CBEE954591"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:earth_heart"
+						tag: { }
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать 2 сердца космоса"
+			tasks: [{
+				count: 2L
+				id: "5B3DC01958AD9D82"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:cosmic_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Сердце мироздания"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7225E98132481B29"]
+			description: [
+				"Никто не знает кем и когда был создан &6Неевклидов куб&r. Не многие способны обуздать силу этого камня. Легенды гласят, что куб появился еще до начала великой битвы. Возможно, его создателем является сам &6Архитектор&r, но многие тайны скрыты от глаз простого смертного."
+				""
+				"&4Лишь тот, кто Семью проклятиями обременен, сможет обуздать истинное происхождение Неевклидова куба.&r"
+			]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			id: "0F5BD99C969855B9"
+			rewards: [
+				{
+					id: "7050ADA2820B5753"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "26848FBCD96FC764"
+					item: "minecraft:netherite_ingot"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "3F1C7B5E98F4EC1F"
+					item: "skilltree:wisdom_scroll"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "6CD902AC1107F127"
+					item: "ancient_forgemastery:remnant_artifact"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Создать Неевклидов куб"
+			tasks: [{
+				id: "3185BA0A1EBABA29"
+				item: "enigmaticlegacy:the_cube"
+				title: "Создать Неевклидов куб"
+				type: "item"
+			}]
+			title: "В шаге от бессмертия"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["282E5C2CA3032EB0"]
+			description: [
+				"Древние доспехи, что лежат в аду, хранят в себе души погибших рыцарей. Подверженные &6магией призыва&r, они пробуждаются, когда их кто-то побеспокоит."
+				""
+				"История этих рыцарей берет свое начало после Великой битвы. &7Пиглины&r, которым пришлось покинуть верхний мир, были гонимы &7разбойниками&r. Когда портал был закрыт, рыцари остались в другом измерении до конца своих дней. Поверженные &7пиглинами&r, оставили после себя &7груду доспехов&r, что были наделены &7магией призыва&r."
+			]
+			hide_until_deps_complete: true
+			id: "27B9DC7A2A3B1985"
+			rewards: [
+				{
+					id: "18C1ECAAF3D2C45E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4FE4C17441A5B6AB"
+					item: "irons_spellbooks:blank_rune"
+					type: "item"
+				}
+			]
+			subtitle: "Получить пепельную эссенцию"
+			tasks: [{
+				count: 3L
+				id: "0175FAA63A25AB90"
+				item: "irons_spellbooks:cinder_essence"
+				type: "item"
+			}]
+			title: "Пепел адского рыцаря"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27B9DC7A2A3B1985"]
+			description: [
+				"Занятие алхимией открывает новые возможности по улучшению и созданию уникальных &7чернил&r."
+				""
+				"&o&7Чтобы начать пользоваться алхимическим котлом, необходимо разместить костер под котлом и наполнить его водой. После чего используя чернила и различные слитки, можно повысить редкость этих чернил.&r"
+			]
+			hide_until_deps_complete: true
+			id: "484580B85467AFCC"
+			rewards: [
+				{
+					id: "2740F17AB9265C0B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "383A134E1BDBC84E"
+					item: "irons_spellbooks:silver_ring"
+					type: "item"
+				}
+				{
+					id: "1F06703B7DEB337F"
+					item: "minecraft:golden_carrot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать алхимический котел"
+			tasks: [{
+				id: "13A4A9D22B90E007"
+				item: "irons_spellbooks:alchemist_cauldron"
+				title: "Создать алхимический котел"
+				type: "item"
+			}]
+			title: "Безумный химик"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5530EB287353F74E"]
+			description: ["&6Пустой свиток&r является важной составляющей при создании &7магических свитков&r. Получив его, можно открыть для себя много нового и узнать больше о &6Свитке вечной мудрости&r."]
+			id: "6DB51984B424D33C"
+			rewards: [
+				{
+					id: "66E52690F54F0203"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0325A84601EA3F6B"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Создать пустой свиток"
+			tasks: [{
+				id: "04008771DFE5ACF2"
+				item: "enigmaticlegacy:thicc_scroll"
+				title: "Создать пустой свиток"
+				type: "item"
+			}]
+			title: "Новые знания"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DB51984B424D33C"]
+			description: ["&6Знания и опыт&r - это важный ресурс каждого, кто к чему-то стремится. Грамотное использование &6Свитка вечной мудрости&r позволяет всегда иметь немного опыта без страха его потерять. Кем был тот гениальный маг, что смог создать столь уникальный свиток, никто не знает."]
+			hide_until_deps_complete: true
+			id: "41AAB4492B06A360"
+			rewards: [
+				{
+					id: "099AAA6759973394"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "12C92CA495A3BF23"
+					item: "enigmaticlegacy:enchantment_transposer"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1BA34CBFA09A37EB"
+					item: "minecraft:lapis_lazuli"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать свиток вечной мудрости"
+			tasks: [{
+				id: "1BDC2BC12911ECA1"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:xp_scroll"
+					tag: { }
+				}
+				title: "Создать свиток вечной мудрости"
+				type: "item"
+			}]
+			title: "Мудрость веков"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41AAB4492B06A360"]
+			description: ["Величайшая награда &7древнего Божества&r - это созданный им &7свиток&r, что дарует своему обладателю способность к полету. Лишь тот, кто готов пожертвовать &6камнем стихий&r, сможет обрести &6Дар небес&r."]
+			hide_until_deps_complete: true
+			id: "410FF5317D2FC490"
+			rewards: [
+				{
+					id: "70A169DCE096713A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "761104E95F9F18B7"
+					item: "skilltree:amnesia_scroll"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать дар небес"
+			tasks: [{
+				id: "7E4392B57E37DDD3"
+				item: "enigmaticlegacy:heaven_scroll"
+				title: "Создать дар небес"
+				type: "item"
+			}]
+			title: "Божественный дар"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["410FF5317D2FC490"]
+			description: [
+				"&6Благословение творца&r - это высшая мера совершенства, уступающая лишь &7бессмертию&r. Если кому-либо удастся создать этот свиток, тот познает множество тайн, а вознесшийся обретет способность к безграничным полетам, но ценой своего опыта."
+				""
+				"Первая тайна доступная тому, кто на пути создания &6Благословения творца&r - это знание о &6Неевклидовом кубе&r. Что бы его создать необходимо собрать все &76 камней стихий&r, &72 сердца космоса&r и &7обсидиан&r. Разместив все необходимые предметы на сетке крафта, создастся &6Неевклидов куб&r."
+				""
+				"&o&71. Сердце голема 2. Сердце космоса 3. Раскаленное ядро"
+				"&o&74. Ангельское благословение 5. Обсидиан 6. Око туманности"
+				"&o&77. Воля океана 8. Сердце космоса 9. Жемчуг бездны&r"
+			]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			id: "2CFF8941FD56466E"
+			rewards: [
+				{
+					id: "415342D9B412E23A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 3
+					id: "4EEFDE2F1EA1E418"
+					item: "enigmaticlegacy:astral_dust"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "557AF0C8C0F35B63"
+					item: "irons_spellbooks:protection_upgrade_orb"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать благословение творца"
+			tasks: [{
+				id: "6A0A61D9AF9A7A6E"
+				item: "enigmaticlegacy:fabulous_scroll"
+				title: "Создать благословение творца"
+				type: "item"
+			}]
+			title: "Благосклонность Архитектора"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DB51984B424D33C"]
+			description: [
+				"Тот, кто когда-либо пользовался &6эфириумом&r, не до конца понимал, существует ли тот материал который у него в руках или это всего лишь эфимерная иллюзия. Предмет, обладающий невероятной прочностью превосходит даже незерит."
+				""
+				"Когда Фарландер вернулся из &6Края&r, ему удалось взять с собой &7эфириумную руду&r, которую он смог переплавить в слиток. Изучив свойства этого материала, он пришел к выводу, что это самый прочный материал Нового мира. Благодаря его магическим свойствам, инструменты из этого металла обладают повышенным уроном и эфективностью."
+			]
+			hide_until_deps_complete: true
+			id: "4DDB19866A5E64FA"
+			rewards: [
+				{
+					id: "4F2C0CA92CC3EBAE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "187ABE48E2C3DD8F"
+					item: "skilltree:wisdom_scroll"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "5F00DF4DDB7A152C"
+					item: "enigmaticlegacy:astral_dust"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Получить эфириумный слиток"
+			tasks: [{
+				count: 3L
+				id: "611C4718DB2A7AB5"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			title: "Эфимерный материал"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4DDB19866A5E64FA"]
+			description: ["Простые, но в тоже время невероятно эффективные &7инструменты&r помогают как при добычи любых существующих блоков, так и в бою. Обладая наивысшим показателем урона и прочностью - эти предметы становятся незаменимыми инструментами в жизни любого исследователя. Кто является создателем &6эфириумных&r инструментов остается только догадываться. Исследователь &6Края&r - Фарландер считает, что их создала древняя цивилизация, что поселилась в &6Энде&r за долго до появления первого человека."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:etherium_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "17FE27409B031C2D"
+			rewards: [
+				{
+					id: "49C11EB05E685AF5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "79B1221A02FCE2F4"
+					item: "minecraft:enchanted_golden_apple"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 5
+					id: "480466BE82B68D36"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 4
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать эфириумные инструменты"
+			tasks: [
+				{
+					id: "3F054AC92FA89C2E"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58BC25838F24CEE9"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "190F13716A950FA4"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E8EF5DDE85A25AC"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EE9FC3FDB0F4E05"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_scythe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Эфимерный инструмент"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17FE27409B031C2D"]
+			description: ["Классические инструменты из эфириума самые лучшие в этом мире, но они не являются пределом того, что можно выковать из этого металла. Объединив &7три инструмента&r и &6астральную пыль&r вы получите нечто уникальное и универсальное, что обладает повышенной прочностью и большими возможностями. Обладая &6Звездным крушителем&r можно с легкостью добывать любые виды блоков."]
+			hide_until_deps_complete: true
+			id: "6BEFEB80DA4E34E0"
+			rewards: [
+				{
+					id: "085858B80B3A952F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "40AEC652E386171B"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:void_stone"
+						tag: { }
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "21272804D5CB0BE4"
+					item: "irons_spellbooks:blank_rune"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать звездный крушитель"
+			tasks: [{
+				id: "6E2371E2AF99C20F"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:astral_breaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Молот создателя"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5530EB287353F74E"]
+			description: ["&6Заклинатели&r - одни из первых магов, что начали изучать магию. Одержимые властью и стремлением стать бессмертными они выбрали магию крови и призыва. Их целью являются &7камни стихий&r, ведь именно благодаря им можно приблизиться к бессмертию. Наша задача добраться до них прежде, чем они попадут не в те руки, потому что все понимают, какое зло тогда обрушится на Новый мир."]
+			id: "7ED5D366C7A51478"
+			rewards: [
+				{
+					id: "5A5A7FBF681BF2F3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A5864361BF39E20"
+					item: "irons_spellbooks:magic_cloth"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3209F17EA52C65CC"
+					item: "minecraft:golden_carrot"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Получить эссенцию волшебства"
+			tasks: [{
+				count: 7L
+				id: "403636EEC0C45D3F"
+				item: "irons_spellbooks:arcane_essence"
+				type: "item"
+			}]
+			title: "Выбор пути"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7ED5D366C7A51478"]
+			description: ["Каждый начинающий маг проходил через создание &7простого одеяния чародея&r, что повышает его боевые навыки. Развивая и совершенствуя свою магию, необходимо выбрать для себя направление и оттачивать свое мастерство полагаясь на одну стихию."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:wizard_chestplate"
+				tag: {
+					Damage: 0
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "552B9F16225B886F"
+			rewards: [
+				{
+					id: "026C4EDEBC5CDD38"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2724584042682D60"
+					item: "irons_spellbooks:blank_rune"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "396637D44E6E1C7F"
+					item: "minecraft:raw_iron"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать комплект брони чародея"
+			tasks: [
+				{
+					id: "4C756EAECB2C45CE"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wizard_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "621BEF8EAC858054"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wizard_chestplate"
+						tag: {
+							Damage: 0
+							"irons_spellbooks:spell_container": {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "790D9FDC7648B4FF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wizard_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7469CA372903D65E"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:wizard_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня ученика"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["552B9F16225B886F"]
+			description: [
+				"Когда &7пиромант&r был еще совсем молод, он обучался магии у &7пиглина фармацевта&r. Узнав о том, что у пиглина есть Раскаленное ядро, ученик поддался соблазну. Камень стихий обладал невероятной мощью, и пиромант, не слушая своего наставника решил овладеть его силой."
+				""
+				"Пиглин с сожалением смотрел, как первородный огонь сжигает неподготовленного ученика. Так появился &6Пиромант&r, которого все знают как величайшего мага огня. Из за обгоревшего тела ему приходится носить маску скрывающее его лицо. Вот уже много десятилетий, маг живет в разрушенной башне и практикует свое мастерство."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:pyromancer_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "78FFF2F88170ECE8"
+			rewards: [
+				{
+					id: "11E6DFF31684839A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6B417082492F4D89"
+					item: "irons_spellbooks:fire_rune"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать комплект брони пироманта"
+			tasks: [
+				{
+					id: "11884A8148F956DA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10ED0A63226F8675"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0103BBAC06CC344F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B59EAE4CA17622C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:pyromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Огонь"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["552B9F16225B886F"]
+			description: ["&6Магия молнии&r почти никому неизвестна. Кто когда-либо начинал заниматься ей, погибли. Это одна из самых сложных и непредсказуемых магий. Не каждый способен ей овладеть."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:electromancer_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "251545BF8C116972"
+			rewards: [
+				{
+					id: "45205C8B05A71A50"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3B9C16C44F9CF086"
+					item: "irons_spellbooks:lightning_rune"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать комплект брони электроманта"
+			tasks: [
+				{
+					id: "52502AC50B2D3621"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3ADF81FF1BC0C8D7"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5742A341F64F9D8D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "436DF733E838B08C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:electromancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Молния"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["552B9F16225B886F"]
+			description: ["Лишь опытные &6Элементалисты&r, по праву могут считаться &6Верховными магами&r. Получив достаточно знаний и овладев большим количеством заклинаний, опытный маг может начать комбинировать свои заклинания, чтобы добиться наилучшего результата при ведении боя."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:netherite_mage_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "7767315F196F3E6D"
+			rewards: [
+				{
+					id: "72993A8542D0D954"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4AED97C8CAF09E25"
+					item: "irons_spellbooks:blank_rune"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "0B58074A9557940A"
+					item: "irons_spellbooks:mithril_scrap"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "71A6B40C13E1DED3"
+					item: "forbidden_arcanus:aureal_bottle"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать комплект брони боевого мага"
+			tasks: [
+				{
+					id: "759B8555530FA030"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09E3736DD25F7BD6"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2064B91BD3EA0072"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "649F98800F22E919"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:netherite_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня верховного мага"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["552B9F16225B886F"]
+			description: ["&6Заклинателей&r когда-то называли &6Верховными вызывателями&r. Они заставляли мертвых служить себе, призывая их из потустороннего мира. Орды &7досаждателей&r по их приказу разрушали целые города, а покоренные земли доставались их &7королю&r. &6Магия призыва&r существует уже очень давно. Именно заклинатели положили начало появления этой темной и таинственной магии."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:archevoker_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "0B9672343B37D3A3"
+			rewards: [
+				{
+					id: "35A8F7B7746D05BC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7AF160555CD4AC96"
+					item: "irons_spellbooks:evocation_rune"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать комплект брони мастера-призывателя"
+			tasks: [
+				{
+					id: "0A2BA955106C9D1A"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "140B8D1B8447657C"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1241995F4C800C4F"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "133AF065216EDF54"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:archevoker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Призыв"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["552B9F16225B886F"]
+			description: ["Когда-то давно в эпоху правления жестокого правителя, заклинатели выбрали &6магию крови&r. Беспощадный король заставлял их исследовать это направление в магии, ради продления своей жизни. Так зародилась империя, построенная на крови и плоти поверженных жертв. Когда король умер, вместе с ним погибла и &7магия&r. В настоящее время заклинатели обладают лишь &6магией призыва&r."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:cultist_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "169FA62CCF258DAC"
+			rewards: [
+				{
+					id: "4EBA2F0A3F4104C6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "26839E7BE4876A48"
+					item: "irons_spellbooks:blood_rune"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать комплект брони культиста"
+			tasks: [
+				{
+					id: "5B068CE99E055EE3"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "206EFBC1CA74B202"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F9E94395E6161C9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B7B47A35F3D8B23"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cultist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Кровь"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["552B9F16225B886F"]
+			description: ["Созданная безжалостными холодами и неумолимыми ветрами, &6магия льда&r готова обрушить свои силы на любого, кто посмеет встать на этот путь. &6Криомант&r, что живет на севере, был первым кто практиковал эту магию, он же стал первым кто достиг наивысшей степени познания в &7магии льда&r. Благодаря своим умениям маг замедлил процесс старения своего организма, за счет чего он живет уже не одну сотню лет, продолжая совершенствовать свои навыки."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:cryomancer_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "0DBFD5A51A5D954E"
+			rewards: [
+				{
+					id: "1D707C8E80E9B5BA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "56B2EFFC542F6C86"
+					item: "irons_spellbooks:ice_rune"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать комплект брони криоманта"
+			tasks: [
+				{
+					id: "5CD653B2DC445785"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E356EA0F6CA9558"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D1CC723BC0F7CCE"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CC6916D0026F6B1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:cryomancer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Лёд"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["552B9F16225B886F"]
+			description: ["Прибывая долгое время в измерении &7Энда&r он открыл свой разум Вселенной. Ему было суждено постичь силу &7магии Края&r. Среди руин этой таинственной земли он нашел &6Око туманности&r - и взглянул на него. Это полностью изменило его жизнь, что открыло для него нечто новое. &7Магия Края&r была подвластна немногим, лишь избранные получали к ней доступ. Приняв свою судьбу, неизвестный был обречен на вечные скитания в &7Энде&r, в надежде найти способ выбраться из этого измерения за счет своей магии."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:shadowwalker_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "0632DCB38E99586A"
+			rewards: [
+				{
+					id: "792AF65D927CEE97"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "71FBB79E13898DD6"
+					item: "irons_spellbooks:ender_rune"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать комплект брони тенеходца"
+			tasks: [
+				{
+					id: "6B1FE2F27344E8B9"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1462AF6C33945B78"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E16C5685999E427"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4596647B77D09161"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:shadowwalker_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Край"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["552B9F16225B886F"]
+			description: ["Будучи отрекшимися от крестьян, ведьмы выбрали свой путь. Создавая все новые и более смертоносные зелья, им удалось раскрыть в себе потенциал к &6магии природы&r. Не желая следовать этому пути, ведьмы обучили некоторых пиглинов этой &7магии&r и дали им возможность находится в верхнем мире без страха быть зараженными. Когда разбойники узнали об этом, они взяли к себе под контроль многих ведьм, лишив их самого главного - свободы."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:plagued_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "0445FD02FCFC384E"
+			rewards: [
+				{
+					id: "789B88A264D8D342"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "15E572002905A99A"
+					item: "irons_spellbooks:nature_rune"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать комплект чумной брони"
+			tasks: [
+				{
+					id: "63F57D4F726D791D"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "50AA50CF36BAD7FF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38A1A55B203FBDDA"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B6DCFCB6F7284C1"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:plagued_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Природа"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["552B9F16225B886F"]
+			description: ["В тяжелые времена, когда была серьезная угроза со стороны разбойников, многие крестьяне занимались &6магией святости&r для защиты своего народа. Объединяя свои силы, им удавалось держать оборону и защищать свои владения. После падения империи жестокого короля, &7магия святости&r стала забытой и лишь не многие продолжают ее практиковать."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "irons_spellbooks:priest_chestplate"
+				tag: {
+					Damage: 0
+					ISB_Spells: {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+			}
+			id: "4028F805DEB4A42F"
+			rewards: [
+				{
+					id: "5BDB36A014A62927"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1272E3797F60F54C"
+					item: "irons_spellbooks:holy_rune"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать комплект брони жреца"
+			tasks: [
+				{
+					id: "08E8D0BF4BB64A06"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "130B906CCF5A8395"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_chestplate"
+						tag: {
+							Damage: 0
+							ISB_Spells: {
+								data: [ ]
+								maxSpells: 1
+								mustEquip: 1b
+								spellWheel: 1b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2816F2E4F6C88AEF"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7159E86F754A22F4"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:priest_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Святость"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6DB51984B424D33C"]
+			description: ["&3Мифриловую&r руду необходимо искать ниже &6уровня -38&r, в защищенном от воздуха месте. Для добычи потребуется незеритовая кирка."]
+			hide_until_deps_complete: true
+			id: "45CF3441D8A5AFE0"
+			rewards: [
+				{
+					id: "54A8E7F11F4D09AB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1BB678342AF7FE86"
+					item: "irons_spellbooks:blank_rune"
+					type: "item"
+				}
+			]
+			subtitle: "Получить мифриловый слиток"
+			tasks: [{
+				id: "5C6C83D2347C84FF"
+				item: "irons_spellbooks:mithril_ingot"
+				type: "item"
+			}]
+			title: "Таинственный металл"
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	title: "Магия"
+}

@@ -1,0 +1,19 @@
+{
+    "schemaVersion": 1,
+    "id": "mr_upgraded_mobs",
+    "version": "1.3.4",
+    "name": "Upgraded Mobs",
+    "description": "Adds new attacks and abilities to a variety of mobs.",
+    "authors": [
+        "badooga"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/datapack/upgraded-mobs"
+    },
+    "license": "LicenseRef-Unknown",
+    "icon": "upgraded-mobs_pack.png",
+    "environment": "*",
+    "depends": {
+        "fabric-resource-loader-v0": "*"
+    }
+}

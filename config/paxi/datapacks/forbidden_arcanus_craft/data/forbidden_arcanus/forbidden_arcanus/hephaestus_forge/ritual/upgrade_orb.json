@@ -1,0 +1,35 @@
+{
+  "additional_requirements": {
+    "forge_tier": 2
+  },
+  "essences": {
+    "aureal": 600,
+    "blood": 900,
+    "experience": 40,
+    "souls": 6
+  },
+  "inputs": [
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "irons_spellbooks:cinder_essence"
+      }
+    },
+    {
+      "amount": 4,
+      "ingredient": {
+        "item": "irons_spellbooks:arcane_ingot"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "irons_spellbooks:mithril_scrap"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "irons_spellbooks:upgrade_orb"
+    }
+  }
+}

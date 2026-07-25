@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:inventor_33",
+  "bonuses": [
+    {
+      "type": "skilltree:mechanical_messenger_cooldown"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:inventor_30"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Модифицированная броня",
+  "titleColor": "FFAA00",
+  "positionX": -124.703,
+  "positionY": 72.329666,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Перезарядка умения брони Механического вестника уменьшается на 1 секунду"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "при получении урона"
+    }
+  ]
+}

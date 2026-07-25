@@ -1,0 +1,41 @@
+{
+  "additional_requirements": {
+    "forge_tier": 2
+  },
+  "essences": {
+    "aureal": 600,
+    "blood": 500,
+    "experience": 30,
+    "souls": 9
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:xpetrified_orb"
+      }
+    },
+    {
+      "amount": 6,
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "irons_spellbooks:blank_rune"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "irons_spellbooks:ender_rune"
+    }
+  }
+}

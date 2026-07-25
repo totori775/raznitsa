@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:archmage_60",
+  "bonuses": [
+    {
+      "type": "skilltree:effect_duration",
+      "effect_type": "harmful",
+      "duration": 0.3,
+      "target": "enemy"
+    },
+    {
+      "type": "skilltree:can_poison_anyone"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archmage_44"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_offensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Тоник времени II",
+  "titleColor": "FFAA00",
+  "positionX": 93.526,
+  "positionY": -89.991,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30% к длительности накладываемых негативных эффектов на врагов"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Ваши яды действуют на любых существ"
+    }
+  ]
+}

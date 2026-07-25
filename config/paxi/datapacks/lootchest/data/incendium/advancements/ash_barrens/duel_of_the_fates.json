@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "crossbow"
+    },
+    "title": {
+      "translate":"incendium.advancement.ash_barrens.duel_of_the_fates.title","fallback":"Поединок судеб"
+    },
+    "description": {
+      "translate":"incendium.advancement.ash_barrens.duel_of_the_fates.desc","fallback":"Дайте Часовому попробовать его собственное лекарство"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "incendium:ash_barrens/enter_castle",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:bee_nest_destroyed",
+      "conditions": {
+        "block": "ancient_debris"
+      }
+    }
+  }
+}

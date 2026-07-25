@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:cook_9",
+  "bonuses": [
+    {
+      "type": "skilltree:block_break_speed",
+      "multiplier": 0.05,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "pickaxe",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:cook_6"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_life_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Усовершенствование кирки",
+  "titleColor": "E3D4D1",
+  "positionX": -31.175764,
+  "positionY": -54.001,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% к скорости добычи блоков, если у вас в руке Кирка"
+    }
+  ]
+}

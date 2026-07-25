@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:alchemist_57",
+  "bonuses": [
+    {
+      "type": "skilltree:curse_negation_soul",
+      "curseId": "soul"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:alchemist_54"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_healing_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_1.png",
+  "title": "Целостность души",
+  "titleColor": "FF5555",
+  "positionX": -124.703,
+  "positionY": -72.004,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "skill_bonus.curse_negation.soul"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "jigsaw",
+      "nbt": "{Enchantments:[]}"
+    },
+    "title": {
+      "translate":"incendium.advancement.infernal_dunes.inferno.kill.title","fallback":"Превратившийся в пепел"
+    },
+    "description": {
+      "translate":"incendium.advancement.infernal_dunes.inferno.kill.desc","fallback":"Переживите последнее заклинание Ада и получите свою награду"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:infernal_dunes/inferno/run",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

@@ -1,0 +1,1130 @@
+{
+	autofocus_id: "1536B4F8F8012307"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0BF077236DF33E83"
+	group: "72A714D38A5675C8"
+	icon: "enigmaticlegacy:cursed_ring"
+	id: "0BF077236DF33E83"
+	images: [
+		{
+			height: 2.85d
+			image: "ftbquests:textures/logo_orig.png"
+			rotation: 0.0d
+			width: 5.65d
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			height: 7.2d
+			image: "ftbquests:textures/background_quest.png"
+			rotation: 0.0d
+			width: 7.2d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Только раз, Избранный получает шанс встать на &6Путь бессмертия&r."
+				""
+				"Потеряв &6Кольцо Семи проклятий&r, он больше никогда не сможет встать на этот путь. Кто все же решится надеть это кольцо, тот откроет для себя множетсво сильных, ни с чем не сравнимых артефактов и предметов, но есть у этого и обратная сторона. Носитель проклятого и необузданного кольца превращает свою жизнь в сущий ад."
+			]
+			id: "1536B4F8F8012307"
+			rewards: [
+				{
+					id: "73E69A40C552B195"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "3E883A5370043830"
+					item: "minecraft:raw_iron"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "743202149CBB1983"
+					item: "minecraft:golden_carrot"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Надеть Кольцо Семи проклятий"
+			tasks: [{
+				advancement: "enigmaticlegacy:main/cursed_ring"
+				criterion: ""
+				icon: "enigmaticlegacy:cursed_ring"
+				id: "3347175E00D5A223"
+				title: "Надеть Кольцо Семи проклятий"
+				type: "advancement"
+			}]
+			title: "Тернистый путь"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"067837717C2FBD7F"
+				"47BC6BA9F765F3FE"
+				"5F0BE59D26763558"
+			]
+			description: [
+				"Неясно, был ли &6Древний страж&r первым порождением морских глубин, появившийся в Новом мире, но одно известно точно - никто не сравнится с его мощью и силой. Взгляд этого монстра пронзает до глубины души."
+				""
+				"Пока его сородичи ищут что поесть, древний страж наблюдает и изучает каждого, кто вторгается в его владения. Убийство столь сильного монстра дает возможность получить его сердце. Плата за использование &6Сердца стража&r очень велика, ему требуется энергия &6Кольца Семи проклятий&r."
+			]
+			hide_until_deps_complete: true
+			id: "2C451F75BC9773CD"
+			rewards: [
+				{
+					id: "2CB6AF8D7B67FCAE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "77755809DD8EAF88"
+					item: "enigmaticlegacy:twisted_heart"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "7F8831207E391DF8"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:corrupted_tome"
+						tag: { }
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Убить древнего стража и получить его сердце"
+			tasks: [{
+				id: "486F84789E73A5BE"
+				item: "enigmaticlegacy:guardian_heart"
+				type: "item"
+			}]
+			title: "Живое сердце"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1536B4F8F8012307"]
+			description: [
+				"Темная магия запечатанная в &6темном свитке&r жаждет освобождения."
+				"Древнее зло, копившееся веками старается сбросить оковы. Найдя этот свиток, владельцу стоит преобразовать его во что-то другое. Те, кто когда-либо находили эти свитки были поглощены этой темной энергией. Некоторые считают что это злобная магия Увядания, но так ли это на самом деле?"
+				""
+				"&o&7Ходят слухи, что пиглины прячут эти свитки в своих бастионах...думаю стоит наведаться к ним и разузнать все&r&r"
+			]
+			hide_until_deps_complete: true
+			icon: "enigmaticlegacy:darkest_scroll"
+			id: "7E837CCFF9F449A5"
+			rewards: [
+				{
+					id: "234E1E87104B8F9E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "750EC0364B80D702"
+					item: "minecraft:golden_apple"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "1F52AE83C618D83C"
+					item: "enigmaticlegacy:evil_essence"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Получить темнейший свиток"
+			tasks: [{
+				id: "45415C79CF2C0239"
+				item: "enigmaticlegacy:darkest_scroll"
+				title: "Получить темнейший свиток"
+				type: "item"
+			}]
+			title: "Проклятый свиток"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1536B4F8F8012307"]
+			description: [
+				"Энергия сущности, вселяющая страх даже в самых опытных воинов, течет по его жилам. Доступ к &6Нечестивой сущности&r есть лишь у тех, кто принял &7семь проклятий&r. &6Иссушитель&r - это очень опасное чудовище, которое было проклято и теперь находится в заточении адских глубин."
+				"Во время великой битвы, души погибших досаждателей отправлялись в ад за свои преступления. Так образовался песок душ, что таит в себе нечестивую энергию и лишь немногие способны завладеть ей."
+				""
+				"&o&7После удачной победы над иссушителем, необходимо создать Разлом. Эта книга дарует знания недоступные простым смертным.&r&r"
+			]
+			hide_until_deps_complete: true
+			id: "5B3D8B3ACF87F603"
+			rewards: [
+				{
+					id: "236766F738883965"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6233E5CEF17C8843"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6CCC2208CD361571"
+					item: "dungeonsdelight:stained_scrap"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Получить нечестивую сущность"
+			tasks: [{
+				count: 2L
+				id: "5EAB40B1363C6766"
+				item: "enigmaticlegacy:evil_essence"
+				title: "Получить нечестивую сущность"
+				type: "item"
+			}]
+			title: "Темная энергия"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1536B4F8F8012307"]
+			description: [
+				"В древние времена, когда земля была пуста и безжизненна, во многих уголках Нового мира появлялись первые артефакты, что служили зарождению жизни. &6Сердце земли&r стало одним из них. Силы этого предмета было достаточно, чтобы вдохнуть жизнь в еще мертвую планету. Но спустя тысячилетия эволюции и развития жизни, некоторые народы осквернили то, что даровало когда-то им жизнь."
+				"Так появилось &6Искаженное сердце&r."
+			]
+			hide_until_deps_complete: true
+			id: "479BB1A968D6769A"
+			rewards: [
+				{
+					id: "1C62ACA085D573BB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "34A146B674913225"
+					item: "enigmaticlegacy:mending_mixture"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1709012E270C058E"
+					item: "mynethersdelight:deviled_egg"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать искаженное сердце"
+			tasks: [{
+				id: "6095AD244EEAD6FE"
+				item: "enigmaticlegacy:twisted_heart"
+				title: "Создать искаженное сердце"
+				type: "item"
+			}]
+			title: "Проклятое сердце"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5B3D8B3ACF87F603"]
+			description: [
+				"Таинственный маг, что создал &6Свиток Вечной мудрости&r, смог создать нечто уникальное. &6Свиток Проклятия невежества&r обладает загадочной силой, которая подвластна лишь тем кто носит Кольцо Семи проклятий."
+				"Обладая таким могущественным &7свитком&r, владелец становится поистине непобедимым. Главное нужно помнить, что плата за использование этого артефакта - это ваш &7опыт&r и если обладатель свитка погибнет, он потеряет все накопленные &7знания&r."
+			]
+			hide_until_deps_complete: true
+			id: "49359A1B1580DB88"
+			rewards: [
+				{
+					id: "4691F1C7E1060B63"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1DC7967ABBEAB16B"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:earthquake"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "30235818367FAF6C"
+					item: "irons_spellbooks:nature_upgrade_orb"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать свиток проклятия невежества"
+			tasks: [{
+				id: "0567AE63A81227C4"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:cursed_xp_scroll"
+					tag: { }
+				}
+				title: "Создать свиток проклятия невежества"
+				type: "item"
+			}]
+			title: "Проклятие незнания"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E837CCFF9F449A5"]
+			description: ["&6Темнейший свиток&r не утратил свою истинную природу, а наоборот обрел ее в новом виде, в еще более зловещей и пугающей форме. Обладатель &6Свитка тысячи проклятий&r будет становиться сильнее, но какой ценой? Вся его жизнь превратится в одно сплошное проклятие и от этого нельзя будет спастись. Кто смог создать этот &7проклятый свиток&r лучше не знать, мало ли какую беду можно на себя навлечь..."]
+			hide_until_deps_complete: true
+			id: "1456A30372934485"
+			rewards: [
+				{
+					id: "0CF3D034F8DC9624"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A214FED4E53A471"
+					item: "irons_spellbooks:ancient_knowledge_fragment"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1EF8A98D7FABFE9F"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать свиток тысячи проклятий"
+			tasks: [{
+				id: "6D1EE090E3A754E0"
+				item: "enigmaticlegacy:cursed_scroll"
+				title: "Создать свиток тысячи проклятий"
+				type: "item"
+			}]
+			title: "Проклятый"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E837CCFF9F449A5"]
+			description: ["Получение свитка - &6Пакт безграничной алчности&r позволяет заключить договор с &7пиглинами&r. Получив их доверие, можно получать в два раза больше предметов за ту же цену. Благодаря этому уникальному &7свитку&r, многие последователи &7тайного ордена&r получили несметные богатства и теперь, занимая высокие должности, они управляют народами."]
+			hide_until_deps_complete: true
+			id: "19A91ED78FD5D623"
+			rewards: [
+				{
+					id: "51D67E2D5B8EA331"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6563F775BFCB9549"
+					item: "minecraft:enchanted_golden_apple"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "13FC0213777174FF"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:tattered_tome"
+						tag: { }
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать пакт безграничной алчности"
+			tasks: [{
+				id: "6E090680474523F8"
+				item: "enigmaticlegacy:avarice_scroll"
+				title: "Создать пакт безграничной алчности"
+				type: "item"
+			}]
+			title: "Свиток жадности"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E837CCFF9F449A5"]
+			description: ["&6Пакт темной ночи&r - это лучший способ избавиться от худшего ночного кошмара в виде &7фантомов&r. Еще никому не удавалось создать столь уникальный артефакт, что способен уберечь своего владельца от ночного кошмара. Появляющиеся из пустоты, фантомы охотятся на любого кто долго не спал. Настоящие ли они, или это плод воображения жертвы. Этого никому неизвестно. Так же нельзя забывать, что свиток по-прежнему бесполезен против одноименного монстра &7Ночной кошмар&r, что бродит по ночам в поисках жертвы. Появляющийся во тьме, он призван уничтожить любого, кто осмелится выйти ночью на улицу."]
+			hide_until_deps_complete: true
+			id: "438A9E4AFC3157CC"
+			rewards: [
+				{
+					id: "77CAF6970AC38CAC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7B73561ADD4E509C"
+					item: "born_in_chaos_v1:nightmare_stalker_skull"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1A9DF42078C33131"
+					item: "born_in_chaos_v1:pieceofdarkmetal"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать пакт темной ночи"
+			tasks: [{
+				id: "1FEDEDC180B3EE1D"
+				item: "enigmaticaddons:night_scroll"
+				title: "Создать пакт темной ночи"
+				type: "item"
+			}]
+			title: "Ночной кошмар"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"438A9E4AFC3157CC"
+				"19A91ED78FD5D623"
+				"1456A30372934485"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Если верить словам &7адептов&r, то есть способ избавиться от &6Кольца Семи проклятий&r. Разрушение столь мощного кольца происходит не так гладко, как могут некоторые ожидать. Только пожертвовав частью своей &7души&r можно избавиться от &7проклятого кольца&r и обрести свободу."
+				"Служители тайного ордена создали &6Проклятый камень&r, что дарует освобождение."
+			]
+			hide_until_deps_complete: true
+			id: "03E8A4EC23D2CE2B"
+			rewards: [
+				{
+					id: "2EFEEA27CAF842E0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7C9BA0537BC709F7"
+					item: "enigmaticlegacy:evil_essence"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "42E0DFFEDBC9B4BE"
+					item: "skilltree:amnesia_scroll"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать проклятый камень"
+			tasks: [{
+				id: "6342401E4093E020"
+				item: "enigmaticlegacy:cursed_stone"
+				title: "Создать проклятый камень"
+				type: "item"
+			}]
+			title: "Искушение"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["49359A1B1580DB88"]
+			description: [
+				"Знания - это сила. &6Разлом&r тому хорошее подтверждение. Имея высокий урон, эта книга способна помочь своему владельцу в бою. Являясь улучшенной версией &7Откровения&r, она по-прежнему служит источником знаний. &6Нечестивая сущность&r &7Иссушителя&r исказила эту книгу, что привело к появлению новых знаний, ранее неведомых простым людям."
+				"&6Разлом&r - это не конечная форма книги, ее можно улучшить до &6Бесконечности&r, открыв для себя нечто новое и таинственное."
+			]
+			hide_until_deps_complete: true
+			id: "7FAE62E8D433B267"
+			rewards: [
+				{
+					id: "66560BBB0AB7D6F2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7FEA82F2A05127BA"
+					item: "minecraft:golden_apple"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "521962A907650E51"
+					item: "enigmaticlegacy:mending_mixture"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать разлом"
+			tasks: [{
+				id: "338145284EE5B5F8"
+				item: "enigmaticlegacy:the_twist"
+				title: "Создать разлом"
+				type: "item"
+			}]
+			title: "Нечестивое откровение"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0BF4F841E59D7025"]
+			description: [
+				"Когда-то давно, &7древним заклинателям&r удалось создать &7жемчуг&r, что черпает силу из &7Кольца&r. Возможно, по этой причине этот артефакт иногда зачаровывает предметы на проклятия."
+				""
+				"Открыв для себя новые знания и изучив старинные рукописи, можно понять, что &6Жемчуг заклинателя&r используется при создании &6Бесконечности&r. Эта книга была создана неизвестным, постичь суть которой, может лишь тот кто надев &6Кольцо Семи проклятий&r пожертвовал самым ценным ресурсом - временем."
+			]
+			hide_until_deps_complete: true
+			id: "228E4A693725D818"
+			rewards: [
+				{
+					id: "661DF7621FE749BD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "54AD02745683A693"
+					item: "enigmaticlegacy:astral_dust"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "4954D01739F2D662"
+					item: {
+						Count: 1
+						id: "enigmaticaddons:totem_of_malice"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать жемчуг заклинателя"
+			tasks: [{
+				id: "7F7BD15D2670D049"
+				item: "enigmaticlegacy:enchanter_pearl"
+				title: "Создать жемчуг заклинателя"
+				type: "item"
+			}]
+			title: "Драгоценная жемчужина"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B3D8B3ACF87F603"]
+			description: [
+				"Уникальный меч - &6Погибель Края&r, оставляющий после себя разрушения, был уничтонижен ради сохранения равновесия и баланса миров. Когда воины или исследователи попадали в измерение Энда, взяв с собой этот клинок, все сущности в страхе бежали в попытке спасти свою жизнь."
+				""
+				"Ни для кого не секрет, что те, кто носят &6Кольцо Семи проклятий&r обладают силой видеть то, чего не видят другие. Так, убив &6Дракона Края&r и пробыв с кольцом достаточное количество времени, можно извлечь &6Сердце бездны&r. Этот артефакт содержит в себе саму пустоту, которая так необходима на &7Бессмертном пути&r."
+			]
+			hide_until_deps_complete: true
+			id: "56F7FCEFA1FCF465"
+			rewards: [
+				{
+					id: "0D1792A438F836D8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "45D05B968EA2C304"
+					item: "irons_spellbooks:ender_upgrade_orb"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "5C970D64102F04C9"
+					item: "endermanoverhaul:enderman_tooth"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать погибель края"
+			tasks: [{
+				id: "66ADACF80C04C5D4"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ender_slayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Создать погибель края"
+				type: "item"
+			}]
+			title: "Клинок пустоты"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B3D8B3ACF87F603"]
+			description: [
+				"Благодаря силе &7Кольца&r можно извлекать проклятия из древних предметов, которые встречаются при исследовании мира, а так же из созданных вами предметов при ношении &6Жемчуга заклинателя&r. &6Том поглощенной злобы&r содержит в себе &7нечестивую сущность&r, что делает этот предмет поистине уникальным."
+				""
+				"Создание &6Жемчуга заклинателя&r является необходимым этапом на пути к бессмертию."
+			]
+			hide_until_deps_complete: true
+			id: "0BF4F841E59D7025"
+			rewards: [
+				{
+					id: "6311E89CF4B9FE66"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2DC1991D1C3909DA"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 4s
+							}]
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "106C7F127A1BED48"
+					item: "minecraft:experience_bottle"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать том поглощенной злобы"
+			tasks: [{
+				id: "53C9C2E5ACD1D6B2"
+				item: "enigmaticlegacy:curse_transposer"
+				title: "Создать том поглощенной злобы"
+				type: "item"
+			}]
+			title: "Проклятый том"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["56F7FCEFA1FCF465"]
+			description: [
+				"Ни для кого не секрет, что измерение &7Энда&r - это сплошная пустота, рожденная вместе с самой вселенной. &7Бездна&r так и манит к себе исследователей, что находятся в поисках необузданной силы."
+				""
+				"На протяжении многих тысячилетий, коренные обитатели &7Края&r жили спокойной жизнью впитывая энергию бездны. Спустя много лет &6Дракон Края&r очернил свое сердце превратив его в &6Сердце Бездны&r. После этого над миром нависла угроза, что &7бездна&r вырвется на свободу и уничтожит весь мир."
+			]
+			hide_until_deps_complete: true
+			id: "6B640BA9E99C95C1"
+			rewards: [
+				{
+					id: "7A3614EB59E410C2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E64954B73D03C3F"
+					item: "enigmaticlegacy:twisted_heart"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "73EA5BACB60F1708"
+					item: "skilltree:wisdom_scroll"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Получить сердце бездны"
+			tasks: [{
+				id: "54986257B60548BF"
+				item: "enigmaticlegacy:abyssal_heart"
+				title: "Получить сердце бездны"
+				type: "item"
+			}]
+			title: "Взгляд бездны"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6B640BA9E99C95C1"
+				"228E4A693725D818"
+				"7FAE62E8D433B267"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Книга, покрытая &7плотью&r и &7нечестивой энергией&r стала апофеозом для тех, кто давно идет к своей цели. Изучая страницы &6Бесконечности&r, можно с увереностью сказать, что это та самая книга, которая приносит боль и страдания тем, кто когда-то заставлял вас испытывать это."
+				"Получение столь величественного артефакта многого стоило. Не раз это заставляло испытать душевную боль. Но наконец эта &7книга&r по праву может стать вашей."
+				""
+				"Обретая &6Бесконечность&r, мы открываем новые возможности..."
+			]
+			hide_until_deps_complete: true
+			id: "2CB896F36FA16F8F"
+			rewards: [
+				{
+					id: "0D23D522D0E21BC6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "390958BE2C6C8585"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:ascension_amulet"
+						tag: { }
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "7755538EB4A38B9E"
+					item: {
+						Count: 1
+						id: "ancient_forgemastery:elixir_of_vitality"
+						tag: { }
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать Бесконечность"
+			tasks: [{
+				id: "50E5C05DB94CF33B"
+				item: "enigmaticlegacy:the_infinitum"
+				title: "Создать Бесконечность"
+				type: "item"
+			}]
+			title: "Вознесение"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6B640BA9E99C95C1"]
+			description: [
+				"Перед своей смертью, &7беспощадный правитель&r разбойников поручил &7темному ордену&r разработать новое живое оружие. Изначально эксперементы проводились на мертвецах, но на этот раз они попытались создать существо из сковородки...?"
+				"Почему была выбрана именно она? Возможно, те кто ее создавали были вынуждены использовать подручные средвства. Они создали оружие невероятной силы, способное поглощать все живое словно бездна."
+				""
+				"&6Необузданный голод&r - это воплощение всепоглощающей бездны и первобытной ярости в образе простой сковородки. Использование столь могущественного оружия может привести к неконтролируемым последствиям..."
+			]
+			hide_until_deps_complete: true
+			id: "61C01B15543B2B24"
+			rewards: [
+				{
+					id: "17250A9182FC691B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "10E2C205C29A2D68"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "farmersdelight:backstabbing"
+								lvl: 3s
+							}]
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "7BBEE2A11BA2D3E9"
+					item: "irons_spellbooks:blood_upgrade_orb"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Получить необузданный голод"
+			tasks: [{
+				id: "4B6713F50A8CFFEB"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Получить необузданный голод"
+				type: "item"
+			}]
+			title: "Голодная сковородка"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["479BB1A968D6769A"]
+			description: [
+				"Тайный &7орден&r, что существовал за долго до появления разбойников, был расформирован. Так считали многие, кто слышал когда-то о нем. На самом же деле орден всегда существовал."
+				""
+				"Чтобы управлять Новым миром, &7адепты&r столетиями строят планы и привлекают богатых и влиятельных людей. Образование столь таинственного и загадочного ордена не могло обойтись без создания сильных артефактов. &6Искаженное зеркало&r было первым предметом, которое создали адепты. Благодаря ему они могли быстро собираться для общих собраний с целью обсуждения важных событий."
+			]
+			hide_until_deps_complete: true
+			id: "5F0BE59D26763558"
+			rewards: [
+				{
+					id: "04AC7814A78ECEF1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "174AD60D619DA732"
+					item: "enigmaticlegacy:etherium_ore"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6F8F9DFD57C4DD9F"
+					item: "minecraft:golden_carrot"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать искаженное зеркало"
+			tasks: [{
+				id: "2D3EEB0C96C62F70"
+				item: "enigmaticlegacy:twisted_mirror"
+				title: "Создать искаженное зеркало"
+				type: "item"
+			}]
+			title: "Искаженная реальность"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["479BB1A968D6769A"]
+			description: [
+				"Существование &7ордена&r до сих пор остается в тени. Все кто смогли подчинить себе силу Кольца, вступили в тайную организацию, чтобы влиять на окружающий мир."
+				""
+				"По некоторым слухам &7адепты&r создали три могущественных артефакта, способные даровать неведомую силу своим обладателям. Одним из таких предметов является &6Эмблема окровавленной доблести&r. Этот амулет не имеет какие-то выдающиеся эффекты, но становится тем сильнее, чем больше крови пролито его обладателем."
+			]
+			hide_until_deps_complete: true
+			id: "067837717C2FBD7F"
+			rewards: [
+				{
+					id: "5E64DDE884623AFA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "75EBFA124F17D179"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:blood_step"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "78D7A609265C58AF"
+					item: "mynethersdelight:bleeding_tartar"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать эмблему окровавленной доблести"
+			tasks: [{
+				id: "76C47B463532C4DC"
+				item: "enigmaticlegacy:berserk_charm"
+				title: "Создать эмблему окровавленной доблести"
+				type: "item"
+			}]
+			title: "Алая доблесть"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["479BB1A968D6769A"]
+			description: ["Для защиты тайного &7ордена&r, был создан &6Бастион пылающей гордости&r. Сила этого щита ни с чем не сравнима. Вот уже несколько столетий этот щит служит для &7адептов&r оплотом. Попытки разбойников захватить место где находится тайная организация, не увенчались успехом. Все, кто нападал на орден, были сожжены пылающей мощью щита."]
+			hide_until_deps_complete: true
+			id: "47BC6BA9F765F3FE"
+			rewards: [
+				{
+					id: "639E2CFEE88D4CF5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3FC19B568C3BF908"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:wall_of_fire"
+									index: 0
+									level: 5
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "7D191B62813786D0"
+					item: "irons_spellbooks:fire_upgrade_orb"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать бастион пылающей гордости"
+			tasks: [{
+				id: "1D428AD88B2D9D19"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Создать бастион пылающей гордости"
+				type: "item"
+			}]
+			title: "Бессмертный бастион"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["619674C04E9017F3"]
+			dependency_requirement: "one_completed"
+			description: ["Преисполненный долгом перед всем миром, владелец &6Обещания земли&r получает поистине уникальный дар, что дарует ему безграничную силу истинного &7мага земли&r."]
+			hide_until_deps_complete: true
+			id: "5C25CA56123157F3"
+			rewards: [
+				{
+					id: "5C987498FC85838C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4F60007417B49BC9"
+					item: "irons_spellbooks:blank_rune"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "7F69FE8F972AAFE2"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать обещание земли"
+			tasks: [{
+				id: "1BEF6ECC69B4B9FD"
+				item: "enigmaticaddons:earth_promise"
+				title: "Создать обещание земли"
+				type: "item"
+			}]
+			title: "Мощь земли"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1536B4F8F8012307"]
+			description: ["Полная противоположность &6Искаженному сердцу&r, этот артефакт способен приблизить вас к освобождению от проклятий, при этом не теряя приобретенной силы. На что способно &6Чистое сердце&r нам еще предстоит выяснить."]
+			hide_until_deps_complete: true
+			id: "619674C04E9017F3"
+			rewards: [
+				{
+					id: "3AD2328C91D5187E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "755E4A271611DFE0"
+					item: "enigmaticlegacy:twisted_potion"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать чистое сердце"
+			tasks: [{
+				id: "797A11BE17EA9E50"
+				item: "enigmaticaddons:pure_heart"
+				type: "item"
+			}]
+			title: "Святое сердце"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["619674C04E9017F3"]
+			hide_until_deps_complete: true
+			id: "66302D50C0B17E18"
+			rewards: [
+				{
+					id: "361382EF76E0ED56"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5AC08D6CD41B0F57"
+					item: "irons_spellbooks:fire_upgrade_orb"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "4C8674823A7BBA98"
+					item: "mynethersdelight:hot_wings_bucket"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать очарование палящего солнца"
+			tasks: [{
+				id: "1871786F77C1EFC1"
+				item: "enigmaticaddons:scorched_charm"
+				type: "item"
+			}]
+			title: "Солнечное ядро"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["619674C04E9017F3"]
+			hide_until_deps_complete: true
+			id: "33E1FAC1B548FA1C"
+			rewards: [
+				{
+					id: "67CC4DF7A6057D7E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "136D3A1E303981DB"
+					item: "enigmaticlegacy:astral_dust"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "65A7FF0EC2A53E2C"
+					item: "irons_spellbooks:holy_upgrade_orb"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать святой камень"
+			tasks: [{
+				id: "189611E1D3B8C688"
+				item: "enigmaticaddons:bless_stone"
+				type: "item"
+			}]
+			title: "Очищение"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B640BA9E99C95C1"]
+			description: ["Получив &6Сердце Бездны&r, почему бы не обратить свой взор на небо? На крыльях &6Хаоса&r можно покорять новые вершины и обрушивать на врагов всю ненависть и злобу, что скрыта в этих &7элитрах&r."]
+			hide_until_deps_complete: true
+			id: "69FBFF6196E2C5C0"
+			rewards: [
+				{
+					id: "20C98BBE053CD4C6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "18E3BF99DF16135F"
+					item: "minecraft:netherite_ingot"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "65D6C20960B60A3D"
+					item: "enigmaticlegacy:evil_essence"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать Высокомерие Хаоса"
+			tasks: [{
+				id: "09BBE07B721ADF1B"
+				item: {
+					Count: 1
+					id: "enigmaticaddons:chaos_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "На крыльях Хаоса"
+			x: 1.5d
+			y: 6.0d
+		}
+	]
+	title: "Проклятый путь"
+}

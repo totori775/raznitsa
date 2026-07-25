@@ -1,0 +1,80 @@
+{
+  "id": "skilltree:archmage_59",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "aaba3b41-f7b8-4d20-a877-793b02108113",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "immortalskills:elder_wizard_chestplate",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "90b61da7-af56-44f4-b318-d78e532d0d3f",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "immortalskills:elementalist_chestplate",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "69893008-e8ac-4acc-9de3-f4c74eac928d",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "irons_spellbooks:netherite_mage_chestplate",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archmage_46"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Второе дыхание II",
+  "titleColor": "FFAA00",
+  "positionX": -124.703,
+  "positionY": -36.004,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5 к максимальному здоровью, если на вас одно из: нагрудник Верховного мага, нагрудник Элементалиста"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "или Незеритовое одеяние боевого мага"
+    }
+  ]
+}

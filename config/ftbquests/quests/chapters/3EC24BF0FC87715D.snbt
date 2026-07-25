@@ -1,0 +1,1935 @@
+{
+	autofocus_id: "00FD2E95D8C13372"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3EC24BF0FC87715D"
+	group: "2D6CF7B41D6CD6EE"
+	icon: "create:goggles"
+	id: "3EC24BF0FC87715D"
+	images: [
+		{
+			height: 2.85d
+			image: "ftbquests:textures/logo_orig.png"
+			rotation: 0.0d
+			width: 5.65d
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			height: 7.2d
+			image: "ftbquests:textures/background_quest.png"
+			rotation: 0.0d
+			width: 7.2d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6Из дневника неизвестного профессора&r"
+				""
+				"&715 июля&r"
+				""
+				"&78:05&r"
+				""
+				"В данный момент погодные условия Верхнего мира оптимальны. Идеальное атмосферное давление для новых эксперементов. Сегодня днем - третье испытание моего нового изобретения. Нужно провести точные расчеты, чтобы все заработало. Необходимо отрегулировать выход энергии для оптимальной работы двигателя."
+				""
+				"&719:45&r"
+				""
+				"Пока что мой двигатель не дает запланированного выхода энергии. Необходимо провести дополнительные расчеты. Сегодня он точно заработает! Тем временем я обнаружил интересную деталь, которую каким-то образом упустил. Горелка всполоха была недостаточно раскаленная, поэтому мои эксперементы заканчивались провалом."
+				""
+				"&719:55&r"
+				""
+				"Немного напутал в расчетах и освободил всполоха. Мои усы подгорели, пока я бегал за ним. С трудом посадив его обратно я продолжил работу."
+				""
+				"&720:30&r"
+				""
+				"Наконец мне удалось запустить этот двигатель, теперь я смогу продолжить работу над своими изобретениями."
+			]
+			icon: "create:cogwheel"
+			id: "00FD2E95D8C13372"
+			rewards: [
+				{
+					id: "6EE7EB2486FD4295"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "55FCCD996644B403"
+					item: "minecraft:leather"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "Создать шестерни"
+			tasks: [
+				{
+					id: "4B0679CCFC87A558"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "24E56BEC8AEF61C5"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "День прогресса"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00FD2E95D8C13372"]
+			description: ["Еще до изобретения парового двигателя, профессору приходилось использовать энергию &6водяного колеса&r для запуска своих простых механизмов. Только пройдя через это он смог стать выдающимся ученым Нового мира."]
+			icon: "create:water_wheel"
+			id: "76FB3EC8EFA0EA0E"
+			rewards: [
+				{
+					id: "1804C8966B888778"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "70C09B6D2E65605F"
+					item: "minecraft:raw_iron"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать вал и водяное колесо"
+			tasks: [
+				{
+					id: "4E4E62E1BFD49ABC"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "08608BC3D652DD39"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			title: "Колесо жизни"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76FB3EC8EFA0EA0E"]
+			description: ["Андезитовый корпус является важным элементом при создании &7новых устройств&r. Так же это очень красивый декоративный блок."]
+			hide_until_deps_complete: true
+			id: "4BA4C388673603F7"
+			rewards: [
+				{
+					id: "7229A4EDC0823E64"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "746B976DBD31DC4F"
+					item: "create:cogwheel"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4F003613588F3AE0"
+					item: "create:brass_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать андезитовый корпус"
+			tasks: [{
+				count: 3L
+				id: "7F8150B076B87A38"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "Легкий корпус"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BA4C388673603F7"]
+			description: ["&6Коробка передач&r - это компактный способ передачи вращения между осями."]
+			hide_until_deps_complete: true
+			icon: "create:gearbox"
+			id: "33EC83624C32C8FC"
+			rewards: [
+				{
+					id: "6BF385FA2B4B06CB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "04ADBA79D223F132"
+					item: "minecraft:raw_iron"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать коробку передач и депо"
+			tasks: [
+				{
+					id: "039F2FB31B01A12A"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "400EF3C75E3F229E"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "Первая передача"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76FB3EC8EFA0EA0E"]
+			description: ["Создание &7пресса&r является необходимым предметом для дальнейшего продвижения и реализации себя как изобретателя."]
+			hide_until_deps_complete: true
+			id: "44231690A4DCB6C9"
+			rewards: [
+				{
+					id: "25820A5589251766"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "59B8724E94F642F8"
+					item: "create:brass_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать пресс"
+			tasks: [{
+				id: "6CF89D0CF92977F3"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44231690A4DCB6C9"]
+			description: ["&6Инженерные очки&r и &6гаечный ключ&r - это необходимые вещи любого изобретателя. Создав эти приспособления вы станете чуть лучше разбираться в технологиях."]
+			hide_until_deps_complete: true
+			icon: "create:goggles"
+			id: "3B1B2E5571B100A2"
+			rewards: [
+				{
+					id: "26BF76A19347002C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "61005D4661035F28"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "112E139DFC6FDF1B"
+					item: "create:brass_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать инженерные очки и гаечный ключ"
+			tasks: [
+				{
+					id: "48D3A6F1680A53C2"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "70E203A7170DE35E"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			title: "Инженер"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44231690A4DCB6C9"]
+			description: ["&6Механический смешиватель&r позволяет смешивать предметы в &7чаше&r для создания чего-то нового."]
+			hide_until_deps_complete: true
+			id: "3F8F4463CA5008F9"
+			rewards: [
+				{
+					id: "26B76C67B774D6E9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6644AEDA85DA0340"
+					item: "create_unbreakable:philolite"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 3
+					id: "458BB69BDA3BB62C"
+					item: "create:honeyed_apple"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать механический смешиватель"
+			tasks: [{
+				id: "64554EA7D7596B8F"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			title: "Мешало"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76FB3EC8EFA0EA0E"]
+			description: ["Трубы широко используются при транспортировке жидкости. Без &7механической помпы&r и подключения к источнику &7энергии&r, трубы не будут переливать жидкость."]
+			hide_until_deps_complete: true
+			id: "777A14661E226712"
+			rewards: [
+				{
+					id: "3A2ECFE9E6CCA8E5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "101DE3379558E740"
+					item: "create:brass_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать 3 жидкостных трубы"
+			tasks: [{
+				count: 3L
+				id: "40AC18F17863DB0C"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			title: "Водопровод"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["777A14661E226712"]
+			description: ["&6Дозатор&r отлично справляется со своей задачей, если требуется последовательная сборка. Наполняя &7дозатор&r жидкостью, он будет самостоятельно расходовать ее."]
+			hide_until_deps_complete: true
+			icon: "create:spout"
+			id: "4937FF758B187902"
+			rewards: [
+				{
+					id: "63717B9076A88C45"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "7481F23C177ED4C8"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать дозатор, механическую помпу и жидкостный бак"
+			tasks: [
+				{
+					id: "2C4797C260AB589E"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					id: "0C0A5F1B4752A6C6"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "13D5866204A4BCEF"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			title: "Диспенсер"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4937FF758B187902"]
+			description: ["Изобретение &6парового двигателя&r стало переломным моментом в создании новых технологий. Именно благодаря ему можно создавать мощные &7двигатели&r с повышенной эффективностью."]
+			hide_until_deps_complete: true
+			icon: "create:steam_engine"
+			id: "723149AB3330E55C"
+			rewards: [
+				{
+					id: "716F7CF41EDA8985"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "7DF19725C859D875"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "634F606CAB58031C"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
+			subtitle: "Создать паровой двигатель и осушитель предметов"
+			tasks: [
+				{
+					id: "27550C250BBC9F40"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "1911DD0034017262"
+					item: "create:item_drain"
+					type: "item"
+				}
+			]
+			title: "Основа вечного двигателя"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F8F4463CA5008F9"]
+			description: ["&6Горелка всполоха&r позволяет создавать новые предметы, ранее не доступные для игроков. Прежде чем ее получить вам придется поймать всполоха в аду. Чтобы всполох начал работать ему нужно топливо."]
+			hide_until_deps_complete: true
+			id: "30885E637269D8D7"
+			rewards: [
+				{
+					id: "7CCA578121180005"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4527C5DFD638E92B"
+					item: "minecraft:blaze_powder"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Получить горелку всполоха"
+			tasks: [{
+				id: "2DDF1A0AC8F4990E"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Адская горелка"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30885E637269D8D7"]
+			description: ["&6Автономный активатор&r позволяет автоматизировать многие аспекты вашей повседневной жизни."]
+			hide_until_deps_complete: true
+			id: "0F2E509147A57D9C"
+			rewards: [
+				{
+					id: "3ED7E09CFCB4EBA6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0D841C0D1C903CEF"
+					item: "create:brass_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "060E45C039DDEFB1"
+					item: "create:shaft"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "Создать автономный активатор"
+			tasks: [{
+				id: "196844DBACA2024B"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Автоматический нажиматель"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F2E509147A57D9C"]
+			description: ["Согласно дневнику профессора, он создал точный прибор, когда был еще совсем молод. Именно благодаря его изобретению, можно создавать более сложные приборы."]
+			hide_until_deps_complete: true
+			id: "6DA9B02800981DE2"
+			rewards: [
+				{
+					id: "586088A53E9C08C2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "65C6B81F536EAC1A"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "11224876E54894AB"
+					item: "minecraft:golden_carrot"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "1291A374C202CB21"
+					item: "create_connected:music_disc_interlude"
+					type: "item"
+				}
+			]
+			subtitle: "Создать механизм точности"
+			tasks: [{
+				count: 3L
+				id: "7C9C1D6C9610C60D"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Точный прибор"
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B1B2E5571B100A2"]
+			description: ["Латунный корпус является более усовершенствованной версией андезитового корпуса. Из него можно создавать улучшенные предметы, а так же это основа для поезда."]
+			hide_until_deps_complete: true
+			id: "257EDDC11DB6FB84"
+			rewards: [
+				{
+					id: "6D0165E11587EA6B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "3A8B35E7A5D5C7D6"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "69D7FD770DA83E70"
+					item: {
+						Count: 1
+						id: "protection_pixel:brassarmorplate"
+						tag: {
+							Damage: 0
+							armor: 2.0d
+							toughness: 1.0d
+							weight: 2.0d
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Создать латунный корпус"
+			tasks: [{
+				count: 3L
+				id: "5A8ED27ED37304F9"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Прочный корпус"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["257EDDC11DB6FB84"]
+			description: ["Проложите железнодорожные пути и создайте свой первый поезд. Нажмите железнодорожной станцией по рельсам в желаемом направлении и установите рядом. После чего откройте интерфейс и соберите поезд, нажав железнодорожным корпусом по подсвеченной поверхности вы создадите поезд, затем создайте небольшую платформу и разместите контролер поезда. Когда вы закончите создавать поезд склейте все элементы поезда и нажмите &o&7\"создать поезд\"&r&r."]
+			hide_until_deps_complete: true
+			icon: "create:track_station"
+			id: "68C7832BFF0235ED"
+			rewards: [
+				{
+					id: "26C731D97C97A6B1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4908169BB588DB17"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "294A260DC6D20D17"
+					item: "create:powdered_obsidian"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать все необходимое для поезда"
+			tasks: [
+				{
+					id: "70EB246564DAAC27"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "05C9BEC87F674BC4"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "2F80D3FC903E9B1B"
+					item: "create:controls"
+					type: "item"
+				}
+				{
+					id: "71FACED72ECA908E"
+					item: "create:schedule"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "116BC28579E93C4A"
+					item: "create:track"
+					type: "item"
+				}
+			]
+			title: "Эта штука точно поедет"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6DA9B02800981DE2"]
+			description: ["Роботизированная рука стала следующим изобретением нашего безымянного ученого. Объединив &7точный прибор&r и &7латунный корпус&r, ему удалось создать &7механическую руку&r. Что делал профессор этой рукой никому неизвестно."]
+			hide_until_deps_complete: true
+			id: "7D49CD553B7462CA"
+			rewards: [
+				{
+					id: "1A044BC192507A2C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "3613631C45F62BA2"
+					item: "farmersdelight:chicken_sandwich"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0C53DAFE57813F67"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			subtitle: "Создать механическую руку"
+			tasks: [{
+				id: "09BFA9D586F5C683"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			title: "Автоматика"
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33EC83624C32C8FC"]
+			description: ["&6Андезитовый шлюз&r и &6механический ремень&r позволяют создавать простые конвееры для распределения ваших ресурсов на заводе или на складе."]
+			hide_until_deps_complete: true
+			icon: "create:andesite_funnel"
+			id: "3E30E86F987FD405"
+			rewards: [
+				{
+					id: "52118B6B16DF15EF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7223C86C0C38CE5C"
+					item: "ironchest:gold_to_diamond_chest_upgrade"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Создать андезитовый шлюз, андезитовый тунель, механический ремень и фильтр предметов"
+			tasks: [
+				{
+					id: "68FE2D42E887660E"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "67162DF4D5B3B158"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "64709A5761C2BB05"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "22177AFDF8260923"
+					item: "create:filter"
+					type: "item"
+				}
+			]
+			title: "Конвеер"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44231690A4DCB6C9"]
+			description: ["Эти штуковины были изобретены неизвестным профессором еще в молодости. После себя он оставил чертежи, чтобы любой желающий мог создать себе эти полезные предметы."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "create:extendo_grip"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4BEC9D3EE85280BB"
+			rewards: [
+				{
+					id: "3806190875DB0B75"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "4C0128E6BA7D2DB0"
+					item: "farmersdelight:apple_pie"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1560ECAB3CBEFCD1"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать длиннохват, жезл симетрии и контроллер связей"
+			tasks: [
+				{
+					id: "25610D74947A4A73"
+					item: {
+						Count: 1
+						id: "create:extendo_grip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E7775E2B372BB74"
+					item: "create:wand_of_symmetry"
+					type: "item"
+				}
+				{
+					id: "71F205B8EFD0A676"
+					item: "create:linked_controller"
+					type: "item"
+				}
+			]
+			title: "Все гениальное просто"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E30E86F987FD405"]
+			description: ["&6Латунный шлюз&r и &6латунный тунель&r позволяют создавать сложные системы конвееров для ваших заводов или складов, грамотно распределяя ресурсы."]
+			hide_until_deps_complete: true
+			icon: "create:brass_funnel"
+			id: "58A61D18382DBD87"
+			rewards: [
+				{
+					id: "4877B43BCE085940"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "61D6F213A15D13B3"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 5
+					id: "27C3D0EC18AA05AD"
+					item: "create:brass_nugget"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "Создать латунный шлюз и латуннуый тунель"
+			tasks: [
+				{
+					id: "7766D49313FE6E10"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "7546035842522EDD"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+			]
+			title: "Усовершенствованный конвеер"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["723149AB3330E55C"]
+			description: ["&6Механический сборщик&r является необходимой составляющей для сборки сложных механизмов или предметов. Поговаривают, что даже &6Неевклидов куб&r можно собрать на &7механическом сборщике&r."]
+			hide_until_deps_complete: true
+			id: "60FF90C9D1812B93"
+			rewards: [
+				{
+					id: "673CDAB51B2926D6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "622CA9120307C3BC"
+					item: "create:sturdy_sheet"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "42D9D51E71971A36"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать механический сборщик"
+			tasks: [{
+				count: 9L
+				id: "6BB804B4C0473A24"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Собиратель"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["60FF90C9D1812B93"]
+			description: ["&6Дробильное колесо&r используется только в паре с таким же другим колесом. Данная установка позволит перемалывать различные предметы создавая что-то новое, что может пригодится при создании новых предметов. Главное не забывать о правилах безопасности, чтобы случайно не угодить во вращающиеся колеса."]
+			hide_until_deps_complete: true
+			id: "7F9F8B20DFD550B0"
+			rewards: [
+				{
+					id: "4B7D306B4B57E28E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "52BF0C5748DF7271"
+					item: "create:precision_mechanism"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 3
+					id: "028697C7816DF468"
+					item: "create:sweet_roll"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать дробильное колесо"
+			tasks: [{
+				count: 2L
+				id: "7EB37F7FFF55775C"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Дробилка"
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00FD2E95D8C13372"]
+			description: [
+				"В погоне за бессмертием, безымянный ученый смог добиться небывалых успехов в создании новых и невероятных изобретений. Перед самой смертью ему удалось завершить работу со &6сферой&r. По его словам при объединении с каким-либо предметом, она способна наделить этот предмет бесконечной прочностью."
+				"Профессор очень любил  исследовать заброшенные шахты открывая все новые и новые мениралы. Так он нашел залежи взрывоопасного зеленого алмаза и флюорита."
+				""
+				"&o&7Можно найти от -4 до -64 высоты верхнего мира&r"
+				""
+				"Исследование очередной пещеры могло закончится очень трагично, если бы наш ученый по счастливой случайности не оказался за камнем. Изучив собранные материалы, профессор смог создать ту самую &6Сферу нерушимости&r"
+			]
+			id: "7AFB5F895B317DE5"
+			rewards: [
+				{
+					id: "54B229B39A335D4A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "257E2836A214822A"
+					item: "minecraft:golden_apple"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "26BA4798FD5D6B3B"
+					item: "create:brass_ingot"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать сферу нерушимости"
+			tasks: [{
+				count: 2L
+				id: "2BE9F6CBAAB2C850"
+				item: "create_unbreakable:irromolding"
+				type: "item"
+			}]
+			title: "Вечность"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7AFB5F895B317DE5"]
+			description: [
+				"Создание &6слитка визерита&r так же было изобретением загадочного ученого. Объединив железо и красныую пыль, ему удалось добиться сплава невероятной прочности, что открывает доступ к созданию высококлассных технологий. После смерти ученого, знания о том как воссоздать визерит были утрачены. А технологии остались сокрыты в &7заброшенной фабрике&r. Но какая связь между механическим вестником и бессмертием?"
+				""
+				"Возможно разбойники были гораздо ближе к созданию &6Неевклидова куба&r, чем может показаться на первый взгляд..."
+			]
+			hide_until_deps_complete: true
+			id: "47AC67C4F7025BB2"
+			rewards: [
+				{
+					id: "2BB707CF623A751A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "62D00A6788C08D67"
+					item: "skilltree:wisdom_scroll"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "70856E71DE2127EA"
+					item: "minecraft:enchanted_golden_apple"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Получить слиток визерита"
+			tasks: [{
+				id: "3D4198F9BA54DE76"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			title: "Механический слиток"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["47AC67C4F7025BB2"]
+			description: ["&6Сердце космоса&r никогда не было чьим-то изобретением. Этот невероятно редкий артефакт появился впоследствии энергетического слияния трех миров. Получение такого артефакта многого стоит. Цена за получение этого предмета - наше бесценное время и боль, через которую придется пройти."]
+			hide_until_deps_complete: true
+			id: "761EE22CC6BEAC09"
+			rewards: [
+				{
+					id: "25E3209E4900F615"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "52BCF90E850F8403"
+					item: "minecraft:netherite_ingot"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "76228F702243FF5A"
+					item: "enigmaticlegacy:recall_potion"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создать 2 сердца космоса"
+			tasks: [{
+				count: 2L
+				id: "745A98201EDA4A2A"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:cosmic_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Сердце мироздания"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["761EE22CC6BEAC09"]
+			description: [
+				"Никто не знает, кем и когда был создан &6Неевклидов куб&r. Не многие способны обуздать силу этого камня. Легенды гласят, что куб появился еще до начала великой битвы. Возможно его создателем является сам &6Архитектор&r, но многие тайны скрыты от глаз простого смертного."
+				""
+				"&4Лишь тот, кто Семью проклятиями обременен, сможет обуздать истинное происхождение Неевклидова куба.&r"
+			]
+			hide_text_until_complete: true
+			hide_until_deps_complete: true
+			id: "7D28CEDD2195B206"
+			rewards: [
+				{
+					id: "70C5259BD8F10C68"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 3
+					id: "3C51B1223FA6675B"
+					item: "create:blaze_cake"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "774CFAC16D68F465"
+					item: "create_unbreakable:irromolding"
+					team_reward: false
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Создать неевклидов куб"
+			tasks: [{
+				id: "5ADBF385690A0798"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			title: "В шаге от бессмертия"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["00FD2E95D8C13372"]
+			description: ["Если внимательно читать дневник профессора, то можно с уверенностью сказать, что изобретателем &7самолета&r является его приятель и друг. Вместе они работали над многими проектами, какие-то были удачны, какие-то не очень. Странность всех событий заключается в том, что безымянный ученый почти ничего не рассказывает в дневнике о своем друге. Было ли это случайностью или же он намеренно скрыл информацию, никто об этом не знает."]
+			id: "7A5A13CCC394F28F"
+			rewards: [
+				{
+					id: "2E9602FE58FDC875"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7285F045F88314CE"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "2A0DEB859CEF254E"
+					item: "create:propeller"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Создать двигатель"
+			tasks: [{
+				id: "0DA3EDC547CA6DBD"
+				item: "immersive_aircraft:engine"
+				type: "item"
+			}]
+			title: "Авиационная инженерия"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A5A13CCC394F28F"]
+			description: ["Создание летательных аппаратов началось с разработки &7аэростата&r. Именно тогда между двумя гениальными учеными начала зарождаться вражда. Возможно, дело было в недопонимании друг друга, но о тех событиях прошлого никто почти ничего не знает."]
+			hide_until_deps_complete: true
+			id: "1F021672218DC51B"
+			rewards: [
+				{
+					id: "45CEC015B2098849"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "5D2846A28272E161"
+					item: "minecraft:white_wool"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "123C3D9EBF4118A4"
+					item: "minecraft:iron_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать дирижабль"
+			tasks: [{
+				id: "18055D9B5CDB0A03"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			title: "Аэростат"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7A5A13CCC394F28F"]
+			description: ["&6Кукурузник&r является одним из самых быстрых видов транспорта. Благодаря ему можно быстро преодолевать большие расстояния, затрачивая при этом не так много топлива."]
+			hide_until_deps_complete: true
+			id: "7FC4654DF65E5E30"
+			rewards: [
+				{
+					id: "4C2E4DDFAD5EE644"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "35DE9EE8F7C03DCA"
+					item: "immersive_aircraft:hull_reinforcement"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0112ABDD91A4670D"
+					item: "create:honeyed_apple"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать кукурузник"
+			tasks: [{
+				id: "0A4F19A98116FCEB"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			title: "Лучший в мире самолет"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1F021672218DC51B"
+				"7FC4654DF65E5E30"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Исследуя старую лабораторию и читая записки прошлого, становится понятно, что послужило причиной ссоры двух ученых. Разногласия в видении науки привело к тому, что один считал, что наука и технологии должны служить человеку для совершенствования мира, другой ученый видел в этом способ получения контроля и власти над остальными. Исходя из этих убеждений начали появляться авиационные улучшения. Некоторые из них оснащали летательные аппараты оружием."]
+			hide_until_deps_complete: true
+			icon: "immersive_aircraft:improved_landing_gear"
+			id: "6C779A65199AF462"
+			rewards: [
+				{
+					id: "0B02C6F7F7B9C33C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "764626821C3CEFFA"
+					item: "create:sturdy_sheet"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "203B845A13891B38"
+					item: "create:rose_quartz"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать предметы улучшающие работу авиации"
+			tasks: [
+				{
+					id: "1F2582E950C5A007"
+					item: "immersive_aircraft:improved_landing_gear"
+					type: "item"
+				}
+				{
+					id: "00B685CB2055B271"
+					item: "immersive_aircraft:enhanced_propeller"
+					type: "item"
+				}
+				{
+					id: "53CFF76828D02BD0"
+					item: "immersive_aircraft:sturdy_pipes"
+					type: "item"
+				}
+			]
+			title: "Модернизация"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F021672218DC51B"]
+			description: ["Созданный &6военный корабль&r разбойниками, послужил хорошим основанием, чтобы начать полномасштабную войну с крестьянами и проверить это новое изобретение в деле. Когда друг нашего таинственного ученого перешел к разбойникам, он начал изобретать для них все более безумные виды оружия для захвата новых земель."]
+			hide_until_deps_complete: true
+			id: "0AB37A6D8072A2BC"
+			rewards: [
+				{
+					id: "3B30A09193BF7C20"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 5
+					id: "70ED3879C3CDAE74"
+					item: "minecraft:gunpowder"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 3
+					id: "40FB74C26AD04693"
+					item: "farmersdelight:rice_bag"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать военный корабль"
+			tasks: [{
+				id: "784A75DB6B2F9E3E"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			title: "Начало войны"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FC4654DF65E5E30"]
+			description: ["После создания кукурузника, встал серьезный вопрос о его модернизации. Когда неизвестный ученый проводил испытания над своим творением, ему пришла гениальная идея по созданию полноценного самолета, что будет гораздо экономичнее и быстрее своего аналога. Спустя неделю бессоных ночей, ученому удалось создать нечто новое и невероятно эффективное."]
+			hide_until_deps_complete: true
+			icon: "man_of_many_planes:scarlet_biplane"
+			id: "35E6AFC55EF547B9"
+			rewards: [
+				{
+					id: "273F7BB2D0CDF344"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5EAC40EB2E2CAF4F"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			subtitle: "Создать алый биплан и экономичный самолет"
+			tasks: [
+				{
+					id: "73C8E435D0CC6C2C"
+					item: "man_of_many_planes:scarlet_biplane"
+					type: "item"
+				}
+				{
+					id: "6EC62099D594C95D"
+					item: "man_of_many_planes:economy_plane"
+					type: "item"
+				}
+			]
+			title: "Усовершенствованные самолеты"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C779A65199AF462"]
+			description: ["После того, как самолеты были оснащены &7оружием&r, ученого изгнали из его родного поселения. Держа обиду и злость на всех жителей и своего бывшего друга, он присоединился к разбойникам."]
+			hide_until_deps_complete: true
+			icon: "immersive_aircraft:rotary_cannon"
+			id: "6E7E5A928961C3FB"
+			rewards: [
+				{
+					id: "48F4F8CC050453D5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4DF3835129B9B50A"
+					item: "born_in_chaos_v1:phantom_powder"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "021E6E8ED267E833"
+					item: {
+						Count: 1
+						id: "protection_pixel:brassarmorplate"
+						tag: {
+							Damage: 0
+							armor: 2.0d
+							toughness: 1.0d
+							weight: 2.0d
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Получить ротационную пушку и 16 пороха"
+			tasks: [
+				{
+					id: "4A715903FDB1E899"
+					item: "immersive_aircraft:rotary_cannon"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "58A5177B893A3299"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			title: "Военная авиация"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00FD2E95D8C13372"]
+			description: ["Посвятив свою жизнь науке, профессор создал множество различных изобретений, одним из которых является &7водолазный костюм&r, что позволяет погружаться под воду на долгое время. Такое изобретение было очень эффективным предметом для исследователей и дайверов, что в разы облегчало их жизнь."]
+			icon: {
+				Count: 1
+				id: "create:copper_diving_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "58029F4367217401"
+			rewards: [
+				{
+					id: "66F91FE4C5E72D8E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "726ED2AF29CD6231"
+					item: "create:copper_sheet"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6CC655D607A72B62"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать водолазный шлем и ботинки"
+			tasks: [
+				{
+					id: "16DC67583075C2DE"
+					item: {
+						Count: 1
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12FA1FE1AF95EAD5"
+					item: {
+						Count: 1
+						id: "create:copper_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Защитная инженерия"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58029F4367217401"]
+			description: ["Наполняйте &7баллоны&r воздухом, при помощи силы вращения. Чтобы наполнить &7баллон&r, необходимо разместить его под осью вращения. В сочетании с &7водолазным костюмом&r вы сможете дышать под водой."]
+			hide_until_deps_complete: true
+			id: "199640B93B4FF250"
+			rewards: [
+				{
+					id: "383A7DFE99637527"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "3B220978DE0C7DB2"
+					item: "create:shaft"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать медный баллон"
+			tasks: [{
+				id: "3B8198ED6AAD8B75"
+				item: {
+					Count: 1
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			title: "Первое погружение"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["199640B93B4FF250"]
+			description: ["Улучшайте свое снаряжение, чтобы погружаться и исследовать озера лавы. Главное нужно помнить, что только полный набор &7незеритовый брони&r дает иммунитет к высоким температурам."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "create:netherite_diving_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "18AE12890B24EF51"
+			rewards: [
+				{
+					id: "382F8F5D8E2B79E5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6C77DF08BC70366E"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "1F976712687DA000"
+					item: "minecraft:golden_apple"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Создать незеритовый лавовый шлем, ботинки и баллон"
+			tasks: [
+				{
+					id: "59C9A09D5707CFD8"
+					item: {
+						Count: 1
+						id: "create:netherite_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "254FD94577B81BBE"
+					item: {
+						Count: 1
+						id: "create:netherite_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F6704812E0B243B"
+					item: {
+						Count: 1
+						id: "create:netherite_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Экстремальное погружение"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["58029F4367217401"]
+			description: ["Для того, чтобы обеспечить себя хорошей защитой нужно хорошо постараться. Прежде всего необходимо создать &7латунную платформу для брони&r. Благодаря ей вы сможете снабжать свое снаряжение бронепластинами. Они позволяют улучшать ваши защитные показатели. Для нормальной работы механической брони это необходимо. Так же любая механическая броня требует топливо. В качестве топлива используется &7водяной пар&r и &7огненные стержни с андезитовым сплавом&r, которые необходимо размещать в &7реакторе сгорания топлива&r."]
+			hide_until_deps_complete: true
+			icon: "protection_pixel:armorloadplatform"
+			id: "421D4F70AE39570A"
+			rewards: [
+				{
+					id: "6F7962BB87945F5F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0C76F6C3F2B7CD9D"
+					item: {
+						Count: 1
+						id: "protection_pixel:ironarmorplate"
+						tag: {
+							Damage: 0
+							armor: 1.0d
+							toughness: 0.0d
+							weight: 1.0d
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "1A4764F9929C0D2F"
+					item: "minecraft:raw_iron"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать латунную платформу для брони и реактор сгорания топлива"
+			tasks: [
+				{
+					id: "26B6638FE7B00324"
+					item: "protection_pixel:armorloadplatform"
+					type: "item"
+				}
+				{
+					id: "7A522E536A234113"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 9
+							}
+						}
+						id: "protection_pixel:powerengine"
+					}
+					type: "item"
+				}
+			]
+			title: "Гениальный изобретатель"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["421D4F70AE39570A"]
+			description: ["Заполните реактор &7сгорания топлива&r необходимым топливом и разместите его в специальный слот. Все это будет обеспечивать вашу &7механическую броню&r энергией для нормальной работы."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "protection_pixel:watertank"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5E533887954AE828"
+			rewards: [
+				{
+					id: "418ABE65998B659A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "282933EDB5448F9B"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4B91FD6CA320622D"
+					item: "create:brass_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать резервуар с водой и огненный стержень с андезитовым сплавом"
+			tasks: [
+				{
+					id: "4BFCEE118733057F"
+					item: {
+						Count: 1
+						id: "protection_pixel:watertank"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "15AED01785E61A7E"
+					item: {
+						Count: 1
+						id: "protection_pixel:flarerod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Топливо для реактора"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["421D4F70AE39570A"]
+			description: ["Из-за тяжести механической брони необходима &7подкладка&r. Она обеспечивает пользователя более комфортным ношением брони. Именно поэтому в основе создания брони лежит &7подкладка&r."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "protection_pixel:socks_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6BBD19FF5FA3B9F6"
+			rewards: [
+				{
+					id: "48A86536856318A5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1882B505D11FB593"
+					item: "minecraft:iron_ingot"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Создать подкладку для нагрудника/поножей и ботинки с защитной подкладкой"
+			tasks: [
+				{
+					id: "46E4C97189B7DB0F"
+					item: {
+						Count: 1
+						id: "protection_pixel:socks_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F4961278D9F7784"
+					item: "protection_pixel:chestplatelining"
+					type: "item"
+				}
+				{
+					id: "26A7BF61681492A3"
+					item: "protection_pixel:leggingslining"
+					type: "item"
+				}
+			]
+			title: "Основа для брони"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6BBD19FF5FA3B9F6"]
+			description: ["Неизвестный профессор - гениальный изобретатель, который посвятил свою жизнь защите родного поселения. Постоянные набеги разбойников мотивировали его на создание уникальных изобретений. Так появилась &7механическая броня&r."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "protection_pixel:plague_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "19FE5BEBD76CE977"
+			rewards: [
+				{
+					id: "7E37AC9E7BBED8EC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "04F85DA025028BFA"
+					item: {
+						Count: 1
+						id: "protection_pixel:alloyarmorplate"
+						tag: {
+							Damage: 0
+							armor: 2.0d
+							toughness: 1.0d
+							weight: 1.5d
+						}
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2AE613291AC60EAE"
+					item: "create:sturdy_sheet"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать комплект механической брони"
+			tasks: [
+				{
+					id: "59F2063E27A9CC75"
+					item: {
+						Count: 1
+						id: "protection_pixel:plague_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A0D7B44DBC8B29B"
+					item: {
+						Count: 1
+						id: "protection_pixel:breaker_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CA09377619129FD"
+					item: {
+						Count: 1
+						id: "protection_pixel:slingshot_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Защитник завтрашнего дня"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5E533887954AE828"]
+			description: ["&6Незеритовые бронепластины&r очень дорогие при создании, но очень сильно повышают характеристики вашей механической брони."]
+			hide_until_deps_complete: true
+			id: "0492D67B93BDCAF7"
+			rewards: [
+				{
+					id: "17311E0A15D589B4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "4DD81B92C1A52DE9"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6EA6F23917B04AFD"
+					item: "protection_pixel:pneumaticgrenade"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать 3 незеритовые бронепластины"
+			tasks: [{
+				count: 3L
+				id: "232396D28B00D246"
+				item: {
+					Count: 1
+					id: "protection_pixel:alloyarmorplate"
+					tag: {
+						Damage: 0
+						armor: 2.0d
+						toughness: 1.0d
+						weight: 1.5d
+					}
+				}
+				type: "item"
+			}]
+			title: "Усиленная бронепластина"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["19FE5BEBD76CE977"]
+			description: ["После очередного нападения разбойников на жителей, изобретателю ничего не оставалось, как создать эффективный способ защиты от мародеров. Создав рукоятку &7пневматического гранатомета&r, профессор смог надолго прогнать разбойников из своего поселения."]
+			hide_until_deps_complete: true
+			icon: "protection_pixel:pneumaticgrenadelauncharm"
+			id: "5CF125DCFDB96BB4"
+			rewards: [
+				{
+					id: "1A6959064C89CA63"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "4E75D560577AD9C7"
+					item: "create:andesite_alloy"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7BC4376C6BCBAEBB"
+					item: "minecraft:gunpowder"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать рукоятку пневматического гранатомета и 4 пневматические гранаты"
+			tasks: [
+				{
+					id: "1996CA4EFFA48CAF"
+					item: "protection_pixel:pneumaticgrenadelauncharm"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "54DAD940601FE39B"
+					item: "protection_pixel:pneumaticgrenade"
+					type: "item"
+				}
+			]
+			title: "Лучшая защита - это нападение"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["58029F4367217401"]
+			description: ["Один из самых умных и находчивых изобретателей Нового мира всегда знал, что вечное стремление к прогрессу имеет как положительные стороны, так и отрицательные. Тем не менее, его это никогда не останавливало и он продолжал изобретать новые технологии. Одним из его недавних открытий стал &6реактивный ранец&r. Эта технология позволяет летать и преодолевать огромные расстояния используя сжатый воздух баллона."]
+			hide_until_deps_complete: true
+			id: "53BE430EBAC5EBB5"
+			rewards: [
+				{
+					id: "06BEB9BDBCAC869E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "53DDAEB44205D7B4"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Создать реактивный ранец"
+			tasks: [{
+				id: "74DA3EA6F1AFD5D2"
+				item: {
+					Count: 1
+					id: "create_jetpack:jetpack"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			title: "Джетпак"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53BE430EBAC5EBB5"]
+			hide_until_deps_complete: true
+			id: "50683F02C1E3E22C"
+			rewards: [
+				{
+					id: "3DEF1293E3BE7C0D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1CEA102811AB264E"
+					item: "enigmaticlegacy:etherium_ore"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "37451881150D3B7F"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Создать незеритовый реактивный ранец"
+			tasks: [{
+				id: "00825BBC6897C87E"
+				item: {
+					Count: 1
+					id: "create_jetpack:netherite_jetpack"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			title: "Усиленный джетпак"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["76FB3EC8EFA0EA0E"]
+			description: ["&4Лишь тот, кто Семью Проклятьями обременен, кто выбрал путь Падшего вестника, способен создать это непревзойдённое оружие &r"]
+			hide_until_deps_complete: true
+			id: "7357F373705B4E88"
+			rewards: [
+				{
+					id: "7ED5988E42AB589E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3F92DF513697C98D"
+					item: "enigmaticlegacy:twisted_heart"
+					type: "item"
+				}
+			]
+			subtitle: "Создать Нестабильный Техномагический посох"
+			tasks: [{
+				id: "64295D1DC2C6C475"
+				item: {
+					Count: 1
+					id: "passiveskilltreeaddon:unstable_technomagic_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Нестабильное оружие"
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+	title: "Технологии"
+}

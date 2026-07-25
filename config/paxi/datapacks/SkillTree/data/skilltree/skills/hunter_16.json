@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:hunter_16",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:casting_movespeed",
+      "id": "bea4a91a-a623-4d79-8055-fc47a08a9e3b",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:hunter_13"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Сияющий плащ II",
+  "titleColor": "FF5555",
+  "positionX": 62.355,
+  "positionY": -72.002,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к скорости передвижения во время каста заклинаний"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:elementarium"
+    ],
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 650,
+    "blood": 2000,
+    "experience": 120,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "forbidden_arcanus:mundabitur_dust"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:blackstone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "cataclysm:witherite_ingot"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "enigmaticlegacy:earth_heart"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "enigmaticlegacy:golem_heart"
+    }
+  }
+}

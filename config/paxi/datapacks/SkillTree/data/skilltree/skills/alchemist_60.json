@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:alchemist_60",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_damage",
+      "amount": 0.3,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      },
+      "target_condition": {
+        "effect": "minecraft:wither",
+        "amplifier": 0,
+        "type": "skilltree:has_effect"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Иссушающий удар",
+  "titleColor": "FF5555",
+  "positionX": 93.526,
+  "positionY": -89.991,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30% к критическому урону в ближнем бою, если на врага наложен эффект Иссушения"
+    }
+  ]
+}

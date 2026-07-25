@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:cook_18",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "d2d155a4-aa9f-4afa-9fed-180c86e934e2",
+      "name": "Skill",
+      "amount": 3.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "create:electron_tube",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [
+    "skilltree:cook_17"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_special_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Модификация тела",
+  "titleColor": "E3D4D1",
+  "positionX": 1.3226186E-14,
+  "positionY": -108.0,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+3 к максимальному здоровью"
+    }
+  ]
+}

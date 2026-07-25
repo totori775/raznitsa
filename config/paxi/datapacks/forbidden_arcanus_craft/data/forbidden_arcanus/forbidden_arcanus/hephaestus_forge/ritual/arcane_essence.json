@@ -1,0 +1,35 @@
+{
+  "additional_requirements": {
+    "forge_tier": 1
+  },
+  "essences": {
+    "aureal": 30,
+    "blood": 90,
+    "experience": 10,
+    "souls": 1
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:redstone"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:arcane_crystal_dust"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "minecraft:lapis_lazuli"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 3,
+      "id": "irons_spellbooks:arcane_essence"
+    }
+  }
+}

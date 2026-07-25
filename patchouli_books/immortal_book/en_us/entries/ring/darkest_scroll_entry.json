@@ -1,0 +1,11 @@
+{
+    "name": "Темнейший свиток",
+    "icon": "enigmaticlegacy:darkest_scroll",
+    "category": "patchouli:ring_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Одним из важнейших предметов для крафта различных предметов является $(#CECACA)Темнейший свиток$(). Свиток будет встречаться в сокровищнице $(#CECACA)Бастиона$() при надетом кольце."
+        }
+    ]
+}

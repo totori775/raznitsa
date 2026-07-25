@@ -1,0 +1,41 @@
+{
+  "additional_requirements": {
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 400,
+    "blood": 1000,
+    "experience": 100,
+    "souls": 18
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "forbidden_arcanus:deorum_ingot"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "enigmaticlegacy:astral_dust"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "minecraft:golden_apple"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "minecraft:enchanted_golden_apple"
+    }
+  }
+}

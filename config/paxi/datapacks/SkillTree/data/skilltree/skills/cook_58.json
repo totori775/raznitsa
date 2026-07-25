@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:cook_58",
+  "bonuses": [
+    {
+      "type": "skilltree:grant_item",
+      "item_id": "passiveskilltreeaddon:technomagic_core",
+      "amount": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:cook_55"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/technomagic_core.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway_1.png",
+  "title": "Великая эволюция",
+  "titleColor": "FF5555",
+  "positionX": 124.703,
+  "positionY": -71.992,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "skill_bonus.skilltree.grant_item",
+      "with": [
+        {
+          "translate": "item.passiveskilltreeaddon.technomagic_core"
+        }
+      ]
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "*Техномагическое ядро используется для создания Нестабильного Техномагического посоха"
+    }
+  ]
+}

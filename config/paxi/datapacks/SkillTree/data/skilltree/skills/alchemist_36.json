@@ -1,0 +1,47 @@
+{
+  "id": "skilltree:alchemist_36",
+  "bonuses": [
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.05,
+      "multiplier": 1.0,
+      "loot_type": "archaeology"
+    },
+    {
+      "type": "skilltree:loot_duplication",
+      "chance": 0.03,
+      "multiplier": 1.0,
+      "loot_type": "mobs"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:alchemist_31"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "ftblibrary:textures/icons/diamond.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Охотник за сокровищами",
+  "titleColor": "FF5555",
+  "positionX": 62.352,
+  "positionY": -107.996,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% к шансу получить двойные награды от археологии"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+3% к шансу получить двойные награды с существ"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:cook_3",
+  "bonuses": [
+    {
+      "type": "skilltree:repair_efficiency",
+      "multiplier": 0.05
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:cook_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "obscure_api:textures/icons/durability.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Мастер на все руки",
+  "titleColor": "E3D4D1",
+  "positionX": -31.175764,
+  "positionY": 17.999002,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% к прочности при ремонте предметов"
+    }
+  ]
+}

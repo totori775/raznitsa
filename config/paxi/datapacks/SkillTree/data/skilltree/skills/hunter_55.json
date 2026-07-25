@@ -1,0 +1,62 @@
+{
+  "id": "skilltree:hunter_55",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "98eaaf43-840a-4d59-852e-dc89d1b49d7d",
+      "name": "Skill",
+      "amount": 50.0,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:healing",
+      "chance": 0.1,
+      "amount": 6.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "id": "irons_spellbooks:netherite_spell_book",
+            "type": "skilltree:item_id"
+          },
+          "type": "skilltree:has_item_equipped"
+        },
+        "type": "skilltree:on_kill"
+      },
+      "percentage_healing": false
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:hunter_52"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Похищение силы",
+  "titleColor": "e3d4d1",
+  "positionX": 124.70306,
+  "positionY": -35.992027,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+50 к запасу маны"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к шансу восстановить 6 здоровья при убийстве, если на вас Древний трактат"
+    }
+  ]
+}

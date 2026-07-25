@@ -1,0 +1,18 @@
+{
+    "name": "Броня Стража кладбища",
+    "icon": "fantasy_armor:grave_sentinel_helmet",
+    "category": "patchouli:fantasy_armor_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Комплект брони Стража Кладбища можно скрафтить на верстаке. Имеет средний показатель защиты. При полном коплекте брони, накладывает эффект Заразного прикосновения: Разложение и Устойчивость к болезням."
+        },
+		{
+            "type": "patchouli:image",
+            "images": [
+			  "immortal_book:textures/gui/entries/book_16.png"
+		    ],
+			"border": true
+        }
+    ]
+}

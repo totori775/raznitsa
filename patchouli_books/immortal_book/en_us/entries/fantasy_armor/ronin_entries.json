@@ -1,0 +1,18 @@
+{
+    "name": "Броня Ронина",
+    "icon": "fantasy_armor:ronin_helmet",
+    "category": "patchouli:fantasy_armor_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Комплект брони Ронина можно скрафтить на верстаке. Имеет средний показатель защиты, увеличивает скорость атаки. При полном коплекте брони, накладывает эффект Пронзительного удара."
+        },
+		{
+            "type": "patchouli:image",
+            "images": [
+			  "immortal_book:textures/gui/entries/book_20.png"
+		    ],
+			"border": true
+        }
+    ]
+}

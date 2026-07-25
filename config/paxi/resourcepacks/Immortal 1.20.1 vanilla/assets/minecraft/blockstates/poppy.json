@@ -1,0 +1,14 @@
+{
+    "variants": {
+      "": [
+        { "model": "block/poppy/0" , "distance":1 },
+        { "model": "block/poppy/0" , "distance":1 ,"y":90},
+        { "model": "block/poppy/0" , "distance":1 ,"y":180},
+        { "model": "block/poppy/0" , "distance":1 ,"y":270},
+        { "model": "block/poppy/1" , "distance":1},
+        { "model": "block/poppy/1" , "distance":1 ,"y":90},
+        { "model": "block/poppy/1" , "distance":1 ,"y":180},
+        { "model": "block/poppy/1" , "distance":1 ,"y":270}
+      ]
+    }
+  }

@@ -1,0 +1,123 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cross",
+	"texture_size": [32, 32],
+	"textures": {
+		"2": "block/nether_sprouts_model",
+		"particle": "block/nether_sprouts_model"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 0],
+			"to": [6, 11, 0],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [1.5, 5.5, 0, 11], "texture": "#2"},
+				"east": {"uv": [0, 5.5, 1.5, 11], "texture": "#2"},
+				"south": {"uv": [0, 5.5, 1.5, 11], "texture": "#2"},
+				"west": {"uv": [0, 5.5, 1.5, 11], "texture": "#2"},
+				"up": {"uv": [0, 5.5, 1.5, 11], "texture": "#2"},
+				"down": {"uv": [0, 5.5, 1.5, 11], "texture": "#2"}
+			}
+		},
+		{
+			"from": [16.5, 0, 0],
+			"to": [19.5, 11, 0],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 0]},
+			"faces": {
+				"north": {"uv": [0, 5.5, 1.5, 11], "texture": "#2"},
+				"east": {"uv": [0, 5.5, 1.5, 11], "texture": "#2"},
+				"south": {"uv": [1.5, 5.5, 0, 11], "texture": "#2"},
+				"west": {"uv": [0, 5.5, 1.5, 11], "texture": "#2"},
+				"up": {"uv": [0, 5.5, 1.5, 11], "texture": "#2"},
+				"down": {"uv": [0, 5.5, 1.5, 11], "texture": "#2"}
+			}
+		},
+		{
+			"from": [12.3033, -1, -4.43934],
+			"to": [12.3033, 10, -1.43934],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [5.3033, 5.5, 1.06066]},
+			"faces": {
+				"north": {"uv": [1.5, 5.5, 0, 11], "texture": "#2"},
+				"east": {"uv": [1.5, 5.5, 0, 11], "texture": "#2"},
+				"south": {"uv": [1.5, 5.5, 0, 11], "texture": "#2"},
+				"west": {"uv": [0, 5.5, 1.5, 11], "texture": "#2"},
+				"up": {"uv": [1.5, 5.5, 0, 11], "texture": "#2"},
+				"down": {"uv": [1.5, 5.5, 0, 11], "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.13173, 0, 2.63173],
+			"to": [8.13173, 11, 5.63173],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.13173, 5.5, 8.13173]},
+			"faces": {
+				"north": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"east": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"south": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"west": {"uv": [7.5, 0, 6, 5.5], "texture": "#2"},
+				"up": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"down": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [8.13173, -1, 10.63173],
+			"to": [8.13173, 10, 13.63173],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.13173, 5.5, 8.13173]},
+			"faces": {
+				"north": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"east": {"uv": [7.5, 0, 6, 5.5], "texture": "#2"},
+				"south": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"west": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"up": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"down": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [3.63173, 0, 8.00673],
+			"to": [6.63173, 11, 8.00673],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.13173, 5.5, 12.13173]},
+			"faces": {
+				"north": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"east": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"south": {"uv": [7.5, 0, 6, 5.5], "texture": "#2"},
+				"west": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"up": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"down": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [9.63173, -2, 8.00673],
+			"to": [12.63173, 9, 8.00673],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.13173, 5.5, 12.13173]},
+			"faces": {
+				"north": {"uv": [7.5, 0, 6, 5.5], "texture": "#2"},
+				"east": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"south": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"west": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"up": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"},
+				"down": {"uv": [6, 0, 7.5, 5.5], "texture": "#2"}
+			}
+		},
+		{
+			"from": [12.3033, -2, 9.06066],
+			"to": [12.3033, 9, 12.06066],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [5.3033, 5.5, 1.06066]},
+			"faces": {
+				"north": {"uv": [1.5, 5.5, 0, 11], "texture": "#2"},
+				"east": {"uv": [0, 5.5, 1.5, 11], "texture": "#2"},
+				"south": {"uv": [1.5, 5.5, 0, 11], "texture": "#2"},
+				"west": {"uv": [1.5, 5.5, 0, 11], "texture": "#2"},
+				"up": {"uv": [1.5, 5.5, 0, 11], "texture": "#2"},
+				"down": {"uv": [1.5, 5.5, 0, 11], "texture": "#2"}
+			}
+		}
+	]
+}

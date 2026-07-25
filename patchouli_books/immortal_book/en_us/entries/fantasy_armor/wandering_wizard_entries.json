@@ -1,0 +1,18 @@
+{
+    "name": "Броня Странствующего мага",
+    "icon": "fantasy_armor:wandering_wizard_helmet",
+    "category": "patchouli:fantasy_armor_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Комплект брони Странствующего мага можно скрафтить на верстаке. Имеет слабый показатель защиты, увеличивает скорость передвижения. При полном коплекте брони, накладывает эффект Иммунитет к усталости и Иммунитет к отравлению."
+        },
+		{
+            "type": "patchouli:image",
+            "images": [
+			  "immortal_book:textures/gui/entries/book_28.png"
+		    ],
+			"border": true
+        }
+    ]
+}

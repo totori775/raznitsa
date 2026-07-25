@@ -1,0 +1,31 @@
+{
+	id: "011B59D042F27D4B"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 10, item: "endermanoverhaul:corrupted_pearl" }
+		{
+			count: 10
+			item: {
+				Count: 1
+				id: "endermanoverhaul:soul_pearl"
+				tag: { }
+			}
+		}
+		{
+			count: 10
+			item: {
+				Count: 1
+				id: "endermanoverhaul:ancient_pearl"
+				tag: { }
+			}
+		}
+		{ count: 10, item: "endermanoverhaul:bubble_pearl" }
+		{ count: 10, item: "endermanoverhaul:summoner_pearl" }
+		{ count: 10, item: "endermanoverhaul:icy_pearl" }
+		{ count: 10, item: "endermanoverhaul:crimson_pearl" }
+		{ count: 10, item: "endermanoverhaul:warped_pearl" }
+		{ count: 16, item: "minecraft:ender_pearl" }
+	]
+	title: "Жемчуги"
+}

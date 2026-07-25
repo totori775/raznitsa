@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:alchemist_61",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "id": "d9d0dcc7-c404-4656-9fe1-7ada2760aa8c",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "id": "0d38708e-f0f6-4188-96fa-dbbee74e89fb",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_crit_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Алый рыцарь",
+  "titleColor": "FF5555",
+  "positionX": 31.176,
+  "positionY": 126.002,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+15% к силе заклинаний крови"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+50% к сопротивлению магии крови"
+    }
+  ]
+}

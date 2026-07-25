@@ -1,0 +1,9 @@
+{
+  "container.sawmill.sawmill": "Лесопилка",
+  "block.sawmill.sawmill": "Лесопилка",
+  "sawmill.category.wood_cutting": "Лесопилка",
+  "entity.minecraft.villager.sawmill.carpenter": "Плотник",
+  "entity.minecraft.villager.carpenter": "Плотник",
+  "subtitles.sawmill.entity.villager.work_carpenter": "Плотник работает",
+  "subtitles.sawmill.ui.sawmill.take_result": "Лесопилка используется"
+}

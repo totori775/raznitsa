@@ -1,0 +1,434 @@
+{
+  "tooltip.enigmaticaddons.armor": "%1$s§d к броне",
+  "tooltip.enigmaticaddons.armor_toughness": "%1$s§d к прочности брони",
+  "tooltip.enigmaticaddons.damage": "%1$s§d к урону",
+  "tooltip.enigmaticaddons.knockback_resistance": "%1$s§d к сопротивлению отбрасывания",
+  "tooltip.enigmaticaddons.magic_resistance": "%1$s§d к магическому сопротивлению",
+  "tooltip.enigmaticaddons.speed": "%1$s§d к скорости",
+
+  "item.enigmaticaddons.disaster_sword": "Клинок бедствия",
+
+  "item.enigmaticaddons.avarice_ring": "Кольцо высшей роскоши",
+
+  "tooltip.enigmaticaddons.avariceRing1": "§5Жители деревни больше §d не повышают цены§5 и§d у них не заканчиваются запасы§5.",
+  "tooltip.enigmaticaddons.avariceRing2": "§6Торговцы §5кроме пиглинов, не будут активно ориентироваться на вас.",
+  "tooltip.enigmaticaddons.avariceRing3": "§6Разбойники §5определяют вас как приоритетную цель атаки.",
+  "tooltip.enigmaticaddons.avariceRing4": "§5После смерти все предметы, §6связанные с изумрудом, §5находящиеся при вас будут удалены.",
+  "tooltip.enigmaticaddons.avariceRing4_alt": "§5§mВ случае смерти все предметы, §6§mсвязанные с изумрудом, §5§mбудут изъяты.",
+  "tooltip.enigmaticaddons.avariceRing5": "§5Наносимый урон увеличивается в зависимости от количества §6драгоценных камней §5надетых на вас.",
+  "tooltip.enigmaticaddons.avariceRing6": "§5Текущее увеличение урона: §6%1$s",
+
+  "item.enigmaticaddons.violence_scroll": "Проклятье жестокости",
+
+  "tooltip.enigmaticaddons.violenceScroll1": "§5Атакуя одну и ту же цель, вы наносите дополнительно §6%1$s§5 от последнего урона.",
+  "tooltip.enigmaticaddons.violenceScroll2": "§5Если при нападении вы находитесь в неуязвимом состоянии:",
+  "tooltip.enigmaticaddons.violenceScroll3": "§5- Нанесенный урон §6%1$s§5.",
+  "tooltip.enigmaticaddons.violenceScroll4": "§5- Восстановление здоровья эквивалентно §6%1$s §5 от первоначального нанесенного урона.",
+  "tooltip.enigmaticaddons.violenceScroll5": "§5- Сбросьте время неуязвимости.",
+  "tooltip.enigmaticaddons.violenceScroll6": "§5Нажмите §6ПКМ §5на других предметах в инвентаре, чтобы снять с них проклятья.",
+  "tooltip.enigmaticaddons.violenceScroll7": "§5- §6%1$s §dСкорость атаки",
+  "tooltip.enigmaticaddons.violenceScroll8": "§5- §6%1$s §dДосягаемость сущности",
+  "tooltip.enigmaticaddons.violenceScroll9": "§5- §6%1$s §dСопротивление отбрасыванию",
+  "tooltip.enigmaticaddons.violenceScroll10": "§5- Целью атаки будет нанесение ослабленных проклятий с §6первого §5по §6четвертое§5.",
+  "tooltip.enigmaticaddons.violenceScroll11": "§5- Изменение §6четвертого §5проклятия, уменьшающее его эффект наполовину§5.",
+  "tooltip.enigmaticaddons.violenceScrollCount": "§dКоличество поглощенных проклятий: §6%1$s§",
+
+  "item.enigmaticaddons.illusion_lantern": "Духовный фонарь иллюзии",
+
+  "tooltip.enigmaticaddons.illusionLantern1": "§dАктивная способность:",
+  "tooltip.enigmaticaddons.illusionLantern2": "§4- Отсутствует.",
+  "tooltip.enigmaticaddons.illusionLanternCooldown": "§dВремя восстановления: §6%1$s§6 секунд",
+  "tooltip.enigmaticaddons.illusionLantern3": "§5- Сгенерируйте огненный шар души, чтобы автоматически атаковать окружающих существ",
+  "tooltip.enigmaticaddons.illusionLantern4": "§5- Нанесенный урон будет распределен между окружающими существами.",
+  "tooltip.enigmaticaddons.illusionLantern5": "§5- Обычная §dнежить§5 не будет нацелена на вас активно.",
+  "tooltip.enigmaticaddons.illusionLantern6": "§5- Значительно снижена защита §d- в обход §5 урона.",
+  "tooltip.enigmaticaddons.illusionLantern7": "§5- Окружающие растения блоки автоматически исчезнут.",
+  "tooltip.enigmaticaddons.illusionLantern8": "§5- Когда вокруг вас слишком светло, вы получаете урон от проклятия.",
+  "tooltip.enigmaticaddons.illusionLantern9": "§5- Получено незначительное увеличение §dнемагического урона§5.",
+
+  "item.enigmaticaddons.quartz_scepter": "Волшебный кварцевый скипетр",
+
+  "tooltip.enigmaticaddons.quartzScepter1": "§5Нажмите §6ПКМ§5, чтобы непрерывно стрелять волшебными кинжалами.",
+  "tooltip.enigmaticaddons.quartzScepter2": "§5Кинжалы могут помочь подобрать упавшие поблизости предметы.",
+  "tooltip.enigmaticaddons.quartzScepter3": "§6Удача §5увеличит урон от кинжала.",
+
+  "tooltip.enigmaticaddons.disasterSword1_alt": "§5Пускай они почувствуют на себе катастрофу...",
+  "tooltip.enigmaticaddons.disasterSword1": "§5Каждый уровень §dДурного знамения§5 увеличивает урон на §6%1$s",
+  "tooltip.enigmaticaddons.disasterSword2": "§5ПКМ может обеспечить мощную, но кратковременную блокировку",
+  "tooltip.enigmaticaddons.disasterSword3": "§5Успешная блокировка может усилить следующую атаку",
+
+  "book.enigmaticaddons.entry.disaster_sword.name": "Клинок бедствия",
+  "book.enigmaticaddons.entry.disaster_sword.page.1": "Обладая прочным клинком и душой, готовой к взлету, этот меч демонстрирует навыки защиты и контратаки.<br2/> Держа в руках это оружие, вы можете использовать его широкое лезвие для отражения практически всех атак. Учитывая его тяжесть, любая атака становится неразличимой, но вы можете поднять меч только на мгновение.",
+  "book.enigmaticaddons.entry.disaster_sword.page.2": "При успешном блокировании поглощенная энергия задерживается на мече, ожидая идеального высвобождения при следующей атаке.<br2/> В этом четком звуке постепенно проявляется ритм катастрофы.",
+  
+  "item.enigmaticaddons.chaos_elytra": "Высокомерие Хаоса",
+
+  "tooltip.enigmaticaddons.chaosElytra1": "§5Уменьшает на §6%1$s §5урон от падения и атак сзади.",
+  "tooltip.enigmaticaddons.chaosElytra2": "§5При вертикальном ускорении по направлению",
+  "tooltip.enigmaticaddons.chaosElytra3": "§5к земле, наносит урон вокруг вас в радиусе 4 блоков.",
+
+  "book.enigmaticaddons.entry.chaos_elytra.name": "Высокомерие Хаоса",
+  "book.enigmaticaddons.entry.chaos_elytra.page.1": "Поскольку Сердце Бездны в ваших руках, почему бы не обратить свой взор на небо? Основываясь на том же процессе, что и Величественные крылья, используя более злобные и мощные материалы, можно получить эти более прочные элитры. Воспари в небо с силой космоса и хаоса, чтобы посмотреть сверху вниз на существ, ползающих по земле.",
+  "book.enigmaticaddons.entry.chaos_elytra.page.2": "Когда мы спустимся с небес на землю, хаос и зло будут сопровождать нас, обрушивая землю и повергая все в хаос.",
+
+  "item.enigmaticaddons.scorched_charm": "Очарование палящего солнца",
+
+  "tooltip.enigmaticaddons.scorchedCharm1": "§5Защищает владельца от огня",
+  "tooltip.enigmaticaddons.scorchedCharm2": "§5и позволяет ходить по лаве.",
+  "tooltip.enigmaticaddons.scorchedCharm3": "§5Обеспечивает естественную регенерацию при контакте с лавой.",
+  "tooltip.enigmaticaddons.scorchedCharm4": "§5Дарует вампиризм против целей которые горят в огне.",
+  "tooltip.enigmaticaddons.scorchedCharm5": "§5Шанс противостоять урону от атаки.",
+
+  "book.enigmaticaddons.entry.scorched_charm.name": "Очарование палящего солнца",
+  "book.enigmaticaddons.entry.scorched_charm.page.1": "Чтобы очистить силу пламени, помимо защиты, нам также нужны дополнительные вспомогательные способности. В отличие от Ледяного странника, этот амулет позволяет вам ходить прямо по лаве без необходимости превращать ее в другие странные предметы, что облегчает путешествие по Преисподней.",
+  "book.enigmaticaddons.entry.scorched_charm.page.2": "Кроме того, благодаря силе ихора, этот амулет пробудил некоторые благословения древних времен, которые могут превратить жар лавы в движущую силу жизни. А само благословение, кажется, называется 'Семь солнц'.",
+
+  "death.attack.evil_curse": "%1$s раздираемый на части проклятием.",
+
+  "tooltip.enigmaticaddons.legacy_future1": "§5Возможные элементы, которые могут быть реализованы в следующей",
+  "tooltip.enigmaticaddons.legacy_future2": "§5версии §dEnigmatic Legacy",
+
+  "item.enigmaticaddons.earth_heart_fragment": "Фрагмент сердца земли",
+
+  "item.enigmaticaddons.ode_to_living": "Ода о живых существах",
+
+  "tooltip.enigmaticaddons.livingOde1": "§5Когда находится в вашем инвентаре, ваши атаки не могут",
+  "tooltip.enigmaticaddons.livingOde2": "§5наносить урон животным.",
+  "tooltip.enigmaticaddons.livingOde3": "§5Большинство животных вокруг вас становятся пассивными.",
+  "tooltip.enigmaticaddons.livingOde4": "§dИзменение §6второго проклятия§d:",
+  "tooltip.enigmaticaddons.livingOde5": "§5- Нейтральные животные не будут активно нападать.",
+  "tooltip.enigmaticaddons.livingOde6": "§5Атакуйте этим предметом, чтобы помешать этому виду животных",
+  "tooltip.enigmaticaddons.livingOde7": "§5быть защищенными от этой книги.",
+  "tooltip.enigmaticaddons.livingOde7_alt": "§5Используется для умиротворения нейтральных животных.",
+  "tooltip.enigmaticaddons.livingOde8": "§dИспользуйте для успокоения животных и восстановления защитных эффектов.",
+
+  "item.enigmaticaddons.extradimensional_scepter": "Скипетр дополнительного измерения",
+
+  "tooltip.enigmaticaddons.extradimensionalScepter1": "§6ПКМ§5 по существу, чтобы поместить его в другое измерение / отпустить его",
+  "tooltip.enigmaticaddons.extradimensionalScepter2": "§6ПКМ§5 испускать луч для накопления значений дополнительных измерений",
+  "tooltip.enigmaticaddons.extradimensionalScepter3": "§5Как только этого будет достаточно, заблокируйте существ в §6Око дополнительного измерения",
+  "tooltip.enigmaticaddons.extradimensionalScepterCooldown": "§5Время восстановления: §6%1$s§5s",
+  "tooltip.enigmaticaddons.extradimensionalScepterModeS": "§5Режим: §6Перемещение",
+  "tooltip.enigmaticaddons.extradimensionalScepterModeC": "§5Режим: §6Боевой",
+  "tooltip.enigmaticaddons.extradimensionalScepterInfo": "§5Хранимое существо: §6%1$s",
+  "tooltip.enigmaticaddons.extradimensionalScepterInfo_alt": "§5Хранимое существо: §6%1$s§6(%2$s§6)",
+
+  "item.enigmaticaddons.artificial_flower": "Волшебный Кварцевый цветок",
+  "gui.enigmaticaddons.artificial_flower_attribute": "Атрибут",
+  "gui.enigmaticaddons.artificial_flower_effect": "Эффект зелья",
+  "gui.enigmaticaddons.artificial_flower_cost": "§5Потребление §6%1$s §5лазурит",
+  "gui.enigmaticaddons.artificial_flower_immunity": "§5Невосприимчив к %1$s",
+  "gui.enigmaticaddons.artificial_flower_provide0": "§5Обеспечение %1$s",
+  "gui.enigmaticaddons.artificial_flower_provide1": "§5Обеспечение %1$s§5 II",
+
+  "tooltip.enigmaticaddons.artificialFlowerEffect": "§dТекущие эффекты:",
+  "tooltip.enigmaticaddons.artificialFlowerNone": "§5Нет",
+
+  "tooltip.enigmaticaddons.artificialFlowerAttribute": "§5Текущие атрибуты:",
+  "tooltip.enigmaticaddons.artificialFlowerAttributeNone": "§5Нет",
+
+  "book.enigmaticaddons.entry.ode_to_living.name": "Ода о живых существах",
+  "book.enigmaticaddons.entry.ode_to_living.page.1": "Предыдущий путеводитель, казалось, не мог заставить всех друзей-животных узнавать вас, но эта книга может усмирить некоторых из них. Она унаследовала функциональность предыдущей версии путеводителя.",
+  "book.enigmaticaddons.entry.ode_to_living.page.2": "Содержание оды все еще непонятно для вас, поэтому вы можете носить ее с собой только на то время, когда она вам понадобится.",
+
+  "item.enigmaticaddons.night_scroll": "Пакт Темной ночи",
+
+  "tooltip.enigmaticaddons.nightScroll1": "§6Фантомы §5не будут появляться в непосредственной близости от вас.",
+  "tooltip.enigmaticaddons.nightScroll2": "§5Во тьме вы получите следующие усиления:",
+  "tooltip.enigmaticaddons.nightScroll3": "§6+10% §dк урону",
+  "tooltip.enigmaticaddons.nightScroll4": "§6+10% §dк сопротивлению",
+  "tooltip.enigmaticaddons.nightScroll5": "§6+10% §dк вампиризму",
+
+  "book.enigmaticaddons.entry.night_scroll.name": "Пакт Темной ночи",
+  "book.enigmaticaddons.entry.night_scroll.page.1": "Хотя проклятым не стоит упоминать о бессоннице, но эти прячущиеся в темноте Фантомы действительно раздражают своими непрекращающимися криками. Вы решаете использовать их останки для изготовления свитка.<br2/> Сила темной ночи не только пугает Фантома, но и позволяет вам раскрыть больше способностей в темноте.",
+  "book.enigmaticaddons.entry.night_scroll.page.2": "",
+
+  "item.enigmaticaddons.quartz_ring": "Волшебное кварцевое кольцо",
+
+  "book.enigmaticaddons.entry.quartz_ring.name": "Волшебное кварцевое кольцо",
+  "book.enigmaticaddons.entry.quartz_ring.page.1": "Когда вы обнаруживаете кварц в преисподней, вы удивляетесь его широкому распространению. В то же время, когда дело доходит до приобретения новых материалов, кажется, что с вашими навыками вы можете создавать более прочные защитные кольца.<br2/> Однако простое изучение возможностей физической защиты для колец уже достигло своего предела, так можем ли мы разработать какие-то другие способы их использования?",
+  "book.enigmaticaddons.entry.quartz_ring.page.2": "Поэтому добавление в рецепт лазурита в качестве зачаровывающего материала усиливает магические свойства кольца, позволяя вам немного повысить свою сопротивляемость при столкновении с магическими атаками. Лучше так, чем ничего.",
+
+  "item.enigmaticaddons.earth_promise": "Обещание Земли",
+
+  "tooltip.enigmaticaddons.earthPromise1": "§5При нанесении урона, равного§6 %1$s §5от текущего",
+  "tooltip.enigmaticaddons.earthPromise2": "§5здоровья, заблокируйте эту атаку",
+  "tooltip.enigmaticaddons.earthPromise3": "§dИзменение в §6Первом проклятье§d:",
+  "tooltip.enigmaticaddons.earthPromise4": "§5- Уменьшает эффект от §6Первого проклятья §5на %1$s",
+
+  "book.enigmaticaddons.entry.earth_promise.name": "Обещание Земли",
+  "book.enigmaticaddons.entry.earth_promise.page.1": "Всякий раз, когда вы наблюдаете, как сердце земли постепенно сжимается в вашей руке, испытываете ли вы внутреннее возбуждение? Скорбный крик из глубин земли никогда не звучал в ваших ушах так долго. Но когда сила космоса находит отклик в сердце земли в ваших руках, вы заново осознаете истинную силу земли.",
+  "book.enigmaticaddons.entry.earth_promise.page.2": "Земля обещает обеспечить защиту и попытаться предотвратить эти смертельные травмы, но материал из золота не обладает такой высокой устойчивостью, поэтому важно обратить внимание на то, находится ли это кольцо в надлежащей форме.",
+
+  "item.enigmaticaddons.antique_bag": "Антикварная сумка для книг",
+  "gui.enigmaticaddons.antique_bag": "§7Волшебная сумка для книг",
+
+  "tooltip.enigmaticaddons.antiqueBag1": "§5Контейнер, похожий на сундук Эндера.",
+  "tooltip.enigmaticaddons.antiqueBag2": "§5Книги, хранящиеся в нем,",
+  "tooltip.enigmaticaddons.antiqueBag3": "§5будут считаться находящимися в инвентаре.",
+  "tooltip.enigmaticaddons.antiqueBag4": "§5Этот предмет все еще находится в Эндер-сундуке.",
+
+  "item.enigmaticaddons.adventure_charm": "Эмблема искателя приключений",
+
+  "tooltip.enigmaticaddons.adventureCharm1" : "§5Мешает вам вскапывать блоки.",
+  "tooltip.enigmaticaddons.adventureCharm2" : "§5Удерживайте §6Shift §5чтобы отключить.",
+
+  "item.enigmaticaddons.ichor_droplet": "Капля ихора",
+
+  "item.enigmaticaddons.ichoroot": "Корень ихора",
+
+  "tooltip.enigmaticaddons.ichoroot": "§5Обладает легким очищающим действием",
+
+  "item.enigmaticaddons.pure_heart": "Чистое сердце",
+
+  "item.enigmaticaddons.bless_amplifier": "Книга предсказаний",
+
+  "tooltip.enigmaticaddons.blessAmplifier1": "§5Комбинируйте с любым зачарованным предметом в сетке крафта,",
+  "tooltip.enigmaticaddons.blessAmplifier2": "§5чтобы улучшить все чары.",
+  "tooltip.enigmaticaddons.blessAmplifier3": "§5Может нарушить предельный уровень.",
+
+  "book.enigmaticaddons.entry.bless_amplifier.name": "Книга предсказаний",
+  "book.enigmaticaddons.entry.bless_amplifier.page.1": "После крещения Ихором желание заполучить книгу превратилось из приобретения в дарение, что еще больше усиливает магическую силу предмета.<br2/> Если вы позволите ей вступить в тесный контакт с любым зачарованным предметом, она пожертвует собой и удвоит уровень зачарования предмета.",
+  "book.enigmaticaddons.entry.bless_amplifier.page.2": "Его истинная цель - поднять ограничения заклинаний на более высокий уровень.<br2/> Кстати, не все ограничения можно преодолеть, и есть также некоторые заклинания, которые не выдерживают такой силы и становятся неэффективными.",
+
+  "item.enigmaticaddons.ichor_spear": "Копье ихора",
+  "tooltip.enigmaticaddons.theBless6": "§5обладает более длительным временем неуязвимости",
+
+  "item.enigmaticaddons.evil_dagger": "Создатель проклятий",
+
+  "tooltip.enigmaticaddons.evilDagger1": "§5Нажмите ПКМ, чтобы бросить кинжал",
+  "tooltip.enigmaticaddons.evilDagger2": "§5Примените смертельное проклятие к цели",
+
+  "book.enigmaticaddons.entry.evil_dagger.name": "The Curse Carver",
+  "book.enigmaticaddons.entry.evil_dagger.page.1": "Таинственное оружие, изготовленное из гнусного слитка, с бесконечными злыми мыслями, собранными на кончике лезвия, жадно ожидающими, когда душа насладится им.<br2/> Как следует из названия, Создатель проклятий способен наложить уникальное проклятие на вашу душу. Как только это несмываемое проклятие начнет действовать, клетка злых мыслей скует ваш разум.",
+  "book.enigmaticaddons.entry.evil_dagger.page.2": "действия и ранят вашу душу, укус за укусом, пока не будут удовлетворены. Что касается целей с выдающейся живучестью, их жадная натура заставляет их требовать большего. Когда они удовлетворены, они начинают разрывать вашу душу на части, изливаясь изнутри",
+  "book.enigmaticaddons.entry.evil_dagger.page.3": "как будто пытаются полностью уничтожить этот бесполезный контейнер.<br2/> Кроме того, они больше не будут смотреть на контейнеры, которыми уже пользовались, так что у этого проклятия есть фатальная слабость, которая устранима.",
+
+  "item.enigmaticaddons.totem_of_malice": "Тотем злобы",
+
+  "tooltip.enigmaticaddons.totemofMalice1": "§5Когда находится в инвентаре или в ячейке для аксессуаров:",
+  "tooltip.enigmaticaddons.totemofMalice2": "§5Увеличивает урон наносимый §dРазбойникам§5 на §6%1$s",
+  "tooltip.enigmaticaddons.totemofMalice3": "§5Уменьшает урон от §dРазбойников§5 на §6%1$s",
+  "tooltip.enigmaticaddons.totemofMalice4": "§5Можно один раз избежать смерти.",
+  "tooltip.enigmaticaddons.totemofMalice5": "§5При срабатывании наносится ущерб окружающей среде.",
+  "tooltip.enigmaticaddons.totemofMalice4_alt": "§5§mМожет избежать смерти.",
+  "tooltip.enigmaticaddons.totemofMalice5_alt": "§5§mПри срабатывании урон наносится всем вокруг.",
+
+  "book.enigmaticaddons.entry.totem_of_malice.name": "Тотем злобы",
+  "book.enigmaticaddons.entry.totem_of_malice.page.1": "Мы понятия не имеем о том, как иллагеры создавали тотемы бессмертия, но за каждым тотемом должны стоять жертвы живых существ.Но теперь, используя гнусную сущность, чтобы высвободить злобу этих запечатанных душ, мобилизовать их гнев на разбойников, чтобы исполнить их последнее желание отомстить.",
+  "book.enigmaticaddons.entry.totem_of_malice.page.2": "Когда их желание отомстить исполнится, они не забудут о своем долге. Они по-прежнему готовы защищать вас в самые опасные моменты и нападать на окружающих врагов.",
+
+  "item.enigmaticaddons.astral_spear": "Астральное копье",
+
+  "tooltip.enigmaticaddons.astralSpear1": "§5Копье с возможностью слежения,",
+  "tooltip.enigmaticaddons.astralSpear2": "§5которое может быстро выстрелить и",
+  "tooltip.enigmaticaddons.astralSpear3": "§5произвести взрыв после удара.",
+
+  "book.enigmaticaddons.entry.astral_spear.name": "Астральное копье",
+  "book.enigmaticaddons.entry.astral_spear.page.1": "Глядя на все эфириумные инструменты, кажется, что ни один из них не может достать врагов, парящих над вашей головой, так что пришло время задуматься о том, насколько на самом деле могущественна астральная пыль.<br2/> Используя эфириумный меч в качестве основы, удлините рукоять, заточите наконечник копья и, наконец, нанесите удар по из магии астральной пыли рождается особое копье.",
+  "book.enigmaticaddons.entry.astral_spear.page.2": "Сила астральной пыли сосредоточена на острие копья, что позволяет ему взаимодействовать с энергией в пространстве. Таким образом, копье может воспринимать и отслеживать каждую цель. А также оно может накапливать энергию, быстро пронзать ее насквозь и изливать энергию, производя",
+  "book.enigmaticaddons.entry.astral_spear.page.3": "астральный взрыв.<br 2/> Астральная пыль также утратила свою магическую способность, почему бы не попробовать какие-нибудь чары, которые не относятся к мечам?",
+  "book.enigmaticaddons.entry.astral_spear.page.4": "<br/><&n><&8>Записки зачарований:<clear/><&8><br/>Острота<br/> - Увеличьте урон от метания копья.<br2/>Пронзатель<br/> - Увеличьте время прокалывания и немного улучшите возможности отслеживания<br2/>Верность<br/> - Копье отзывается автоматически, быстрее, чем трезубец.",
+
+  "item.enigmaticaddons.bless_ring": "[WIP]",
+
+  "tooltip.enigmaticaddons.blessRing1": "§dДля тех, кто испытал мучения,",
+  "tooltip.enigmaticaddons.blessRing2": "§dоставшиеся благословения все еще действуют:",
+  "tooltip.enigmaticaddons.blessRing3": "§5- §6+%1$s§d к уровню добычи",
+  "tooltip.enigmaticaddons.blessRing4": "§5- §6+%1$s§d к уровню зачарования удачи",
+  "tooltip.enigmaticaddons.blessRing5": "§5- Уникальная добыча с некоторых существ.",
+  "tooltip.enigmaticaddons.blessRing6": "§5- Вы можете создавать и использовать уникальные реликвии.",
+  "tooltip.enigmaticaddons.blessRingLore1": "§5Это кольцо сияет неповторимым",
+  "tooltip.enigmaticaddons.blessRingLore2": "§5блеском, напоминая о тех годах",
+  "tooltip.enigmaticaddons.blessRingLore3": "§5мучений, а также является",
+  "tooltip.enigmaticaddons.blessRingLore4": "§5доказательством силы...",
+
+  "item.enigmaticaddons.lost_engine": "Потерянный двигатель",
+
+  "tooltip.enigmaticaddons.lostEngine1": "§dАктивная способность:",
+  "tooltip.enigmaticaddons.lostEngine2": "§4- Отсутствует.",
+  "tooltip.enigmaticaddons.lostEngineCooldown": "§dВремя восстановления: §6%1$s§6 секунд",
+  "tooltip.enigmaticaddons.lostEngine3": "§dПассивные способности:",
+  "tooltip.enigmaticaddons.lostEngine4": "§5- Увеличена мобильность и сопротивление урону.",
+  "tooltip.enigmaticaddons.lostEngine5": "§5- Сокращает время восстановления предметов вдвое.",
+  "tooltip.enigmaticaddons.lostEngine6": "§5- Иммунитет к урону от §dПадения §5& §dВзрыва §5.",
+  "tooltip.enigmaticaddons.lostEngine7": "§5- Добавляет §6%1$s§d Критический урон§5.",
+  "tooltip.enigmaticaddons.lostEngine8": "§5- Големы не будут активно атаковать вас.",
+  "tooltip.enigmaticaddons.lostEngine9": "§5- Вы уязвимы к §dМагическому урону§5.",
+  "tooltip.enigmaticaddons.lostEngine10": "§5- Получение§d урона от молнии§5 становится смертельным.",
+
+  "item.enigmaticaddons.forger_gem": "Драгоценность кузнеца",
+
+  "tooltip.enigmaticaddons.forgerGem2" : "§5При работе на наковальне, опыта расходуется",
+  "tooltip.enigmaticaddons.forgerGem3" : "§5в два раза меньше, а наковальня разрушается медленнее",
+  "tooltip.enigmaticaddons.forgerGem4" : "§5Два неиспользуемых инструмента могут создать один§d неразрушаемый",
+  "tooltip.enigmaticaddons.forgerGem5" : "§5",
+
+  "item.enigmaticaddons.etherium_core": "Эфириумное ядро",
+
+  "tooltip.enigmaticaddons.etheriumCore1": "§dАктивная способность:",
+  "tooltip.enigmaticaddons.etheriumCore2": "§6- Создает эфириумный щит на §6%1$s§6 секунд",
+  "tooltip.enigmaticaddons.etheriumCoreCooldown": "§dВремя воостановления: §6%1$s§6 секунд",
+  "tooltip.enigmaticaddons.etheriumCore3": "§5- Делает вашу броню невидимой.",
+  "tooltip.enigmaticaddons.etheriumCore4": "§5- Преобразует §6%1$s§5 полученного урона в усиленный",
+  "tooltip.enigmaticaddons.etheriumCore5": "§5  удар при следующей атаке",
+
+  "item.enigmaticaddons.bless_stone": "Святой камень",
+
+  "tooltip.enigmaticaddons.blessStone1": "§5Возьми этот камень при поиске смерти,",
+  "tooltip.enigmaticaddons.blessStone2": "§5тогда §6Кольцо Семи проклятий",
+  "tooltip.enigmaticaddons.blessStone3": "§5превратится в §6Кольцо искупления",
+  "tooltip.enigmaticaddons.blessStone_info_1": "§4Ритуал, предназначенный исключительно для хардкора, - это...",
+  "tooltip.enigmaticaddons.blessStone_info_2": "§4§kXX_XX_XX_XX",
+  "tooltip.enigmaticaddons.blessStone1_hardcore": "§5Упорная воля позволяет проклятиям идти на компромисс",
+  "tooltip.enigmaticaddons.blessStone2_hardcore": "§5Давайте начнем обмен душами",
+  "tooltip.enigmaticaddons.blessStone_hardcore_info": "§dХардкор тоже можно преодолеть.",
+
+  "item.enigmaticaddons.thunder_scroll": "Свиток громового объятия",
+
+  "tooltip.enigmaticaddons.thunderScroll1": "§5Размашистая атака наносит §6100% §5урона.",
+  "tooltip.enigmaticaddons.thunderScroll2": "§5Наносит больший урон целям с §dбронёй§5.",
+  "tooltip.enigmaticaddons.thunderScroll3": "§5После многократного попадания при атаке,",
+  "tooltip.enigmaticaddons.thunderScroll4": "§5цель получит §6удар молнии§5.",
+  "tooltip.enigmaticaddons.thunderScroll5": "§5Уменьшает урон от молнии наполовину",
+  "tooltip.enigmaticaddons.thunderScroll6": "§5и обходить практически любое другое влияние.",
+
+  "book.enigmaticaddons.entry.lost_engine.name": "Потерянный двигатель",
+  "book.enigmaticaddons.entry.lost_engine.heading.1": "Камень стихий",
+  "book.enigmaticaddons.entry.lost_engine.page.1": "Когда вы обнаружите этот магический камень, он по-прежнему будет бесшумно двигаться в повороте.<br2/> Этот древний магический камень, оснащенный двигателем старой эры, может повысить вашу подвижность и сопротивляемость, позволяя вам увеличить свою силу почти в четыре раза после приседания, а также позволяя выбрасывать струю воздуха для уменьшения воздействие силы тяжести. Хотя это",
+  "book.enigmaticaddons.entry.lost_engine.page.2": "это делает ваши шаги тяжелее, а также значительно увеличивает критический урон. Ритм двигателя, кажется перекликается с окружающими его големами, что по вашему мнению замечательно.",
+
+  "item.enigmaticaddons.revival_leaf": "Листья возрождения",
+
+  "tooltip.enigmaticaddons.revivalLeaf1": "§dАктивная способность:",
+  "tooltip.enigmaticaddons.revivalLeaf2": "§6- накладывает эффект регенерации за счет вашего опыта.",
+  "tooltip.enigmaticaddons.revivalLeafCooldown": "§dВремя восстановления: §6%1$s§6 seconds",
+  "tooltip.enigmaticaddons.revivalLeaf3": "§dПассивные способности:",
+  "tooltip.enigmaticaddons.revivalLeaf4": "§5- Медленная естественная регенерация.",
+  "tooltip.enigmaticaddons.revivalLeaf5": "§5- Атакованная цель будет отравлена.",
+  "tooltip.enigmaticaddons.revivalLeaf6": "§5- Иммунитет к §dГолоду§5, §dОтравлению§5 и §dИссушению§5.",
+  "tooltip.enigmaticaddons.revivalLeaf7": "§5- Окружающие вас культуры растут быстрее",
+  "tooltip.enigmaticaddons.revivalLeaf8": "§5- Все эффекты сохраняются дольше.",
+  "tooltip.enigmaticaddons.revivalLeaf9": "§5- Вы можете §dлетать§5, когда вокруг есть блоки растений.",
+  "tooltip.enigmaticaddons.revivalLeaf10": "§5- Вы уязвимы к §dОгню§5 и §dУрону от снарядов§5.",
+
+  "book.enigmaticaddons.entry.revival_leaf.name": "Листья возрождения",
+  "book.enigmaticaddons.entry.revival_leaf.heading.1": "Камень стихий",
+  "book.enigmaticaddons.entry.revival_leaf.page.1": "Еще один уникальный магический камень, вобравший в себя силу природы, его можно найти в древнем храме джунглей.<br2/> Магический камень может обеспечить природную силу: повысить вашу жизненную силу, медленно восстановить здоровье, защитить от некоторых незначительных побочных эффектов и разумно регулировать функции организма, чтобы эффект сохранялся дольше.",
+  "book.enigmaticaddons.entry.revival_leaf.page.2": "Этот предмет также может повлиять на урожай, заставив окружающие растения расти более интенсивно.",
+
+  "item.enigmaticaddons.forgotten_ice": "Забытый ледяной кристалл",
+
+  "tooltip.enigmaticaddons.forgottenIce1": "§dАктивная способность:",
+  "tooltip.enigmaticaddons.forgottenIce2": "§4- Отсутствует.",
+  "tooltip.enigmaticaddons.forgottenIceCooldown": "§dВремя восстановления: §6%1$s §6секунд",
+  "tooltip.enigmaticaddons.forgottenIce3": "§dПассивные способности:",
+  "tooltip.enigmaticaddons.forgottenIce4": "§5- Устойчивость к замерзанию",
+  "tooltip.enigmaticaddons.forgottenIce5": "§5- Цель для атаки постепенно замерзает",
+  "tooltip.enigmaticaddons.forgottenIce6": "§5- Замораживает тех, кто нападает на вас в ближнем бою",
+  "tooltip.enigmaticaddons.forgottenIce7": "§5- Наносите больше урона замороженным целям",
+  "tooltip.enigmaticaddons.forgottenIce8": "§5- §6%1$s§d Устойчивость к снарядам и звуковым повреждениям",
+  "tooltip.enigmaticaddons.forgottenIce9": "§5- Вы уязвимы для §6Урона от огня§5 и §6Урона от падения",
+
+  "book.enigmaticaddons.entry.forgotten_ice.name": "Забытый ледяной кристалл",
+  "book.enigmaticaddons.entry.forgotten_ice.heading.1": "Камень стихий",
+  "book.enigmaticaddons.entry.forgotten_ice.page.1": "Когда дело доходит до камней стихий, 6 из них будут занимать умы людей, но на далеких заснеженных равнинах все еще есть сила, которая ждет, когда вы начнете раскопки.<br2/> Этот магический камень пробуждает силу льда, а замерзший воздух замедляет скорость передвижения предметов вокруг него. В то же время, способности ледяного странника",
+  "book.enigmaticaddons.entry.forgotten_ice.page.2": "и замораживания также включены в этот магический камень.<br2/> Но сила мороза выходит за рамки этого. Этот волшебный камень позволяет вам обнаруживать различные недостатки, которые существуют у замороженных существ. Но подобно Воле Океана, вы должны понимать, что пламя по-прежнему смертельно опасно.",
+
+  "item.enigmaticaddons.dragon_bow": "Лук дыхания дракона",
+
+  "tooltip.enigmaticaddons.dragonBow": "§5Вы можете сочетать это с зельями.",
+
+  "book.enigmaticaddons.entry.dragon_bow.name": "Лук дыхания дракона",
+  "book.enigmaticaddons.entry.dragon_bow.page.1": "Можно ли использовать дыхание дракона только для приготовления зелий? Возможно, вы задумывались над этим вопросом. Вспоминая, как Дракон Края использовал свое смертоносное дыхание дракона, чтобы сжечь вашу физическую оболочку, вы также хотите, чтобы другие испытали это на себе. И странная голова дракона, висящая на древнем корабле,",
+  "book.enigmaticaddons.entry.dragon_bow.page.2": "которую можно использовать только для украшения...<br 2/>Поэтому, по разным причинам, на свет появился этот лук, наполненный магией.<br 2/> Этот лук может стрелять стрелами из дыхания дракона без каких-либо боеприпасов, но требует немного больше времени на зарядку. ",
+  "book.enigmaticaddons.entry.dragon_bow.page.3": "Когда стрела дыхание дракона попадает в цель, она превращается в облако дыхания дракона, сжигая все на своем пути.<br2/> Однако следует отметить, что этот лук позволяет вам использовать силу только дыхания дракона.",
+
+  "item.enigmaticaddons.false_justice": "Искаженное правосудие",
+
+  "tooltip.enigmaticaddons.falseJustice1": "§5Когда находится в вашем инвентаре",
+  "tooltip.enigmaticaddons.falseJustice2": "§5- Весь полученный вами урон будет преобразован в реальный урон.",
+  "tooltip.enigmaticaddons.falseJustice3": "§5- Ваш урон от атаки будет удвоен.",
+
+  "book.enigmaticaddons.entry.false_justice.name": "Искаженное правосудие",
+  "book.enigmaticaddons.entry.false_justice.page.1": "У нас нет возможности изучить, что содержится в подтверждении, чтобы оно могло бесконечно отображать информацию. Но мы можем использовать сущность Увядания, чтобы извлечь самую хаотичную часть подтверждения и изменить правила битвы.<br2/> Ценой знаний и опыта эта книга начинает создавать атмосферу хаоса.",
+  "book.enigmaticaddons.entry.false_justice.page.2": "Теперь все атаки, связанные с вами, выходят за рамки первоначальных правил. Защита? Иммунитет? Перед лицом настоящего хаоса это не что иное, как иллюзия. Все, что вам нужно делать, это уклоняться от атак и наносить цели неотразимый удары.",
+
+  "item.enigmaticaddons.cursed_xp_scroll": "Свиток проклятия невежества",
+
+  "tooltip.enigmaticaddons.xpTome2": "§5Взаимодействие со свитком - это то же самое, что Свиток Вечной мудрости.",
+  "tooltip.enigmaticaddons.xpTome3": "§5Улучшайте свои способности в зависимости от вашего уровня,",
+  "tooltip.enigmaticaddons.xpTome4": "§5при этом опыт будет постепенно уменьшаться.",
+  "tooltip.enigmaticaddons.xpTome5": "§5После смерти теряется весь опыт.",
+
+  "book.enigmaticaddons.entry.cursed_xp_scroll.name": "Проклятие невежества",
+  "book.enigmaticaddons.entry.cursed_xp_scroll.page.1": "Когда ваш период достигает определенной стадии, опыт может оказаться не очень полезным, за исключением того, что он может быть использован для других целей, но теперь, благодаря силе проклятия, природа этого свитка претерпела огромные изменения.<br2/> Жадное проклятие невежества пожирает большую часть из полученного вами опыта.",
+  "book.enigmaticaddons.entry.cursed_xp_scroll.page.2": "Конечно, не следует недооценивать преимущества, которые приносит проклятие значительно повышая ваши боевые способности. И пожалуйста помните, что проклятие всегда выжидает удобного случая. Когда вы будете наиболее уязвимы, оно лишит вас всего.",
+
+  "item.enigmaticaddons.hell_blade_charm": "Очарование адского клинка",
+
+  "tooltip.enigmaticaddons.hellBladeCharm1": "§5- Ваша броня будет неэффективна.",
+  "tooltip.enigmaticaddons.hellBladeCharm2": "§5- Весь нанесенный вами урон будет удвоен.",
+  "tooltip.enigmaticaddons.hellBladeCharm3": "§5- Когда ваш урон достигнет §6%1$s§5 от ",
+  "tooltip.enigmaticaddons.hellBladeCharm4": "§5- здоровья цели, убейте ее и вылечите себя.",
+
+  "book.enigmaticaddons.entry.hell_blade_charm.name": "Очарование адского клинка",
+  "book.enigmaticaddons.entry.hell_blade_charm.title": "Обоюдоострый ад",
+  "book.enigmaticaddons.entry.hell_blade_charm.page.1": "Этот амулет, кажется, ждал вашего появления где-то в преисподней, ждал, когда вы напитаете его своей собственной кровью.<br2/> Любой, кто заметит какой мощной силой обладает этот артефакт, даже если на нем честно указана стоимость, неизбежно испытает искушение надеть его.",
+  "book.enigmaticaddons.entry.hell_blade_charm.page.2": "Если говорить о тех, кто его носит в конечном итоге погибает глупой смертью.<br2/> Поэтому носите этот амулет осторожно, особенно те, кто несет на себе Семь Проклятий одновременно.",
+
+  "item.enigmaticaddons.astral_potion": "Космическое зелье",
+
+  "tooltip.enigmaticaddons.astralPotion1": "§5Узри богатый вкус звезд!",
+  "tooltip.enigmaticaddons.astralPotion2": "§4Ты думаешь, тебе не стоит слишком много пить...",
+
+  "book.enigmaticaddons.entry.astral_potion.name": "Космическое зелье",
+  "book.enigmaticaddons.entry.astral_potion.heading": "Готовлю зелье",
+  "book.enigmaticaddons.entry.astral_potion.page.1": "Звездная пыль обладает огромным потенциалом в приготовлении зелий, с которым вы, должно быть, уже сталкивались. Но, сталкиваясь с некоторыми незнакомыми зельями, кажется, что вы не можете просто катализировать их звездную пыль, не говоря уже о тех эффектах, которые невозможно получить с помощью зелий.<br2/> Вы обратили свой взор на мед.",
+  "book.enigmaticaddons.entry.astral_potion.page.2": "Судя по результатам, это таинственное вещество может продлить действие зелья на вас. Но если вы захотите еще одну бутылку, эмм...будьте осторожны с последствиями...",
+
+  "item.enigmaticaddons.primeval_cube": "Первородный куб",
+
+  "tooltip.enigmaticaddons.primevalCube": "§5Бесполезный камень...",
+
+  "book.enigmaticaddons.entry.primeval_cube.name": "Бесполезный камень...",
+  "book.enigmaticaddons.entry.primeval_cube.page.1": "Вы обнаружили эту древнюю запись, которая, по-видимому, повествует о возрождении магических камней.<br2/>Под воздействием сияния звезд...<br/>Шесть становятся одним целым...<br/>Сопровождаемый силой двух \"Сердец\".",
+
+  "death.attack.false_justice": "%1$s исчез в пустоте суда.",
+
+  "entity.enigmaticaddons.astral_spear": "Астральное копье",
+  "entity.enigmaticaddons.evil_dagger": "Гнусный кинжал",
+  "entity.enigmaticaddons.ichor_spear": "Копье ихора",
+  "entity.enigmaticaddons.cobweb_ball": "Клубок паутины",
+  "entity.enigmaticaddons.dragon_breath_arrow": "Стрела дыхания дракона",
+  "entity.enigmaticaddons.enigmatic_potion_entity": "Абсолютное зелье",
+  "entity.enigmaticaddons.split_dragon_breath": "Расщепленное дыхание дракона",
+  "entity.enigmaticaddons.ultimate_dragon_fireball": "Абсолютный огненный шар дракона",
+  "entity.enigmaticaddons.magic_quartz_dagger": "Волшебный кварцевый кинжал",
+
+  "effect.enigmaticaddons.dragon_breath": "Дыхание дракона",
+  "effect.enigmaticaddons.frozen_heart": "Замерзшее сердце",
+  "effect.enigmaticaddons.ichor_corrosion": "Ихорная коррозия",
+  "effect.enigmaticaddons.pure_resistance": "Чистое сопротивление",
+
+  "item.enigmaticaddons.common_potion.effect.frozen_heart": "Зелье замерзшего сердца",
+  "item.enigmaticaddons.common_potion.effect.long_frozen_heart": "Зелье замерзшего сердца",
+  "item.enigmaticaddons.ultimate_potion.effect.ultimate_frozen_heart": "Зелье замерзшего сердца",
+  "item.enigmaticaddons.common_potion_splash.effect.frozen_heart": "Взрывное зелье замерзшего сердца",
+  "item.enigmaticaddons.common_potion_splash.effect.long_frozen_heart": "Взрывное зелье замерзшего сердца",
+  "item.enigmaticaddons.ultimate_potion_splash.effect.ultimate_frozen_heart": "Взрывное зелье замерзшего сердца",
+  "item.enigmaticaddons.common_potion_lingering.effect.frozen_heart": "Оседающее зелье замерзшего сердца",
+  "item.enigmaticaddons.common_potion_lingering.effect.long_frozen_heart": "Оседающее зелье замерзшего сердца",
+  "item.enigmaticaddons.ultimate_potion_lingering.effect.ultimate_frozen_heart": "Оседающее зелье замерзшего сердца",
+
+  "book.enigmaticaddons.entry.frozen_heart_potion.name": "Зелье замерзшего сердца",
+  "book.enigmaticaddons.entry.frozen_heart_potion.heading.1": "Приготовление зелья",
+  "book.enigmaticaddons.entry.frozen_heart_potion.heading.2": "Увеличивающаяся продолжительность",
+  "book.enigmaticaddons.entry.frozen_heart_potion.heading.3": "Взрывная версия",
+  "book.enigmaticaddons.entry.frozen_heart_potion.heading.4": "Оседающая версия",
+  "book.enigmaticaddons.entry.frozen_heart_potion.page.1": "Голубой лед, самый чистый лед среди прочих ледяных глыб. После тщательного обдумывания вы решили добавить его в процесс варки в качестве пробы.<br2/> После дегустации, несмотря на то, что он слишком холодный, вы обнаруживаете, что у вас нет ощущения холода во всем теле. Вместо этого он позволяет вам ощутить силу холодного воздуха заснеженных гор и ледников.",
+  "book.enigmaticaddons.entry.frozen_heart_potion.page.2": "В конечном счете, вы получите иммунитет к замораживанию и сможете накладывать холодную ауру на других и наносить больший урон этим замороженным целям.",
+  "book.enigmaticaddons.entry.frozen_heart_potion.page.3": "Его эффект можно усилить, используя красную пыль.",
+  "book.enigmaticaddons.entry.frozen_heart_potion.page.4": "Вы также можете сделать его взрывным...",
+  "book.enigmaticaddons.entry.frozen_heart_potion.page.5": "...или оседающим, точно так же, как вы можете приготовить любое другое обычное зелье."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:alchemist_45",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "id": "01e96ecf-9939-47f1-a4a6-6977b4e6b20d",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:alchemist_42",
+    "skilltree:alchemist_61"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_offensive_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Магия крови",
+  "titleColor": "E3D4D1",
+  "positionX": 3.8146973E-6,
+  "positionY": 108.00298,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к силе заклинаний крови"
+    }
+  ]
+}

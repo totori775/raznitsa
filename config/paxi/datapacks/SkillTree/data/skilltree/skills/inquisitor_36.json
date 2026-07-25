@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:inquisitor_36",
+  "bonuses": [
+    {
+      "type": "skilltree:projectile_speed",
+      "multiplier": 0.2
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:inquisitor_31"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Быстрая стрела II",
+  "titleColor": "FFAA00",
+  "positionX": 62.352,
+  "positionY": -107.996,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+20% к скорости снарядов"
+    }
+  ]
+}

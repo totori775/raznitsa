@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:cook_44",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "id": "b8454887-5cec-4d68-9e27-ae6b0a507d83",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:cook_41",
+    "skilltree:cook_60"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Превосходство",
+  "titleColor": "E3D4D1",
+  "positionX": 93.52729,
+  "positionY": -53.99402,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+3% к сокращению перезарядки заклинаний"
+    }
+  ]
+}

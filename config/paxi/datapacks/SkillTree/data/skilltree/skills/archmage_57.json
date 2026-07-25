@@ -1,0 +1,60 @@
+{
+  "id": "skilltree:archmage_57",
+  "bonuses": [
+    {
+      "type": "passiveskilltreeaddon:extra_enchant_slot",
+      "value": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "id": "b9f1058a-0a84-4c86-bb47-7cbcb8c8d69b",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archmage_54"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Тайные знания II",
+  "titleColor": "FFAA00",
+  "positionX": -124.703,
+  "positionY": -72.004,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+1 слот к зачарованию ваших предметов"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+20% к сокращению перезарядки заклинаний"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "*Без этой способности у игроков по умолчанию 3 слота для книг зачарований"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:archmage_58",
+  "bonuses": [
+    {
+      "type": "skilltree:curio_slots",
+      "slot": "scroll",
+      "amount": 1,
+      "modifier_id": "1703df28-f5f2-49c6-a8af-776ebd9bd51f"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Камень элементалиста",
+  "titleColor": "FFAA00",
+  "positionX": 124.703,
+  "positionY": -71.992,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+1 дополнительный слот под Магический свиток"
+    }
+  ]
+}

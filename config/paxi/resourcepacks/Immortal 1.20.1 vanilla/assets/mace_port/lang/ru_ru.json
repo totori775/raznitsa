@@ -1,0 +1,24 @@
+{
+  "item.mace_port.mace": "§6Королевская булава",
+  "item.mace_port.heavy_core": "§6Тяжёлое ядро",
+  "item.mace_port.breeze_rod": "§6Королевский стержень",
+  "item.mace_port.wind_charge": "§6Королевский заряд ветра",
+
+  "block.mace_port.heavy_core": "§6Тяжёлое ядро",
+
+  "entity.mace_port.wind_charge": "Королевский заряд ветра",
+
+  "enchantment.mace_port.density": "Плотность",
+  "enchantment.mace_port.breach": "Пробитие",
+  "enchantment.mace_port.wind_burst": "Порыв ветра",
+
+  "subtitles.item.mace.smash_ground": "Булава ударяет по земле",
+  "subtitles.item.mace.smash_air": "Булава разбивает",
+  "subtitles.entity.wind_charge.throw": "Заряд ветра летит",
+  "subtitles.entity.generic.wind_burst": "Заряд ветра взрывается",
+
+  "advancements.adventure.overoverkill.description": "Нанести 50 урона за один удар булавой",
+  "advancements.adventure.overoverkill.title": "Перебор",
+  "advancements.adventure.who_needs_rockets.description": "Используйте заряд ветра, чтобы взлететь на 8 блоков вверх",
+  "advancements.adventure.who_needs_rockets.title": "Верхом на облаке"
+}

@@ -1,0 +1,18 @@
+{
+    "name": "Булава нечестивого рыцаря",
+    "icon": "immortalskills:unholy_knight_mace",
+    "category": "patchouli:armor_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "При улучшении оружия до редкого уровня оно преобретает новые способности. Каждые 20 секунд при атаке вы закапываете врага на 1 секунду и он получает урон от удушения. Если вы добиваете врага, который был закопан, то урон этого оружия увеличивается на 0.1 (максимально на 13)."
+        },
+		{
+            "type": "patchouli:image",
+            "images": [
+			  "immortal_book:textures/gui/entries/book_48.png"
+		    ],
+			"border": true
+        }
+    ]
+}

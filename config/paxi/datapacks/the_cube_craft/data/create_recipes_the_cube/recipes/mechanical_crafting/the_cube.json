@@ -1,0 +1,51 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "ISPSI",
+    "SACAS",
+    "POBOP",
+    "SACAS",
+    "ISPSI"
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "enigmaticlegacy:astral_dust"
+      }
+    ],
+    "C": [
+      {
+        "item": "enigmaticlegacy:cosmic_heart"
+      }
+    ],
+    "O": [
+      {
+        "item": "cataclysm:witherite_ingot"
+      }
+    ],
+    "S": [
+      {
+        "item": "create:sturdy_sheet"
+      }
+    ],
+    "B": [
+      {
+        "item": "minecraft:totem_of_undying"
+      }
+    ],
+    "P": [
+      {
+        "item": "create:precision_mechanism"
+      }
+    ],
+    "I": [
+      {
+        "item": "create_unbreakable:irromolding"
+      }
+    ]
+  },
+  "result": {
+    "item": "enigmaticlegacy:the_cube"
+  },
+  "acceptMirrored": true
+}

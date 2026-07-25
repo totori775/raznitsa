@@ -1,0 +1,69 @@
+{
+  "cursedChestItemDroppedCount": 3,
+  "cursedChestItems": [
+    {
+      "weight": 10,
+      "stack": {
+        "id": "born_in_chaos_v1:ethereal_spirit",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 10,
+      "stack": {
+        "id": "born_in_chaos_v1:pieceofdarkmetal",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 10,
+      "stack": {
+        "id": "born_in_chaos_v1:dark_charge",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 10,
+      "stack": {
+        "id": "immortalsoul:ominous_fragment_key",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 1,
+      "stack": {
+        "id": "immortalsoul:cursed_relic",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 10,
+      "stack": {
+        "id": "enigmaticaddons:earth_heart_fragment",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 10,
+      "stack": {
+        "id": "minecraft:raw_iron",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 10,
+      "stack": {
+        "id": "minecraft:ender_pearl",
+        "Count": 1
+      }
+    },
+    {
+      "weight": 10,
+      "stack": {
+        "id": "minecraft:bone",
+        "Count": 1
+      }
+    }
+  ],
+  "_immortalsoul_version": "1.1.3.4-preview01"
+}

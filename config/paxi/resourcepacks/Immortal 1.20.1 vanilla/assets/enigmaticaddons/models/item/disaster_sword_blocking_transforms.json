@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "enigmaticaddons:item/3d/disaster_sword_blocking_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "enigmaticaddons:item/gui/disaster_sword_gui"
+    },
+    "fixed": {
+      "parent": "enigmaticaddons:item/gui/disaster_sword_gui"
+    },
+    "ground": {
+      "parent": "enigmaticaddons:item/gui/disaster_sword_gui"
+    }
+  }
+}

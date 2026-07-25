@@ -1,0 +1,47 @@
+{
+  "id": "skilltree:hunter_56",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "id": "26a3b385-f996-493a-9d9a-f25c16022a9d",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:curse_negation_pain",
+      "curseId": "pain"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:hunter_53"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_defensive_crafting_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_1.png",
+  "title": "Познание боли",
+  "titleColor": "FF5555",
+  "positionX": 0.0,
+  "positionY": 144.004,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Отменяет увеличение урона по игроку при ношении Кольца Семи проклятий"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к сокращению времени перезарядки заклинаний"
+    }
+  ]
+}

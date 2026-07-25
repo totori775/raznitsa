@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "white_banner",
+      "nbt": "{Enchantments:[]}"
+    },
+    "title": {
+      "translate":"incendium.advancement.infernal_dunes.inferno.lunatic_mode.title","fallback":"Безумный режим"
+    },
+    "description": {
+      "translate":"incendium.advancement.infernal_dunes.inferno.lunatic_mode.desc","fallback":"Пережить финальную фазу Инферно без доспехов"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "incendium:infernal_dunes/inferno/run",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"ftbteams": {
+		"my_team": true
+	},
+	"ftbquests": {
+		"quests": true
+	},
+	"simplybuttons": {
+		"pstskills": true,
+		"heracles": true
+	},
+	"ftblibrary": {
+		"toggle.gamemode": false,
+		"toggle.rain": false,
+		"toggle.day": false,
+		"toggle.night": false
+	}
+}

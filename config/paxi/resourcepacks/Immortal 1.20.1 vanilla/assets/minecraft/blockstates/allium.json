@@ -1,0 +1,18 @@
+{
+    "variants": {
+      "": [
+        { "model": "block/allium/0" , "distance":1 },
+        { "model": "block/allium/0" , "distance":1 ,"y":90},
+        { "model": "block/allium/0" , "distance":1 ,"y":180},
+        { "model": "block/allium/0" , "distance":1 ,"y":270},
+        { "model": "block/allium/1" , "distance":1},
+        { "model": "block/allium/1" , "distance":1 ,"y":90},
+        { "model": "block/allium/1" , "distance":1 ,"y":180},
+        { "model": "block/allium/1" , "distance":1 ,"y":270},
+        { "model": "block/allium/2" , "distance":1},
+        { "model": "block/allium/2" , "distance":1 ,"y":90},
+        { "model": "block/allium/2" , "distance":1 ,"y":180},
+        { "model": "block/allium/2" , "distance":1 ,"y":270}
+      ]
+    }
+  }

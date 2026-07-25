@@ -1,0 +1,44 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "OIBS",
+    "IACS",
+    "OIBS"
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "create:precision_mechanism"
+      }
+    ],
+    "C": [
+      {
+        "item": "create:copper_backtank"
+      }
+    ],
+    "O": [
+      {
+        "item": "create:iron_sheet"
+      }
+    ],
+    "S": [
+      {
+        "item": "create:brass_ingot"
+      }
+    ],
+    "B": [
+      {
+        "item": "create:brass_sheet"
+      }
+    ],
+    "I": [
+      {
+        "item": "create:sturdy_sheet"
+      }
+    ]
+  },
+  "result": {
+    "item": "immortalsoul:energy_glove_deactive"
+  },
+  "acceptMirrored": true
+}

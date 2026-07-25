@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:inquisitor_7",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.03,
+      "max_stacks": 1,
+      "effect": "warriorsofpastepoch:bleeding_wound",
+      "duration": 260,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "equipment_type": "melee_weapon",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Глубокие раны",
+  "titleColor": "E3D4D1",
+  "positionX": 30.784,
+  "positionY": -18.786,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+3% к шансу наложить эффект Кровотечения на 13 секунд при атаке, если у вас в руке оружие ближнего боя"
+    }
+  ]
+}

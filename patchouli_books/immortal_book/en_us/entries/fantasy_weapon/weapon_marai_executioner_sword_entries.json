@@ -1,0 +1,18 @@
+{
+    "name": "Меч палача Марэ",
+    "icon": "fantasy_weapons:weapon_marai_executioner_sword",
+    "category": "patchouli:fantasy_weapon_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "При атаке с шансом 10% игрок получает эффект Лёгкого буйства."
+        },
+		{
+            "type": "patchouli:image",
+            "images": [
+			  "immortal_book:textures/gui/entries/book_40.png"
+		    ],
+			"border": true
+        }
+    ]
+}

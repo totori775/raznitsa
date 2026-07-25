@@ -1,0 +1,50 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:elementarium"
+    ],
+    "forge_tier": 4
+  },
+  "essences": {
+    "aureal": 900,
+    "blood": 3000,
+    "experience": 290,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "forbidden_arcanus:deorum_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "born_in_chaos_v1:dark_metal_ingot"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "irons_spellbooks:arcane_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "cataclysm:abyssal_sacrifice"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "enigmaticlegacy:earth_heart"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "enigmaticlegacy:void_pearl"
+    }
+  }
+}
