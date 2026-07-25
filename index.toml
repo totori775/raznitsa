@@ -1,0 +1,1137 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/.connector/AdaptiveTooltips-1.3.0-fabric-1.20.2$mixinextras-fabric-0.2.0-rc.4_mapped_srg_1.20.1.jar"
+hash = "03fbc54160dbad4908f48f4e4ec15b932f10715215d1b9abe22b41b8d17c6042"
+
+[[files]]
+file = "mods/.connector/AdaptiveTooltips-1.3.0-fabric-1.20.2$mixinextras-fabric-0.2.0-rc.4_mapped_srg_1.20.1.jar.input"
+hash = "911648e1d3ea897cbd61d7f666e7380b62c8936d77e9887de35a0a932e07bf49"
+
+[[files]]
+file = "mods/.connector/AdaptiveTooltips-1.3.0-fabric-1.20.2_mapped_srg_1.20.1.jar"
+hash = "5cf1a7a8149b14faa539dbf396d452724679648f8be559732af5bec9bf000497"
+
+[[files]]
+file = "mods/.connector/AdaptiveTooltips-1.3.0-fabric-1.20.2_mapped_srg_1.20.1.jar.input"
+hash = "33d49dc57c4cd91b5285439cd985b9a35759d6955d88d6d66d21ecc0e360acee"
+
+[[files]]
+file = "mods/.connector/FancyHotbar-Fabric-1.0.0_mapped_srg_1.20.1.jar"
+hash = "95f757dd4206fb735bfd7219cbc1045cdc33a938eca6c9ef46eae7fa071bf91a"
+
+[[files]]
+file = "mods/.connector/FancyHotbar-Fabric-1.0.0_mapped_srg_1.20.1.jar.input"
+hash = "f746cb666bfd58b44625a09716959079e77a5f2c0073dd703901a1ca96033e01"
+
+[[files]]
+file = "mods/.connector/NotifMod-1.4_mapped_srg_1.20.1.jar"
+hash = "4d51c71b5b79aafbd31e7c86a7bcc950160f407195840bde69353d07ac427eec"
+
+[[files]]
+file = "mods/.connector/NotifMod-1.4_mapped_srg_1.20.1.jar.input"
+hash = "de070a54e5538fa52529563a2fbdf4e1c1d7ac2b1736145620753b95748ec636"
+
+[[files]]
+file = "mods/.connector/ResistanceBalancer-(NEO)FORGE-1.0.0_mapped_srg_1.20.1.jar"
+hash = "13040c5b2163c50c336f3f5da61c80e53214af07e6925291d2ef276b8b2a7001"
+
+[[files]]
+file = "mods/.connector/ResistanceBalancer-(NEO)FORGE-1.0.0_mapped_srg_1.20.1.jar.input"
+hash = "097bda79840be7abce9b5a7a47a3a493259fc51fea29faa8356d8d278a024997"
+
+[[files]]
+file = "mods/.connector/azurelib-fabric-1.20.1-2.0.36_mapped_srg_1.20.1.jar"
+hash = "67570c55c423618cf77c0e54d513bbac044cb209b25f827ab4f96dff764c3068"
+
+[[files]]
+file = "mods/.connector/azurelib-fabric-1.20.1-2.0.36_mapped_srg_1.20.1.jar.input"
+hash = "72de00c70695320157511040facd862b74976f21ee9f37ac3734e2fcd1810f19"
+
+[[files]]
+file = "mods/.connector/betterendcitiesvanilla-1.20.1_mapped_srg_1.20.1.jar"
+hash = "3b24ef71ade31638dc93f276085144b329c24ba889d7c677f90ca6f37a709cb1"
+
+[[files]]
+file = "mods/.connector/betterendcitiesvanilla-1.20.1_mapped_srg_1.20.1.jar.input"
+hash = "67d46422b2b5eed46cb5cf9b6f9bf25cce5c8ae66dbd7262b791f769ed34f53a"
+
+[[files]]
+file = "mods/.connector/immortalsoul-iron-1.20.1-1.1.3.4$cardinal-components-base-5.2.2_mapped_srg_1.20.1.jar"
+hash = "41698e11898f5b81df31a9b2cf3320a6a2ebe03fe337067c243dae8368fb22cb"
+
+[[files]]
+file = "mods/.connector/immortalsoul-iron-1.20.1-1.1.3.4$cardinal-components-base-5.2.2_mapped_srg_1.20.1.jar.input"
+hash = "3450406d9a1b1138fdb7818a2cd1284cb0e3e2f9ee5c61d55fa10ec642715708"
+
+[[files]]
+file = "mods/.connector/immortalsoul-iron-1.20.1-1.1.3.4$cardinal-components-entity-5.2.2_mapped_srg_1.20.1.jar"
+hash = "1d0a6f05e098dede2d0f85cb8ef948ce9fc8fda5b7ee88bf37fb4b1595f56986"
+
+[[files]]
+file = "mods/.connector/immortalsoul-iron-1.20.1-1.1.3.4$cardinal-components-entity-5.2.2_mapped_srg_1.20.1.jar.input"
+hash = "9760d8fe0cc4922c432e8d664f70b6af1991ec68aec10dc26aaa67376c69f3c2"
+
+[[files]]
+file = "mods/.connector/immortalsoul-iron-1.20.1-1.1.3.4_mapped_srg_1.20.1.jar"
+hash = "9b0b76350f78ce1adaf2c01f8eaced11abd107824cb10456a723c57206dd130a"
+
+[[files]]
+file = "mods/.connector/immortalsoul-iron-1.20.1-1.1.3.4_mapped_srg_1.20.1.jar.input"
+hash = "ef2b305efde8e193facd4c9770eccccf8a110fa8d6088d02fdf83edd1c56e8bc"
+
+[[files]]
+file = "mods/.connector/rpgdifficulty-1.3.16_mapped_srg_1.20.1.jar"
+hash = "e43e205209ec20d50893a9304e0d806c3e5b39fc03337d79d2e2c3042b03813f"
+
+[[files]]
+file = "mods/.connector/rpgdifficulty-1.3.16_mapped_srg_1.20.1.jar.input"
+hash = "9b61029a62c91d36b83e351ebadb9157b78e98af63f42992fae9ad9bbc0e2ac3"
+
+[[files]]
+file = "mods/.connector/temp/AdaptiveTooltips-1.3.0-fabric-1.20.2$mixinextras-fabric-0.2.0-rc.4.jar"
+hash = "4b7ec2450200be6eb4eecc1827c5a158a68063b9271194443889c1f130375b84"
+
+[[files]]
+file = "mods/.connector/temp/AdaptiveTooltips-1.3.0-fabric-1.20.2$mixinextras-fabric-0.2.0-rc.4.jar.input"
+hash = "911648e1d3ea897cbd61d7f666e7380b62c8936d77e9887de35a0a932e07bf49"
+
+[[files]]
+file = "mods/.connector/temp/immortalsoul-iron-1.20.1-1.1.3.4$cardinal-components-base-5.2.2.jar"
+hash = "62c70f70aeeee29ff2e8edf974fcd6e49f8ac8a2e9da6c0d8cb1963524b3d7d6"
+
+[[files]]
+file = "mods/.connector/temp/immortalsoul-iron-1.20.1-1.1.3.4$cardinal-components-base-5.2.2.jar.input"
+hash = "3450406d9a1b1138fdb7818a2cd1284cb0e3e2f9ee5c61d55fa10ec642715708"
+
+[[files]]
+file = "mods/.connector/temp/immortalsoul-iron-1.20.1-1.1.3.4$cardinal-components-entity-5.2.2.jar"
+hash = "10020aa390b7af76e4df93496d225d7895749e06dfb075f567a449d9071db079"
+
+[[files]]
+file = "mods/.connector/temp/immortalsoul-iron-1.20.1-1.1.3.4$cardinal-components-entity-5.2.2.jar.input"
+hash = "9760d8fe0cc4922c432e8d664f70b6af1991ec68aec10dc26aaa67376c69f3c2"
+
+[[files]]
+file = "mods/AdaptiveTooltips-1.3.0-fabric-1.20.2.jar"
+hash = "7949b9ef4b7ea263a1b1370f7b2193b1d0c7f17b61ba953b31a02b1caf8aa1c7"
+
+[[files]]
+file = "mods/AdvancementPlaques-1.20.1-forge-1.6.6.jar"
+hash = "28d52c07ba4df78cdfff4fd51e4ca6155d1eaec8f722b6a6feced4e2b1388410"
+
+[[files]]
+file = "mods/AmbientSounds_FORGE_v6.3.4_mc1.20.1.jar"
+hash = "1368504e00bc50ba268d0f73558176889000ce11cad42dbab12e33a59d645495"
+
+[[files]]
+file = "mods/Anti_Mob_Farm-1.20.1-1.3.11.jar"
+hash = "dd533bda288098b6cc708eb1a72e9558a8855f6d8d6b185f2bcb12aa15cc42b3"
+
+[[files]]
+file = "mods/AttributeFix-Forge-1.20.1-21.0.4.jar"
+hash = "5d8cc8928ce480288d5b504663bb13104df56ac72ce5bf36f2743ec27c701112"
+
+[[files]]
+file = "mods/BadMobs-1.20.1-19.0.4.jar"
+hash = "b36e64f510404c0984d7d5358e6e99937516d0eeab3ec534eaa638c8b29dfd85"
+
+[[files]]
+file = "mods/BetterF3-7.0.2-Forge-1.20.1.jar"
+hash = "e46ced73bdf78a59573a7188cfbe7256353f21a67eef752dc39b5e5816fc61c0"
+
+[[files]]
+file = "mods/BetterThirdPerson-Forge-1.20-1.9.0.jar"
+hash = "e8b575996cc5ff40e010161cca8923b8367ce210999da7f00487d4ce0de63755"
+
+[[files]]
+file = "mods/Bookshelf-Forge-1.20.1-20.2.13.jar"
+hash = "c31fed2c1a1c0d72d3ef996bb84521b7d6a8fbd3115c89c001f13a7ffd56f64b"
+
+[[files]]
+file = "mods/BrewinAndChewin-1.20.1-3.2.1.jar"
+hash = "d06edc7a145e8808903b7bd06e0639458a817fbc4ee589be239c0af77a6367db"
+
+[[files]]
+file = "mods/Chunky-1.3.146.jar"
+hash = "996a3c9b53e6c0e0850fb9e78d3546d2c37a1b789ddaf529b17e4fe62ab23141"
+
+[[files]]
+file = "mods/Clumps-forge-1.20.1-12.0.0.4.jar"
+hash = "8af01712c0dc32cebaff31795ca6d223fddff2ea9b1f5efbd9c3a586a0dacbc0"
+
+[[files]]
+file = "mods/Connector-1.0.0-beta.46+1.20.1.jar"
+hash = "79d58fd7ced77df600eefc927adbbd8e217c2d6b0778c17aa8b27756703145ac"
+
+[[files]]
+file = "mods/ConnectorExtras-1.11.2+1.20.1.jar"
+hash = "10d149fc9348b57120f50e3f82ac6f7e544ae18f0b5b7342c0cab3af38f5acd8"
+
+[[files]]
+file = "mods/Controlling-forge-1.20.1-12.0.2.jar"
+hash = "516308a93824119f6a1ebc75425aa21ee8f8de0c331942793a054ba6d9c24944"
+
+[[files]]
+file = "mods/CraftTweaker-forge-1.20.1-14.0.57.jar"
+hash = "ff8831680c3b912d878361401ea03b180b0876cde3033637d582415588acab2a"
+
+[[files]]
+file = "mods/CreateUnbreakableTools-1.8+forge-1.20.1-build.11.jar"
+hash = "7d4083d4d03b85bdb15dce27134a621afd60873caadc5d0033a45106350e1149"
+
+[[files]]
+file = "mods/CreativeCore_FORGE_v2.12.26_mc1.20.1.jar"
+hash = "1a8577bca7968fe717944267301ddea2337aefb265451825d95cb04e8893f747"
+
+[[files]]
+file = "mods/Difficult Spawners 1.1.0 - 1.20.1.jar"
+hash = "9453dad47691d978420c2442dc191a3476c06ac964c01ceb1aa0da12cd63692c"
+
+[[files]]
+file = "mods/Dungeon Now Loading-forge-1.20.1-2.11.jar"
+hash = "8dfff4955fb0ad80473e1f7ec9b0332b7d788a9e78a40b7d02925ea11743884f"
+
+[[files]]
+file = "mods/EasyAnvils-v8.0.2-1.20.1-Forge.jar"
+hash = "a08b641e6cc1d4867e0878826ac4fb9e55b45907d0fa3429172ecad8cd678ce9"
+
+[[files]]
+file = "mods/EasyMagic-v8.0.1-1.20.1-Forge.jar"
+hash = "235a2b0be24bc83a89253e0ee4fc973abfc7cc7caed0fdd698dd139ba91ec367"
+
+[[files]]
+file = "mods/ElysiumAPI-1.20.1-1.1.3.jar"
+hash = "807095e7df50d25d400d07ed8bccca7ab12ea5a28cb8a99e077750ebbb8df765"
+
+[[files]]
+file = "mods/EnchantmentDescriptions-Forge-1.20.1-17.1.19.jar"
+hash = "d8501371240082c3436c03380f7a59820fd981e9c5d9fb2978a222ea114b23ae"
+
+[[files]]
+file = "mods/EnigmaticLegacy-2.30.1.jar"
+hash = "07e7cd80016932cf1d2a4940164a4b11c228a58a78b4c83cf785b51656e34836"
+
+[[files]]
+file = "mods/ExtraSoundsNext-forge-1.20.1-1.4.jar"
+hash = "4eea3964353839f639ad0dcd27de451fbd1f8332191f5a7db3b55d78dc8822fb"
+
+[[files]]
+file = "mods/FancyHotbar-Fabric-1.0.0.jar"
+hash = "fc88f792337782939341d46a1fb150aa7418269638c971e8d6ce72eb622b2062"
+
+[[files]]
+file = "mods/FarmersDelight-1.20.1-1.2.9.jar"
+hash = "45e8e4daf04283fc5a7fec955e6a1e622ee0e9d4e1b5e79dbcf5b095bb510082"
+
+[[files]]
+file = "mods/FarmersStructures-1.0.3-1.20.jar"
+hash = "52d95a8dfa14403ed85884722b7ec83d9062faa5811b5875ccc1921135c8ffaf"
+
+[[files]]
+file = "mods/Fastload-Reforged-mc1.20.1-3.4.0.jar"
+hash = "038a5fa1c044d5afae22502ca1444eeb1a700d34a224996c25f233524ae35a7a"
+
+[[files]]
+file = "mods/FpsReducer2-forge-1.20-2.5.jar"
+hash = "4edeec5c3dc690e06a647dd5f4d5cd4f95330e0d0b0d7aceb3748f10dbd64b90"
+
+[[files]]
+file = "mods/Geophilic v3.4.4 f15-88.mod.jar"
+hash = "33db2e7c85c2166d49d2e7799efd723163a402e7883047a04afe810c716abff7"
+
+[[files]]
+file = "mods/Iceberg-1.20.1-forge-1.1.21.jar"
+hash = "2a5a0e40aab3df185626978f03dd0ba971f1b71872d26d2852d10857c0a5de72"
+
+[[files]]
+file = "mods/ImmediatelyFast-Forge-1.5.4+1.20.4.jar"
+hash = "da781a31b2c8d8a845ed48c89b6463f1df3f2c655de10d8d4f5bed8123ff68a8"
+
+[[files]]
+file = "mods/ImprovedPillagerOutpost-v5.jar"
+hash = "a7709c70ed694294d892938bbf2bf19290351bc2c7a0a28f9d83da157793679c"
+
+[[files]]
+file = "mods/Incendium_1.20.x_v5.3.5.jar"
+hash = "96068e4d66ea503efebb1e31d28c2d6ce85db749049463cab9f799c8c0ae1e75"
+
+[[files]]
+file = "mods/Item-Obliterator-NeoForge-MC1.20.1-2.3.1.jar"
+hash = "a0de109d3405fbf4290e10df4f812eadd5125debb16ea7e9d908acbbabcb516b"
+
+[[files]]
+file = "mods/ItemProductionLib-1.20.1-1.0.2a-all.jar"
+hash = "d017c1e075809c59ae16d5dc8a3f5917ac21d972b2f7a990a1dfb56179625549"
+
+[[files]]
+file = "mods/Ixeris-4.1.3+1.20.1-forge.jar"
+hash = "1a2cc7090aa26016ba805a65dee40f32b42084b1932e4bd8bf93423ac67b80f2"
+
+[[files]]
+file = "mods/Jade-1.20.1-Forge-11.13.2.jar"
+hash = "31949971a7a8d5a5bc95ad9d400cbedfd2d65ffbfb3cea7c0b2fa3b47431a0a5"
+
+[[files]]
+file = "mods/Jadens-Nether-Expansion-2.3.5.jar"
+hash = "97c9c1271c3f551663592b689771e45d63098e674899596d693641b82ecf5ccb"
+
+[[files]]
+file = "mods/L_Enders_Cataclysm-3.16.jar"
+hash = "ac1028f4bfaa2629d80ce3c1f26e28ceec2e6f2aaaac3bb03dd8957856d2e7ca"
+
+[[files]]
+file = "mods/Library_of_Exile-1.20.1-2.1.4.jar"
+hash = "2b3a20227431fcf802113b3c5295f22e2c30a9f4a916029fb9d0cb5920b9282f"
+
+[[files]]
+file = "mods/MaxHealthFix-Forge-1.20.1-12.0.2.jar"
+hash = "9eb6628eb4be9433f0b9e7081f570ee9f0abe0b9438ec8d591b0f1303cc17e6d"
+
+[[files]]
+file = "mods/MoogsTemplesReimagined-1.20-1.0.2.jar"
+hash = "c49bcc34b39dd9505d64378703b117df0507262bc5c7a27382ee07487590b5bc"
+
+[[files]]
+file = "mods/MouseTweaks-forge-mc1.20.1-2.25.1.jar"
+hash = "6c27d16aa715ac6613a55fc463739e2c7b78279e4e4c4cede299e4a2d4a70f08"
+
+[[files]]
+file = "mods/MyNethersDelight-1.20.1-0.1.7.5.jar"
+hash = "aa7267f79a044b08d3e2dd5c40e03a95905260d355ed26087e3c8a351d9c90ea"
+
+[[files]]
+file = "mods/Necronomicon-Forge-1.6.0+1.20.1.jar"
+hash = "403b23457288c624a55feb90d5e813c88c23a611bc42cda397c4bfac94b4c3a3"
+
+[[files]]
+file = "mods/Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar"
+hash = "8f05afb56310b21e91d2f1d1200a9c0d98a34a9689b9b6288a6507c0498b299d"
+
+[[files]]
+file = "mods/NotifMod-1.4.jar"
+hash = "0af6f239aba7e4302453336c9fc7b7cca8db03255598e16a82a0be9df2ce7f39"
+
+[[files]]
+file = "mods/Nullscape_1.20.x_v1.2.8.jar"
+hash = "32ccc5beb6ad0215e06082620903e1825a1b0df51777f3f31801b4a17e6ebcc5"
+
+[[files]]
+file = "mods/Nyctophobia_1.6_(FORGE)_for_1.20+.jar"
+hash = "b79d10517e4c7d73cccc284c7142faf7a6cbf8eba82da503c5144e931a64d99a"
+
+[[files]]
+file = "mods/OELib-forge-1.20.1-0.0.6.jar"
+hash = "aac31a89192b3abad6dcdd79182aa5b5a2f91665e12d4a153a6af9870b9b8d85"
+
+[[files]]
+file = "mods/OctoLib-FORGE-0.4.2+1.20.1.jar"
+hash = "1388bf3c1699556a9a2d50f4db67a5d792dbaf35059b8bbee38be170c5f91ed6"
+
+[[files]]
+file = "mods/OneEnoughItem-1.0.6-jech.jar"
+hash = "e09c26fb609b736054d7f5ed9d0730a62c8805c4d99ddd23cb17dc9a60013da3"
+
+[[files]]
+file = "mods/OverflowingBars-v8.0.1-1.20.1-Forge.jar"
+hash = "43304f93366c8581b51c8d5198ebb2b1b726787c3aff5d280a4ef8971bdd0ea7"
+
+[[files]]
+file = "mods/PassiveSkillTree-1.20.1-BETA-0.7.3a-all.jar"
+hash = "a6e9496244334117d23f468c7bbdaa4601e27652e17a7ebc726fff039ed8c6e6"
+
+[[files]]
+file = "mods/Patchouli-1.20.1-84-FORGE.jar"
+hash = "e883f33ae0e5eb128b36e145072027e620e9992e24809dc07bf4e7ac195b9519"
+
+[[files]]
+file = "mods/Paxi-1.20-Forge-4.0.jar"
+hash = "dd18dd9696d099137b170076676e8411e3d8385af15941f68472f21167266f1a"
+
+[[files]]
+file = "mods/Platform-forge-1.20.1-1.2.10.1.jar"
+hash = "532ca1f572c00bb7d3f2308bdab1a64072063da0d1fce3a56aee5a0b89622a11"
+
+[[files]]
+file = "mods/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar"
+hash = "447dd543e178a9454ccf3bf0d9d7bd7957b1af6da9d74f2cd3d9b5fbe8548e98"
+
+[[files]]
+file = "mods/PuzzlesLib-v8.1.33-1.20.1-Forge.jar"
+hash = "f3077a9f817629b8e8929c1951042d1a1adc62d30b72adebd54d2b074a4faf4f"
+
+[[files]]
+file = "mods/Quark-4.0-462.jar"
+hash = "c90b96f049d92825c4a103721988c80d72e5ad380d17be46a0f53e114874c478"
+
+[[files]]
+file = "mods/ReBroken Blade-1.1.jar"
+hash = "7bb61fc2086f9241b412ecdd1988624c112839deebc60aef5e73515d3a3245be"
+
+[[files]]
+file = "mods/ResistanceBalancer-(NEO)FORGE-1.0.0.jar"
+hash = "4a651e1d07316fa260e717064668e18ecb742450084523e679adb1e7c36ac21c"
+
+[[files]]
+file = "mods/Searchables-forge-1.20.1-1.0.3.jar"
+hash = "c1a76e93886210574d3f298c0461241fb711e52ac22c7a04d3236840f29e6576"
+
+[[files]]
+file = "mods/Structory_1.20.x_v1.3.5.jar"
+hash = "509740b91e23025f9bbdd2b5267f9cbdb8aed6aaecff047d9ce00e8809bce91a"
+
+[[files]]
+file = "mods/TerraBlender-forge-1.20.1-3.0.1.10.jar"
+hash = "c77a13e3879f9f991cf592abac60ad0c6d2ed17f5ff697ec2db3872b22902d4a"
+
+[[files]]
+file = "mods/Tips-Forge-1.20.1-12.0.5.jar"
+hash = "c82ab3664756a80053df52bf3b64f88e94f57442ac29df8eb19a28b231780dbe"
+
+[[files]]
+file = "mods/Towns-and-Towers-1.12-Fabric+Forge.jar"
+hash = "9c8115af7109579da990249fdd67b38323a45be70f8a3a962b61da69c7021984"
+
+[[files]]
+file = "mods/TreeChop-1.20.1-forge-0.19.0.jar"
+hash = "b3add07d4227ea021b969eedf564e55338683ad989ae1f9aa931cc2705cef319"
+
+[[files]]
+file = "mods/UndeadUnleashed-1.2.2-forge-1.20.1.jar"
+hash = "17bb147e0afcd543e6ebf582dde8f283f79da92d2b1f5d18ab196e2e74485936"
+
+[[files]]
+file = "mods/VisualWorkbench-v8.0.0-1.20.1-Forge.jar"
+hash = "5d0a2bba205c5a62c66ea104dab1ee48fd29b7632cd5303cc59bbd2c2159c1c0"
+
+[[files]]
+file = "mods/WWOO-FABRIC+FORGE+QUILT-2.0.0.jar"
+hash = "82c5548aad49558d61bdb64a915788e2e80064547dcdbbd21cc8131da2b50700"
+
+[[files]]
+file = "mods/YungsApi-1.20-Forge-4.0.6.jar"
+hash = "101c30d01d0cf9d86190f578eb1e43bd06b64092e95662a00ef52946f472c7b1"
+
+[[files]]
+file = "mods/YungsBetterDungeons-1.20-Forge-4.0.4.jar"
+hash = "73525ce2933f65b3ddbb491eb417dc3f29887439a2fd5c72c6513ea9bf48d4c8"
+
+[[files]]
+file = "mods/YungsBetterEndIsland-1.20-Forge-2.0.6.jar"
+hash = "05c2f43a67116f0bbca32d903b55ce1655b9319ed6554080de02bd1d0c232a83"
+
+[[files]]
+file = "mods/YungsBetterMineshafts-1.20-Forge-4.0.4.jar"
+hash = "6632e7bcc58325098e85bcb755483de7cb3af92a5ea548f3b5c0162cbf0dc1dc"
+
+[[files]]
+file = "mods/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar"
+hash = "12cffc99dccca69d294ba5bc39c331367794b339061572a6f3773620303a2f51"
+
+[[files]]
+file = "mods/YungsBetterStrongholds-1.20-Forge-4.0.3.jar"
+hash = "054b0a1be86510ed6bd05de66a29200f13f5603c0c9eb7e62074ddc3d19cb0e4"
+
+[[files]]
+file = "mods/Zeta-1.0-30.jar"
+hash = "7b68e166061c6ea0a8ac1585b0ae222f12bdd350728f3d797b520c1e915a310b"
+
+[[files]]
+file = "mods/ancient_forgemastery-1.4.0-forge-1.20.1.jar"
+hash = "b152a654d32e55b2ca69e7bf92b4c08610d1ee6ada58e5caf79181a858e1fbff"
+
+[[files]]
+file = "mods/another_furniture-forge-1.20.1-3.0.3.jar"
+hash = "2e98f7c3ebc9b9d0e1c9a95ee80470abc87c5859728dfe5bd5004252227e7015"
+
+[[files]]
+file = "mods/anvianslib-forge-1.20.1-1.4.jar"
+hash = "163fb986cd210673c5abf5cd20c6baec8da14915a6187d1d4210673a4f907751"
+
+[[files]]
+file = "mods/apexcore-1.20.1-10.0.0.jar"
+hash = "ba713663dff20cd9a9e599a8f7c87cf7359fedd5ebc9f5c2bac749e20155ad7a"
+
+[[files]]
+file = "mods/appleskin-forge-mc1.20.1-2.5.1.jar"
+hash = "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
+
+[[files]]
+file = "mods/aquamirae-forge-1.20.1-6.1.2.jar"
+hash = "1042f86f369dbe5a7ded535f32032cf3d950756643ed1a3e0a9810af9be93fc3"
+
+[[files]]
+file = "mods/architectbypass-1.1.0.jar"
+hash = "8ba794c3e200e0f2977a2ac58b9b32a8774444ccca08c298ac2d29e063598769"
+
+[[files]]
+file = "mods/architectury-9.2.14-forge.jar"
+hash = "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+
+[[files]]
+file = "mods/armor_impact-0.3-forge-1.20.1.jar"
+hash = "86e025569a64a57a0c1dede028ae4b42fa0cf29566c9a27c844295ee1a685be9"
+
+[[files]]
+file = "mods/ars_nouveau-1.20.1-4.12.7-all.jar"
+hash = "1f1debc282a0c379c1141f2840ea294eede6f6b544c589663f40bbe17b59a1af"
+
+[[files]]
+file = "mods/azurelib-fabric-1.20.1-2.0.36.jar"
+hash = "063e91196220e76976b289d4a6833a5e0320293d7c28c3dfd7c3d7aa628d5018"
+
+[[files]]
+file = "mods/battlepets-1.0.2.jar"
+hash = "a80cf96cac9dfb1128c461e111c090a90fce63ba409e48ab7a2506106c0b1df4"
+
+[[files]]
+file = "mods/bbb-forge-2.0pre3.jar"
+hash = "f095af7dd1f94765d7ed81a1ffd75812c0bf196ad50067feb1ac86983ecdc28b"
+
+[[files]]
+file = "mods/betterarcheology-1.2.1-1.20.1.jar"
+hash = "4180f72ec4b69690ec160ac50e48c087f0fe7c98681dcd1f70d82ed5cbfeec9e"
+
+[[files]]
+file = "mods/bettercombat-forge-1.9.0+1.20.1.jar"
+hash = "49c69dccf2c641246b4e3deca81ebac21f0ee119e81fc713b838b8e33569eea1"
+
+[[files]]
+file = "mods/betterendcitiesvanilla-1.20.1.jar"
+hash = "e560f74287eef756b4a991c3364eb0ed87cf040409efbfd0c63346fe015369f7"
+
+[[files]]
+file = "mods/bettervillage-forge-1.20.1-3.3.1-all.jar"
+hash = "efe7ea20a6eb46417d65db362523c3613ce49db412eaad51930e29f0335a4d39"
+
+[[files]]
+file = "mods/biomemusic-1.20.1-2.5.jar"
+hash = "b53c1b0f6f85b3923d9f28e9bf4d56977847b313bcf0f5999a78c4bca78bf2e2"
+
+[[files]]
+file = "mods/blueprint-1.20.1-7.1.3.jar"
+hash = "f21d3560ae3e5ee8c0482c43bcd78ea9909a23e5b2a38478b0b25f3d99270808"
+
+[[files]]
+file = "mods/born_in_chaos_[Forge]1.20.1_1.7.4.jar"
+hash = "b329be7bdc2dc1800bfa9a7ef72c72791e925e645932b94aa44ba26177b2a483"
+
+[[files]]
+file = "mods/caelus-forge-3.2.0+1.20.1.jar"
+hash = "37495445e79df8b30a3a038a0051f3c8aa8447f91a9d0aa0d20baef69dda9368"
+
+[[files]]
+file = "mods/caravans-forge-1.20.1-1.2.0.jar"
+hash = "7b9acedb4ad192387870c696bc47402e830bf1bcf990fd6ee04dc875e360efc1"
+
+[[files]]
+file = "mods/carryon-forge-1.20.1-2.1.2.7 (1).jar"
+hash = "d7470921fc5ff988788d43409083f62478aecc91f4b81d7e6b63c80c933d4613"
+
+[[files]]
+file = "mods/cataclysmiccombat-1.3.4.jar"
+hash = "22634d4c49835ee9c88215efcb679091e0b1f47881fbf59812c908f43652ba0f"
+
+[[files]]
+file = "mods/caverns_and_chasms-1.20.1-2.0.0.jar"
+hash = "bc7e0d4432c022bf2e101bf812c23477994061b0e9f9b9a611bcd0ee0c70e284"
+
+[[files]]
+file = "mods/clean_tooltips-1.0-forge-1.20.1.jar"
+hash = "8eabf2b5c4ad2005054de61b3f890a0b9e01a172200079edbf82272646d155aa"
+
+[[files]]
+file = "mods/clockwork-forge-1.20.1-1.0.2.jar"
+hash = "f4542c78f18e7cb050f1bdc9323e01ae78a8348b5c7e93796d324b5adf37e9b3"
+
+[[files]]
+file = "mods/cloth-config-11.1.118-forge.jar"
+hash = "e825f1a61685182d61093d682c0bfcbe53f726b42297e7dcf1a5f1e1a1b0557f"
+
+[[files]]
+file = "mods/collective-1.20.1-8.5.jar"
+hash = "40379d5f262588b6c039b97aaf11484a1cdcca41fe7f8b5cf6329f4fabfebfc2"
+
+[[files]]
+file = "mods/combatroll-forge-1.3.3+1.20.1.jar"
+hash = "e20a4693ff734e5c61dc3fcc32e77c6b850722f2e208728e8643e279d6085b30"
+
+[[files]]
+file = "mods/configurableextramobdrops-1.20.1-3.5.jar"
+hash = "82b03575fc94f5719d47a41d7c6e6f4084a6ff47c06059980a8b84fd37335c83"
+
+[[files]]
+file = "mods/configured-forge-1.20.1-2.2.3.jar"
+hash = "05dceddd57825f911135c929504ef320b75953d05e7dc918dba58a0574e5315f"
+
+[[files]]
+file = "mods/coroutil-forge-1.20.1-1.3.7.jar"
+hash = "11448808a42c17425cf2ea39701841008683d6ad6e2838a34eef0253251a870f"
+
+[[files]]
+file = "mods/cosmeticarmorreworked-1.20.1-v1a.jar"
+hash = "c790e8671625b05ec0aa19272e0ea74ea95619f953e3c6f39a6736af0d386804"
+
+[[files]]
+file = "mods/create-1.20.1-6.0.6.jar"
+hash = "6cb1e5b25e7d5fb670ef0713ca6da17525a1b9658e2a523fd76c2a32bbc0b2ed"
+
+[[files]]
+file = "mods/create-structures-0.1.1-1.20.1-FORGE.jar"
+hash = "6f1c57dc200cce4e7a9d158b3d6895c108637f518060377f6bc5bc52ad8d4aab"
+
+[[files]]
+file = "mods/create-stuff-additions1.20.1_v2.1.1.jar"
+hash = "8aa583c05d718ac045411a1aca557ac09bac57e1d573ae1a327c089da6e6c53d"
+
+[[files]]
+file = "mods/create_connected-1.1.7-mc1.20.1-all.jar"
+hash = "8c4b6b7b6d3dc737de51426f97bd84196b2e81351c03c049e77859e8213d996f"
+
+[[files]]
+file = "mods/create_enchantment_industry-1.3.3-for-create-6.0.6.jar"
+hash = "8a8b1ba1d5348cf737701697f534ce7570f28b4d00557f9b8b2eca1e7aaefc71"
+
+[[files]]
+file = "mods/create_jetpack-forge-4.4.2.jar"
+hash = "6179bce0fb74f74ef68333cb442876f4ef02976a71b1aa77c9def651ec2c9036"
+
+[[files]]
+file = "mods/createtweaks-1.0.0.jar"
+hash = "bd4786c9dbd39fe138e2d9588384788fb46450618597d4a4582e0cadb9256f94"
+
+[[files]]
+file = "mods/creeperoverhaul-3.0.2-forge.jar"
+hash = "212eb2a2d767f54fbfbac2336c63fe2bd1aae4d827ab358da329a746358b6dd9"
+
+[[files]]
+file = "mods/cristellib-1.1.6-forge.jar"
+hash = "3856ad565ea45d6189452d813e2f021b365b686d3b1adae5f747c56a1e535d9f"
+
+[[files]]
+file = "mods/cupboard-1.20.1-2.6.jar"
+hash = "da45bdf600a82925ab7caa4e8892bb0ac73633f59c84978da75b73b6ae40f0ba"
+
+[[files]]
+file = "mods/curios-forge-5.14.1+1.20.1.jar"
+hash = "1e817919a35b37cf30524aaec73f0ca5130452f23f168f844854df282eb8e51f"
+
+[[files]]
+file = "mods/curiouslanterns-1.20.1-1.3.7.jar"
+hash = "41231ccafb467b76fcf1ddd163925e66366844b190d72d4d36c7133903a25f92"
+
+[[files]]
+file = "mods/diet-forge-2.1.1+1.20.1.jar"
+hash = "2e3b631cd9773996c7eaefe3c1cd086045b9b9a193a8e4ab29cc8e64d937e5bd"
+
+[[files]]
+file = "mods/dragonfight-1.20.1-4.7.jar"
+hash = "d24cbc74f1257e3f6fba2057c2c7537c8424ac9b73a5b7b044660a32ed5f4231"
+
+[[files]]
+file = "mods/dragonmounts-1.20.1-1.2.3-beta.jar"
+hash = "23aa1ba94bcf1e00766c4fab54d2e6491927e9106bfff2c2fd4db048f90ce524"
+
+[[files]]
+file = "mods/drippyloadingscreen_forge_3.0.1_MC_1.20.1.jar"
+hash = "10b214b3e00c147fd0152f4080569a85c7cfa7841f645d308091a410ce6921ba"
+
+[[files]]
+file = "mods/dummmmmmy-1.20-2.0.9.jar"
+hash = "bfbda7e454cd2cc547578208b3c42a2526a2615b155c76952f6981ba3da0fe89"
+
+[[files]]
+file = "mods/dungeons-and-taverns-3.0.3.f.jar"
+hash = "4fefd8b9829132969e785859a7fe15db87a50165d042a5477414180b0aa40ed3"
+
+[[files]]
+file = "mods/dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar"
+hash = "b0ecdf3a0619208441062ceeebce79256223ac4e341844a09a6859170d671920"
+
+[[files]]
+file = "mods/elretrievetoslot-1.2.0.jar"
+hash = "a2664cee9cc609054b8c68388c31b0dba19ed3997f0d5e57d4523e6c0697f2f5"
+
+[[files]]
+file = "mods/embeddium-0.3.31+mc1.20.1.jar"
+hash = "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb"
+
+[[files]]
+file = "mods/endermanoverhaul-forge-1.20.1-1.0.4.jar"
+hash = "18f9f0bf3a9b4f77ad6913c28ccb927cde24f5d19524152cfe79ebb3dcccacc5"
+
+[[files]]
+file = "mods/enigmaticaddons-1.2.5.jar"
+hash = "448dde0f52c9f27e3288509d3bc4348ee123b7a1cc386d7b290fbf8910e39d22"
+
+[[files]]
+file = "mods/enigmaticdelicacy-1.0.0.jar"
+hash = "ef700135e0d3ff16ff70791288a3cbc6d297fb4c4b34a28d0a08a0ade8868974"
+
+[[files]]
+file = "mods/entity_model_features_forge_1.20.1-2.4.1.jar"
+hash = "9bea926d834e8dd84eb9cb74cb6954c9b88d16a341941a0caecf7cc6656ad586"
+
+[[files]]
+file = "mods/entity_texture_features_forge_1.20.1-6.2.9.jar"
+hash = "f4a4b89409c0f67a3eb3930e33334382b8166c5a90259a6e7fdf5df19c365c12"
+
+[[files]]
+file = "mods/entityculling-forge-1.9.5-mc1.20.1.jar"
+hash = "8f80f3953fc988d8c6b4a88035441cad631fea87a413267526b64543890c02b0"
+
+[[files]]
+file = "mods/experimentalsettingsdisabler-1.20.1-3.0.jar"
+hash = "2328664536f9fd48b4b924fc8e62e4dd62d436a7d0ae941bad797414e38d4db3"
+
+[[files]]
+file = "mods/fabric-api-0.92.2+1.11.11+1.20.1.jar"
+hash = "6574e423533442d29d6571353646dbe2db886bc1161e2d9ad30eb39afcb4a7ee"
+
+[[files]]
+file = "mods/fancymenu_forge_3.2.3_MC_1.20.1.jar"
+hash = "6498807de3891aebecabccf5a9a3f0a6c6b9fd77c2546b9bfebf23241b745ee7"
+
+[[files]]
+file = "mods/fantasy_armor-forge-1.2-1.20.1.jar"
+hash = "c954e9055be18bf14eb6c3bb14329fc49cd73787fa45f45dadf36462f200275f"
+
+[[files]]
+file = "mods/fantasy_weapons-forge-0.4-1.20.1.jar"
+hash = "c3622380f9d8aeaada06a5b1bc900dd42a3ecc8acaf6efeb04e0d7141d681f25"
+
+[[files]]
+file = "mods/fantasyweaponsaddon-1.0.0.0.jar"
+hash = "1d82542ac539ff350a62e4418782fed55e2665a6168347cf956531cc44a21f0e"
+
+[[files]]
+file = "mods/ferritecore-6.0.1-forge.jar"
+hash = "9c2c9396a49e796d88497758caa4637d2bcbb433c318e2dd9cebcffbaf0f6c54"
+
+[[files]]
+file = "mods/feur_extension_fossil-1.20.1-forge.jar"
+hash = "becc7ccd1396d0271c448bdbf90cff2d6b97bb1346529a4369a598c3dceea441"
+
+[[files]]
+file = "mods/feur_extension_jungle-1.20.1-forge.jar"
+hash = "a352252038673ae8e19fea6f5868a5e3139d146ef6010879cd446e4f686d74c8"
+
+[[files]]
+file = "mods/forbidden_arcanus-1.20.1-2.2.6.jar"
+hash = "7c0c352993b59a7d38f208b9439f1c4a93b53c0dbcedd1d9068d9023db00ac3c"
+
+[[files]]
+file = "mods/forbidden_arcanus_fixer-1.20.1-1.0.0.0.jar"
+hash = "add8417a8d507aac97902f2d67ed9851cd47d3d98bfd9c694e5f861241dbd6b6"
+
+[[files]]
+file = "mods/forge-dungeonsdelight-1.20.1-1.2.10.jar"
+hash = "149998528e5b98db259c02fa91ec5d76b0390dff70385b7cc2428c9028598e95"
+
+[[files]]
+file = "mods/forge-medievalend-1.0.1.jar"
+hash = "f65d1a3defd3d9d56d498ee79b6eeda8ec91193e6c2f989581e23f8069f4499f"
+
+[[files]]
+file = "mods/forge-runiclib-1.20.1-4.3.7.jar"
+hash = "81f9238590f226afaf7c68e7328eeb2bf623140acd8e85dc775a6116fe7784ef"
+
+[[files]]
+file = "mods/formations-1.0.2-forge-mc1.20.jar"
+hash = "d6caac4bd1db132af73c91651c4969f2781fee8219f1fa541697cb4bc4bc4da6"
+
+[[files]]
+file = "mods/fragmentum-forge-1.20.1-0.6.9.jar"
+hash = "ed2b348c2865e25ffec03d1b81112f407ac9f5715faa2cad333460151d805739"
+
+[[files]]
+file = "mods/ftb-library-forge-2001.2.9.jar"
+hash = "b7d5d19889c485a9746022fdc42f3297aa4d26014559ea0ed35fa7ba816b001d"
+
+[[files]]
+file = "mods/ftb-quests-forge-2001.4.18.jar"
+hash = "62f0229c45d5bafd9747d129f159818e513df411840744b1beb15e0c68f3b0ca"
+
+[[files]]
+file = "mods/ftb-teams-forge-2001.3.1.jar"
+hash = "d6e3cf8d0bdae7f848764428c613ae2528aecf9d275b4169eb8e15da87b41863"
+
+[[files]]
+file = "mods/ftb-xmod-compat-forge-2.1.2.jar"
+hash = "6bfa05acad9230bdbd9a6854ab92705585630455985904b550f94a387ff3ffca"
+
+[[files]]
+file = "mods/geckolib-forge-1.20.1-4.8.2.jar"
+hash = "a2e4bcc986ce360f4e85d545a86b04c8c9350543ebd17069b6a44c0a8939ffdc"
+
+[[files]]
+file = "mods/gnumus_settlement_[Forge]1.20.1_v1.0.jar"
+hash = "e805b1fcf9c173ae7d488763d67cef7a49d658884da95f9268e87caed7a905cf"
+
+[[files]]
+file = "mods/gravityapi-1.0.0-all.jar"
+hash = "04c3f45c0fd8e896a1ffa4a8e74d38391521edaeb4be06b317b7ff4f36ce5d89"
+
+[[files]]
+file = "mods/highlight-forge-1.20-2.0.1.jar"
+hash = "a0967ce8605d99fd5870f093ddd3ba18c548b9b1858a459b42f4e0feabaefaee"
+
+[[files]]
+file = "mods/illager_arena-1.0.1-forge-1.20.1.jar"
+hash = "f8c2345653521eca0cabe8977e2eaba8763ea37256b30d890a6c7b369c35b959"
+
+[[files]]
+file = "mods/illagerwarship-1.0.1-forge-1.20.1.jar"
+hash = "e32d1c5fb5c7de6bfa7e188a3f23092f317109d66f00d50ed9ed29bb9d25cd7b"
+
+[[files]]
+file = "mods/immersive_aircraft-1.4.0+1.20.1-forge.jar"
+hash = "45dd68b6707b3eeae0c958d0242b29ec03cdd0d8fc88af20761661ebf3c456cd"
+
+[[files]]
+file = "mods/immortal_bosses-1.0.0.jar"
+hash = "53901b63dda463ba3aac43f077a8a905d01f61ac013f180dc690c1ecd4fe5fe7"
+
+[[files]]
+file = "mods/immortalbooks-1.0-SNAPSHOT.jar"
+hash = "da0742d424accfb1add191e0ae4ca96d142fe544cb55abe697f8b64afca67d4a"
+
+[[files]]
+file = "mods/immortaldroid-1.20.1-1.0.2.2.jar"
+hash = "9726395ee5bf9567c1ff9e348ab71fafb61696ed5fcba93a9dc5f0ef1afd4927"
+
+[[files]]
+file = "mods/immortalgingerbread-1.20.1-1.0.0.1.jar"
+hash = "78ebb388776f2dd2455e246065b4e7ed8499a917b2f955f41b17b9c49e4e1b1f"
+
+[[files]]
+file = "mods/immortalplush-1.0.1.jar"
+hash = "1f454fa40901cc806d6859ea7f542bc652ed84b9a3393c949cb5d734fea84ab2"
+
+[[files]]
+file = "mods/immortalskills-1.1.3.jar"
+hash = "847f12f50f6ed5941a2a3dc9c247ca5378754744f3b983891d16e5ad52100cad"
+
+[[files]]
+file = "mods/immortalsoul-iron-1.20.1-1.1.3.4.jar"
+hash = "2d1ee89239236ac533997bce135035e4d295ec60f49d50282311bfa096e0f9bd"
+
+[[files]]
+file = "mods/interiors-0.5.6+forge-mc1.20.1-local.jar"
+hash = "bad27415238ef94bd78be0d4a2e6de48a86046060a6dc9c6d759b4bc6c73cfa7"
+
+[[files]]
+file = "mods/ironchest-1.20.1-14.4.4.jar"
+hash = "6bc75f288d2e8158d2e23c6881a1b341a894c38bab129ca0f20db6abd59d373f"
+
+[[files]]
+file = "mods/irons_restrictions-1.20.1-1.3.2.jar"
+hash = "8e93447cb747ec1bb652f94c65b27b3733f0b57bdef3b41b62cea960cbf3057b"
+
+[[files]]
+file = "mods/irons_spellbooks-1.20.1-3.15.4.jar"
+hash = "7784f1beb1976505c9d90c56073d9c9c17b5db36666e2e22a5413f1ec366b4d3"
+
+[[files]]
+file = "mods/jeed-1.20-2.2.5.jar"
+hash = "841dee59c98c1b490073866a47dbd77f13125d425a8c6a8e850cf8c43e699a83"
+
+[[files]]
+file = "mods/jei-1.20.1-forge-15.20.0.126.jar"
+hash = "19edb1c39659fa60261d7cfbd6c43fabbaa1a6e80e5cfdd745d2edb20ef0aa5d"
+
+[[files]]
+file = "mods/jupiter-2.3.7-1.20.1-forge.jar"
+hash = "1c2442a90a0228d76518bece4484241e3d2c79e50eb4435afe5e7fc0fbcaac3d"
+
+[[files]]
+file = "mods/knightlib-forge-1.20.1-1.4.3.jar"
+hash = "97db2ee260c763a7a66a309294ac602bfcfcdc473a3929efd56ed5464e7b911d"
+
+[[files]]
+file = "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
+hash = "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b"
+
+[[files]]
+file = "mods/kotlinforforge-4.11.0-all.jar"
+hash = "ef988f86d170af499d147ea8a5c34c99dbd6d8f4a5ad236a4b43818dc4470a10"
+
+[[files]]
+file = "mods/kubejs-forge-2001.6.5-build.16.jar"
+hash = "3de6b7267d3aab981848ed54d3afe7edf20532fa4060631fd6fffcd99ac5f3d5"
+
+[[files]]
+file = "mods/legendarycreatures-1.20.1-1.0.10.jar"
+hash = "9c808799a1d659d012ccb79871944f57f81992ccfa782b0cf82ceec7b3b61bb7"
+
+[[files]]
+file = "mods/legendaryitems-1.20.1-1.0.0.3-debug.jar"
+hash = "35668ab24d64bca6664ea9299f9b2fdc84370623fd97feb21950d525404f505f"
+
+[[files]]
+file = "mods/legendarymonsters-2.0.4 MC 1.20.1.jar"
+hash = "4f74f1b03d363ccbb685e3b6c48cf3d8e45a49793176d7fc89266b789f7d0b7a"
+
+[[files]]
+file = "mods/letsdo-API-forge-1.2.15-forge.jar"
+hash = "d08b99df112cfffb46e289635c79d4ac8397223320abd6469b47e202e23fa28c"
+
+[[files]]
+file = "mods/letsdo-brewery-forge-1.1.9.jar"
+hash = "f889cf1258b6365873b83fb3e533e9a58da4ee381377e55d58f13a4b3cfb4840"
+
+[[files]]
+file = "mods/letsdo-vinery-forge-1.4.41.jar"
+hash = "5d7e11f6e2218562ce75d60788fdcfc9ccf59e4532757c18bf37759d5fc739ee"
+
+[[files]]
+file = "mods/libraryferret-forge-1.20.1-4.0.0.jar"
+hash = "66a151ed397904135c0109ce390bee93961ef7dd329a2d66860ef5f27adff335"
+
+[[files]]
+file = "mods/limitedbackpacks-1.0.jar"
+hash = "38367d943c08d65f0c0a0a5053dc2620c3346cf5e0d2ba4ede52d5abfaf43cbe"
+
+[[files]]
+file = "mods/lionfishapi-2.4.jar"
+hash = "e32eabf215390db859df87c9d3a7e701d477e39dc2a5b04568ab169f085168a7"
+
+[[files]]
+file = "mods/loadingbackgrounds-forge-1.20.2-1.5.0.jar"
+hash = "4b4b927d1445e71735ba7f58f8acd517148b18e79b6038e6da71177fb5827a00"
+
+[[files]]
+file = "mods/lootr-forge-1.20-0.7.35.94.jar"
+hash = "01200ee5889e6bcc3c5fa8f32b7b49a4bd58e653699eeb655c6f2dd314e3ce51"
+
+[[files]]
+file = "mods/lukis-woodland-mansions-v.1.0.jar"
+hash = "45a678beaa5789ee94fdcde9f9043d7e3049f7c1e7e92f4d65baaa8052c0af0a"
+
+[[files]]
+file = "mods/mace_port-3.0.4-1.20.1.jar"
+hash = "a15b989f886fede6e8d01557d15b1f2bc6e3d0c937cdac6759483fc27c0e1cf6"
+
+[[files]]
+file = "mods/man_of_many_planes-0.2.0+1.20.1-forge.jar"
+hash = "c8b649c12c344435b7821c713fa43f1b7104e4a6741108f33252d3a3ae5d9dc6"
+
+[[files]]
+file = "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
+hash = "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8"
+
+[[files]]
+file = "mods/memoryleakfix-forge-1.17+-1.1.5.jar"
+hash = "925c3db4e1d085a43c4d2beaa4eec18367c22abc90c2ce8594b8a129fd3f28dd"
+
+[[files]]
+file = "mods/mes-1.4.6-1.20.jar"
+hash = "222bdb29ff0ac45712b40888b83a32bbda52b1e040e429b169c591c9a7d19a61"
+
+[[files]]
+file = "mods/midnightlib-forge-1.4.2.jar"
+hash = "dfec70e881e1928b1ea468f3bc1b57cff409d234250ac824f5835b25a7252e25"
+
+[[files]]
+file = "mods/minecraft-cursor-forge-3.11.2+1.20.1.jar"
+hash = "1ed22a99243266ca0c2f6a9d62633f9f8e8055bdf73d16e2ffb592d07d4d3ffe"
+
+[[files]]
+file = "mods/modelfix-1.15.jar"
+hash = "35f27982242a3ea58c526204a28704ddf355d19bb2e9b0ff10f9585c255a4f16"
+
+[[files]]
+file = "mods/modernfix-forge-5.26.2+mc1.20.1.jar"
+hash = "e9f00f787a78a976b8493eafeee63ff08fadb31bcb0a1e938d7b940d17ac70ae"
+
+[[files]]
+file = "mods/moogs_structure_lib-1.0.1-1.20-1.20.4-forge.jar"
+hash = "92f27624724bb91f8b2ed80b36a3aa84653419991f43575ee2bed8af3232b895"
+
+[[files]]
+file = "mods/moonlight-1.20-2.16.28-forge.jar"
+hash = "46ee59799b38da7b87b734e4f6f11be886a15cab51cbf78614bb50f9e43b3278"
+
+[[files]]
+file = "mods/mowziesmobs-1.7.3.jar"
+hash = "4d54374808bb4c91dc2660d67a2558dd4a79eb56ae4eeeec4e4d7446973cb0ba"
+
+[[files]]
+file = "mods/nanhealthfixer-1.20.1-0.0.1.jar"
+hash = "d03619bda583c0d52848d9225b781d022d406cecf02da2d5703bead81803fe1f"
+
+[[files]]
+file = "mods/naturalist-5.0pre3+forge-1.20.1.jar"
+hash = "7c39dcbd49e60a11955d60545498815fd2a0f490172aff28d3bd43f07111b458"
+
+[[files]]
+file = "mods/no-more-naturalist-cooked-egg-(farmers-delight-compat)-1.1.jar"
+hash = "1ea6c13b242aa17047af0f0c2e03eae38a2a71e3cb0f3fae2ffc68c6462421cc"
+
+[[files]]
+file = "mods/noisium-forge-2.3.0+mc1.20-1.20.1.jar"
+hash = "b0b020250c81e8cce7776c3dc8f7085f269e2007570d5fbd492c4497ad60685c"
+
+[[files]]
+file = "mods/notenoughanimations-forge-1.7.3-mc1.20.1.jar"
+hash = "74aed44e7213c3345326c4ace8100c8ace5e1e1af7e42435e1207c29b4e531a2"
+
+[[files]]
+file = "mods/obscure_api-15.jar"
+hash = "dd31231b626b894d89747f59d090887b8a956313f1e1f07e5a57b5086ebba301"
+
+[[files]]
+file = "mods/oculus-mc1.20.1-1.8.0.jar"
+hash = "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef"
+
+[[files]]
+file = "mods/packetfixer-3.3.0-1.18-1.20.4-merged.jar"
+hash = "8d100216aa5679c4ab73b3ca7fdd1fa165286fd9a77f9ca344c7212b378b8a77"
+
+[[files]]
+file = "mods/panorama_screens-1.0+forge+mc1.20.jar"
+hash = "8f45902eafb1f7975e10f5371111adcba46c6e381d079229fe3f16ba69463463"
+
+[[files]]
+file = "mods/passiveskilltreeaddon.jar"
+hash = "076bda5a50fece901b97f25a279384588352767bf69672255e179764fd9e7c10"
+
+[[files]]
+file = "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar"
+hash = "90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691"
+
+[[files]]
+file = "mods/ponderjs-1.20.1-2.0.6.jar"
+hash = "56f86f912eca74923ebc3fafc7dcc6635cd92ede1803bcd0437e067b9954f3ec"
+
+[[files]]
+file = "mods/protection_pixel-1.1.6-forge-1.20.1.jar"
+hash = "aab1744efc34430edb29fbe6cee30d10e98789be04aaf9be08183adae1dd5745"
+
+[[files]]
+file = "mods/radiantgear-forge-2.2.0+1.20.1.jar"
+hash = "2a6c7e0825c69bd38dc1bb1ce8a8d6b097cac835e16e46afaa0f207fb819bb96"
+
+[[files]]
+file = "mods/radium-mc1.20.1-0.12.4+git.26c9d8e.jar"
+hash = "b42584e2672d6b5329959ec2b0f342395b19389fed0ee4d86ea71072f42f77a0"
+
+[[files]]
+file = "mods/realmrpg_fallen_adventurers_1.0.3_forge_1.20.1.jar"
+hash = "868b120010c0ec06b67e580932180a61c070c1e57ac5f5543655d4fae6d90110"
+
+[[files]]
+file = "mods/resourcefulconfig-forge-1.20.1-2.1.2.jar"
+hash = "c4aef41d50e5bb8be8609f1f89919f9caca8363365998688fb6aabac03abf428"
+
+[[files]]
+file = "mods/resourcefullib-forge-1.20.1-2.1.24.jar"
+hash = "e4907b158601355ecf339c2fcb2b25a620d42359784963d337e02d50b2b8eb3a"
+
+[[files]]
+file = "mods/rhino-forge-2001.2.3-build.10.jar"
+hash = "fed2211429301bf043864183cab9ab8e92d4cc4dbb9e488ce6c75217c54584a6"
+
+[[files]]
+file = "mods/riverredux-0.3.1.jar"
+hash = "795e732d10185a72bbeb6b6ab13b7e889de95aa3b134fea67f858a51a0e553fd"
+
+[[files]]
+file = "mods/royal-variations-[Forge]_1.20.1_2.0.2.jar"
+hash = "72fea21961a4fdf9a02688b137f6103b31f937d76cce26a900d6750be5e1a80f"
+
+[[files]]
+file = "mods/rpgdifficulty-1.3.16.jar"
+hash = "42e3d6516a06fb39e2e3e41461326fcbe6d8bbbe4f9cb8df0de5b5f955c3b1e2"
+
+[[files]]
+file = "mods/rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar"
+hash = "32c28582040dfab4e167542bf319107296e9eff3cb17f4f576eba036f2d256da"
+
+[[files]]
+file = "mods/sawmill-1.20-1.4.10.jar"
+hash = "ca4bc6242f34d717e1e089480349547338db4ce7a9a4d039781ca8dbc63cc206"
+
+[[files]]
+file = "mods/seriousplayeranimations-1.1.1.jar"
+hash = "e806a058a7bb260bf805f20c870db4d9d099efb9f3953dd7f829e4bcd424e9fc"
+
+[[files]]
+file = "mods/simpletridents-1.20.1-1.0.0.2.jar"
+hash = "1e8d3a73e8b9c559dbe02b7b06a50e02ff00219dd9b44467ca8d666a0f478fea"
+
+[[files]]
+file = "mods/simplybuttons-1.0.1.0.jar"
+hash = "6a7ded59696c75204ae40ba2d96e6bf4dfbcafe63ca771883f25b02099bdb1b1"
+
+[[files]]
+file = "mods/sliceanddice-forge-3.4.0.jar"
+hash = "b39b53187d482aad2f92cac1884e8ab95d1842f83da551dc39870352ce21ddbf"
+
+[[files]]
+file = "mods/sodiumdynamiclights-forge-1.0.10-1.20.1.jar"
+hash = "dff5325abb58c0c8526dffb80e764188bde045fd02ca6ed5e2bb76f0897d46f4"
+
+[[files]]
+file = "mods/sophisticatedbackpacks-1.20.1-3.23.25.1307.jar"
+hash = "0ad50790763917db3198c9c92452795f3143952ebbf4d84df17bd531b093d23a"
+
+[[files]]
+file = "mods/sophisticatedbackpackscreateintegration-1.20.1-0.1.3.11.jar"
+hash = "aa6521edfcc0eb323997ed6adb9d1f08e48331710eb6ed18d4f26e76def157a9"
+
+[[files]]
+file = "mods/sophisticatedcore-1.20.1-1.2.81.1091.jar"
+hash = "33664011f5870259bcefd17e3c197e3a83a4d365a35656187ab562068987eaf0"
+
+[[files]]
+file = "mods/sparsestructures-forge-1.20.1-3.0.jar"
+hash = "7cdd38cf72aa764cccc98c8626b434f05a488a23a1339c2b0a0de6a7edec5435"
+
+[[files]]
+file = "mods/starterkit-1.20.1-7.0.jar"
+hash = "e34d4c4cdbb47ecc203068730fdc879d23268bfde5feaa736775fd6508c8c311"
+
+[[files]]
+file = "mods/structureessentials-1.20.1-3.4.jar"
+hash = "705d89f066c0b00d8ccd376313570b80279aa700fb477df727af7ff7b6a92b57"
+
+[[files]]
+file = "mods/structurify-forge-1.0.21+mc1.20.1.jar"
+hash = "73fc1c9bf04532dd291093f3531c7881783efa8f0a9a9dc5c317b9f8d75a3ee6"
+
+[[files]]
+file = "mods/supermartijn642configlib-1.1.8-forge-mc1.20.jar"
+hash = "bea425ef7e9cd27a7fc0f4b89e00cbd0a1ee050f071ecaa9f28f7238f400f0a3"
+
+[[files]]
+file = "mods/tooltipoverhaul-forge-1.20.1-1.4.1.jar"
+hash = "c85238b5b06ee9a448813e4afd0740f7f16104e99cbf057c024c2252fd29e055"
+
+[[files]]
+file = "mods/trade-cycling-forge-1.20.1-1.0.18.jar"
+hash = "8894120b0b4219bb1ba70a3ad9d156c89d27b6f6bca864c7ed0e3ba1b090a4a7"
+
+[[files]]
+file = "mods/valhelsia_core-forge-1.20.1-1.1.2.jar"
+hash = "d52ae1941c76ff57ee61943b38b5ae95a1e4bffa39604946bee1cfe52964f690"
+
+[[files]]
+file = "mods/vanillabackport-forge-1.20.1-1.1.4.3.jar"
+hash = "f95585e4dc868d5fd744d301e04606282a4d8ea54a39d38089d331aa7e91b7aa"
+
+[[files]]
+file = "mods/warriors_of_past_epoch_[Forge]_1.20.1_1.4.jar"
+hash = "62e9c967a329a523cf046267d6c916c9203188eb5423f9f23cf7be200bbe65e9"
+
+[[files]]
+file = "mods/xaerominimap-forge-1.20.1-25.3.9.jar"
+hash = "c751f246e0f68df7a2cdd10f173158b15abc64b0927ceca296a221069e509f46"
+
+[[files]]
+file = "mods/xaeroworldmap-forge-1.20.1-1.40.10.jar"
+hash = "b0df5e90a05de7f38dbceacd8b56f5fd65254b84ba8d4566e112688e49e5883f"
+
+[[files]]
+file = "mods/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar"
+hash = "bd05da3d9df29b914165583f1c6dfd918a138996447ff32c0418329824027a8f"

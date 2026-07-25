@@ -1,0 +1,13 @@
+name = "sisipisiminecraft"
+author = "totori775"
+version = "1.20.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "25d2c14dca509de8ce6af8fbe611740f504dd765987c5f0ed9df1b69cb3b5c5f"
+
+[versions]
+forge = "47.4.18"
+minecraft = "1.20.1"
