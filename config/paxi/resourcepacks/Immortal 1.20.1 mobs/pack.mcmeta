@@ -1,0 +1,7 @@
+{
+   "pack": {
+      "pack_format": 15,
+      "description": "§7Текстуры мобов",
+      "supported_formats": {"min_inclusive": 9, "max_inclusive": 99}
+   }
+}

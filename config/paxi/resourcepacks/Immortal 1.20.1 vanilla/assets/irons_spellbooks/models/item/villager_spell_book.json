@@ -1,0 +1,18 @@
+{
+    "parent": "minecraft:item/handheld",
+    "loader": "forge:separate_transforms",
+    "base": {
+        "parent": "irons_spellbooks:item/3d_villager_spell_book"
+    },
+    "perspectives": {
+        "gui": {
+            "parent": "irons_spellbooks:item/gui_villager_spell_book"
+        },
+        "fixed": {
+            "parent": "irons_spellbooks:item/3d_villager_spell_book"
+        },
+        "ground": {
+            "parent": "irons_spellbooks:item/gui_villager_spell_book"
+        }
+    }
+}

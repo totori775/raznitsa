@@ -1,0 +1,10 @@
+{
+   "variants":{
+      "":[
+         {
+            "model":"minecraft:block/cartography_table",
+            "y":0
+         }
+      ]
+   }
+}

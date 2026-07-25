@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:alchemist_7",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "78f2dd2e-faf4-4652-b050-c26ff7436ae3",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:alchemist_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Защита от магии",
+  "titleColor": "E3D4D1",
+  "positionX": 31.177488,
+  "positionY": -18.000998,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+3% к сопротивлению заклинаниям"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "id": "skilltree:inquisitor_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "b05dcd99-23b1-40b3-b626-ff76210ac12d",
+      "name": "Skill",
+      "amount": 0.06,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "72b34bfc-42af-4c34-908f-6fc4cd332220",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "ed301ce8-1281-40af-88e4-74cdc5b16021",
+      "name": "Skill",
+      "amount": -0.25,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create_jetpack:jetpack",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create_jetpack:netherite_jetpack",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create:potato_cannon",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "clockwork:scope_crossbow",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "clockwork:barrel_crossbow",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "clockwork:clockwork_wings",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "9db1246d-3a61-448a-9434-d7b2c4e13bcd",
+      "name": "Skill",
+      "amount": -0.9,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "id": "enigmaticlegacy:cursed_ring",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create_sa:brass_jetpack_chestplate",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create_sa:andesite_jetpack_chestplate",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create_sa:copper_jetpack_chestplate",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create_sa:flamethrower",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "protection_pixel:socks_boots",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "passiveskilltreeaddon:technomagic_staff",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "passiveskilltreeaddon:unstable_technomagic_staff",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "id": "d661f528-fe4c-45c6-9b39-4b3876a7a0f7",
+      "name": "Skill",
+      "amount": -0.9,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:eldritch_manuscript",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "49950e02-b861-4cde-beae-7da4c7e2cb3f",
+      "name": "Skill",
+      "amount": -0.9,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:villager_spell_book",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:priest_helmet",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:priest_chestplate",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:priest_leggings",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:priest_boots",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "enigmaticlegacy:eldritch_pan",
+        "type": "skilltree:item_id"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:inquisitor_2"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/inquisitor_item.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Инквизитор из тёмного ордена",
+  "titleColor": "E3D4D1",
+  "positionX": 0.0,
+  "positionY": 0.0,
+  "buttonSize": 32,
+  "isStartingPoint": true,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "f_131102_": false,
+      "f_131104_": false,
+      "f_131105_": false,
+      "f_131106_": false,
+      "text": "△ Усиление △"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+6% к урону в ближнем бою"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+20% к сопротивлению заклинаниям"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "▽ Ослабление ▽"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "-25% к восстановлению маны"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "-90% к силе заклинаний, если вы надели Кольцо Семи проклятий"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "Нельзя использовать реактивные ранцы"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "Нельзя использовать картофельную пушку, механические арбалеты, заводные крылья, огнемет"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "У вас нет доступа к механической броне"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "У вас нет доступа к магии потусторонья"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "Магия святости ослаблена"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "skilltree:inventor_46",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "c6129386-e6bd-459d-9d26-1953d9a09929",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "obscure_api:magic_resistance",
+      "id": "fda88d6b-c185-4403-8b48-e07697f79374",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:inventor_43"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Антимагический щит",
+  "titleColor": "E3D4D1",
+  "positionX": -93.52729,
+  "positionY": -54.003,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к сопротивлению заклинаниям"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к сопротивлению магии"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "additional_requirements": {
+    "forge_tier": 2
+  },
+  "essences": {
+    "aureal": 500,
+    "blood": 3000,
+    "experience": 40,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:blaze_powder"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:blood_vial"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:glowstone_dust"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "minecraft:ghast_tear"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "enigmaticaddons:ichor_droplet"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "itemGroup.create_unbreakable": "Create: Неразрушаемый",
+  "item.create_unbreakable.irromolding": "Сфера нерушимости",
+  "item.create_unbreakable.philolite" : "Флюорит",
+  "item.create_unbreakable.luminarchy" : "Зеленый алмаз",
+  "block.create_unbreakable.philolite_block" : "Блок флюорита",
+  "block.create_unbreakable.luminarchy_block" : "Блок зеленого алмаза"
+}

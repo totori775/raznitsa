@@ -1,0 +1,35 @@
+{
+  "additional_requirements": {
+    "forge_tier": 1
+  },
+  "essences": {
+    "aureal": 30,
+    "blood": 100,
+    "experience": 30,
+    "souls": 6
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "born_in_chaos_v1:ethereal_spirit"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:arcane_crystal_dust"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "undead_unleashed:soul_piece"
+    }
+  }
+}

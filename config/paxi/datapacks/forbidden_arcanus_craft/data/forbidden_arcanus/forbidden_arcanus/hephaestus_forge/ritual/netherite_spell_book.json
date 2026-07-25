@@ -1,0 +1,41 @@
+{
+  "additional_requirements": {
+    "forge_tier": 4
+  },
+  "essences": {
+    "aureal": 900,
+    "blood": 3000,
+    "experience": 120,
+    "souls": 25
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:magic_cloth"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:ruined_book"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:netherite_ingot"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "irons_spellbooks:diamond_spell_book"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "irons_spellbooks:netherite_spell_book"
+    }
+  }
+}

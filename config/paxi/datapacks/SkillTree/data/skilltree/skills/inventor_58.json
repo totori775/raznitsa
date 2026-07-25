@@ -1,0 +1,51 @@
+{
+  "id": "skilltree:inventor_58",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_effect",
+      "chance": 0.1,
+      "max_stacks": 1,
+      "effect": "born_in_chaos_v1:stun",
+      "duration": 60,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "equipment_type": "ranged_weapon",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:inventor_55"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/arrow_steel.png",
+  "borderTexture": "skilltree:textures/tooltip/gateway.png",
+  "title": "Тяжёлая стрела",
+  "titleColor": "FFAA00",
+  "positionX": 124.703,
+  "positionY": -71.992,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к шансу наложить эффект Оглушения на 3 секунды при дальней атаке, если у вас в руке оружие дальнего боя"
+    }
+  ]
+}

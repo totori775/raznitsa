@@ -1,0 +1,35 @@
+{
+  "additional_requirements": {
+    "forge_tier": 1
+  },
+  "essences": {
+    "aureal": 450,
+    "blood": 0,
+    "experience": 30,
+    "souls": 1
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:quartz"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "minecraft:raw_iron"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "irons_spellbooks:shriving_stone"
+    }
+  }
+}

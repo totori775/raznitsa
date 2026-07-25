@@ -1,0 +1,18 @@
+{
+    "name": "Броня Леди Марии",
+    "icon": "fantasy_armor:lady_maria_helmet",
+    "category": "patchouli:fantasy_armor_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Комплект брони Леди Марии можно скрафтить на верстаке. Имеет слабый показатель защиты, увеличивает скорость атаки. При полном коплекте брони, накладывает эффект Силы источника."
+        },
+		{
+            "type": "patchouli:image",
+            "images": [
+			  "immortal_book:textures/gui/entries/book_23.png"
+		    ],
+			"border": true
+        }
+    ]
+}

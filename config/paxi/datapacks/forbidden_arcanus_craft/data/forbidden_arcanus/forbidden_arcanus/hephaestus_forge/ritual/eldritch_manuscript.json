@@ -1,0 +1,29 @@
+{
+  "additional_requirements": {
+    "forge_tier": 5
+  },
+  "essences": {
+    "aureal": 900,
+    "blood": 3000,
+    "experience": 290,
+    "souls": 66
+  },
+  "inputs": [
+    {
+      "amount": 8,
+      "ingredient": {
+        "item": "irons_spellbooks:ancient_knowledge_fragment"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "minecraft:echo_shard"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "irons_spellbooks:eldritch_manuscript"
+    }
+  }
+}

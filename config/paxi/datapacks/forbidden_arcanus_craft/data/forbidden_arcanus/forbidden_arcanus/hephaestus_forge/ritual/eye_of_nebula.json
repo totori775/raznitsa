@@ -1,0 +1,50 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:elementarium"
+    ],
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 700,
+    "blood": 2000,
+    "experience": 120,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:ender_pearl"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "forbidden_arcanus:arcane_crystal_dust"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "enigmaticlegacy:etherium_ingot"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "enigmaticlegacy:astral_dust"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "enigmaticlegacy:earth_heart"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "enigmaticlegacy:eye_of_nebula"
+    }
+  }
+}

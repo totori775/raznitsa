@@ -1,0 +1,15 @@
+{
+    "name": "Основы",
+    "icon": "immortalskills:altar_block",
+    "category": "patchouli:armor_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Всего существует $(#CECACA)$(l)6 видов $()классовой брони/ $(br)оружия: $(br)- $(l:patchouli:armor/mechanical_entry)Броня механического вестника $()$(br)- $(l:patchouli:armor/engineer_entry)Броня изобретателя $()$(br)- $(l:patchouli:armor/wizard_entry)Броня верховного мага $()$(br)- $(l:patchouli:armor/elementalist_entry)Броня элементалиста $()$(br)- $(l:patchouli:ring/unholy_entry)Броня нечестивого рыцаря $()$(br)- $(l:patchouli:armor/inquisitor_entry)Броня инквизитора из тёмного ордена $()$(br)$(br)Каждая броня/оружие обладает своими уникальными свойствами. Каждый элемент брони/оружия вы можете улучшать на $(l:patchouli:armor/altar_entry)Алтаре преобразования$()."
+        },
+		{
+            "type": "patchouli:text",
+            "text": "При улучшении будет повышаться редкость снаряжения. Максимально можно улучшить до $(#CECACA)$(l)легендарного $()уровня. На этом уровне снаряжение становится неразрушаемым, а их характеристики становятся выше чем у незеритового снаряжения."
+        }
+    ]
+}

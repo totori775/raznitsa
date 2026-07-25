@@ -1,0 +1,17 @@
+{
+	"values":[
+		"#minecraft:frog_food",
+		"#upgradedmobs:piglins",
+		"#minecraft:raiders",
+		"#minecraft:skeletons",
+		"#upgradedmobs:spiders",
+		"minecraft:enderman",
+		"minecraft:endermite",
+		"minecraft:hoglin",
+		"minecraft:silverfish",
+		"minecraft:zoglin",
+		"minecraft:zombified_piglin",
+		"minecraft:iron_golem",
+		"minecraft:snow_golem"
+	]
+}

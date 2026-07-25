@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:archmage_14",
+  "bonuses": [
+    {
+      "type": "skilltree:free_enchantment",
+      "chance": 0.1
+    },
+    {
+      "type": "skilltree:projectile_speed",
+      "multiplier": 0.1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archmage_11"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_healing_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Раскрытая книга заклинаний II",
+  "titleColor": "FFAA00",
+  "positionX": 31.176,
+  "positionY": 90.004,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к шансу зачаровать предмет бесплатно"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к скорости снарядов"
+    }
+  ]
+}

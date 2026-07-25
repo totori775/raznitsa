@@ -1,0 +1,6 @@
+{
+  "config.difficult_spawners.spawner_effects": "Усиленные спавнера",
+  "item.difficult_spawners.evil_spirit_spawn_egg": "Яйцо призыва злого духа",
+  "config.difficult_spawners.effects": "Усиленные спавнера",
+  "entity.difficult_spawners.evil_spirit": "Злой дух"
+}

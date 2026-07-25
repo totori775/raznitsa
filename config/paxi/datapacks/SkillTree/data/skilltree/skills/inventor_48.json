@@ -1,0 +1,51 @@
+{
+  "id": "skilltree:inventor_48",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "cfca054c-7416-4950-bfe0-b2b96119924b",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_knockback",
+      "id": "6a0675a1-9ae6-49d1-8dc8-f0c6568c4b2c",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:inventor_19"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_class.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Гравитационное поле",
+  "titleColor": "E3D4D1",
+  "positionX": -31.175764,
+  "positionY": -126.001,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к сопротивлению отбрасывания"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к отбрасывающей атаке"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "additional_requirements": {
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 900,
+    "blood": 2000,
+    "experience": 30,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:magic_cloth"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "irons_spellbooks:hogskin"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:diamond"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "irons_spellbooks:gold_spell_book"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "irons_spellbooks:diamond_spell_book"
+    }
+  }
+}

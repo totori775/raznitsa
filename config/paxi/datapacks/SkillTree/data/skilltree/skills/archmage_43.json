@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:archmage_43",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "c4cce8dc-ee1b-47bd-8eb9-9c06165f5245",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archmage_40"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_special_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Второе дыхание",
+  "titleColor": "E3D4D1",
+  "positionX": -62.35153,
+  "positionY": -72.002,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+1 к максимальному здоровью"
+    }
+  ]
+}

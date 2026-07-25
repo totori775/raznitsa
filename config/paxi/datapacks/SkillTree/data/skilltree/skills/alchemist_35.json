@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:alchemist_35",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "fcb09fc2-5cc9-4c71-9c01-0c297d75a194",
+      "name": "Skill",
+      "amount": 4.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "irons_spellbooks:cursed_doll_spell_book",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:alchemist_28"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Багряный пакт",
+  "titleColor": "FF5555",
+  "positionX": -124.703,
+  "positionY": -0.004,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+4 к максимальному здоровью, если на вас надета Вампирская книга заклинаний"
+    }
+  ]
+}

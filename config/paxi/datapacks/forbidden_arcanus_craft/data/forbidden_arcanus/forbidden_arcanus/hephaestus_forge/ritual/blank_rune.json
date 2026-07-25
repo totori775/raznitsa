@@ -1,0 +1,41 @@
+{
+  "additional_requirements": {
+    "forge_tier": 1
+  },
+  "essences": {
+    "aureal": 100,
+    "blood": 100,
+    "experience": 10,
+    "souls": 1
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:lapis_lazuli"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:arcane_crystal_dust"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:amethyst_shard"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "minecraft:tuff"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "irons_spellbooks:blank_rune"
+    }
+  }
+}

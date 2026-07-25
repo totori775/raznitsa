@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "": [
+      { "model": "block/grass/0" , "weight":5000 , "distance": 1},
+      { "model": "block/grass/0" , "weight":5000 , "distance": 1 ,"y": 90 },
+      { "model": "block/grass/0" , "weight":5000 , "distance": 1 ,"y": 180 },
+      { "model": "block/grass/0" , "weight":5000 , "distance": 1 ,"y": 270 },
+      { "model": "block/grass/1" , "weight":5000 , "distance": 1},
+      { "model": "block/grass/1" , "weight":5000 , "distance": 1 , "y": 90 },
+      { "model": "block/grass/1" , "weight":5000 , "distance": 1 , "y": 180 },
+      { "model": "block/grass/1" , "weight":5000 , "distance": 1 , "y": 270 },
+      { "model": "block/grass/2" , "weight":5000 , "distance": 1},
+      { "model": "block/grass/2" , "weight":5000 , "distance": 1 , "y": 90 },
+      { "model": "block/grass/2" , "weight":5000 , "distance": 1 , "y": 180 },
+      { "model": "block/grass/2" , "weight":5000 , "distance": 1 , "y": 270 },
+      { "model": "block/grass/3" , "weight":5000 , "distance": 1},
+      { "model": "block/grass/3" , "weight":5000 , "distance": 1 , "y": 90 },
+      { "model": "block/grass/3" , "weight":5000 , "distance": 1 , "y": 180 },
+      { "model": "block/grass/3" , "weight":5000 , "distance": 1 , "y": 270 },
+      { "model": "block/grass/4" , "weight":1000 , "distance": 1 },
+      { "model": "block/grass/4" , "weight":1000 , "distance": 1 , "y": 90 },
+      { "model": "block/grass/4" , "weight":1000 , "distance": 1 , "y": 180 },
+      { "model": "block/grass/4" , "weight":1000 , "distance": 1 , "y": 270 }
+    ]
+  }
+}

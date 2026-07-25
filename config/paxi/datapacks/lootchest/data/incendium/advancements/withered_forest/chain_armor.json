@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "chainmail_chestplate",
+      "nbt": "{Enchantments:[]}"
+    },
+    "title": {
+      "translate":"incendium.advancement.withered_forest.chain_armor.title","fallback":"Охотник за привидениями"
+    },
+    "description": {
+      "translate":"incendium.advancement.withered_forest.chain_armor.desc","fallback":"Наденьте какую-нибудь кольчугу и используйте ее, чтобы развеять беспокойный дух"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "incendium:withered_forest/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

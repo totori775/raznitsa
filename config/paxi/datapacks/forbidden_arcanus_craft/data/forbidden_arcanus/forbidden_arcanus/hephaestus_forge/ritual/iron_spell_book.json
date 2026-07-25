@@ -1,0 +1,41 @@
+{
+  "additional_requirements": {
+    "forge_tier": 1
+  },
+  "essences": {
+    "aureal": 100,
+    "blood": 500,
+    "experience": 10,
+    "souls": 3
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:paper"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:chain"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "irons_spellbooks:copper_spell_book"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "irons_spellbooks:iron_spell_book"
+    }
+  }
+}

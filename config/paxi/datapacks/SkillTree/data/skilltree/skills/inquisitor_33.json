@@ -1,0 +1,55 @@
+{
+  "id": "skilltree:inquisitor_33",
+  "bonuses": [
+    {
+      "type": "skilltree:inflict_damage",
+      "chance": 0.05,
+      "damage": 9.0,
+      "event_listener": {
+        "player_condition": {
+          "item_condition": {
+            "id": "irons_spellbooks:evoker_spell_book",
+            "type": "skilltree:item_id"
+          },
+          "type": "skilltree:has_item_equipped"
+        },
+        "target": "enemy",
+        "type": "skilltree:critical_hit"
+      },
+      "damage_type": {
+        "type": "skilltree:magic"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "irons_spellbooks:priest",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [
+    "skilltree:inquisitor_30"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Путь войны",
+  "titleColor": "FFAA00",
+  "positionX": -124.703,
+  "positionY": 71.996,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% к шансу нанести 9 урона магией при критическом ударе, если на вас надет Гримуар призыва"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "id": "skilltree:inquisitor_37",
+  "bonuses": [
+    {
+      "type": "skilltree:crit_chance",
+      "chance": 0.05,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "crossbow",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      }
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.1,
+      "operation": 1,
+      "player_condition": {
+        "item_condition": {
+          "id": "legendaryitems:crescens_crossbow",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:projectile"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "minecraft:pillager",
+      "minValue": 3
+    }
+  ],
+  "directConnections": [
+    "skilltree:inquisitor_34"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/standby_crossbow.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Растущая сила",
+  "titleColor": "FFAA00",
+  "positionX": 62.355,
+  "positionY": 108.0,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% к шансу критического удара снарядами, если у вас в руке арбалет"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к урону снарядами, если у вас в руке Кресцент"
+    }
+  ]
+}

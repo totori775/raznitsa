@@ -1,0 +1,31 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"2": "block/lily_pad/small_lilypad",
+		"particle": "block/lily_pad/medium_lilypad",
+		"texture": "block/lily_pad/medium_lilypad"
+	},
+	"elements": [
+		{
+			"from": [5.75, 0.25, 6],
+			"to": [13.75, 0.25, 15],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [11, 0.25, 10.5]},
+			"faces": {
+				"up": {"uv": [0, 0, 8, 9], "texture": "#texture", "tintindex": 0},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#texture", "tintindex": 0}
+			}
+		},
+		{
+			"from": [2.75, 0.25, -1],
+			"to": [8.75, 0.25, 6],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [4, 0.25, 3.5]},
+			"faces": {
+				"up": {"uv": [6, 0, 0, 7], "texture": "#2", "tintindex": 0},
+				"down": {"uv": [12, 0, 6, 7], "texture": "#2", "tintindex": 0}
+			}
+		}
+	]
+}

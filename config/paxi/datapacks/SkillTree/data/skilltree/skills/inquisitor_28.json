@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:inquisitor_28",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "6a40fecb-0138-4575-85a5-3e53744ac5ca",
+      "name": "Skill",
+      "amount": 3.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:inquisitor_23"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_special_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Разрастание",
+  "titleColor": "E3D4D1",
+  "positionX": -124.70306,
+  "positionY": 35.99601,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+3 к максимальному здоровью"
+    }
+  ]
+}

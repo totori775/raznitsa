@@ -1,0 +1,11 @@
+{
+    "name": "Нечестивая сущность",
+    "icon": "enigmaticlegacy:evil_essence",
+    "category": "patchouli:ring_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Если на вас надето Кольцо Семи проклятий, то при убийстве $(#CECACA)Иссушителя $()с него будет выпадать $(#CECACA)Нечестивая сущность$()."
+        }
+    ]
+}

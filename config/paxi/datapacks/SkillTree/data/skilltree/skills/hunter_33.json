@@ -1,0 +1,58 @@
+{
+  "id": "skilltree:hunter_33",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "2382a9d6-85ec-42ac-b345-5255139234a0",
+      "name": "Skill",
+      "amount": 50.0,
+      "operation": 0
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "f790cb60-3752-4dd3-b3bf-eee0203578cb",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "born_in_chaos_v1:bonescaller",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [
+    "skilltree:hunter_30"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_crit_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_1.png",
+  "title": "Поток маны",
+  "titleColor": "FF5555",
+  "positionX": -124.703,
+  "positionY": 71.996,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+50 к запасу маны"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к восстановлению маны"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "skilltree:cook_14",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "9856f6aa-4511-48ac-8c35-c22705d4c12d",
+      "name": "Skill",
+      "amount": 100.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "immortalskills:engineer_chestplate",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "6305731a-5a3e-4258-add3-bca55a73766c",
+      "name": "Skill",
+      "amount": 100.0,
+      "operation": 0,
+      "player_condition": {
+        "item_condition": {
+          "id": "immortalskills:mechanical_messenger_chestplate",
+          "type": "skilltree:item_id"
+        },
+        "type": "skilltree:has_item_equipped"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:cook_11"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_crit_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Поток маны II",
+  "titleColor": "FF5555",
+  "positionX": 31.176,
+  "positionY": 90.004,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+100 к запасу маны, если на вас Нагрудник механического вестника или Нагрудник изобретателя"
+    }
+  ]
+}

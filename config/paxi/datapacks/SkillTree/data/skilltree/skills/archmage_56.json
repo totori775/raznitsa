@@ -1,0 +1,51 @@
+{
+  "id": "skilltree:archmage_56",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cast_time_reduction",
+      "id": "a8bb0e04-8c26-433f-a07f-64f2834e6dcd",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "id": "41750e4f-cd2a-4346-9cf4-2813a99db54e",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archmage_53"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_speed_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone.png",
+  "title": "Превосходство II",
+  "titleColor": "FFAA00",
+  "positionX": 0.0,
+  "positionY": 144.004,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к сокращению времени чтения заклинаний"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+15% к сокращению перезарядки заклинаний"
+    }
+  ]
+}

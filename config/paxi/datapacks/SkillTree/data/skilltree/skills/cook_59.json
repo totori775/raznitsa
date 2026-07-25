@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:cook_59",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_resist",
+      "id": "dfefb3dd-e857-4b2d-acde-5522030e7603",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:lightning_magic_resist",
+      "id": "c0955a7d-f2b1-49d2-b607-bc8d01bbc035",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Антимагический щит II",
+  "titleColor": "FF5555",
+  "positionX": -124.703,
+  "positionY": -36.004,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30% к сопротивлению заклинаниям"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30% к сопротивлению магии молнии"
+    }
+  ]
+}

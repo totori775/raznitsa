@@ -1,0 +1,53 @@
+{
+  "id": "skilltree:hunter_19",
+  "bonuses": [
+    {
+      "type": "passiveskilltreeaddon:extra_enchant_slot",
+      "value": 1
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:picked_up",
+      "statId": "minecraft:echo_shard",
+      "minValue": 1
+    }
+  ],
+  "directConnections": [
+    "skilltree:hunter_18"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_1.png",
+  "title": "Тайные знания",
+  "titleColor": "FF5555",
+  "positionX": 0.0,
+  "positionY": -144.0,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+1 слот к зачарованию ваших предметов"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 11184810
+      },
+      "f_131103_": true,
+      "text": "*Без этой способности у игроков по умолчанию 3 слота для книг зачарований"
+    }
+  ]
+}

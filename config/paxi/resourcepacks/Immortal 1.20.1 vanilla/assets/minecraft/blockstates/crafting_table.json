@@ -1,0 +1,10 @@
+{
+   "variants":{
+      "":[
+         {
+            "model":"minecraft:block/crafting_table",
+            "y":0
+         }
+      ]
+   }
+}

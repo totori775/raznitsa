@@ -1,0 +1,18 @@
+{
+    "name": "Кинжал стража тумана",
+    "icon": "fantasy_weapons:weapon_fog_guard_dagger",
+    "category": "patchouli:fantasy_weapon_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Урон этого оружия увеличивается на 100% во время дождя."
+        },
+		{
+            "type": "patchouli:image",
+            "images": [
+			  "immortal_book:textures/gui/entries/book_44.png"
+		    ],
+			"border": true
+        }
+    ]
+}

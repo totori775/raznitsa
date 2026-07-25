@@ -1,0 +1,25 @@
+
+#General settings
+[general]
+	#Время перезарядки щитов верховного мага (в тиках)
+	#Range: > 1
+	ElderWizardArmor_CoolDown = 200
+	#Время перезарядки умения брони инквизитора (в тиках)
+	#Range: > 1
+	DarkInquisitorArmor_CoolDown = 1200
+	#Время перезарядки умения механического вестника (в тиках)
+	#Range: > 1
+	MechanicalMessengerArmor_CoolDown = 400
+	#Сколько сердец игрок получает при поднятии шестеренки (1 - половинка сердца)
+	#Range: 1 ~ 40
+	EngineerArmor_HeartForGear = 4
+	#Максимальное количество дополнительных сердец, которые игрок может получить при поднятии шестеренки
+	#Range: 1 ~ 40
+	EngineerArmor_MaxHeart = 12
+	#Длительность действия брони нечестивого рыцаря для области с иссушением (в тиках)
+	#Range: > 1
+	UnholyKnightArmor_AreaDuration = 260
+	#Радиус области иссушения брони нечестивого рыцаря
+	#Range: 0 ~ 100
+	UnholyKnightArmor_AreaRadius = 4
+

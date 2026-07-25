@@ -1,0 +1,178 @@
+{
+	autofocus_id: "15D0895035CD2451"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "54FA3A661A30B0B8"
+	group: "72A714D38A5675C8"
+	icon: "enigmaticlegacy:the_cube"
+	id: "54FA3A661A30B0B8"
+	images: [
+		{
+			height: 2.85d
+			image: "ftbquests:textures/logo_orig.png"
+			rotation: 0.0d
+			width: 5.65d
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			height: 7.2d
+			image: "ftbquests:textures/background_quest.png"
+			rotation: 0.0d
+			width: 7.2d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Еще никому не удавалось так далеко зайти...ты преодолел много трудностей и препятствий на своем пути. Когда я впервые увидел тебя, то верил в твои силы, верил, что ты достигнешь поставленной цели."
+				""
+				"Вот ты стоишь на пороге к бессмертию и понимаешь на сколько ты близок. У тебя, возможно, так много вопросов...кто я...для чего все это создал? Ответ очень прост: я хотел показать тебе на что ты способен, что не бывает препятствий для достижения цели, бывают возможности, которыми ты так хорошо овладел."
+				""
+				"Если ты думаешь что достижение бессмертия это конец, то ты глубоко ошибаешься. Мы сами вольны ставить перед собой цели и достигать их. В мире так много всего неизведанного. А что может нас ждать впереди? На этот вопрос даже я не в силах ответить."
+				""
+				"&5Сердце Мироздания&r это не просто самый могущественный артефакт этого мира - это ключ к &6Архитектору&r. Любой, кому удалось завладеть этим &7Камнем стихий&r, может по праву называть себя &6Бессмертным&r. Но все мы знаем, что нет предела совершенству...тогда быть может это еще не конец?"
+			]
+			hide_text_until_complete: true
+			icon: "enigmaticlegacy:the_cube"
+			id: "15D0895035CD2451"
+			rewards: [{
+				id: "75D9F293A5F5A7B8"
+				item: "enigmaticlegacy:enigmatic_item"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Получить бремя опустошения, бесконечность, неевклидов куб и осколок портала"
+			tasks: [
+				{
+					id: "07E39C121C51DBFF"
+					item: "enigmaticlegacy:desolation_ring"
+					title: "Получить Бремя опустошения"
+					type: "item"
+				}
+				{
+					id: "6EEE2BD0DD525C84"
+					item: "enigmaticlegacy:the_infinitum"
+					title: "Получить Бесконечность"
+					type: "item"
+				}
+				{
+					id: "68A253C26CE4EB7E"
+					item: "enigmaticlegacy:the_cube"
+					type: "item"
+				}
+				{
+					id: "4E16DF27B9D1FCDA"
+					item: "legendary_monsters:portal_shard"
+					type: "item"
+				}
+			]
+			title: "Бессмертный?"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15D0895035CD2451"]
+			description: [
+				"Как уже многие могли догадаться, &6Архитектор&r питает особую любовь к картинам, поэтому он создал портал в свое измерение в виде картины. &6Картина мироздания&r - это проводник между Новым миром и измерением Архитектора."
+				""
+				"&o&7Нажмите Камнем мироздания по ванильной картине, чтобы создать Картину мироздания&r"
+			]
+			hide_until_deps_complete: true
+			id: "3F65DB6BDDFF4CDF"
+			rewards: [{
+				id: "55DE7518C6430587"
+				item: "immortal_bosses:enlightenment_star"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Попасть в измерение Архитектора"
+			tasks: [{
+				dimension: "immortal_bosses:arena"
+				icon: "immortal_bosses:mystical_painting"
+				id: "1CE0B6BA6DA2B169"
+				title: "Дом создателя"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -1.7999999999999998d
+		}
+		{
+			dependencies: ["3F65DB6BDDFF4CDF"]
+			description: [
+				"Кто бы мог подумать, что финальным боссом окажется не &6Архитектор&r, а величайшее его творение в виде &6Тессеракта&r. Наделенный невероятной силой, он способен пробивать любую броню и при этом нанося урон зависящий от вашего максимального запаса здоровья."
+				""
+				"&o&7Собирайте трофеи за победу над боссом, чтобы открыть для себя что то новое&r"
+			]
+			id: "482924430EE2AE28"
+			invisible: true
+			rewards: [
+				{
+					id: "17191C37D1852A9F"
+					item: "immortal_bosses:enlightenment_star"
+					type: "item"
+				}
+				{
+					id: "6389605EA885E4C4"
+					item: "battlepets:santa_gift"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Убить финального босса Тессеракт"
+			tasks: [{
+				advancement: "immortal_bosses:defeat_tesseract"
+				criterion: ""
+				icon: "immortal_bosses:non_euclidean_staff"
+				id: "73C8B21F0F819908"
+				title: "Убить финального босса Тессеракт"
+				type: "advancement"
+			}]
+			title: "Финальное испытание"
+			x: 0.0d
+			y: -3.5999999999999996d
+		}
+		{
+			icon: "immortal_bosses:trophy_cog"
+			id: "07E0A27195716EC7"
+			invisible: true
+			rewards: [{
+				id: "153D358A11632908"
+				item: "enigmaticlegacy:enigmatic_item"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.2d
+			subtitle: "Получить все трофеи за прохождение финального испытания"
+			tasks: [
+				{
+					advancement: "immortal_bosses:defeat_tesseract"
+					criterion: ""
+					id: "7A56B5E0EB5D2DCC"
+					type: "advancement"
+				}
+				{
+					advancement: "immortal_bosses:defeat_in_time_tesseract"
+					criterion: ""
+					id: "5F17B1D56208118B"
+					type: "advancement"
+				}
+				{
+					advancement: "immortal_bosses:no_damage_tesseract"
+					criterion: ""
+					id: "7E8C7783C47C0C86"
+					type: "advancement"
+				}
+			]
+			x: 1.7999999999999998d
+			y: -3.5999999999999996d
+		}
+	]
+	title: "Вознёсшийся"
+}

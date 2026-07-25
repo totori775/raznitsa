@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:archmage_35",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.05,
+      "experience_source": "mobs"
+    },
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.1,
+      "experience_source": "ore"
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archmage_28"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Источник силы",
+  "titleColor": "FFAA00",
+  "positionX": -124.703,
+  "positionY": -0.004,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% к опыту с существ"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к опыту из руды"
+    }
+  ]
+}

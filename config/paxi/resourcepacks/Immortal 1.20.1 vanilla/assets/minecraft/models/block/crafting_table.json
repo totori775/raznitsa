@@ -1,0 +1,96 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [48, 48],
+	"textures": {
+		"0": "block/crafting_table/crafting_table_atlas",
+		"particle": "block/crafting_table/particle"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 5.33333, 5.33333], "texture": "#0"},
+				"east": {"uv": [10.66667, 0, 16, 5.33333], "texture": "#0"},
+				"south": {"uv": [0, 0, 5.33333, 5.33333], "texture": "#0"},
+				"west": {"uv": [0, 5.33334, 5.33333, 10.66667], "texture": "#0"},
+				"up": {"uv": [10.66666, 10.66667, 5.33333, 5.33334], "texture": "#0"},
+				"down": {"uv": [16, 5.33334, 10.66667, 10.66667], "texture": "#0"}
+			}
+		},
+		{
+			"name": "hammer",
+			"from": [2.5, 16, 2.5],
+			"to": [9.5, 19, 5.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [4, 17.5, 4]},
+			"faces": {
+				"north": {"uv": [2.33333, 10.66667, 0, 11.66667], "texture": "#0"},
+				"east": {"uv": [3.66667, 14, 2.66667, 15], "texture": "#0"},
+				"south": {"uv": [2.33333, 11.66667, 0, 12.66667], "texture": "#0"},
+				"west": {"uv": [4.33333, 12.33333, 3.33333, 13.33333], "texture": "#0"},
+				"up": {"uv": [0, 15, 1, 12.66667], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [1, 12.66667, 2, 15], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"name": "hammer",
+			"from": [5, 16, 5.5],
+			"to": [7, 18, 10.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [4, 17.5, 4]},
+			"faces": {
+				"north": {"uv": [4.33333, 10.66667, 3.66667, 11.33333], "texture": "#0"},
+				"east": {"uv": [2.33333, 12.33333, 3, 10.66667], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [4.33333, 10.66667, 3.66667, 11.33333], "texture": "#0"},
+				"west": {"uv": [3, 12.33333, 3.66667, 10.66667], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [2.66667, 12.66667, 2, 14.33333], "rotation": 180, "texture": "#0"},
+				"down": {"uv": [2.66667, 12.33333, 3.33333, 14], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "crafting_table",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		},
+		{
+			"name": "hammer",
+			"origin": [5.5, 12.5, -0.5],
+			"rotation": [-24.95048, 2.82607, -6.80777],
+			"color": 0,
+			"children": [1, 2]
+		}
+	]
+}

@@ -1,0 +1,287 @@
+{
+  "id": "skilltree:alchemist_1",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "708eefea-2c1d-40c2-ac47-9679c2b9aa5b",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:mana_regen",
+      "id": "2eb83624-0fdf-4e00-88e1-03b3b6b913f7",
+      "name": "Skill",
+      "amount": -0.2,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create_jetpack:jetpack",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create_jetpack:netherite_jetpack",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create:potato_cannon",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "clockwork:scope_crossbow",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "clockwork:barrel_crossbow",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "clockwork:clockwork_wings",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create_sa:brass_jetpack_chestplate",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create_sa:andesite_jetpack_chestplate",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create_sa:copper_jetpack_chestplate",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "create_sa:flamethrower",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "protection_pixel:socks_boots",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "passiveskilltreeaddon:technomagic_staff",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "passiveskilltreeaddon:unstable_technomagic_staff",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "id": "60e03c4a-82be-41c9-b858-3455f7a014c3",
+      "name": "Skill",
+      "amount": -0.9,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:eldritch_manuscript",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "28564c71-a187-445c-ae00-490e9d34fad1",
+      "name": "Skill",
+      "amount": -0.9,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:villager_spell_book",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:priest_helmet",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:priest_chestplate",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:priest_leggings",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:cant_use_item",
+      "item_condition": {
+        "id": "irons_spellbooks:priest_boots",
+        "type": "skilltree:item_id"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "a014883c-722b-4744-ad78-a4bd0e953c8c",
+      "name": "Skill",
+      "amount": -0.3,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:damage",
+      "amount": 0.1,
+      "operation": 1,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:advancement",
+      "advancement": "enigmaticlegacy:main/cursed_ring"
+    }
+  ],
+  "directConnections": [
+    "skilltree:alchemist_4"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/wicked_knight_item.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_1.png",
+  "title": "Нечестивый рыцарь - проклятый класс",
+  "titleColor": "FF5555",
+  "positionX": 0.0,
+  "positionY": 0.0,
+  "buttonSize": 32,
+  "isStartingPoint": true,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "△ Усиление △"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+10% к урону в ближнем бою"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+20% к сопротивлению отбрасывания"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Вам доступен Необузданный голод"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": ""
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14931153
+      },
+      "text": "▽ Ослабление ▽"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "-20% к восстановлению маны"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "-30% к силе заклинаний"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "Нельзя использовать реактивные ранцы"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "Нельзя использовать картофельную пушку, механические арбалеты, заводные крылья, огнемёт"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "У вас нет доступа к механической броне"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "У вас нет доступа к магии потусторонья"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 14834266
+      },
+      "text": "Магия святости ослаблена"
+    }
+  ]
+}

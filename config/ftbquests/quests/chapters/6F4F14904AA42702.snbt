@@ -1,0 +1,2514 @@
+{
+	autofocus_id: "30F72B345153C19E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6F4F14904AA42702"
+	group: "6A47EDB7EAF302F4"
+	icon: "minecraft:spyglass"
+	id: "6F4F14904AA42702"
+	images: [{
+		height: 7.2d
+		image: "ftbquests:textures/background_quest.png"
+		rotation: 0.0d
+		width: 7.2d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"После недолгого исследования окресностей Нового мира вы понимаете, что &6верстак&r является важной составляющей для начала выживания в столь опасном и загадочном мире."
+				""
+				"&o&7Чтобы открыть миникарту нажмите на горячую клавишу \"M\". Чтобы установить метку, нажмите \"B\". Можно изменить в настройках управления.&r&r"
+			]
+			id: "30F72B345153C19E"
+			rewards: [{
+				id: "7D1F04B1183876FB"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "patchouli:immortal_book"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Создать верстак"
+			tasks: [{
+				id: "0F2AC5F55571DA90"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Начало пути"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["265EB1ED62D57ED7"]
+			description: ["Крестьяне - одни из самых цивилизованых расс. Их главное ремесло - это торговля, именно благодаря ей они смогли достичь успехов в развитии. Покупайте у жителей за &6изумруды&r все, что необходимо для вашего дальнейшего путешествия."]
+			hide_until_deps_complete: true
+			id: "4020FD8BF338C4B4"
+			rewards: [
+				{
+					id: "7BEEFCD677D939AB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "51148BED1D676FA5"
+					item: "minecraft:emerald"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Поторговаться с крестьянами"
+			tasks: [{
+				advancement: "minecraft:adventure/trade"
+				criterion: ""
+				id: "471975815E1AE5C5"
+				title: "Поторговаться с крестьянами"
+				type: "advancement"
+			}]
+			title: "Добрые люди"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4020FD8BF338C4B4"]
+			description: [
+				"Вот уже много лет крестьяне живут в страхе перед окружающими цивилизациями. Последнее вторжение &7разбойников&r побудило их на создание железных големов, что будут защищать их ценой собственной жизни."
+				""
+				"Помогайте жителям, занимайтесь торговлей и развивайтесь, чтобы становиться сильнее."
+			]
+			hide_until_deps_complete: true
+			id: "00D50DC58DEF1E51"
+			rewards: [
+				{
+					id: "5362FB67B5328EA6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4ABA1FD2BC42BEA3"
+					item: "farmersdelight:rice_panicle"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "40AA1A935994325A"
+					item: "farmersdelight:tomato_seeds"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Найти деревню крестьян"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "1680F58ED4338C8B"
+				structure: "#minecraft:village"
+				title: "Найти деревню крестьян"
+				type: "structure"
+			}]
+			title: "Мирное поселение"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["265EB1ED62D57ED7"]
+			description: [
+				"Каждый уважающий себя крестьянин очень любит &6изумруды&r. Предлагая \"выгодные\" сделки, они могут продать любой товар, который никому не нужен."
+				""
+				"Покажи жителям, кто тут настоящий крохобор."
+			]
+			hide_until_deps_complete: true
+			id: "5F22C5FEC1DCC523"
+			rewards: [
+				{
+					id: "250A656D959589E1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "40120D590B06A36F"
+					item: "gnumus:gnumus_doubloons"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "677F4DC4A6C3A9F1"
+					item: "vanillabackport:music_disc_lava_chicken"
+					type: "item"
+				}
+			]
+			subtitle: "Получить 32 изумруда"
+			tasks: [{
+				count: 32L
+				id: "1D7D1CF45F6A37B3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Местный крохобор"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F22C5FEC1DCC523"]
+			description: ["&6Ценные ресурсы&r открывают для вас новые горизонты и возможности. Получите 6 видов ресурсов и откройте для себя что-то новое."]
+			hide_until_deps_complete: true
+			icon: "minecraft:diamond"
+			id: "27C39E11579973E0"
+			rewards: [
+				{
+					id: "3AFEA4C2F036F24F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5E1266857B0753C4"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "446B78F58DD9597C"
+					item: "dungeonsdelight:spider_bubble_tea"
+					type: "item"
+				}
+			]
+			subtitle: "Получить алмаз, аметист, лазурит, редстоуновую пыль, золото и серебро"
+			tasks: [
+				{
+					count: 3L
+					id: "34CDEB94CBA9E1B8"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "47F695FBBF391C17"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "478B01A55649F94B"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "2E9301DEED49BF16"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7BD5E5563ADF8FDA"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "08ACDD2E0AFB7D88"
+					item: "caverns_and_chasms:raw_silver"
+					type: "item"
+				}
+			]
+			title: "Ценные ресурсы"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["265EB1ED62D57ED7"]
+			description: ["Когда многие народы перешли к торговле за золото или изумруды, то &6гнумусы&r до сих пор используют древнее и очень редкое золото в качестве своей валюты. В силу своей редкости, развитые цивилизации были вынуждены отказаться от столь непрактичной денежной единицы."]
+			hide_until_deps_complete: true
+			id: "36E643504AC80F46"
+			rewards: [
+				{
+					id: "4C7562789AE1A959"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5A8A9F54FCDEF084"
+					item: "gnumus:pileof_gnumus_doubloons"
+					type: "item"
+				}
+			]
+			subtitle: "Получить 5 дублонов"
+			tasks: [{
+				count: 5L
+				id: "3D882C24D4D8DDA3"
+				item: "gnumus:gnumus_doubloons"
+				type: "item"
+			}]
+			title: "Золотой червонец"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36E643504AC80F46"]
+			description: ["&6Гнумусы&r - одна из древнейших цивилизаций Нового мира, которая до сих пор существует. Изучая и наблюдая за другими, более развитыми цивилизациями, гнумусы с большим удовольствием учатся у них чему-то новому. Так, например, появился &7гнумус - торговец&r."]
+			hide_until_deps_complete: true
+			icon: "gnumus:packaged_goods"
+			id: "6CFD8C6EA254AF3C"
+			rewards: [
+				{
+					id: "45B7855343D39DC9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "31F5DA0431F4CD18"
+					item: "gnumus:vintage_parts"
+					type: "item"
+				}
+				{
+					id: "01021ECA04239827"
+					item: "immortalsoul:ominous_fragment_key"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Получить свертки с товаром у гнумуса торговца"
+			tasks: [
+				{
+					count: 3L
+					id: "68F1A96B1E2771CE"
+					item: "gnumus:packaged_goods"
+					type: "item"
+				}
+				{
+					id: "55FEF10BD2E3D0F2"
+					item: "gnumus:wrapper_with_goods"
+					type: "item"
+				}
+			]
+			title: "Деловое предложение"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["30F72B345153C19E"]
+			description: [
+				"Этот древний артефакт открывает дверь в потусторонний мир, от куда приходит &6Проводник душ&r. Именно благодаря ему можно держать связь с умершими, обмениваясь с ним душами. Этот торговец предлагает выгодные сделки, забирая души он может даровать поистине уникальные предметы, что доступны только ему."
+				""
+				"&o&7Верхний мир окутывает зловещий туман, теперь сама земля пропитана темной энергией. Смертные, рискнувшие раскрыть все тайны необузданного колдовства, будут прокляты...&r"
+			]
+			id: "265EB1ED62D57ED7"
+			rewards: [
+				{
+					id: "4D57FE8E2A709CDD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "39770C1AABD77786"
+					item: "immortalsoul:ominous_fragment_key"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5D9C7EEEB37E7894"
+					item: "minecraft:bread"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Найти ключ с Проводником душ"
+			tasks: [{
+				id: "0514223E9B2118E2"
+				item: "immortalsoul:key"
+				type: "item"
+			}]
+			title: "Ключ от потустороннего мира"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00D50DC58DEF1E51"]
+			description: [
+				"Появление &6Тыквенного духа&r до сих пор остается загадкой, но то что крестьяне смогли его приручить при помощи магии это ни для кого не секрет."
+				""
+				"&o&7Защитите поселение жителей или свой дом при помощи Инфернального духа. Создав столь сильного союзника ваш дом будет в полной безопасности. Чтобы его создать, разместите два бревна темного дуба вверх, на бревна поставьте сноп сена, а на сено вырезанную тыкву, нажав по тыкве бесплотным духом, вы призовете Тыквенного духа. Далее вам потребуется огниво и трансмутирующий элексир. Подожгите Тыквенного духа, а затем нажмите заранее подготовленным элексиром по Опаленному духу. Получившийся Инфернальный дух будет верным защитником вашей территории.&r"
+			]
+			hide_until_deps_complete: true
+			id: "1DE190B74B4EBA26"
+			rewards: [
+				{
+					id: "05A698A58E83C3FE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "108C2FCB01DDE1D3"
+					item: "born_in_chaos_v1:holiday_candy"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5C296DEFE64267C7"
+					item: "farmersdelight:stuffed_pumpkin_block"
+					type: "item"
+				}
+			]
+			subtitle: "Создать инфернального духа"
+			tasks: [{
+				advancement: "born_in_chaos_v1:infernal_medicine"
+				criterion: ""
+				id: "174E1879A962F585"
+				type: "advancement"
+			}]
+			title: "Дух защитник"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["186091242C1F97CB"]
+			description: ["Ни одно путешествие не обходится без &6рюкзака&r. Этот важный атрибут позволит брать с собой гораздо больше вещей, чем если бы пришлось носить все в карманах."]
+			hide_until_deps_complete: true
+			id: "6B2FDF55E13094F7"
+			rewards: [
+				{
+					id: "393B852F41151E31"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "096DA4E717D142DF"
+					item: "minecraft:spyglass"
+					type: "item"
+				}
+			]
+			subtitle: "Создать рюкзак"
+			tasks: [{
+				id: "21CEBD5D984C51EA"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			title: "Вольный исследователь"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30F72B345153C19E"]
+			description: ["Получение столь сильного артефакта в начале выживания повлечет за собой неминуемое &6пробуждение&r кого-то или чего-то. Оно будет наблюдать за вами...но с какой целью? Этого пока никому неизвестно."]
+			id: "186091242C1F97CB"
+			rewards: [
+				{
+					id: "738914F331D8E4C0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "735634ACF01208DF"
+					item: "minecraft:leather"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Найти дремлющее око"
+			tasks: [{
+				id: "0B434FCAFC5A13BC"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Наблюдатель"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B2FDF55E13094F7"]
+			description: ["&6Кисть&r для археологии является важным инструментом любого исследователя. Никогда не знаешь, что тебе может повстречаться на пути."]
+			hide_until_deps_complete: true
+			id: "13F9DA0CA2A8D4E4"
+			rewards: [
+				{
+					id: "0B63CCDFCC8E4FFD"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "24B7477271093BF6"
+					item: "minecraft:book"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать кисть"
+			tasks: [{
+				id: "65C49A962671DD31"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Да начнутся раскопки"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4652CE2948E5CDF6"]
+			description: ["Занимаясь раскопками можно найти много чего интересного, например, яйцо древнего вымершого млекопитающего. Возродив &6Нюхача&r можно получить совершенно новые семена. Помни, что семена этих растений невероятно ценный ресурс."]
+			hide_until_deps_complete: true
+			id: "4595B43187C252B0"
+			rewards: [
+				{
+					id: "061DF815CDF39FB1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1E83F5265D51A969"
+					item: "minecraft:golden_carrot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4BEC2DF2E50686E7"
+					item: "betterarcheology:artifact_shards"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Найти яйцо нюхача"
+			tasks: [{
+				id: "6CB68A1518D75754"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			title: "Вымирающий вид"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13F9DA0CA2A8D4E4"]
+			description: ["Получение столь эффективного удобрения открывает для вас бесконечное выращивание всевозможных растений. Только истинные исследователи, преданные своему делу, способны отыскать все необходимые ингредиенты для создания &6Эссенции бушующей жизни&r."]
+			hide_until_deps_complete: true
+			id: "5AD377AF2DA9B30F"
+			rewards: [
+				{
+					id: "270F21F8AC48AA1D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6133E3B3C881719B"
+					item: "farmersdelight:mixed_salad"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "262B8648E929CEA2"
+					item: "dungeonsdelight:rotbulb_crop"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать эссенцию бушующей жизни"
+			tasks: [{
+				id: "327C97F8FBD3D0C6"
+				item: "enigmaticlegacy:infinimeal"
+				type: "item"
+			}]
+			title: "Таинственное удобрение"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B2FDF55E13094F7"]
+			description: [
+				"&6Книга&r, что накапливает в себе все знания мира, является необходимым предметом Избранного. Некоторые даже используют ее в качестве оружия..."
+				"Не зря говорят: \"Знания - сила\""
+			]
+			hide_until_deps_complete: true
+			id: "05BBC4399D0FDF00"
+			rewards: [
+				{
+					id: "6053C4A1124B2703"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "58C28A68C7731424"
+					item: "immortalplush:zerotwo_plush"
+					type: "item"
+				}
+			]
+			subtitle: "Получить книгу откровения"
+			tasks: [{
+				id: "393C07154E749BD4"
+				item: "enigmaticlegacy:the_acknowledgment"
+				type: "item"
+			}]
+			title: "Откровение"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05BBC4399D0FDF00"]
+			description: ["Путешествуя по миру, исследователи невольно изучают повадки животных. Так вы узнаете что-то новое и понимаете как подружиться с ними. Все это открывает для вас новые возможности для взаимодействия с &7питомцами&r."]
+			hide_until_deps_complete: true
+			icon: "enigmaticlegacy:animal_guidebook"
+			id: "4A4BA9BA7D23E68C"
+			rewards: [
+				{
+					id: "25FB34775436C0A7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "53A0D8AB61862826"
+					item: "farmersdelight:horse_feed"
+					type: "item"
+				}
+				{
+					id: "5CA512FFB4180669"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:killer_rabbit_ears_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Получить руководство по дружбе с животными и руководство по охоте в дикой природе"
+			tasks: [
+				{
+					id: "4FC8D4C1E518115A"
+					item: "enigmaticlegacy:animal_guidebook"
+					type: "item"
+				}
+				{
+					id: "754E0802547EE8B4"
+					item: "enigmaticlegacy:hunter_guidebook"
+					type: "item"
+				}
+			]
+			title: "Лучший друг человека"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05BBC4399D0FDF00"]
+			description: ["Артефакт созданный величайшим кузнецом, на долгое время был забыт, пока перечитывание &6Откровения&r, не открыло для нас новую главу в области исследователей. Создайте &6Мечту шахтера&r, чтобы стать лучшим шахтером Нового мира."]
+			hide_until_deps_complete: true
+			id: "351A4D183E566E96"
+			rewards: [
+				{
+					id: "411C6EB51AC88AD3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "313D3D036E4779E4"
+					item: "create_unbreakable:philolite"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4A0332B54FAA961B"
+					item: "create_unbreakable:luminarchy"
+					type: "item"
+				}
+			]
+			subtitle: "Создать амулет мечта шахтера"
+			tasks: [{
+				id: "33AA05CE38FF455D"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Забытая мечта"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4595B43187C252B0"]
+			description: [
+				"Исследуя Новый мир можно встретить большое разнообразие всевозможных существ."
+				""
+				"Добудьте по-одному &6трофею&r от каждого монстра или животного, чтобы получить уникальный артефакт."
+			]
+			hide_until_deps_complete: true
+			icon: "minecraft:nautilus_shell"
+			id: "5626086CCA436C9E"
+			rewards: [
+				{
+					id: "4B8379567A3860E0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "54B234C76EDC0CF7"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F7052690131158F"
+					item: "ancient_forgemastery:remnant_artifact"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "18CDF33F672757E9"
+					item: "betterarcheology:unidentified_artifact"
+					type: "item"
+				}
+			]
+			subtitle: "Найти все трофеи"
+			tasks: [
+				{
+					id: "20DAF2CF93D25976"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+				{
+					id: "416A94FE0D71EEF1"
+					item: "born_in_chaos_v1:fangofthe_hound_leader"
+					type: "item"
+				}
+				{
+					id: "0FF6035CF3782450"
+					item: "born_in_chaos_v1:spider_mandible"
+					type: "item"
+				}
+				{
+					id: "6BCC9E3FB3543511"
+					item: "born_in_chaos_v1:monster_skin"
+					type: "item"
+				}
+				{
+					id: "5EB245AEB93B44A5"
+					item: "minecraft:rabbit_foot"
+					type: "item"
+				}
+				{
+					id: "52E3E3DCCA146AE8"
+					item: "immortalsoul:cursed_relic"
+					type: "item"
+				}
+			]
+			title: "Трофеи"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["351A4D183E566E96"]
+			hide_until_deps_complete: true
+			icon: "minecraft:netherite_scrap"
+			id: "6F87EEDC0CD112E3"
+			rewards: [
+				{
+					id: "6FF47F6DD496294E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3CCE77EAA191777D"
+					item: "irons_spellbooks:cinder_essence"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "39863CC9FA245581"
+					item: "minecraft:ghast_tear"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Добыть древний лом и незер-кварц"
+			tasks: [
+				{
+					count: 5L
+					id: "64F24AC04E43B12B"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "4639AEA97AA847D0"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+			]
+			title: "Адский шахтер"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F87EEDC0CD112E3"]
+			hide_until_deps_complete: true
+			icon: "enigmaticlegacy:astral_dust"
+			id: "17261D0246CA035D"
+			rewards: [
+				{
+					id: "67E3DA57B9F3C5FE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5BB79ADBA89E62CC"
+					item: "enigmaticlegacy:mending_mixture"
+					type: "item"
+				}
+				{
+					id: "6684B1D19003CF01"
+					item: "enigmaticaddons:earth_heart_fragment"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Получить астральную пыль и эфириумный слиток"
+			tasks: [
+				{
+					count: 6L
+					id: "546BAF020312A5C1"
+					item: "enigmaticlegacy:astral_dust"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0086FD450FA39115"
+					item: "enigmaticlegacy:etherium_ingot"
+					type: "item"
+				}
+			]
+			title: "Это еще не конец..."
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["13F9DA0CA2A8D4E4"]
+			description: ["Занимаясь раскопками можно найти много чего интересного, например, яйцо древнего вымершого млекопитающего. Возродив &6Нюхача&r можно получить совершенно новые семена. Помни, что семена этих растений невероятно ценный ресурс."]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "betterarcheology:iron_brush"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4652CE2948E5CDF6"
+			rewards: [
+				{
+					id: "2AA64D22F30745F2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "632393C9FDD04A67"
+					item: "minecraft:golden_carrot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать железную и алмазную кисть"
+			tasks: [
+				{
+					id: "1D2A1A1F26A997C2"
+					item: {
+						Count: 1
+						id: "betterarcheology:iron_brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12F1AE6F8405155E"
+					item: {
+						Count: 1
+						id: "betterarcheology:diamond_brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Новый уровень"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4652CE2948E5CDF6"]
+			description: ["Настоящие исследователи давно пользуются столом археолога. Создайте его, чтобы раскрыть тайны неопознанного артефакта."]
+			hide_until_deps_complete: true
+			icon: "betterarcheology:archeology_table"
+			id: "6D9C914F5BAE4D20"
+			rewards: [
+				{
+					id: "1890FAE5C0736223"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "64DD8CE6E3854FF9"
+					item: "cataclysm:ancient_metal_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "71A13F2E83111BF8"
+					item: "dungeonsdelight:malicious_sandwich"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать стол археолога и неопознанный артефакт"
+			tasks: [
+				{
+					id: "1836CF56A6503EF6"
+					item: "betterarcheology:archeology_table"
+					type: "item"
+				}
+				{
+					id: "07779B9129298F4F"
+					item: "betterarcheology:unidentified_artifact"
+					type: "item"
+				}
+			]
+			title: "Таинственный артефакт"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D9C914F5BAE4D20"]
+			description: ["&6Окаменелости&r давно погибших существ раскрывают многие тайны возникновения цивилизаций. Исследуя каждый &7подозрительный песок&r или &7гравий&r, можно отыскать много чего интересного. Опытные археологи объединяют окаменелые части костей на &7верстаке&r и получают полноценные &7останки&r, которые можно использовать для дальнейшего изучения."]
+			hide_until_deps_complete: true
+			icon: "betterarcheology:villager_fossil"
+			id: "08B7E0F09BFB561D"
+			rewards: [
+				{
+					id: "40B64916AC14BA4F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7183E941D3BAB1E6"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:earth_heart"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0C406BD391DA0EC4"
+					item: "ancient_forgemastery:remnant_artifact"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Получить все окаменелости"
+			tasks: [
+				{
+					id: "32FE1DCFB98A99EE"
+					item: "betterarcheology:villager_fossil"
+					type: "item"
+				}
+				{
+					id: "02F787FFFD329A1A"
+					item: "betterarcheology:chicken_fossil"
+					type: "item"
+				}
+				{
+					id: "35C7B19E30F40729"
+					item: "betterarcheology:creeper_fossil"
+					type: "item"
+				}
+				{
+					id: "3E19A78BC47196DA"
+					item: "betterarcheology:ocelot_fossil"
+					type: "item"
+				}
+				{
+					id: "494DC533E8D9EE6A"
+					item: "betterarcheology:wolf_fossil"
+					type: "item"
+				}
+				{
+					id: "4B5DBDB585A75692"
+					item: "betterarcheology:sheep_fossil"
+					type: "item"
+				}
+				{
+					id: "66AA7111611525DB"
+					item: "betterarcheology:guardian_fossil"
+					type: "item"
+				}
+			]
+			title: "Древние окаменелости"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6B2FDF55E13094F7"]
+			description: ["Подобно тому как есть &6Сердце моря&r, предмет, связанный с природой бесконечных океанов и морей, есть &6Сердце Земли&r, рожденное в его скалистых глубинах и скрывающее в себе часть бескрайней энергии."]
+			hide_until_deps_complete: true
+			id: "7C81E45FA1D72C07"
+			rewards: [
+				{
+					id: "628244EE4F2C8278"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "194ADB5A9D75CC7F"
+					item: "minecraft:golden_carrot"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "0E2FFA6285EA6212"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Получить сердце земли"
+			tasks: [{
+				id: "78F8A69CE31831A4"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:earth_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Первородный камень"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C81E45FA1D72C07"]
+			description: ["Зелье обладающее способностью к межпространственному перемещанию позволяет возвращать домой любого, кто воспользуется им."]
+			hide_until_deps_complete: true
+			id: "086CBAB446BA2553"
+			rewards: [
+				{
+					id: "1C235E642059DEDF"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "46F349A74C4063B7"
+					item: "enigmaticlegacy:astral_dust"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "024EA7DBBDBBCF5A"
+					item: "skilltree:amnesia_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "Создать зелье возврата"
+			tasks: [{
+				id: "33E667107A1E40F4"
+				item: "enigmaticlegacy:recall_potion"
+				type: "item"
+			}]
+			title: "Зелье телепортации"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30F72B345153C19E"]
+			description: [
+				"Когда-то верхний мир был плодородным и процветающим краем. Всё изменилось, когда тёмный орден нарушил естественный порядок вещей и создал ужасную &7болезнь&r, что распространялась, уничтожая всё на своем пути. Теперь по всему миру можно находить источники этой зловещей силы. Любой кто осмелится подойти к &6Вместилищу душ&r, навлечёт на себя беду."
+				""
+				"&o&7Проходите испытания побеждая волны врагов и забирайте награды при помощи зловещего ключа.&r"
+			]
+			id: "48B0C4FF05907E1A"
+			rewards: [
+				{
+					id: "3B39C41AB75DBDAD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "10FF16FDBB1C0D1F"
+					item: "immortalsoul:ominous_fragment_key"
+					type: "item"
+				}
+				{
+					id: "43725060DEE8E2CF"
+					item: "minecraft:raw_iron"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать зловещий ключ"
+			tasks: [{
+				id: "0FFE29C84DD78769"
+				item: "immortalsoul:ominous_key"
+				type: "item"
+			}]
+			title: "Зловещие испытания"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55B2BAA819CDCB19"]
+			description: [
+				"Мало кто знает правду об этих местах. Еще никому не удавалось вернуться живым из самых темных уголков &6склепа&r. Кто бы туда не приходил, его ждут лишь тайны и неизвестность."
+				""
+				"&o&7Смертных приводит сюда надежда, а мы их ждем...&r"
+			]
+			hide_until_deps_complete: true
+			id: "5C05674D83D78D1C"
+			rewards: [
+				{
+					id: "6163BDF782EA9267"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6069570D3ABD2D63"
+					item: "born_in_chaos_v1:pieceofdarkmetal"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "306A6FD0B5EDAD3D"
+					item: "minecraft:phantom_membrane"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Найти склеп"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "1497802EF18320DD"
+				structure: "immortalsoul:mansion"
+				title: "Найти склеп"
+				type: "structure"
+			}]
+			title: "Проклятое подземелье"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48B0C4FF05907E1A"]
+			description: [
+				"Чтобы &6склеп&r не могли отыскать простые смертные тёмный орден создал &6проклятый компас&r, что указывает путь к проклятому подземелью."
+				"Купите у &6Проводника душ&r компас и объедините его на верстаке с фонарем душ, чтобы получить &7проклятый компас&r."
+			]
+			hide_until_deps_complete: true
+			id: "55B2BAA819CDCB19"
+			rewards: [
+				{
+					id: "7EAB5E407ABA764D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6D3B8FC67387BB6C"
+					item: "minecraft:raw_iron"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "759BD770C875C564"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Создать проклятый компас"
+			tasks: [{
+				id: "092F81D481C61A03"
+				item: "immortalsoul:cursed_compass"
+				type: "item"
+			}]
+			title: "Проклятый компас"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C05674D83D78D1C"]
+			description: ["Многие считают, что &6проклятая реликвия&r - это результат неудавшегося эксперимента. Когда заклинатели были близки к созданию артефакта дарующий бессмертие, то они допустили ошибку, что привело к пробуждению &6нечестивой сущности&r."]
+			hide_until_deps_complete: true
+			id: "752475F69FB3A5A7"
+			rewards: [
+				{
+					id: "7EA8A8A348E9BF72"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6AF038D264A67E85"
+					item: "immortalsoul:ominous_key"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "438346084F1BB1D4"
+					item: "undead_unleashed:soul_piece"
+					type: "item"
+				}
+			]
+			subtitle: "Получить проклятую реликвию"
+			tasks: [{
+				id: "3328E3CFA83B1F27"
+				item: "immortalsoul:cursed_relic"
+				type: "item"
+			}]
+			title: "Необузданная сила"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["752475F69FB3A5A7"]
+			description: [
+				"Когда &6нечестивая сущность&r вырвалась на свободу, все рядом стоящие стражи и защитники темного ордена были поглащены этой ужасной силой. Их тело и броня преобразились. Этих воинов больше нельзя было назвать живыми, они стали безвольными существами, чей голод был неутолим."
+				""
+				"&o&7Тот кто осмелится надеть эту броню, навеки будет проклят и больше не сможет освободиться от ее оков.&r"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "immortalsoul:cursed_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "095C205B5357071F"
+			rewards: [
+				{
+					id: "1F31151EC827CD25"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "07318478CA425E5A"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7560798443588C8D"
+					item: "enigmaticlegacy:evil_essence"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "2AE387BF10D637EB"
+					item: "undead_unleashed:grave_iron_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Создать полный комплект проклятой брони"
+			tasks: [
+				{
+					id: "5B76620BF993C67D"
+					item: {
+						Count: 1
+						id: "immortalsoul:cursed_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6CBE2C35E0D4BCAC"
+					item: {
+						Count: 1
+						id: "immortalsoul:cursed_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64B3C45D8E9764A5"
+					item: {
+						Count: 1
+						id: "immortalsoul:cursed_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F668FE00CEBB666"
+					item: {
+						Count: 1
+						id: "immortalsoul:cursed_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Броня мертвеца"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["752475F69FB3A5A7"]
+			description: [
+				"Всем давно известно, что разбойники являются горделивым народом. Их самодовольство и неприязнь к остальным не знает границ. До наших времен сохранилось немного статуй этих злодеев, что делает их по истине уникальными. Так же в склепе можно найти надгробие, что таит в себе опасность, если разрушать обычной киркой."
+				""
+				"&o&7Сломайте надгробие киркой на шёлковое касание, что бы получить его в качестве предмета.&r"
+			]
+			hide_until_deps_complete: true
+			icon: "immortalsoul:statue_pillager"
+			id: "24AA8C9307A90588"
+			invisible: true
+			rewards: [
+				{
+					id: "6A8DE34221590EC6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "491C6D293BEE2191"
+					item: "immortalsoul:cursed_relic"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "6EEAAA3E4C91E19E"
+					item: "immortalsoul:ominous_key"
+					type: "item"
+				}
+			]
+			subtitle: "Получить три статуи разбойников"
+			tasks: [
+				{
+					id: "78C8FEF7DAD8E63B"
+					item: "immortalsoul:statue_pillager"
+					type: "item"
+				}
+				{
+					id: "2BEF301137FE4B85"
+					item: "immortalsoul:statue_vindicator"
+					type: "item"
+				}
+				{
+					id: "00B965800D7B6F43"
+					item: "immortalsoul:statue_vex"
+					type: "item"
+				}
+			]
+			title: "Самодовольство мародеров"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30F72B345153C19E"]
+			description: [
+				"Всем известно, что для приготовления самых лучших и сытных блюд требуется создать кухонную плиту и сковородку."
+				"Изучайте кулинарию и создавайте лучшую пищу, чтобы надолго оставаться сытым."
+			]
+			icon: "farmersdelight:stove"
+			id: "1A236D5B7F7523BD"
+			rewards: [
+				{
+					id: "46E7617D3CC8E458"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "7ACD502315E85AC2"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "29861E27CCD7D95E"
+					item: "farmersdelight:wild_beetroots"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "52C9DC9FD29BF87F"
+					item: "farmersdelight:wild_rice"
+					type: "item"
+				}
+			]
+			subtitle: "Создать кухонную плиту, сковороду и кухонный котел"
+			tasks: [
+				{
+					id: "1C4522FF0D2FACBC"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "56AF12BCFF51FC57"
+					item: {
+						Count: 1
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "67911DA4A81BE9FC"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+			]
+			title: "Горячая штучка"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A236D5B7F7523BD"]
+			hide_until_deps_complete: true
+			icon: "dungeonsdelight:dungeon_stove"
+			id: "24CFB0512CA239D3"
+			rewards: [
+				{
+					id: "115233503323CCFC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3838949DC89BC035"
+					item: "endermanoverhaul:enderman_tooth"
+					type: "item"
+				}
+				{
+					id: "6DB1F0FCA3464C7E"
+					item: "endermanoverhaul:bubble_pearl"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать подземельную плиту и чудовищный котёл"
+			tasks: [
+				{
+					id: "6863E755FA8077FC"
+					item: "dungeonsdelight:dungeon_stove"
+					type: "item"
+				}
+				{
+					id: "595A296D306972E3"
+					item: "dungeonsdelight:monster_pot"
+					type: "item"
+				}
+			]
+			title: "Ужасная кухня"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A236D5B7F7523BD"]
+			hide_until_deps_complete: true
+			id: "6A3DD42E064DE7D5"
+			rewards: [
+				{
+					id: "3C57330F9B0CA505"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "51854C5AF7FCCE0F"
+					item: "mynethersdelight:crimson_fungus_colony"
+					type: "item"
+				}
+				{
+					id: "79C5F2E176C00E8F"
+					item: "mynethersdelight:warped_fungus_colony"
+					type: "item"
+				}
+			]
+			subtitle: "Создать незерскую кухонную плиту"
+			tasks: [{
+				id: "3C15B555780ADDCC"
+				item: "mynethersdelight:nether_bricks_stove"
+				type: "item"
+			}]
+			title: "Адская кухня"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1A236D5B7F7523BD"]
+			description: ["Жители просят помочь собрать пшеницу и приготовить тесто для хлеба. Достаточное количество еды способствует развитию деревни."]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:wheat_dough"
+			id: "49A69D96675782EB"
+			rewards: [
+				{
+					id: "216D5C34B1C20C1E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "6D887B5F5E400D12"
+					item: "minecraft:emerald"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "359EE72FD7AB3544"
+					item: "farmersdelight:chicken_sandwich"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Получить тесто и пшеницу"
+			tasks: [
+				{
+					count: 8L
+					id: "2A29A53587091B3E"
+					item: "farmersdelight:wheat_dough"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "417CB4994B6955EE"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			title: "Веселый пекарь"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49A69D96675782EB"]
+			hide_until_deps_complete: true
+			icon: "farmersdelight:ratatouille"
+			id: "14E5060855128FC4"
+			rewards: [
+				{
+					id: "4278E29E6E4A5752"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2DA651B20CCED26C"
+					item: "immortalgingerbread:candy_cane"
+					type: "item"
+				}
+				{
+					id: "350AA165819CE380"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Создать три изысканных блюда"
+			tasks: [
+				{
+					id: "40CBB9C55A252A12"
+					item: "farmersdelight:ratatouille"
+					type: "item"
+				}
+				{
+					id: "721B7D807789424E"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					id: "0C7D0BA4A372597E"
+					item: "farmersdelight:rice_roll_medley_block"
+					type: "item"
+				}
+			]
+			title: "Шеф - повар"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["24CFB0512CA239D3"]
+			hide_until_deps_complete: true
+			icon: "dungeonsdelight:monster_cake"
+			id: "381721714DA73190"
+			rewards: [
+				{
+					id: "0362427D0A283300"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "32A14D647EA77A0E"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			subtitle: "Приготовить чудовищный торт, скеллебуко и стражный бисквит"
+			tasks: [
+				{
+					id: "562E0BD5813B7D8D"
+					item: "dungeonsdelight:monster_cake"
+					type: "item"
+				}
+				{
+					id: "147999EAF8990136"
+					item: "dungeonsdelight:ossobuco_block"
+					type: "item"
+				}
+				{
+					id: "01AACB35793A9A61"
+					item: "dungeonsdelight:guardian_angel_block"
+					type: "item"
+				}
+			]
+			title: "Главное не травануться"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6A3DD42E064DE7D5"]
+			hide_until_deps_complete: true
+			icon: "mynethersdelight:magma_cake"
+			id: "4446D6184126F069"
+			rewards: [
+				{
+					id: "0A8CA03F530EF8B6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 3
+					id: "6CE99D9CD387416F"
+					item: "born_in_chaos_v1:caramel_pepper"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "36DE3192FF5687F2"
+					item: "minecraft:golden_apple"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "489449832FE5318A"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "Приготовить адскую пищу"
+			tasks: [
+				{
+					id: "1B139254A6494D03"
+					item: "mynethersdelight:magma_cake"
+					type: "item"
+				}
+				{
+					id: "4E0711FB4D83EE77"
+					item: "mynethersdelight:ghasta_with_cream"
+					type: "item"
+				}
+				{
+					id: "58336A4429854589"
+					item: "mynethersdelight:crimson_stroganoff"
+					type: "item"
+				}
+				{
+					id: "08FDFA47F43B2606"
+					item: "mynethersdelight:roast_stuffed_hoglin"
+					type: "item"
+				}
+				{
+					id: "57F0ACDDB39B7989"
+					item: "mynethersdelight:hot_wings"
+					type: "item"
+				}
+			]
+			title: "Любитель острых ощущений"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["13F9DA0CA2A8D4E4"]
+			description: [
+				"По всей видимости эти останки принадлежат давно забытой цивилизации, что оставила для нас не мало могущественных и сильных артефактов. Чтобы создать их все придется очень хорошо постараться..."
+				""
+				"Чтобы найти этот &6древний артефакт&r занимайтесь археологией и тогда с некоторым шансом вам удастся отыскать заветную реликвию. Так же этот артефакт можно найти в Бастионе пиглинов."
+			]
+			id: "5F15DA3BCF4D647A"
+			rewards: [
+				{
+					id: "4C6822DD6A1A6BA8"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "33BBB34BB2AD0EE4"
+					item: "ancient_forgemastery:ravager_horn"
+					type: "item"
+				}
+				{
+					id: "520F1A8DAFA044C3"
+					item: "minecraft:gold_ingot"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Найти останки древнего артефакта"
+			tasks: [{
+				id: "2E174FCC7B84EB80"
+				item: "ancient_forgemastery:remnant_artifact"
+				type: "item"
+			}]
+			title: "Загадочные останки"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F15DA3BCF4D647A"]
+			description: ["&cКованый алтарь&r позволяет улучшать ваши артефакты, делая их еще более могущественными."]
+			hide_until_deps_complete: true
+			id: "088BCCEF022376F2"
+			rewards: [
+				{
+					id: "42C9DC5F453BE96C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "45EDBD93261D1500"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "65814A04EF6721CF"
+					item: "cataclysm:ancient_metal_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "Создать кованый алтарь"
+			tasks: [{
+				id: "58F537687046A502"
+				item: "ancient_forgemastery:forging_altar"
+				type: "item"
+			}]
+			title: "Древняя наковальня"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["088BCCEF022376F2"]
+			description: ["&6Способность&r - нажатие &6ПКМ&r когтями усиливает ваши атаки. Теперь при атаке &6когтями разорителя&r ваши атаки наносят дополнительный урон зависящий от потерянного здоровья противником. Чем меньше у противника &cХП&r, тем больше урона вы нанесете."]
+			id: "04C21585484C6CB5"
+			rewards: [
+				{
+					id: "5B44BC550AE682F2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7D4F633E086AAFF7"
+					item: "ancient_forgemastery:ravager_horn"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "5328FDF8786ADBF5"
+					item: "betterarcheology:artifact_shards"
+					type: "item"
+				}
+			]
+			subtitle: "Создать когти разорителя"
+			tasks: [{
+				id: "1AEB89B6AF40A639"
+				item: {
+					Count: 1
+					id: "ancient_forgemastery:ravaging_claws"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["088BCCEF022376F2"]
+			description: [
+				"&6Способность&r - при ношении дарует дополнительную жизнь в зависимости от того сколько рядом с вами &6прирученных волков&r. Когда вы получаете смертельный урон, то вместо вас погибает ваш волк, а вы получаете вторую жизнь, после чего умение шлема уходит на перезарядку. В момент перезарядки шлема, волки не будут погибать вместо вас."
+				""
+				"&cТлеющий цветок&r - при гибели вашего волка он сбрасывает &6тлеющий цветок&r. Посадите цветок в землю и нажмите по нему &6эликсиром жизненной силы&r. Спустя некоторое время ваш питомец будет возрожден."
+				""
+				"&cЭликсир жизненной силы&r - нажатие &6ПКМ&r по тлеющему цветку возрождает вашего волка. Если выпить эликсир, то вы получите дополнительное сердце навсегда."
+			]
+			id: "127BC24C9524ED0D"
+			rewards: [
+				{
+					id: "795C839A25E674E8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "45B249168C7DBAF0"
+					item: "betterarcheology:artifact_shards"
+					type: "item"
+				}
+				{
+					id: "1E5EB6957C5CB557"
+					item: "ancient_forgemastery:wolf_fur"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Создать воющий шлем"
+			tasks: [{
+				id: "4D15D7B8F1236623"
+				item: {
+					Count: 1
+					id: "ancient_forgemastery:howling_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["088BCCEF022376F2"]
+			description: ["&6Способность&r - при блокировании отражает атаки когда щит заряжен. При удержании в основной руке, щит всегда заряжен, но его сила менее эффективна, а прочность изнашивается в два раза быстрее."]
+			id: "139B19451A53A69A"
+			rewards: [
+				{
+					id: "0EB2F2065611A5C4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1C344DE396659E6E"
+					item: "ancient_forgemastery:ravager_horn"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "6253E62FCFDE1197"
+					item: "betterarcheology:artifact_shards"
+					type: "item"
+				}
+			]
+			subtitle: "Создать щит поборника"
+			tasks: [{
+				id: "3B38B07E372CC7D7"
+				item: {
+					Count: 1
+					id: "ancient_forgemastery:shield_of_vindication"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["088BCCEF022376F2"]
+			description: [
+				"Нажатие &6Shift+ПКМ&r меняет способности фонаря."
+				""
+				"&6Способность 1&r - нажатие &6ПКМ&r фонарем по существу, телепортирует вас к ней. Есть ограничения в радиусе действия."
+				""
+				"&6Способность 2&r - нажатие &6ПКМ&r фонарем по существу, меняет вас местами. Есть ограничения в радиусе действия."
+				""
+				"Нажатие &6Shift+ПКМ&r по блоку размещает искривленный фонарь. Нажмите &6ПКМ&r пустой рукой, чтобы извлечь &cискривленный эндер жемчуг&r. Нажатие &6ПКМ&r этим жемчугом телепортирует вас к фонарю. Если вы потеряли &cискривленный эндер жемчуг&r, то можно создать новый, разместив в сетке крафта по центру &6эндер жемчуг&r, а сверху и снизу &6останки древнего артефакта&r."
+			]
+			id: "7215219F8F65E612"
+			rewards: [
+				{
+					id: "3AC0A1D8654474A2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7E7A01B1C97B6CAB"
+					item: "minecraft:netherite_scrap"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7606A8CBA121AF5A"
+					item: "betterarcheology:artifact_shards"
+					type: "item"
+				}
+			]
+			subtitle: "Создать искривленный фонарь"
+			tasks: [{
+				id: "2AEB4CD229648FC6"
+				item: {
+					Count: 1
+					id: "ancient_forgemastery:warping_lantern"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["088BCCEF022376F2"]
+			description: [
+				"&6Способность 1&r - нажмите &6ПКМ&r удерживая в основной руке, чтобы призвать стража, который будет временно защищать вас от любого входящего урона. Способность действует только при удержании артефакта в основной руке."
+				""
+				"&6Способность 2&r - нажмите &6ПКМ&r удерживая в левой руке, что бы призвать несколько стражников, которые будут поглащать по одному удару, после чего погибать."
+				""
+				"&7&oСовет - используйте способности, чтобы поглощать мощные атаки противников.&r&r"
+			]
+			id: "01131ED81A609D75"
+			rewards: [
+				{
+					id: "682D43ACDD91B79F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2C8F8384F4BE073C"
+					item: "minecraft:echo_shard"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "718289CE27DA467F"
+					item: "betterarcheology:artifact_shards"
+					type: "item"
+				}
+			]
+			subtitle: "Создать пристанище эха"
+			tasks: [{
+				id: "4725B0E21089D80F"
+				item: {
+					Count: 1
+					id: "ancient_forgemastery:echoing_ward"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["088BCCEF022376F2"]
+			description: ["Ваши атаки заряжают &6кованую перчатку&r. Максимально можно получить 4 заряда. Нажмите &6ПКМ&r по той же цели на которой вы заряжали перчатку чтобы отбросить ее."]
+			id: "0A3D3F10ECA554E8"
+			rewards: [
+				{
+					id: "7F2C026A1D15AEA6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "033936A5B3E03052"
+					item: "ancient_forgemastery:iron_roots"
+					type: "item"
+				}
+				{
+					id: "6E5082E351C3D5DE"
+					item: "betterarcheology:artifact_shards"
+					type: "item"
+				}
+			]
+			subtitle: "Создать кованую перчатку"
+			tasks: [{
+				id: "6C9903AE972DD418"
+				item: {
+					Count: 1
+					id: "ancient_forgemastery:ironbound_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Кованая перчатка"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F7A460764EAAE08"]
+			description: [
+				"Блуждая по джунглям, вы можете отыскать древний &6Храм Двойственности&r, спрятанный глубоко в джунглях... Отыскать вам поможет карта найденная в джунглевом храме или ваш робот компаньён Бибо."
+				""
+				"Изучение &6Храма Двойственности&r происходит двумя способами:"
+				"- Решать головоломки"
+				"- Сражаться с толпами монстров"
+				""
+				"Внутри &6Храма Двойственности&r вы обнаружите множество различных механизмов и сундуков с добычей, чаще всего окружённые загадочной красной аурой. В пределах этой ауры нельзя ломать и ставить блоки, иначе сундук закроется и начнётся бой. Чтобы открыть сундук, придётся разобраться с противниками, что охраняют добычу."
+				""
+				"Если вы не хотите сражаться, то вам придётся решать головоломки, не ломая и не размещая блоки."
+			]
+			id: "1924C50879B113A4"
+			rewards: [
+				{
+					id: "57C2EE6FEC8B090C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "01B87F91D3B20837"
+					item: "minecraft:redstone"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "737DD0A4737ECF14"
+					item: "dungeonnowloading:redstone_chip"
+					type: "item"
+				}
+			]
+			subtitle: "Найти храм двойственности"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "5C81B54A8DD08EA6"
+				structure: "dungeonnowloading:temple_of_duality"
+				title: "Найти храм двойственности"
+				type: "structure"
+			}]
+			title: "Сокрытый в джунглях"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30F72B345153C19E"]
+			description: [
+				"Нахождение &6редстоуна&r открывает перед вами новые возможности в технологиях и разгадки многих тайн древности. Когда то давно, неизвестная цивилизация оставила после себя храм в джунглях, что таит в себе множество загадок и тайн."
+				""
+				"&7&oЕще никому не удавалось решить их головоломки!&r&r"
+			]
+			hide_until_deps_complete: true
+			id: "0F7A460764EAAE08"
+			invisible: true
+			rewards: [
+				{
+					id: "79C2012EB5F55F0E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "0197D24A1B92B329"
+					item: "minecraft:raw_copper"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Получить редстоуновую пыль"
+			tasks: [{
+				id: "0569FBD03836CEC3"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "Источник"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1924C50879B113A4"]
+			description: [
+				"Исследуя комнату за комнатой, вы будете все лучше и лучше понимать как и что здесь работает."
+				"Получайте уникальную награду из сундуков чтобы создать &6Редстоуновый идол&r. Именно он позволит вам призвать &6двойственную змею&r, чтобы пройти финальное испытание этого храма."
+				""
+				"&7&oДля прохождения некоторых испытаний потребуется лук, поэтому не забудьте взять его с собой.&r&r"
+			]
+			icon: "dungeonnowloading:redstone_idol"
+			id: "3860DD8D885ADEEF"
+			rewards: [
+				{
+					id: "787B1586BB57B6BC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5699D67FB69AF485"
+					item: "enigmaticaddons:earth_heart_fragment"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "414BA5D6B18DFE4D"
+					item: "dungeonsdelight:silverfish_and_chips"
+					type: "item"
+				}
+			]
+			subtitle: "Создать редстоуновый идол и редстоун схему"
+			tasks: [
+				{
+					id: "12BD5798E5D4BD3F"
+					item: "dungeonnowloading:redstone_idol"
+					type: "item"
+				}
+				{
+					id: "7F096934B384E465"
+					item: "dungeonnowloading:redstone_circuit"
+					type: "item"
+				}
+			]
+			title: "На пороге испытания"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3860DD8D885ADEEF"]
+			description: [
+				"Два змея, две награды - это все &6Орос и Борос&r. Древняя цивилизация оставила их для защиты чего то ценного и важного."
+				"Активируйте &cредстоуновый идол&r рядом с Двойственностью вызывающая змей, чтобы начать испытание."
+				""
+				"{image:ftbquests:textures/serpent_caller.png width:170 height:100 align:center}"
+			]
+			icon: "dungeonnowloading:fairkeeper_serpent_caller"
+			id: "3067F259A68263F5"
+			rewards: [
+				{
+					id: "0EFB8082BA1F2F6A"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6025C18EF473D767"
+					item: "dungeonnowloading:redstone_suppressor"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "0C34786622F7B61C"
+					item: "dungeonnowloading:redstone_core"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					count: 3
+					id: "55D9A502E0E7501C"
+					item: "cataclysm:ancient_metal_nugget"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "53D0099708889F44"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:withered_tome"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Убить двойственных змей"
+			tasks: [
+				{
+					entity: "dungeonnowloading:fairkeeper_boros"
+					icon: "dungeonnowloading:fairkeeper_serpent_caller"
+					id: "67EF3CF3559162BA"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "dungeonnowloading:fairkeeper_ouros"
+					icon: "dungeonnowloading:fairkeeper_serpent_caller"
+					id: "791DFAA7A0B7695D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Орос и Борос"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3860DD8D885ADEEF"]
+			description: [
+				"&6Медный детонатор&r - если в вашем инвентаре есть медные блоки, то вы можете призывать медных криперов, которые будут ходить за вами и если заметят враждебных мобов то будут бегать за ними. Зажатый ПКМ позволяет взорвать медных криперов. Так же их можно посадить на место или оставить в качестве питомца, если как нибудь назвать при помощи бирки. Максимально можно призвать до трёх медных криперов."
+				""
+				"&6Репульсор&r - можно разместить на твёрдой поверхности, после чего этот механизм будет защищать вас от снарядов в небольшом радиусе. Не забывайте подзаряжать репульсор при помощи редстоун пыли, так как в конечном итоге он может сломаться и придется создавать только новый."
+			]
+			icon: {
+				Count: 1
+				id: "dungeonnowloading:copper_detonator"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "63BC8A79CBB1E172"
+			rewards: [
+				{
+					id: "1760FD1F2B7AD346"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1D9C5598F4CDE9E0"
+					item: "minecraft:copper_block"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать медный детонатор и репульсор"
+			tasks: [
+				{
+					id: "163DCCE42E8373D8"
+					item: {
+						Count: 1
+						id: "dungeonnowloading:copper_detonator"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13417DEC9026373C"
+					item: {
+						Count: 1
+						id: "dungeonnowloading:repulsor"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Редстоун технологии"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3067F259A68263F5"]
+			id: "3E8C528DC8E75E91"
+			rewards: [
+				{
+					id: "522EC00144AFA795"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 6
+					id: "506F7A21D1F49458"
+					item: "minecraft:coal"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "16AF9605952533D0"
+					item: "undead_unleashed:soul_piece"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать сжигатель"
+			tasks: [{
+				id: "240C2679DA325815"
+				item: {
+					Count: 1
+					id: "dungeonnowloading:scorcher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Испепелитель"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3067F259A68263F5"]
+			id: "1D6676D82D1B0B3A"
+			rewards: [
+				{
+					id: "0ACF31F40991028D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 3
+					id: "130D3AE873BA000A"
+					item: "legendaryitems:netherite_arrow"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать редстоун лук"
+			tasks: [{
+				id: "3E82FEDBBA364260"
+				item: {
+					Count: 1
+					id: "dungeonnowloading:vertex_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Механический лук"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30F72B345153C19E"]
+			description: [
+				"&6Рассадник&r - удивительное изобретение неизвестной &7цивилизации&r. Кем и для каких целелей он был создан остается пока загадкой."
+				""
+				"Разбросанные по всему миру &6рассадники&r были созданы с одной целью, защита чего-то ценного. Научившись создавать свои &7рассадники монстров&r, многие цивилизации прибегли к использованию этой загадочной технологии."
+			]
+			hide_until_deps_complete: true
+			id: "7F7CBF53E22977C8"
+			invisible: true
+			rewards: [
+				{
+					id: "4A903BE998C5DBD4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "270A524A7D7A146D"
+					item: "dungeonsdelight:candied_silverfish_sucker"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0A83F0C3D69A0C82"
+					item: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:harming"
+						}
+					}
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Найти обломок рассадника"
+			tasks: [{
+				id: "5213FF8328A471E4"
+				item: "dungeonnowloading:spawner_fragment"
+				type: "item"
+			}]
+			title: "Осколки Хаоса"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7F7CBF53E22977C8"]
+			description: ["Вот уже столетия, технология &6Рассадников&r самостоятельно развивается и совершенствуется, создавая все более удивительных существ. Возможно где-то в самом центре лабиринта находится &7нечто&r ужасное, чего раньше никто не видел."]
+			id: "19200347FE9F62A6"
+			rewards: [
+				{
+					id: "6B6CDD7EEF8E4935"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "293086F45B98D561"
+					item: "dungeonnowloading:spawner_fragment"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "5B3DA2609D9D089F"
+					item: "mace_port:wind_charge"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Найти лабиринт"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_firewell"
+				id: "2B3392103E805347"
+				structure: "dungeonnowloading:labyrinth"
+				type: "structure"
+			}]
+			title: "Сокрытый в подземелье"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19200347FE9F62A6"]
+			description: ["&cПустышки&r представляют серьезную угрозу любому, кто придет в лабиринт. Из-за своей бестелесной природы, они имеют иммунитет к любому виду физического урона. Единственный способ справится с ними - это использовать &cзелье вреда&r или стрелы с соответствующим наконечником."]
+			id: "72F6CC911041A566"
+			rewards: [
+				{
+					id: "25E3D2041BB1CAE9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "577020F5220FBE9E"
+					item: "immortalsoul:ominous_key"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7577BA65E8187DEF"
+					item: "dungeonnowloading:spawner_fragment"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 9
+					id: "7E5250AA1A43F07B"
+					item: {
+						Count: 1
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:harming"
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "Создать череп Хаоса"
+			tasks: [{
+				id: "2A702DCAAFB01B19"
+				item: "dungeonnowloading:skull_of_chaos"
+				type: "item"
+			}]
+			title: "Реликвия Хаоса"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72F6CC911041A566"]
+			description: [
+				"Технология &6Рассадника&r нарушила баланс в мире, ее нескончаемые преобразования душ в новых монстров привело к появлению &6Рассадника Хаоса&r. Создатели этой загадочной технологии даже не догадывались к чему это может привести."
+				"Вот уже столетия &6Рассадник Хаоса&r дремлет в ожидании своего пробуждения."
+				""
+				"&7&oИспользовав Череп Хаоса рядом с Рассадником Хаоса, произойдет пробуждение. Возьмите с собой кирку. Ведь именно она хороший инструмент при борьбе с Рассадником.&r&r"
+			]
+			id: "555A8E49EEE7C25C"
+			rewards: [
+				{
+					id: "656730CF10BD257F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2AB5731B5F0E62E9"
+					item: "dungeonnowloading:spawner_frame"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "24F501160DEF3C25"
+					item: "dungeonnowloading:soul_silk"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "2C0D270B81B085D3"
+					item: "born_in_chaos_v1:seedof_chaos"
+					type: "item"
+				}
+			]
+			subtitle: "Убить Рассадник Хаоса и получить Шестигранник Хаоса"
+			tasks: [{
+				id: "025C817E5403173D"
+				item: "dungeonnowloading:chaotic_hexahedron"
+				type: "item"
+			}]
+			title: "Пробуждённый Хаос"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["088BCCEF022376F2"]
+			description: ["&6Том зачарований&r - это книга чаросъёмник, что переносит зачарования на себя. Чтобы перенести зачарование на том зачарований, возьмите зачарованный предмет в левую руку, а том в основную и нажмите &6ПКМ&r. Для активации книги требуются &dаметисты&r. Так же у книги есть несколько режимов: перенос зачарования на том, усиление, дублирование зачарования. Нажмите &6SHIFT + ПКМ&r чтобы переключить режим. "]
+			id: "336571922FDACB70"
+			rewards: [
+				{
+					id: "5DF126788833F789"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0CD21FCD595C787C"
+					item: "minecraft:amethyst_shard"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					count: 3
+					id: "484D13AE6F21AA37"
+					item: "minecraft:raw_gold"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Создать том зачарований"
+			tasks: [{
+				id: "0865180C810D9FE2"
+				item: {
+					Count: 1
+					id: "ancient_forgemastery:enchanting_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+	]
+	title: "Исследования"
+}

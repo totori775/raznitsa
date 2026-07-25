@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:alchemist_56",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 0.13,
+      "amount": 2.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "item_condition": {
+            "equipment_type": "melee_weapon",
+            "type": "skilltree:equipment_type"
+          },
+          "type": "skilltree:has_item_in_hand"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      },
+      "percentage_healing": false
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:alchemist_53"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_1.png",
+  "title": "Вкус крови",
+  "titleColor": "FF5555",
+  "positionX": 0.0,
+  "positionY": 144.004,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+13% к шансу восстановить 2 здоровья при атаке, если у вас в руке оружие ближнего боя"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+
+["Skill Tree GUI"]
+	#Horizontal offset for skill tree selection buttons (negative = left, positive = right)
+	#Range: -500 ~ 500
+	buttonOffsetX = -29
+	#Vertical offset for skill tree selection buttons (negative = up, positive = down)
+	#Range: -500 ~ 500
+	buttonOffsetY = 0
+

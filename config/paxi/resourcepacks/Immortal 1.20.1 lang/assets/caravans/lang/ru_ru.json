@@ -1,0 +1,8 @@
+{
+  "gamerule.doCaravanSpawning": "Где-то недалеко появился караван разбойников",
+  "commands.caravan.cooldown.get": "Перезарядка: %s тиков",
+  "commands.caravan.cooldown.reset": "Сброс перезарядки",
+  "commands.caravan.cooldown.set": "Время перезарядки установлено на %s тиков",
+  "commands.caravan.spawn.invalid": "Нет никаких различий в зависимости от типа \"%s\"",
+  "commands.caravan.spawn.success": "Появился \"%s\" около %s, %s, %s"
+}

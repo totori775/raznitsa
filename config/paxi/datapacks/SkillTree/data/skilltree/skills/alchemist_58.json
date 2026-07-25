@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:alchemist_58",
+  "bonuses": [
+    {
+      "type": "skilltree:damage",
+      "amount": 0.05,
+      "operation": 1,
+      "enemy_multiplier": {
+        "value_provider": {
+          "effect_type": "harmful",
+          "type": "skilltree:effect_amount"
+        },
+        "divisor": 1.0,
+        "type": "skilltree:numeric_value"
+      },
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      },
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:alchemist_55"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable_1.png",
+  "title": "Эпидемия",
+  "titleColor": "FF5555",
+  "positionX": 124.703,
+  "positionY": -71.992,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% к урону в ближнем бою за каждый негативный эффект на цели, если у вас в руке оружие ближнего боя"
+    }
+  ]
+}

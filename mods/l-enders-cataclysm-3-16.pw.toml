@@ -1,0 +1,8 @@
+name = "L_Enders_Cataclysm-3.16"
+filename = "L_Enders_Cataclysm-3.16.jar"
+side = "both"
+
+[download]
+url = "https://www.dropbox.com/scl/fi/9vygb0751w2fp3p2a0hj2/L_Enders_Cataclysm-3.16.jar?rlkey=8qjs1p633pli0q6vnwvkkl9jw&st=hkm3mwyl&e=1&dl=1"
+hash-format = "sha256"
+hash = "ac1028f4bfaa2629d80ce3c1f26e28ceec2e6f2aaaac3bb03dd8957856d2e7ca"

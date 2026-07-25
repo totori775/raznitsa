@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "enigmaticaddons:item/disaster_sword_gui"
+    }
+}

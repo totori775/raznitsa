@@ -1,0 +1,89 @@
+
+[GENERAL]
+	#Время в тиках, в течение которого нужно победить босса чтобы получить трофей времени.
+	#Range: > 20
+	time_for_challenge = 6000
+	#Список предметов, запрещённых в измерении Архитектора. Формат: 'modid:item_name' или 'modid:item_name#tag'
+	blacklisted_items = ["minecraft:elytra", "enigmaticaddons:chaos_elytra", "enigmaticlegacy:enigmatic_elytra", "enigmaticlegacy:the_cube", "enigmaticlegacy:enigmatic_item", "enigmaticlegacy:fabulous_scroll", "enigmaticlegacy:extradimensional_eye", "enigmaticaddons:extradimensional_scepter", "enigmaticlegacy:eldritch_pan", "enigmaticaddons:thunder_scroll", "enigmaticlegacy:cursed_scroll", "enigmaticlegacy:avarice_scroll", "enigmaticaddons:night_scroll", "enigmaticaddons:cursed_xp_scroll", "enigmaticaddons:violence_scroll", "enigmaticlegacy:the_infinitum", "enigmaticlegacy:eldritch_amulet", "passiveskilltreeaddon:technomagic_staff"]
+
+[TESSERACT]
+	#Максимальный урон получаемый тессерактом
+	#Range: > 1
+	max_damage = 8
+	#Изначальное здоровье тессеракта
+	#Range: > 60
+	base_health = 420
+
+	[TESSERACT.PHASE_MELEE]
+
+		[TESSERACT.PHASE_MELEE.DASH]
+			#Откат способности рывка тессеракта
+			#Range: > 20
+			dash_cooldown = 120
+			#Сколько урона в процентах наносит тессеракт пока он находится в состоянии рывка
+			#Range: 0.0 ~ 1.0
+			dash_damage = 0.4
+			#Сколько урона в процентах наносит тессеракт когда происходит атака после рывка
+			#Range: 0.0 ~ 1.0
+			jerk_attack_damage = 0.5
+
+		[TESSERACT.PHASE_MELEE.MELEE_ATTACK]
+			#Минимальный откат ближней атаки тессеракта
+			#Range: > 0
+			min_cooldown_melee = 10
+			#Максимальный откат ближней атаки тессеракта
+			#Range: > 0
+			max_cooldown_melee = 20
+			#Сколько урона в процентах наносит тессеракт когда использует ближнюю атаку
+			#Range: 0.0 ~ 1.0
+			melee_damage = 0.3
+
+		[TESSERACT.PHASE_MELEE.SHIELD]
+			#Откат способности щита тессеракта
+			#Range: > 20
+			shield_cooldown = 400
+
+		[TESSERACT.PHASE_MELEE.SLAM_ATTACK]
+			#Откат способности удара двумя руками тессеракта
+			#Range: > 20
+			slam_cooldown = 80
+			#Сколько урона в процентах наносит тессеракт когда использует удар двумя руками (в центре)
+			#Range: 0.0 ~ 1.0
+			slam_damage = 0.6
+			#Сколько урона в процентах нанесет волна создаваемая этой способностью
+			#Range: 0.0 ~ 1.0
+			small_wave_damage = 0.3
+
+	[TESSERACT.PHASE_RANGED]
+
+		[TESSERACT.PHASE_RANGED.METEOR_SUMMON]
+			#Откат способности призыва метеоритов тессеракта
+			#Range: > 20
+			meteor_summon_cooldown = 300
+
+		[TESSERACT.PHASE_RANGED.RANGE_ATTACK]
+			#Минимальный откат дальней атаки тессеракта
+			#Range: > 20
+			min_cooldown_range = 20
+			#Максимальный откат дальней атаки тессеракта
+			#Range: > 20
+			max_cooldown_range = 40
+			#Сколько урона в процентах наносит тессеракт когда использует дальнюю атаку
+			#Range: 0.0 ~ 1.0
+			range_damage = 0.35
+
+		[TESSERACT.PHASE_RANGED.WAVE_ATTACK]
+			#Откат способности энергетическая волна тессеракта
+			#Range: > 20
+			wave_attack_cooldown = 200
+			#Сколько урона в процентах наносит энергетическая волна
+			#Range: 0.0 ~ 1.0
+			wave_attack_damage = 0.4
+			#Через сколько тиков игрока отпустит на землю после попадания в волну
+			#Range: > 20
+			wave_attack_gravity_change_duration = 100
+
+[ARCHITECT]
+	#Разрешает Архитектору оставаться в мире после того, как игрок получил все награды/купил все предметы.
+	stay_after_rewards = false
+

@@ -1,0 +1,46 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "   I ",
+    "  OIB",
+    "ISACB",
+    "IBIB ",
+    " III "
+  ],
+  "key": {
+    "A": [
+      {
+        "item": "create:precision_mechanism"
+      }
+    ],
+    "C": [
+      {
+        "item": "create:brass_block"
+      }
+    ],
+    "O": [
+      {
+        "item": "minecraft:saddle"
+      }
+    ],
+    "S": [
+      {
+        "item": "create:brass_ingot"
+      }
+    ],
+    "B": [
+      {
+        "item": "create:brass_sheet"
+      }
+    ],
+    "I": [
+      {
+        "item": "create:sturdy_sheet"
+      }
+    ]
+  },
+  "result": {
+    "item": "immortalsoul:deactive_flying_bicycle"
+  },
+  "acceptMirrored": true
+}

@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:archmage_49",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "8e9f0efb-7ea5-467a-bcad-b0f39a43fe47",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "id": "ee5ee71e-f8b1-4636-a496-ea4b4d3ba48b",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:archmage_32",
+    "skilltree:archmage_52"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Надвигающаяся буря",
+  "titleColor": "E3D4D1",
+  "positionX": 124.70306,
+  "positionY": 36.007973,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+1% к силе заклинаний"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% к силе заклинаний природы"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "skilltree:inventor_50",
+  "bonuses": [
+    {
+      "type": "skilltree:damage_avoidance",
+      "chance": 0.02,
+      "damage_condition": {
+        "type": "skilltree:melee"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:inventor_47"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Отвод энергии",
+  "titleColor": "E3D4D1",
+  "positionX": -62.351524,
+  "positionY": 107.99999,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+2% к шансу избежать урон в ближнем бою"
+    }
+  ]
+}

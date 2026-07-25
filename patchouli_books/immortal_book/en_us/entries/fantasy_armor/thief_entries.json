@@ -1,0 +1,18 @@
+{
+    "name": "Броня Вора",
+    "icon": "fantasy_armor:thief_helmet",
+    "category": "patchouli:fantasy_armor_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Комплект брони Вора можно находить в сундуках по миру. Имеет слабый показатель защиты, увеличивает скорость передвижения и скорость атаки. При полном коплекте брони, накладывает эффект Иммунитет к замедлению и Проклятие торговца."
+        },
+		{
+            "type": "patchouli:image",
+            "images": [
+			  "immortal_book:textures/gui/entries/book_29.png"
+		    ],
+			"border": true
+        }
+    ]
+}

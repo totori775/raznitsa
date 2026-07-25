@@ -1,0 +1,41 @@
+{
+  "additional_requirements": {
+    "forge_tier": 2
+  },
+  "essences": {
+    "aureal": 600,
+    "blood": 1000,
+    "experience": 30,
+    "souls": 8
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:hogskin"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:gold_ingot"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "irons_spellbooks:iron_spell_book"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "irons_spellbooks:gold_spell_book"
+    }
+  }
+}

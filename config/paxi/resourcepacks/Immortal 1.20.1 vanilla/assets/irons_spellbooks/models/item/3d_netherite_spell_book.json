@@ -1,0 +1,145 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "irons_spellbooks:item/3d/3d_netherite_spell_book"
+	},
+	"elements": [
+		{
+			"name": "book cover",
+			"from": [11, 0, 5],
+			"to": [11.2, 10, 11],
+			"faces": {
+				"north": {"uv": [10, 10, 10.25, 15], "texture": "#0"},
+				"east": {"uv": [0, 0, 3, 5], "texture": "#0"},
+				"south": {"uv": [10.5, 0, 10.75, 5], "texture": "#0"},
+				"west": {"uv": [3, 0, 6, 5], "texture": "#0"},
+				"up": {"uv": [11.25, 13, 11, 10], "texture": "#0"},
+				"down": {"uv": [11.75, 0, 11.5, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "book cover",
+			"from": [8, 0, 5],
+			"to": [8.2, 10, 11],
+			"faces": {
+				"north": {"uv": [10, 10, 10.25, 15], "texture": "#0"},
+				"east": {"uv": [3, 0, 6, 5], "texture": "#0"},
+				"south": {"uv": [10.5, 0, 10.75, 5], "texture": "#0"},
+				"west": {"uv": [0, 5, 3, 10], "texture": "#0"},
+				"up": {"uv": [11.25, 13, 11, 10], "texture": "#0"},
+				"down": {"uv": [11.75, 0, 11.5, 3], "texture": "#0"}
+			}
+		},
+		{
+			"name": "mid",
+			"from": [8.2, 0, 5],
+			"to": [11, 10, 5.3],
+			"faces": {
+				"north": {"uv": [9, 0, 10.5, 5], "texture": "#0"},
+				"east": {"uv": [11, 0, 11.25, 5], "texture": "#0"},
+				"south": {"uv": [9, 5, 10.5, 10], "texture": "#0"},
+				"west": {"uv": [11, 5, 11.25, 10], "texture": "#0"},
+				"up": {"uv": [13, 10.25, 11.5, 10], "texture": "#0"},
+				"down": {"uv": [13, 10.5, 11.5, 10.75], "texture": "#0"}
+			}
+		},
+		{
+			"name": "paper",
+			"from": [8.2, 0.2, 5.3],
+			"to": [11, 9.8, 10.8],
+			"faces": {
+				"north": {"uv": [0, 10, 1.5, 14.75], "texture": "#0"},
+				"east": {"uv": [3, 5, 5.75, 9.75], "texture": "#0"},
+				"south": {"uv": [0, 10, 1.5, 14.75], "texture": "#0"},
+				"west": {"uv": [3, 5, 5.75, 9.75], "texture": "#0"},
+				"up": {"uv": [3, 12.75, 1.5, 10], "texture": "#0"},
+				"down": {"uv": [3, 10, 1.5, 12.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.7, 4, 9],
+			"to": [8, 6, 11],
+			"faces": {
+				"north": {"uv": [11.5, 11, 11.75, 12], "texture": "#0"},
+				"east": {"uv": [6, 11, 7, 12], "texture": "#0"},
+				"south": {"uv": [12, 0, 12.25, 1], "texture": "#0"},
+				"west": {"uv": [7, 11, 8, 12], "texture": "#0"},
+				"up": {"uv": [12.25, 2, 12, 1], "texture": "#0"},
+				"down": {"uv": [12.25, 2, 12, 3], "texture": "#0"}
+			}
+		},
+		{
+			"from": [11.2, 4, 9],
+			"to": [11.5, 6, 11],
+			"faces": {
+				"north": {"uv": [12, 3, 12.25, 4], "texture": "#0"},
+				"east": {"uv": [8, 11, 9, 12], "texture": "#0"},
+				"south": {"uv": [12, 4, 12.25, 5], "texture": "#0"},
+				"west": {"uv": [9, 11, 10, 12], "texture": "#0"},
+				"up": {"uv": [12.25, 6, 12, 5], "texture": "#0"},
+				"down": {"uv": [6.25, 12, 6, 13], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7.7, 4, 11],
+			"to": [11.5, 6, 11.3],
+			"faces": {
+				"north": {"uv": [6, 10, 8, 11], "texture": "#0"},
+				"east": {"uv": [12, 6, 12.25, 7], "texture": "#0"},
+				"south": {"uv": [8, 10, 10, 11], "texture": "#0"},
+				"west": {"uv": [6.5, 12, 6.75, 13], "texture": "#0"},
+				"up": {"uv": [13.5, 9.25, 11.5, 9], "texture": "#0"},
+				"down": {"uv": [13.5, 9.5, 11.5, 9.75], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -180, 0],
+			"translation": [1.75, 1.25, -0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 180, 0],
+			"translation": [-1.75, 1.25, -0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 40, 0],
+			"translation": [0, 5.75, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 40, 0],
+			"translation": [0, 5, 0]
+		},
+		"ground": {
+			"rotation": [85, -50, 85],
+			"translation": [0, 4, 0]
+		},
+		"gui": {
+			"rotation": [-90, 130, 90],
+			"translation": [2.5, 3, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"head": {
+			"rotation": [90, 90, 90],
+			"translation": [0.25, 8.5, -1.5]
+		},
+		"fixed": {
+			"rotation": [90, 0, 0],
+			"translation": [-2, -4.5, 4.5],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	},
+	"groups": [
+		0,
+		1,
+		2,
+		3,
+		{
+			"name": "lock",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [4, 5, 6]
+		}
+	]
+}

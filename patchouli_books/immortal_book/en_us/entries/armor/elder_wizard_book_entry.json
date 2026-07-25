@@ -1,0 +1,18 @@
+{
+    "name": "Книга верховного мага",
+    "icon": "immortalskills:elder_wizard_book",
+    "category": "patchouli:armor_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "При улучшении оружия до редкого уровня оно преобретает новые способности. Каждое пятое заклинание призывает залп из трёх магических ракет, которые летят до ближайшего врага и наносят ему урон."
+        },
+		{
+            "type": "patchouli:image",
+            "images": [
+			  "immortal_book:textures/gui/entries/book_52.png"
+		    ],
+			"border": true
+        }
+    ]
+}

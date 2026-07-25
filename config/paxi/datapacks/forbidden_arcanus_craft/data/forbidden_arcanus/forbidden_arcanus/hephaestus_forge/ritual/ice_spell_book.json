@@ -1,0 +1,41 @@
+{
+  "additional_requirements": {
+    "forge_tier": 4
+  },
+  "essences": {
+    "aureal": 300,
+    "blood": 2000,
+    "experience": 30,
+    "souls": 10
+  },
+  "inputs": [
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "irons_spellbooks:ice_venom_vial"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:mithril_scrap"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "irons_spellbooks:magic_cloth"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "irons_spellbooks:ruined_book"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "irons_spellbooks:ice_spell_book"
+    }
+  }
+}

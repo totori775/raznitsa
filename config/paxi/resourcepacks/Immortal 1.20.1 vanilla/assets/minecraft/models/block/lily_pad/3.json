@@ -1,0 +1,20 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/lily_pad/medium_lilypad",
+		"texture": "block/lily_pad/medium_lilypad"
+	},
+	"elements": [
+		{
+			"from": [6, 0.25, 5],
+			"to": [14, 0.25, 14],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2, 0, -2]},
+			"faces": {
+				"up": {"uv": [0, 0, 8, 9], "texture": "#texture", "tintindex": 0},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#texture", "tintindex": 0}
+			}
+		}
+	]
+}

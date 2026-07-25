@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:hunter_30",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "003352d8-6d37-48f1-9acb-a298de9c0ee1",
+      "name": "Skill",
+      "amount": 30.0,
+      "operation": 0
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:hunter_27"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_crit_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Источник",
+  "titleColor": "e3d4d1",
+  "positionX": -93.52729,
+  "positionY": 53.99701,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+30 к запасу маны"
+    }
+  ]
+}

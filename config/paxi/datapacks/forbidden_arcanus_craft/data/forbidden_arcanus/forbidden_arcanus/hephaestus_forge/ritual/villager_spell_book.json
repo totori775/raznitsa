@@ -1,0 +1,41 @@
+{
+  "additional_requirements": {
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 800,
+    "blood": 0,
+    "experience": 190,
+    "souls": 12
+  },
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:magic_cloth"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "irons_spellbooks:divine_pearl"
+      }
+    },
+    {
+      "amount": 3,
+      "ingredient": {
+        "item": "minecraft:emerald"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "irons_spellbooks:gold_spell_book"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "irons_spellbooks:villager_spell_book"
+    }
+  }
+}

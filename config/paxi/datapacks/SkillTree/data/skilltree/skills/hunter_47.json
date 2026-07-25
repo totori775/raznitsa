@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:hunter_47",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cast_time_reduction",
+      "id": "f799ad66-daa2-402a-bd53-b1d1f8861436",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:hunter_33"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_defensive_crafting_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Превосходство",
+  "titleColor": "e3d4d1",
+  "positionX": -93.52729,
+  "positionY": 89.998,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+3% к сокращению времени чтения заклинаний"
+    }
+  ]
+}

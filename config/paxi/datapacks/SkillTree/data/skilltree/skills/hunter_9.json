@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:hunter_9",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "2ef3ea5a-70f7-4d88-abe1-3ba4fc7f0d80",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:hunter_6"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_life_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Быстрота",
+  "titleColor": "e3d4d1",
+  "positionX": -31.175764,
+  "positionY": -54.001,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+3% к скорости передвижения"
+    }
+  ]
+}

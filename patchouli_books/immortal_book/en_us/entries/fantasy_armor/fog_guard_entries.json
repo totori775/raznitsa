@@ -1,0 +1,18 @@
+{
+    "name": "Броня Стража тумана",
+    "icon": "fantasy_armor:fog_guard_helmet",
+    "category": "patchouli:fantasy_armor_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Комплект брони Стража тумана можно скрафтить на верстаке. Имеет средний показатель защиты. При полном коплекте брони, накладывает эффект Ледяной барьер и Пристальный взор."
+        },
+		{
+            "type": "patchouli:image",
+            "images": [
+			  "immortal_book:textures/gui/entries/book_25.png"
+		    ],
+			"border": true
+        }
+    ]
+}

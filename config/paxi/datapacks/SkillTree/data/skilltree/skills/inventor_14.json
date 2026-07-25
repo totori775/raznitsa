@@ -1,0 +1,54 @@
+{
+  "id": "skilltree:inventor_14",
+  "bonuses": [
+    {
+      "type": "skilltree:item_use_movement_speed",
+      "multiplier": -0.1,
+      "item_condition": {
+        "equipment_type": "ranged_weapon",
+        "type": "skilltree:equipment_type"
+      }
+    },
+    {
+      "type": "skilltree:projectile_duplication",
+      "chance": 0.05,
+      "player_condition": {
+        "item_condition": {
+          "equipment_type": "ranged_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_item_in_hand"
+      }
+    }
+  ],
+  "requirements": [],
+  "directConnections": [
+    "skilltree:inventor_11"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Удвоенный снаряд",
+  "titleColor": "FFAA00",
+  "positionX": 31.176,
+  "positionY": 90.004,
+  "buttonSize": 20,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "Используя оружие дальнего боя вы замедляетесь на 10% меньше"
+    },
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+5% к шансу удвоить выпущенный снаряд, если у вас в руке оружие дальнего боя"
+    }
+  ]
+}

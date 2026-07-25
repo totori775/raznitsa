@@ -1,0 +1,1611 @@
+{
+	autofocus_id: "6A76A004727797AA"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "51D28A6047A97203"
+	group: "23E3C0A11EA92B50"
+	icon: "forbidden_arcanus:hephaestus_forge"
+	id: "51D28A6047A97203"
+	images: [{
+		height: 7.2d
+		image: "ftbquests:textures/background_quest.png"
+		rotation: 0.0d
+		width: 7.2d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Первые шаги на пути к запретной магии начинаются не с клинка, а с инструмента. &6Кузнечный Молот&r — основа для обработки магических материалов. Без него ты не сможешь приступить к ремеслу. "
+				""
+				"Так же он является отличным инструментом для добычи руд."
+			]
+			id: "6A76A004727797AA"
+			rewards: [
+				{
+					id: "459DD65213FDDE2D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2A55BD54EC78A6C6"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+			]
+			subtitle: "Получите молоток кузнеца"
+			tasks: [{
+				id: "4F8F0DBFC500E410"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:iron_blacksmith_gavel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A76A004727797AA"]
+			description: ["В недрах &eверхнего мира&r скрыты руды, насыщенные магической энергией. Каждая руда обладает своими свойствами и ценностью для мага."]
+			id: "2187940B698BC913"
+			rewards: [{
+				id: "091E1CAD347DE085"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Кликните на галочку"
+			tasks: [{
+				id: "4CC749F13EFD51EC"
+				title: "Руды"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2187940B698BC913"]
+			description: [
+				"Это осколок упавшей звезды, заключённый в твёрдую форму. Он пульсирует космической энергией. "
+				""
+				"Ищи его &eна высоте от 42 до -44&r, но встречается он редко и &eтребует осторожности при добыче&r из-за выплесков сокрытой энергии."
+				""
+				"&o&7Можно добыть начиная с алмазной кирки.&r"
+			]
+			icon: "forbidden_arcanus:stella_arcanum"
+			id: "37AE49D45D43E58C"
+			rewards: [
+				{
+					id: "7632964B56292DE6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3BE8515DA9C215B4"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:earth_heart"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0F1E3C30380BB3B9"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "На высоте от 42 до -44"
+			tasks: [{
+				id: "7EE81853D9A96468"
+				item: "forbidden_arcanus:stellarite_piece"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2187940B698BC913"]
+			description: [
+				"Этот обломок — часть древней магической руны. Несмотря на повреждение, он всё ещё содержит остатки силы. Отыскать её можно &eна высоте ниже 2&r."
+				""
+				"&o&7Можно добыть начиная с алмазной кирки.&r"
+			]
+			icon: "forbidden_arcanus:runic_deepslate"
+			id: "2A4F10E94834E2AD"
+			rewards: [
+				{
+					id: "5935BA72612EBD6C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "613C7945EAA9D954"
+					item: "irons_spellbooks:blood_vial"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5145D4A70BFFB744"
+					item: "brewinandchewin:bloody_mary"
+					type: "item"
+				}
+			]
+			subtitle: "На высоте ниже 2"
+			tasks: [{
+				id: "009BF074DCFA1B50"
+				item: "forbidden_arcanus:rune"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2187940B698BC913"]
+			description: [
+				"Этот кристалл — сгусток чистой магии, сформировавшийся за века в недрах земли. Найти его можно &eна высоте 14 до -40&r, чаще всего встречается &eна высоте -13&r."
+				""
+				"&o&7Можно добыть начиная с железной кирки.&r"
+			]
+			icon: "forbidden_arcanus:deepslate_arcane_crystal_ore"
+			id: "1E5D66CA170307F4"
+			rewards: [
+				{
+					id: "2E9671A952E58AF5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "255D502320A47B52"
+					item: {
+						Count: 1
+						id: "minecraft:lingering_potion"
+						tag: {
+							Potion: "irons_spellbooks:instant_mana_four"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2509EB1F245EA38A"
+					item: "irons_spellbooks:silver_ring"
+					type: "item"
+				}
+			]
+			subtitle: "На высоте -13"
+			tasks: [{
+				id: "64F19778290FAF36"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2187940B698BC913"]
+			description: [
+				"Эта редкая руда словно впитывает память самого мира. В её кристаллах заключён чистый опыт — сжатый, структурированный и готовый к извлечению. Обнаружить его можно &eна высоте от 35 до -6&r. "
+				""
+				"&7При использование ПКМ, даёт 91 еденицу опыта. Можно добыть начиная с железной кирки.&r"
+			]
+			icon: "forbidden_arcanus:xpetrified_ore"
+			id: "4FD9C4717A035C73"
+			rewards: [
+				{
+					id: "4EFE3C26D1A7E4A3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "552C3BBB12261CB0"
+					item: "enigmaticaddons:earth_heart_fragment"
+					type: "item"
+				}
+			]
+			subtitle: "На высота от 35 до -6"
+			tasks: [{
+				id: "563382831D797A26"
+				item: "forbidden_arcanus:xpetrified_orb"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A76A004727797AA"]
+			description: [
+				"Эдельдревесное бревно — старая древесина, выросшая в магически насыщенных лесах, вроде &eТёмного леса&r. Она впитала в себя природную силу и отличается особой стойкостью и плотностью."
+				""
+				"Так же это дерево можно вырастить самостоятельно, если по саженцу дуба нажать &6ПКМ&r испорченной душой. С выращенного дерева можно собрать &6Эдельдревесную палочку&r."
+			]
+			icon: "forbidden_arcanus:edelwood_stick"
+			id: "17E40A2AC591ADC3"
+			rewards: [
+				{
+					id: "3F940ED5252629DA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2F59AB1A4DA17CF0"
+					item: "vanillabackport:pale_oak_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "Можно вырастить самостоятельно или найти в тёмном лесу/на равнинах"
+			tasks: [
+				{
+					id: "1B9B3DEA41BDAE36"
+					item: "forbidden_arcanus:edelwood_log"
+					title: "Получить эдельдревесное бревно"
+					type: "item"
+				}
+				{
+					id: "694D09B3D2228F99"
+					item: "forbidden_arcanus:edelwood_stick"
+					title: "Получить эдельдревесную палочку"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17E40A2AC591ADC3"]
+			description: [
+				"&6Эдельдревесное ведро&r — более вместительный вариант обычного ведра. Изготовлено из прочных &eэдельдревесных досок&r, оно способно удерживать больше жидкости, чем стандартное ведро."
+				""
+				"{@pagebreak}"
+				"Для хранения лавы требуется зачарование &bВечная мерзлота&r."
+			]
+			id: "6247B36448C7E949"
+			rewards: [
+				{
+					id: "349276D2D906031B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "319EC8667DB7CBAC"
+					item: "forbidden_arcanus:edelwood_axolotl_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Может хранить до 4 кубов жидкости"
+			tasks: [{
+				id: "06DA7CB9017753CA"
+				item: "forbidden_arcanus:edelwood_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17E40A2AC591ADC3"]
+			description: ["&6Эдельдревесная лестница&r — благодаря более удобной конструкции, передвижение по ней происходит &eзаметно быстрее, чем по обычным лестницам&r."]
+			id: "550A7B5DDDB8A8A2"
+			rewards: [
+				{
+					id: "45AF959793FE2B29"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 12
+					id: "58D429438D6EA904"
+					item: "forbidden_arcanus:edelwood_ladder"
+					type: "item"
+				}
+			]
+			subtitle: "Удобнее обычных лестниц"
+			tasks: [{
+				id: "35146292A508D0CC"
+				item: "forbidden_arcanus:edelwood_ladder"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A76A004727797AA"]
+			description: [
+				"[ \"Порошок, образовавшийся при переплавке \", { \"text\": \"Мистического Кристалла\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1E5D66CA170307F4\" } }]"
+				""
+				"&eОн насыщен аурелионовой энергией&r — древней силой, применяемой в ритуалах и создании уникальных предметов."
+			]
+			id: "2B9795F1A5E89509"
+			rewards: [
+				{
+					id: "7B9B66B19BEC9A64"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "52AA08420019CB86"
+					item: "forbidden_arcanus:ender_pearl_fragment"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "Переплавьте мистический кристалл"
+			tasks: [{
+				id: "03B2C77E5AF9CE47"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B9795F1A5E89509"]
+			description: [
+				"&6Мистическая костная мука&r — результат объединения костной муки и порошка из Мистического Кристалла."
+				"Эта костная мука пропитана аурелионовой энергией и используется как мощное удобрение, &eмгновенно стимулирующее рост растений&r."
+				""
+				"Если её использовать на &6пашне&r, она станет &bмагической пашней&r,"
+			]
+			hide_until_deps_complete: true
+			id: "210C28FAD6116479"
+			rewards: [
+				{
+					id: "60C74B9A614FD929"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "77265F8190BECEC9"
+					item: "born_in_chaos_v1:bone_heart"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "02ADD98B5F5675CC"
+					item: "royalvariations:royal_bone_meal"
+					type: "item"
+				}
+			]
+			subtitle: "Получите мистическую костную муку"
+			tasks: [{
+				id: "5FB76046FE9B8BF6"
+				item: "forbidden_arcanus:arcane_bone_meal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B9795F1A5E89509"]
+			description: ["&6Порошок Очищения&r — магический компонент для создания &eДеорумовых слитков&r."]
+			hide_until_deps_complete: true
+			id: "4E88BC8A1781703C"
+			rewards: [
+				{
+					id: "26D4F062053D4C0D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "1A53FEF7BE84D4E1"
+					item: "minecraft:blaze_powder"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "5D38786FC5819363"
+					item: "minecraft:nether_wart"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Получите порошок очищения"
+			tasks: [{
+				id: "4018D146B5B3A7AA"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4E88BC8A1781703C"]
+			description: [
+				"Для следующего этапа вашего пути необходимо собрать ряд следующих блоков, которые станут основой &6Кузницы Гефеста&r — могущественного алтаря, где рождается истинная магия. Тёмный камень можно находить недалеко от &6бедрока&r верхнего мира рядом с лавовыми озерами."
+				""
+				"Собрав все необходимые предметы, вам останется лишь воссоздать этот очаг магии и пробудить древние ритуалы."
+			]
+			id: "25B648037651BCE1"
+			rewards: [
+				{
+					id: "7A9962AE870F901A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4AB79CF51B20B17A"
+					item: "dungeonsdelight:ghastly_spirits"
+					type: "item"
+				}
+				{
+					id: "09811F5018E03E9E"
+					item: "dungeonsdelight:taro_milk_tea"
+					type: "item"
+				}
+			]
+			subtitle: "Что бы посмотреть как собрать Кузницу Гефеста, найдите её в JEI, наведитесь на неё и зажмите W."
+			tasks: [
+				{
+					count: 48L
+					id: "502146FCAD8CCD7F"
+					item: "forbidden_arcanus:polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "1552918929A4B811"
+					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6D7B480D2D37FE58"
+					item: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+					type: "item"
+				}
+				{
+					id: "1281A30F98838C26"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					id: "7DDD469FB72A2E1E"
+					item: "forbidden_arcanus:mundabitur_dust"
+					type: "item"
+				}
+			]
+			title: "Сбор ресурсов"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["25B648037651BCE1"]
+			description: [
+				"&6Кузница Гефеста&r — древний магический алтарь, на котором создаются мощные артефакты."
+				"Поначалу процесс может показаться сложным, но с опытом всё станет понятнее и легче."
+				""
+				"В каждом ритуале есть один основной ингредиент — его помещают в большую ячейку в центре. Четыре ячейки вокруг служат для усилителей, а остальные необходимые материалы размещаются на пьедесталах вокруг Кузницы."
+				""
+				"Затем ударь &6кузнечным молотком&r по основному предмету — и древняя магия пробудится, запуская процесс создания."
+				""
+				"{@pagebreak}"
+				"Так же для работы, нам понадобится питать &6Кузницу Гефеста&r, четырьмя определёнными ресурсами:"
+				""
+				"{\"text\":\"● \",\"underlined\":false,\"color\":\"yellow\",\"extra\":[{\"text\":\"Аурелионовая энергия\",\"underlined\":true,\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4B60A5B73D94A8A6\"}}]}"
+				""
+				"{\"text\": \"● \", \"underlined\": false, \"color\": \"yellow\", \"extra\": [{\"text\": \"Души\", \"underlined\": true, \"color\": \"yellow\", \"clickEvent\": {\"action\": \"change_page\", \"value\": \"05F7BBC21E53AD39\"}}]}"
+				""
+				"{\"text\":\"● \",\"underlined\":false,\"color\":\"yellow\",\"extra\":[{\"text\":\"Кровь\",\"underlined\":true,\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"681D8F30A387E6AC\"}}]}"
+				""
+				"{\"text\":\"● \",\"underlined\":false,\"color\":\"yellow\",\"extra\":[{\"text\":\"Опыт\",\"underlined\":true,\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"58F3D446B4752C69\"}}]}"
+				""
+				""
+				"&n&7Подробнее о них можете прочесть, &nкликнув&r&n&7 по одному из интересующих вас типов ресурсов.&r"
+			]
+			hide_until_deps_complete: true
+			id: "293083062B9AD474"
+			rewards: [
+				{
+					id: "424F25D9CD2F682C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "275E0055EF4EDDC2"
+					item: "irons_spellbooks:magic_cloth"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 4
+					id: "10ED810CCC3F3D30"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Да начнутся ритуалы"
+			tasks: [{
+				icon: "forbidden_arcanus:hephaestus_forge"
+				id: "1AB459F7572BB5C8"
+				observe_type: 0
+				timer: 0L
+				to_observe: "forbidden_arcanus:hephaestus_forge"
+				type: "observation"
+			}]
+			title: "Взгляните на кузницу гефеста"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4E88BC8A1781703C"]
+			description: ["&6Слизневая кирка&r — уникальный инструмент, созданный с учётом тонкой природы материалов. Благодаря своей особой конструкции она позволяет &eаккуратно добывать блоки&r, сохраняя их целостность и структуру."]
+			hide_until_deps_complete: true
+			id: "45AEA73D118D798B"
+			rewards: [
+				{
+					id: "1E632A10439F5D1C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A3967B9A3688EF1"
+					item: "forbidden_arcanus:edelwood_slime_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Встроенное шёлковое касание"
+			tasks: [{
+				id: "22CB84A56BC8F58B"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:slimec_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["293083062B9AD474"]
+			description: [
+				"Чтобы получить &cкровь&r, необходимо совершить древний обряд — принести в жертву &eсущности&r, чья кровь наполнит Кузницу Гефеста."
+				""
+				"● &eНанесите раны существам рядом с алтарём&r — каждое капля крови будет словно живая энергия, напрямую наполняя шкалу &cкрови&r."
+				""
+				"● Или приготовьте &6пробирку&r и держите её во вспомогательной руке, а в основной — &6мистический кинжал&r, созданный специально для ритуальных жертвоприношений. Раня существ этим кинжалом, вы &eсоберёте их кровь в пробирку&r, чтобы позже использовать её в Кузнице."
+			]
+			id: "681D8F30A387E6AC"
+			rewards: [
+				{
+					id: "629BE0998FAFEE1D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "14E57E7CA5538094"
+					item: {
+						Count: 1
+						id: "born_in_chaos_v1:dark_ritual_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "2F6021B754AEA53D"
+					item: "minecraft:rabbit_stew"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Пора принести жертву"
+			tasks: [
+				{
+					id: "135805C7924C63C9"
+					item: {
+						Count: 1
+						id: "forbidden_arcanus:mystical_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EDC446F0ED97C8E"
+					item: "forbidden_arcanus:test_tube"
+					type: "item"
+				}
+			]
+			title: "Кровь"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["293083062B9AD474"]
+			description: [
+				"Есть три способа получить души, и для двух их них потребуется &6Извлекатель Душ&r — особый инструмент, способный улавливать эфемерные сущности:"
+				""
+				"● Первый способ — извлекать души из &eПеска Душ&r при помощи &6Извлекателя Душ&r."
+				""
+				"● Второй способ — охотиться на редко &eблуждающих по миру душ&r, используя тот же &6Извлекатель Душ&r."
+				""
+				"● Третий способ — создать душу на верстаке используя &6Бесплотный дух&r и &6Порошок мистического кристалла&r."
+			]
+			id: "05F7BBC21E53AD39"
+			rewards: [
+				{
+					id: "037343D8D0FEB7E5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "01FCB8A3DA9A10D6"
+					item: {
+						Count: 1
+						id: "endermanoverhaul:soul_pearl"
+						tag: { }
+					}
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "3ED402150A0942CA"
+					item: "undead_unleashed:soul_piece"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Пора охотиться на приведений"
+			tasks: [{
+				id: "7049EA2DF3625778"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:soul_extractor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Души"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1333128427C070AF"]
+			description: ["&6Ферромагнитная смесь&r — уникальный модификатор, который можно применить только к ботинкам. Надев такие ботинки, вы &eрасширяете радиус сбора предметов&r, облегчая сбор."]
+			hide_until_deps_complete: true
+			id: "479DC919EBA25F01"
+			rewards: [
+				{
+					id: "60076B2C0C3E6C8D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "545974309F832C39"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Увеличивает дальность подбора предметов"
+			tasks: [{
+				id: "56429C9FB274DCDB"
+				item: "forbidden_arcanus:ferrognetic_mixture"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["293083062B9AD474"]
+			description: ["Этот том с железной обложкой символизирует прочность и твёрдость знаний. Он позволяет магу &eхранить и применять больше магических заклинаний&r одновременно. Настало время расширить свои способности и подготовиться к новым вызовам."]
+			id: "534DA1922BF2598E"
+			rewards: [
+				{
+					id: "7C2639DE0262788C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "46FB78FFBCCBFA8A"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создайте Железный фолиант"
+			tasks: [{
+				id: "24A883823484B8B0"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:iron_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 6
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1333128427C070AF"]
+			description: ["&6Плавильная Призма&r — модификатор, который можно применить к любым инструментам — киркам, лопатам, топорам и мотыгам. После слияния с предметом на столе кузнеца он автоматически &eпереплавляет все добытые предметы&r, если для них существует рецепт переплавки, экономя ваше время и силы."]
+			hide_until_deps_complete: true
+			id: "03EB2A60F25573BB"
+			rewards: [
+				{
+					id: "2FBE6E3AE69DD7DE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "77B0A442795BD9C9"
+					item: "enigmaticaddons:ichor_droplet"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6EDCB39E6E3D6E2F"
+					item: "minecraft:glowstone_dust"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Плавит добытые предметы"
+			tasks: [{
+				id: "7F4EFDF7C5D29B1D"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:smelter_prism"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["293083062B9AD474"]
+			description: ["&6Модификаторы&r — это уникальные артефакты, &eдарующие предметам новые способности&r, если объеденить их на кузнечном столе. Но помните: на каждом предмете может быть установлен &eлишь один модификатор&r, поэтому выбирайте их с особой тщательностью!"]
+			id: "1333128427C070AF"
+			rewards: [{
+				id: "1F32364FBB3A01A2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5334FDF4217B91D8"
+				title: "Модификаторы"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1333128427C070AF"]
+			description: [
+				"&6Земная Призма&r — модификатор, раскрывающий истинную мощь ваших инструментов — кирок, лопат, топоров и мотыг. Инструмент с этим модификатором &eразрушает область размером 3x3&r блока вокруг копаемого, при этом ломаются &eтолько блоки того же типа, что и центральный&r. Блоки других типов в этой области остаются нетронутыми."
+				""
+				"Инструмент при этом &4утрачивает возможность разрушать блоки по одному&r."
+			]
+			hide_until_deps_complete: true
+			id: "1B85B4D229D78A8D"
+			rewards: [
+				{
+					id: "29CA6EAB7EEE837F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "71B12910B7C9DAB4"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:common_potion_splash"
+						tag: {
+							EnigmaticPotion: "long_haste"
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 4
+					id: "46F2BB62DD258C1B"
+					item: "minecraft:raw_iron"
+					random_bonus: 3
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Инструменты копают 3x3"
+			tasks: [{
+				id: "2A6B50A08848B6CA"
+				item: "forbidden_arcanus:terrastomp_prism"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1333128427C070AF"]
+			description: [
+				"&6Вечная Стелла&r — пожалуй, самый могущественный из всех известных модификаторов. Его можно слить с предметом, &eнавсегда лишив тот прочности и сделав его по-настоящему вечным&r."
+				""
+				"Или же &eвзять в руку и активировать&r, чтобы однократно &eвосстановить всё снаряжение из вашего инвентаря&r — такую возможность можно применить &4до трёх раз&r."
+			]
+			hide_until_deps_complete: true
+			id: "67A7BE2B5B5B58DC"
+			rewards: [
+				{
+					id: "38E31D1B917DCB21"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "31290FACED572884"
+					item: "gnumus:vintage_parts"
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "322AF8387A59775A"
+					item: "irons_spellbooks:permafrost_shard"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Делает предмет вечным"
+			tasks: [{
+				id: "1D2F0723919BA127"
+				item: {
+					Count: 1
+					id: "forbidden_arcanus:eternal_stella"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["342027872D0A4A9E"]
+			description: ["&6Зачарованная книга заклинаний&r — могучий том, дарующий своему владельцу расширенные возможности. Она увеличивает &eколичество доступных слотов для заклинаний и усиливает запас маны&r, позволяя магу творить более мощные и продолжительные чары."]
+			hide_until_deps_complete: true
+			id: "277946318E669962"
+			rewards: [
+				{
+					id: "0E8A321C563C237A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2D9FF7A494B82188"
+					item: "irons_spellbooks:epic_ink"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1D6D58F71BEB2148"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 6
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создайте Зачарованную книгу заклинаний"
+			tasks: [{
+				id: "559D01CC7ED5EEED"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:diamond_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["534DA1922BF2598E"]
+			description: [
+				"&6Книга ученика&r — важный шаг вперёд на пути овладения магией. Её страницы увеличивают &eмаксимально возможное количество хранимых заклинаний&r. "
+				""
+				"Книга также помогает лучше контролировать поток магической энергии, благодаря чему &eсокращается время восстановления заклинаний и даётся небольшой прирост маны.&r"
+			]
+			hide_until_deps_complete: true
+			id: "342027872D0A4A9E"
+			rewards: [
+				{
+					id: "5588FC8DA7FA7231"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "364663A299F8D655"
+					item: "minecraft:gold_ingot"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7145EC83F2C27F3A"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создайте Книгу заклинаний ученика"
+			tasks: [{
+				id: "4D1CE3C54F5CDCAE"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:gold_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 8
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["277946318E669962"]
+			description: [
+				"&6Древний трактат&r — древняя магическая книга, наполненная забытыми знаниями. Она &eрасширяет количество доступных слотов для заклинаний и значительно увеличивает запас маны мага&r. "
+				""
+				"Сила этого трактата позволяет &eзначительно ускорить восстановление заклинаний&r, давая возможность чаще использовать свои способности."
+			]
+			hide_until_deps_complete: true
+			id: "2B4E2F9C17306757"
+			rewards: [
+				{
+					id: "71435F357DD2DE2D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "440CA4896A0EA77A"
+					item: "irons_spellbooks:legendary_ink"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "57DA2E05FD8209E0"
+					item: "minecraft:echo_shard"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создайте Древний трактат"
+			tasks: [{
+				id: "673B6245F9233136"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:netherite_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["277946318E669962"]
+			description: ["&6Древний Кодекс&r — книга, наполненная силой давно забытой магии Края. Его страницы хранят знания, позволяющие &eувеличить вместимость заклинаний и усилить запас маны мага&r. Но главное — этот кодекс &eувеличивает силу магии Энда&r, позволяя глубже овладеть её силой."]
+			hide_until_deps_complete: true
+			id: "44846ECE14A6F727"
+			rewards: [
+				{
+					id: "61B13DABC021ACC3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "284A967834ECA8D4"
+					item: "irons_spellbooks:epic_ink"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 2
+					id: "68B07A0B785AAE6F"
+					item: "minecraft:ender_pearl"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создайте Драконий кодекс"
+			tasks: [{
+				id: "3F925BA6CE05B09C"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:dragonskin_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 12
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["277946318E669962"]
+			description: ["&6Деревенская библия&r — древний том, хранящий секреты святой магии. Она дарует &eзначительно больший запас маны&r, сохраняя при этом количество слотов для заклинаний. Кроме того, &eчтение чар становится быстрее, а сила заклинаний святой школы возрастает&r."]
+			hide_until_deps_complete: true
+			id: "7B4D0A474A52DCC3"
+			rewards: [
+				{
+					id: "30BE4DD9F2E43534"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5FF94D9313BF8948"
+					item: "irons_spellbooks:rare_ink"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "49E2586643682A84"
+					item: {
+						Count: 1
+						id: "irons_spellbooks:scroll"
+						tag: {
+							ISB_Spells: {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 10
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+					}
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Получите Деревенскую библию"
+			tasks: [{
+				id: "4B58AC94C69AF634"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:villager_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["277946318E669962"]
+			description: ["&6Рукопись друидов&r — священное собрание знаний о магии природы. В её страницах скрыты тайны, которые увеличивают запас маны мага, но главное — эта рукопись &eукрепляет связь мага с природной магией&r, делая его сильнее."]
+			hide_until_deps_complete: true
+			id: "098693C744B6535D"
+			rewards: [
+				{
+					id: "4B23822C4F16A0F6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4C53DCFBB20D7A85"
+					item: "irons_spellbooks:rare_ink"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "47CDCE7BCEDD0DFE"
+					item: "enigmaticlegacy:infinimeal"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Создайте Рукопись друидов"
+			tasks: [{
+				id: "6B85A8935EEE940E"
+				item: {
+					Count: 1
+					id: "irons_spellbooks:druidic_spell_book"
+					tag: {
+						ISB_Spells: {
+							data: [ ]
+							maxSpells: 10
+							mustEquip: 1b
+							spellWheel: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["293083062B9AD474"]
+			description: [
+				"&6Элементалий&r — особый &eкатализатор&r, созданный для пробуждения глубинной связи между магом и первородной энергией стихий."
+				""
+				"&eТолько с помощью него становится возможным сотворить&r &6Камни Стихий&r — сгустки чистой магии, заключённой в материальной форме. Без этого усилителя алтарь не сможет выдержать столь мощный магический процесс, и энергия стихий попросту вырвется из-под контроля."
+				""
+				"{@pagebreak}"
+				""
+				"Чтобы заполучить &6Элементалий&r, придётся отправиться на поиски &eдревнего пустынного храма&r. Лишь тот, кто отважится исследовать скрытые залы этих песчаных руин, сможет прикоснуться к древней силе стихий."
+			]
+			id: "70BB6B0A14D3972B"
+			rewards: [
+				{
+					id: "5D37ABF96BFA9105"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "348EFBB20513F24A"
+					table_id: 5913414065208642456L
+					team_reward: false
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "103517D7780A67AD"
+					item: "enigmaticaddons:earth_heart_fragment"
+					random_bonus: 3
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Найдите Элементалий в пустынном храме"
+			tasks: [{
+				id: "41D57D5D8EAE520B"
+				item: "forbidden_arcanus:elementarium"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["70BB6B0A14D3972B"]
+			description: [
+				"&6Сердце Голема&r — один из самых простых, но не менее могущественных камней стихий. Связанный с самой сущностью земли, этот магический камень не требует сложных манипуляций и изысканности. &eЕго сила проста — он превращает кожу носителя в крепкую броню.&r"
+				""
+				"Эффекты &6Сердца Голема&r проявляются особенно ярко, &eкогда на владельце нет брони, позволяя &eего коже стать прочной как сталь&r, способной выдерживать мощные удары, режущие и колющие атаки, значительно уменьшая получаемый урон."
+			]
+			hide_until_deps_complete: true
+			id: "4DE46D4B8873DFA9"
+			rewards: [
+				{
+					id: "3262EF396B0FE118"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "01EAAAF87DA380C3"
+					item: "caverns_and_chasms:oxidized_copper_golem"
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "4E3406C2CC6B3A46"
+					item: "minecraft:torchflower"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Сила земли"
+			tasks: [{
+				id: "260750EE15E1E44F"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["70BB6B0A14D3972B"]
+			description: [
+				"&6Око Туманности&r — камень, наполненный нестабильной энергией Края, дарующий своему носителю способности, сродни тем, что сокрыты в самой природе эндерменов."
+				""
+				"Он позволяет &eмгновенно переместиться к любому существу, на которое вы смотрите&r, преодолевая расстояние одним лишь взглядом. &eКогда вам пытаются нанести удар, с некоторым шансом энергия Ока активируется сама по себе&r, &eтелепортируя вас в случайное направление без вашего контроля&r."
+				""
+				"В такие моменты сложно понять — спасает ли он вас или ставит под удар."
+			]
+			hide_until_deps_complete: true
+			id: "307AE99CE7D03302"
+			rewards: [
+				{
+					id: "55E1220A98640385"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6506F09A37DEDBB4"
+					table_id: 79756169420373323L
+					team_reward: false
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "1948547CD3651FBD"
+					item: "enigmaticlegacy:astral_dust"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Силая края"
+			tasks: [{
+				id: "14885EDF0F6A838E"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["70BB6B0A14D3972B"]
+			description: [
+				"&6Раскалённое Ядро&r — камень, воплощающий стихию огня и пламени. Он дарует владельцу &eзащиту от экстремального жара, делая огонь и лаву временно безвредными для тела&r."
+				""
+				"Пламя словно обвивает вас и наказывает каждого, кто осмелится навредить — &eприкасаясь к вам, враги рискуют воспламениться&r, поплатившись за своё безрассудство."
+			]
+			hide_until_deps_complete: true
+			id: "545BF7C7E15E1479"
+			rewards: [
+				{
+					id: "6BCAF5E0252DA68A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "6011857804AF6539"
+					item: "minecraft:blaze_powder"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+				{
+					id: "617811F330D4C0D7"
+					item: "brewinandchewin:fiery_fondue"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Сила огня"
+			tasks: [{
+				id: "668DCC35E5D49823"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["70BB6B0A14D3972B"]
+			description: ["&6Жемчуг Бездны&r — камень стихий, чья природа связана не с огнём или водой, а с самой &5Пустотой&r, что простирается под островами Края. В этом месте не существует ни света, ни воздуха, ни жизни — только безмолвная тьма и забвение. И всё же, из этой темноты рождается сила."]
+			hide_until_deps_complete: true
+			id: "376E16966B863D2C"
+			rewards: [
+				{
+					id: "61347D59129EB36C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6DC2C24D7C5C6655"
+					item: "irons_spellbooks:upgrade_orb"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 2
+					id: "42C2B92CB1FA68BF"
+					item: "irons_spellbooks:ancient_knowledge_fragment"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Сила пустоты"
+			tasks: [{
+				id: "0B57C1DF89E0E76A"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["70BB6B0A14D3972B"]
+			description: [
+				"&6Воля Океана&r — идеальная реликвия для тех, кто стремится покорить глубины бескрайних морей, покрывающих поверхность Надземного мира. Обладатель этого камня чувствует себя в воде словно дома: &eдыхание становится лёгким, словно воздухом, движение — быстрым, словно бег по земле, а видимость — прозрачной, как в самый ясный день&r."
+				""
+				"Заявив о себе в водах среди затонувших руин, вы обнаружите, что сила водной стихии — на вашей стороне. Враги глубин кажутся бессильными и пугаются вашего присутствия, а если вы окажетесь слишком далеко от воды, &eпожертвовав частью своего опыта, сможете вызвать слёзы небес — дождь&r, что восполнит жажду жизни."
+			]
+			hide_until_deps_complete: true
+			id: "496AF3C03C33DEBC"
+			rewards: [
+				{
+					id: "795D959544870850"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "20BD76AFCA324240"
+					item: "minecraft:heart_of_the_sea"
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Сила воды"
+			tasks: [{
+				id: "511BEB0125B5EA9B"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["70BB6B0A14D3972B"]
+			description: [
+				"&6Ангельское Благословение&r — камень, дарующий силу ветра. Он направляет потоки воздуха, чтобы &eсдуть летящие в вас стрелы, смягчить падения и защитить ваши ноги от переломов&r. В моменты, когда вы стремитесь к своей цели, камень подталкивает вас вперёд, помогая преодолевать преграды."
+				""
+				"Его активная способность особенно эффективна, если использовать её в прыжке: создаваемый импульс добавляется к вашей скорости, позволяя совершать по-настоящему дальние и высокие прыжки."
+				""
+				"Присутствие камня дарит странное чувство покоя и лёгкости, будто сам ветер охраняет вас в пути."
+			]
+			hide_until_deps_complete: true
+			id: "3253471D4B9E2F90"
+			rewards: [
+				{
+					id: "23D84981988AA775"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "363AAD977C8FE0ED"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:ultimate_potion_splash"
+						tag: {
+							EnigmaticPotion: "ultimate_swiftness"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "0E0C7F907256704E"
+					item: "minecraft:emerald"
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "Сила ветра"
+			tasks: [{
+				id: "0EB14D0E6B78755E"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["293083062B9AD474"]
+			description: [
+				"Обычно получить опыт довольно просто, но теперь он понадобится в виде материального предмета. "
+				""
+				"Для этого отлично подойдут &6улучшенные сферы опыта&r — концентрированная энергия, готовая к использованию в ритуалах и создании артефактов."
+			]
+			id: "58F3D446B4752C69"
+			rewards: [
+				{
+					id: "4077E645C71D3638"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "720784A4BDA38C2B"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					random_bonus: 1
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Знания - это сила"
+			tasks: [{
+				id: "35F1E0D5E9EDD0B5"
+				item: "forbidden_arcanus:xpetrified_orb"
+				type: "item"
+			}]
+			title: "Опыт"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["293083062B9AD474"]
+			description: ["Первый способ заполнить Кузницу &eаурелионовой энергией&r — использовать &6аурелионовую бутылку&r. Создайте её и поместите в алтарь, чтобы начать питать Кузницу магической эссенцией."]
+			id: "4B60A5B73D94A8A6"
+			rewards: [
+				{
+					id: "0A53F482F91DCD49"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "10054C1782784DBC"
+					item: "forbidden_arcanus:arcane_crystal"
+					random_bonus: 2
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Ручной способ"
+			tasks: [{
+				id: "3463EE142DCBA198"
+				item: "forbidden_arcanus:aureal_bottle"
+				type: "item"
+			}]
+			title: "Аурелионовая энергия"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["58F3D446B4752C69"]
+			description: [
+				"Чтобы получить &6Чёрную дыру&r, выбросьте на землю &6тёмную материю&r вместе с &6порошком порчи&r. Это явление начнёт поглощать &eсферы опыта&r, втягивая их в себя. Когда энергия достигнет критической массы, из неё возникнет &6улучшенная сфера опыта&r — мощный концентрат опыта."
+				""
+				"Обратите внимание, что помимо опыта, &6Чёрная дыра&r притягивает и &4уничтожает&r любые рядом лежащие предметы&r.&r"
+			]
+			hide_until_deps_complete: true
+			id: "4439D8CECEAE38C9"
+			rewards: [
+				{
+					id: "76C6D4C35E406823"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0A100A7F511C81D7"
+					item: "irons_spellbooks:mithril_scrap"
+					type: "item"
+				}
+			]
+			subtitle: "Дополнительный источник улучшенной сферы опыта"
+			tasks: [{
+				icon: "forbidden_arcanus:dark_matter"
+				id: "4D27533EE267C9E7"
+				observe_type: 0
+				timer: 0L
+				to_observe: "forbidden_arcanus:black_hole"
+				type: "observation"
+			}]
+			title: "Чёрная дыра"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4B60A5B73D94A8A6"]
+			description: [
+				"Второй способ наполнить Кузницу аурелионовой энергией — использовать &6мистический кристальный обелиск&r."
+				""
+				"&7Его создание можно посмотреть, наведя курсор в JEI на Кузницу Гефеста, зажав &eW&r&7 и взглянув на второй этап размышлений.&r"
+				""
+				"{@pagebreak}"
+				"&6Размещайте обелиски вместо пьедесталов вокруг алтаря&r — они будут &n&eпассивно накапливать&r эссенцию и передавать её Кузнице. Чем больше обелисков, тем быстрее будет заполняться алтарь."
+			]
+			hide_until_deps_complete: true
+			id: "617086A92C14F5A6"
+			rewards: [
+				{
+					id: "60E85F2EB43C4F7E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1285D175E3CB8934"
+					item: "irons_spellbooks:epic_ink"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 2
+					id: "23B2A0C0A1AC7757"
+					item: "irons_spellbooks:arcane_essence"
+					random_bonus: 3
+					team_reward: false
+					type: "item"
+				}
+			]
+			subtitle: "Автоматизация процесса"
+			tasks: [{
+				icon: "forbidden_arcanus:arcane_crystal_obelisk"
+				id: "31606A7335FA1605"
+				observe_type: 0
+				timer: 0L
+				to_observe: "forbidden_arcanus:arcane_crystal_obelisk"
+				type: "observation"
+			}]
+			title: "Аурелионовая энергия"
+			x: -3.0d
+			y: 6.0d
+		}
+	]
+	title: "Кузница Гефеста"
+}

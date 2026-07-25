@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:hunter_32",
+  "bonuses": [
+    {
+      "type": "skilltree:curse_negation_wrath",
+      "curseId": "wrath"
+    }
+  ],
+  "requirements": [
+    {
+      "type": "skilltree:stat_value",
+      "statTypeId": "minecraft:killed",
+      "statId": "minecraft:enderman",
+      "minValue": 3
+    }
+  ],
+  "directConnections": [
+    "skilltree:hunter_29"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/keystone.png",
+  "iconTexture": "skilltree:textures/icons/hunter_offensive_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/keystone_1.png",
+  "title": "Устрашение",
+  "titleColor": "FF5555",
+  "positionX": 124.703,
+  "positionY": 72.008,
+  "buttonSize": 32,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "translate": "skill_bonus.curse_negation.wrath"
+    }
+  ]
+}

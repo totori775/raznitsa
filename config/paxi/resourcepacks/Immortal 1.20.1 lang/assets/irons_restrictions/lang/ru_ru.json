@@ -1,0 +1,65 @@
+{
+  "item.irons_restrictions.fire_manuscript": "Манускрипт огня",
+  "item.irons_restrictions.fire_manuscript_desc": "Используйте, чтобы изучить заклинание огня",
+  "item.irons_restrictions.nature_manuscript": "Манускрипт природы",
+  "item.irons_restrictions.nature_manuscript_desc": "Используйте, чтобы изучить заклинание природы",
+  "item.irons_restrictions.evocation_manuscript": "Манускрипт призыва",
+  "item.irons_restrictions.evocation_manuscript_desc": "Используйте, чтобы изучить заклинание призыва",
+  "item.irons_restrictions.ender_manuscript": "Манускрипт эндера",
+  "item.irons_restrictions.ender_manuscript_desc": "Используйте, чтобы изучить заклинание эндера",
+  "item.irons_restrictions.ice_manuscript": "Манускрипт льда",
+  "item.irons_restrictions.ice_manuscript_desc": "Используйте, чтобы изучить заклинание льда",
+  "item.irons_restrictions.holy_manuscript": "Манускрипт святости",
+  "item.irons_restrictions.holy_manuscript_desc": "Используйте, чтобы изучить заклинание святости",
+  "item.irons_restrictions.blood_manuscript": "Манускрипт крови",
+  "item.irons_restrictions.blood_manuscript_desc": "Используйте, чтобы изучить заклинание крови",
+  "item.irons_restrictions.lightning_manuscript": "Манускрипт молнии",
+  "item.irons_restrictions.lightning_manuscript_desc": "Используйте, чтобы изучить заклинание молнии",
+
+  "item.irons_restrictions.unfinished_manuscript": "Нестабильный манускрипт",
+  "item.irons_restrictions.unfinished_manuscript_desc": "Используйте, чтобы изучить случайное заклинание",
+  "item.irons_restrictions.unfinished_manuscript.full": "Вы уже знаете все доступные заклинания",
+  "item.irons_restrictions.unfinished_manuscript.fail": "Манускрипт рассыпается в прах...",
+  "item.irons_restrictions.unfinished_manuscript.success": "Ты выучил новое заклинание: ",
+
+  "item.irons_restrictions.fragment": "Разорванный свиток",
+
+  "item.irons_restrictions.common_upgrade": "Обычное улучшение",
+  "item.irons_restrictions.uncommon_upgrade": "Необычное улучшение",
+  "item.irons_restrictions.rare_upgrade": "Редкое улучшение",
+  "item.irons_restrictions.epic_upgrade": "Эпическое улучшение",
+  "item.irons_restrictions.legendary_upgrade": "Легендарное улучшение",
+  "item.irons_restrictions.upgrade_desc": "Используйте, чтобы получить возможность использовать заклинания этой редкости",
+  "item.irons_restrictions.upgrade.fail_above": "На этом уровне вы уже можете произносить заклинания",
+  "item.irons_restrictions.upgrade.fail_below": "Ваша текущая редкость недостаточно высокая, чтобы перейти на этот уровень редкости",
+
+  "item.irons_restrictions.sound_manuscript": "Sound Manuscript",
+  "item.irons_restrictions.sound_manuscript_desc": "Use to learn Sound spells",
+
+  "item.irons_restrictions.abyssal_manuscript": "Abyssal Manuscript",
+  "item.irons_restrictions.abyssal_manuscript_desc": "Use to learn Abyssal spells",
+
+  "item.irons_restrictions.symmetry_manuscript": "Symmetry Manuscript",
+  "item.irons_restrictions.symmetry_manuscript_desc": "Use to learn Symmetry spells",
+  "item.irons_restrictions.spirit_manuscript": "Spirit Manuscript",
+  "item.irons_restrictions.spirit_manuscript_desc": "Use to learn Spirit spells",
+  "item.irons_restrictions.dune_manuscript": "Dune Manuscript",
+  "item.irons_restrictions.dune_manuscript_desc": "Use to learn Dune spells",
+
+  "item.irons_restrictions.wind_manuscript": "Wind Manuscript",
+  "item.irons_restrictions.wind_manuscript_desc": "Use to learn Wind spells",
+
+  "item.irons_restrictions.technomancy_manuscript": "Technomancy Manuscript",
+  "item.irons_restrictions.technomancy_manuscript_desc": "Use to learn Technomancy spells",
+
+  "item.irons_restrictions.aqua_manuscript": "Aqua Manuscript",
+  "item.irons_restrictions.aqua_manuscript_desc": "Use to learn Aqua spells",
+
+  "item.irons_restrictions.geo_manuscript": "Geo Manuscript",
+  "item.irons_restrictions.geo_manuscript_desc": "Use to learn Geo spells",
+
+
+  "ui.irons_restrictions.cast_error_rarity": "Вы еще не открыли эту редкость!",
+
+  "itemGroup.irons_restrictions.restrictions_items_tab": "Iron's Restrictions Items"
+}

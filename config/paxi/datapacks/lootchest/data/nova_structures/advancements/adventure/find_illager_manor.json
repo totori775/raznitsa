@@ -1,0 +1,42 @@
+{
+    "parent": "nova_structures:adventure/find_all_illager_structures",
+    "criteria": {
+        "nova_structures:illager_manor": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "structure": "nova_structures:illager_manor"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "translate": "Найдите поместье разбойников"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:iron_axe"
+        },
+        "show_toast": true,
+        "title": {
+            "translate": "Следите за своими Поместьями"
+        }
+    },
+    "requirements": [
+        [
+            "nova_structures:illager_manor"
+        ]
+    ],
+    "sends_telemetry_event": false
+}

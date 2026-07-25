@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:archmage_39",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.luck",
+      "id": "846a4bae-11c9-4b0b-8228-4de06cadf987",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1
+    }
+  ],
+  "requirements": [],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "tags": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cross_green.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Судьба",
+  "titleColor": "E3D4D1",
+  "positionX": -62.351524,
+  "positionY": 71.999,
+  "buttonSize": 16,
+  "isStartingPoint": false,
+  "description": [
+    {
+      "f_131101_": {
+        "f_131257_": 8092645
+      },
+      "text": "+3% к везению"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pack": {
+    "description": "Upgraded Mobs (1.3.4)",
+    "pack_format": 15,
+    "supported_formats": [13, 44]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "1_20_2",
+        "formats": [17, 44]
+      },
+      {
+        "directory": "1_20_5",
+        "formats": [41, 44]
+      },
+      {
+        "directory": "1_21",
+        "formats": [43, 44]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+   "variants":{
+      "":[
+         {
+            "model":"minecraft:block/smithing_table",
+            "y":0
+         }
+      ]
+   }
+}

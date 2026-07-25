@@ -1,0 +1,41 @@
+{
+  "additional_requirements": {
+    "forge_tier": 4
+  },
+  "essences": {
+    "aureal": 900,
+    "blood": 3000,
+    "experience": 100,
+    "souls": 25
+  },
+  "inputs": [
+    {
+      "amount": 5,
+      "ingredient": {
+        "item": "irons_spellbooks:dragonskin"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "irons_spellbooks:ruined_book"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "minecraft:obsidian"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "irons_spellbooks:diamond_spell_book"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "irons_spellbooks:dragonskin_spell_book"
+    }
+  }
+}

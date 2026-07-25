@@ -1,0 +1,15 @@
+{
+	icon: "legendaryitems:crimson_shard"
+	id: "380E96B004B48E92"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 3, item: "irons_spellbooks:blood_vial" }
+		{ count: 3, item: "irons_spellbooks:blood_rune" }
+		{ count: 3, item: "endermanoverhaul:crimson_pearl" }
+		{ count: 3, item: "enigmaticaddons:ichor_droplet" }
+		{ item: "legendaryitems:crimson_shard", weight: 0.5f }
+		{ count: 3, item: "irons_spellbooks:blood_upgrade_orb" }
+	]
+	title: "Кровавая поступь"
+}
