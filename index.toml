@@ -23849,6 +23849,10 @@ file = "mods/CreativeCore_FORGE_v2.12.26_mc1.20.1.jar"
 hash = "1a8577bca7968fe717944267301ddea2337aefb265451825d95cb04e8893f747"
 
 [[files]]
+file = "mods/CustomSkinLoader_Universal-15.0.1.jar"
+hash = "026d8b38ea93edccd647f60568193e79801a377b7bd4e916dcfc0d5482b767fc"
+
+[[files]]
 file = "mods/Difficult Spawners 1.1.0 - 1.20.1.jar"
 hash = "9453dad47691d978420c2442dc191a3476c06ac964c01ceb1aa0da12cd63692c"
 
