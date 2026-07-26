@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".nojekyll"
+hash = "6bdf66b5bf2a44e658bea2ee86695ab150a06e600bf67cd5cce245ad54962c61"
+
+[[files]]
 file = "README.md"
 hash = "dc44f83f736cb2e235102399e6a6ee73065484361cac59c0d29b266c954619c7"
 
